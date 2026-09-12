@@ -340,6 +340,150 @@ body {
     background: #1b0808;
 }
 
+
+/* LAST 10 / HISTORY */
+
+.history-panel {
+    margin: 0 0 12px;
+    border: 1px solid #292929;
+    border-top: 2px solid #ef1118;
+    background: rgba(10,10,10,.82);
+    box-shadow: 0 8px 20px rgba(0,0,0,.28);
+    overflow-x: auto;
+}
+
+.history-title {
+    padding: 8px 14px 7px;
+    color: #8f8f8f;
+    font-size: 11px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255,255,255,.07);
+}
+
+.history-head,
+.history-row {
+    min-width: 850px;
+    display: grid;
+    grid-template-columns:
+        minmax(150px, 1.05fr)
+        105px
+        105px
+        120px
+        minmax(220px, 1.45fr)
+        minmax(115px, .75fr);
+    align-items: center;
+    column-gap: 12px;
+    padding: 0 14px;
+}
+
+.history-head {
+    min-height: 26px;
+    color: #666;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .55px;
+}
+
+.history-row {
+    min-height: 34px;
+    border-top: 1px solid rgba(255,255,255,.045);
+    font-size: 13px;
+}
+
+.history-driver {
+    font-weight: 800;
+}
+
+.history-jump,
+.history-delta,
+.history-time {
+    font-family: Consolas, monospace;
+    font-weight: 800;
+}
+
+.history-time {
+    font-size: 14px;
+}
+
+.history-vehicle,
+.history-track {
+    color: #bdbdbd;
+    font-weight: 700;
+}
+
+.event-blue { color: #2e9cff; }
+.event-green { color: #5fcf61; }
+.event-gold { color: #d4af37; }
+
+.history-empty {
+    padding: 16px;
+    color: #555;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.pancar-history {
+    top: 37px;
+}
+
+.history-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    background: rgba(0,0,0,.90);
+    padding: 34px 18px;
+    overflow: auto;
+}
+
+.history-modal.open {
+    display: block;
+}
+
+.history-modal-box {
+    width: min(1200px, 100%);
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-top: 3px solid #ef1118;
+    background: #090909;
+    box-shadow: 0 20px 70px rgba(0,0,0,.75);
+}
+
+.history-modal-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 14px 16px;
+    border-bottom: 1px solid #242424;
+}
+
+.history-modal-title {
+    color: #ef1118;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.history-close {
+    border: 1px solid #555;
+    background: #111;
+    color: #ddd;
+    padding: 5px 9px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.history-modal-content {
+    overflow-x: auto;
+}
+
 @media (max-width: 900px) {
     .challenge-head {
         grid-template-columns: 105px 1fr;
@@ -388,7 +532,7 @@ body {
 }
 
 @media print {
-    .pancar-magic { display: none !important; }
+    .pancar-magic, .history-modal { display: none !important; }
 
     html, body {
         width: 194mm !important;
@@ -447,6 +591,20 @@ body {
     .vehicle.unknown { font-size: 9px !important; }
     .no-time { padding: 12px !important; font-size: 13px !important; }
 
+    .history-panel { margin-bottom: 6px !important; }
+    .history-title { padding: 5px 8px !important; font-size: 8px !important; }
+    .history-head,
+    .history-row {
+        min-width: 0 !important;
+        grid-template-columns: minmax(75px,1fr) 52px 55px 68px minmax(100px,1.35fr) 68px !important;
+        column-gap: 5px !important;
+        padding: 0 7px !important;
+    }
+    .history-head { min-height: 18px !important; font-size: 6.5px !important; }
+    .history-row { min-height: 23px !important; font-size: 8px !important; }
+    .history-time { font-size: 8.5px !important; }
+    .history-empty { padding: 8px !important; font-size: 8px !important; }
+
     .topbar {
         margin-bottom: 8px !important;
         padding: 12px 16px 10px !important;
@@ -468,6 +626,17 @@ body {
 <body>
 
 <button class="pancar-magic" type="button" onclick="window.print()" title="Uložit aktuální stav jako PDF">pancarMagic</button>
+<button class="pancar-magic pancar-history" type="button" onclick="openHistory()" title="Zobrazit celou historii">pancarMagic</button>
+
+<div id="historyModal" class="history-modal" onclick="historyBackdrop(event)">
+    <div class="history-modal-box">
+        <div class="history-modal-top">
+            <div class="history-modal-title">Complete History</div>
+            <button class="history-close" type="button" onclick="closeHistory()">ZAVŘÍT</button>
+        </div>
+        <div id="historyModalContent" class="history-modal-content"></div>
+    </div>
+</div>
 
 
 <div class="page">
@@ -489,6 +658,11 @@ body {
         </div>
     </div>
 </header>
+
+<section class="history-panel">
+    <div class="history-title">Last 10 Times</div>
+    <div id="last10"></div>
+</section>
 
 <main id="challengeList"></main>
 
@@ -598,6 +772,92 @@ function ordinal(value) {
         default: return `${n}th`;
     }
 }
+
+
+let completeHistory = [];
+
+function historyColorClass(event) {
+    if (event && event.color === "gold") return "event-gold";
+    if (event && event.color === "green") return "event-green";
+    return "event-blue";
+}
+
+function historyTable(events, includeTitle = false) {
+    if (!events || events.length === 0) {
+        return `<div class="history-empty">Zatím žádná nová událost.</div>`;
+    }
+
+    const rows = [...events]
+        .reverse()
+        .map(event => {
+            const colorClass = historyColorClass(event);
+            const jump = event.isNew ? "NEW" : (event.friendJump || "—");
+            const jumpClass =
+                event.isNew || (event.friendJump && event.friendJump !== "—")
+                    ? colorClass
+                    : "";
+
+            return `
+                <div class="history-row">
+                    <div class="history-driver">${text(event.driver)}</div>
+                    <div class="history-jump ${jumpClass}">${text(jump)}</div>
+                    <div class="history-delta">${text(event.delta || "—")}</div>
+                    <div class="history-time ${colorClass}">${text(event.time)}</div>
+                    <div class="history-vehicle">${text(event.vehicle || event.vehicleHash || "")}</div>
+                    <div class="history-track">${text(event.track || "")}</div>
+                </div>
+            `;
+        })
+        .join("");
+
+    return `
+        <div class="history-head">
+            <div>Driver</div>
+            <div>Friends</div>
+            <div>Delta</div>
+            <div>Time</div>
+            <div>Vehicle</div>
+            <div>Track</div>
+        </div>
+        ${rows}
+    `;
+}
+
+function renderHistory(data) {
+    completeHistory = Array.isArray(data.history) ? data.history : [];
+
+    const last10 = Array.isArray(data.last10)
+        ? data.last10
+        : completeHistory.slice(-10);
+
+    document.getElementById("last10").innerHTML =
+        historyTable(last10);
+}
+
+function openHistory() {
+    document.getElementById("historyModalContent").innerHTML =
+        historyTable(completeHistory);
+
+    document.getElementById("historyModal").classList.add("open");
+    document.body.style.overflow = "hidden";
+}
+
+function closeHistory() {
+    document.getElementById("historyModal").classList.remove("open");
+    document.body.style.overflow = "";
+}
+
+function historyBackdrop(event) {
+    if (event.target.id === "historyModal") {
+        closeHistory();
+    }
+}
+
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+        closeHistory();
+    }
+});
 
 function createChallengeCard(challenge) {
 
@@ -762,6 +1022,8 @@ async function loadResults() {
         } else {
             updated.textContent = "LIVE DATA";
         }
+
+        renderHistory(data);
 
         challengeList.innerHTML = "";
 
