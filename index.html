@@ -141,36 +141,36 @@ body {
 .number-box {
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
     border-right: 1px solid rgba(255,255,255,.16);
 }
 
 .big-number {
-    font-size: 86px;
+    font-size: 70px;
     font-weight: 900;
     font-style: italic;
-    line-height: .85;
+    line-height: .82;
     color: white;
+    white-space: nowrap;
     text-shadow: 3px 3px 0 #000, 6px 6px 16px rgba(0,0,0,.8);
+}
+
+.number-challenge {
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 .challenge-info {
     padding: 18px 24px;
 }
 
-.challenge-label {
-    display: inline-block;
-    padding: 3px 9px 2px;
-    margin-bottom: 7px;
-    background: var(--accent);
-    color: #050505;
-    font-size: 12px;
-    font-weight: 800;
-    font-style: italic;
-    text-transform: uppercase;
-    opacity: .82;
-}
 
 /* hlavní název tratě */
 
@@ -214,11 +214,11 @@ body {
 
 .challenge-status-title {
     color: var(--accent);
-    font-size: 13px;
+    font-size: 26px;
     font-weight: 900;
     font-style: italic;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+    line-height: 1;
+    margin-bottom: 8px;
 }
 
 .challenge-status-main {
@@ -322,7 +322,7 @@ body {
 
 @media (max-width: 900px) {
     .challenge-head {
-        grid-template-columns: 95px 1fr;
+        grid-template-columns: 105px 1fr;
     }
 
     .challenge-status {
@@ -399,13 +399,13 @@ body {
     }
 
     .challenge-info { padding: 10px 14px !important; }
-    .big-number { font-size: 54px !important; }
+    .big-number { font-size: 43px !important; }
+    .number-challenge { font-size: 9px !important; }
     .challenge-name { font-size: 18px !important; }
     .track-detail { font-size: 12px !important; margin-top: 3px !important; }
     .challenge-extra { font-size: 13px !important; margin-top: 5px !important; }
     .challenge-status-main { font-size: 15px !important; }
-    .challenge-status-title { font-size: 9px !important; }
-    .challenge-label { font-size: 8px !important; }
+    .challenge-status-title { font-size: 16px !important; }
 
     .results { overflow: visible !important; }
 
@@ -488,6 +488,7 @@ const challengeColors = {
 const challengeMeta = {
 
     1: {
+        owner: "Franta's TAHAC",
         car: "Mercedes Actros",
         displayTrack: "Monza Historic 1971",
         trackDetail: "10k (no chicane)",
@@ -495,46 +496,55 @@ const challengeMeta = {
     },
 
     2: {
+        owner: "Bruce McLaren's",
         car: "McLaren F1 LM",
         subtitle: "the new green Hell is orange!"
     },
 
     3: {
+        owner: "Mr. M's",
         car: "Citroën DS3 class",
         subtitle: "Gravel Sliding Lovers"
     },
 
     4: {
+        owner: "Franta's",
         car: "Stock USA Gen3",
         subtitle: "Hell of NASCAR Nonsense"
     },
 
     5: {
+        owner: "Mr. P's",
         car: "Superkart",
         subtitle: "F1 mini-ME"
     },
 
     6: {
+        owner: "Tom's",
         car: "BMW M3 / MB 190E / Audi quattro",
         subtitle: "Tango na plynu"
     },
 
     7: {
+        owner: "Mr. M's",
         car: "Porsche 911 RSR classic",
         subtitle: "Classic Roulette"
     },
 
     8: {
+        owner: "Mr. P's",
         car: "F-Trainer",
         subtitle: "Balada pro Fajnšmekry"
     },
 
     9: {
+        owner: "Tom's",
         car: "Sauber C9",
         subtitle: "Preparation for Le Mans 2027"
     },
 
     10: {
+        owner: "Mr. P's",
         car: "Lotus 23",
         subtitle: "Classic a la de Pohl echt Gottwald"
     }
@@ -547,6 +557,22 @@ function text(value) {
         .replaceAll(">","&gt;")
         .replaceAll('"',"&quot;")
         .replaceAll("'","&#039;");
+}
+
+function ordinal(value) {
+    const n = Number(value);
+    const mod100 = n % 100;
+
+    if (mod100 >= 11 && mod100 <= 13) {
+        return `${n}th`;
+    }
+
+    switch (n % 10) {
+        case 1: return `${n}st`;
+        case 2: return `${n}nd`;
+        case 3: return `${n}rd`;
+        default: return `${n}th`;
+    }
 }
 
 function createChallengeCard(challenge) {
@@ -635,15 +661,14 @@ function createChallengeCard(challenge) {
 
             <div class="number-box">
                 <div class="big-number">
-                    ${text(challenge.id)}
+                    ${text(ordinal(challenge.id))}
+                </div>
+                <div class="number-challenge">
+                    Challenge
                 </div>
             </div>
 
             <div class="challenge-info">
-
-                <div class="challenge-label">
-                    ${text(challenge.id)}th Challenge
-                </div>
 
                 <div class="challenge-name">
                     ${text(displayTrack)}
@@ -660,7 +685,7 @@ function createChallengeCard(challenge) {
             <div class="challenge-status">
 
                 <div class="challenge-status-title">
-                    Challenge
+                    ${text(meta.owner || "")}
                 </div>
 
                 <div class="challenge-status-main">
