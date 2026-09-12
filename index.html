@@ -341,10 +341,41 @@ body {
         min-width: 800px;
     }
 }
+
+/* pancarMagic PDF */
+.pancar-magic {
+    position: fixed;
+    top: 9px;
+    right: 9px;
+    z-index: 9999;
+    padding: 5px 9px;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    background: rgba(8,8,8,.88);
+    color: #d4af37;
+    font: 700 11px Arial, sans-serif;
+    letter-spacing: .3px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,.45);
+}
+.pancar-magic:hover {
+    background: #d4af37;
+    color: #090909;
+}
+@media print {
+    .pancar-magic { display: none !important; }
+    body { background: #050505 !important; }
+    .page { width: 100% !important; margin: 0 !important; padding: 0 !important; }
+    .challenge-card { break-inside: avoid; page-break-inside: avoid; }
+}
+
 </style>
 </head>
 
 <body>
+
+<button class="pancar-magic" type="button" onclick="window.print()" title="Uložit aktuální stav jako PDF">pancarMagic</button>
+
 
 <div class="page">
 
