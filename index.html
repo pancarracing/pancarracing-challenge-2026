@@ -362,11 +362,84 @@ body {
     background: #d4af37;
     color: #090909;
 }
+@page {
+    size: A4 portrait;
+    margin: 8mm;
+}
+
 @media print {
     .pancar-magic { display: none !important; }
-    body { background: #050505 !important; }
-    .page { width: 100% !important; margin: 0 !important; padding: 0 !important; }
-    .challenge-card { break-inside: avoid; page-break-inside: avoid; }
+
+    html, body {
+        width: 194mm !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #050505 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .page {
+        width: 194mm !important;
+        max-width: 194mm !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .challenge-head {
+        grid-template-columns: 70px minmax(0, 1.35fr) minmax(0, 1fr) !important;
+        min-height: 82px !important;
+    }
+
+    .challenge-status {
+        grid-column: auto !important;
+        border-left: 1px solid rgba(255,255,255,.13) !important;
+        border-top: 0 !important;
+        padding: 10px 14px !important;
+    }
+
+    .challenge-info { padding: 10px 14px !important; }
+    .big-number { font-size: 54px !important; }
+    .challenge-name { font-size: 18px !important; }
+    .track-detail { font-size: 12px !important; margin-top: 3px !important; }
+    .challenge-extra { font-size: 13px !important; margin-top: 5px !important; }
+    .challenge-status-main { font-size: 15px !important; }
+    .challenge-status-title { font-size: 9px !important; }
+    .challenge-label { font-size: 8px !important; }
+
+    .results { overflow: visible !important; }
+
+    .results-head,
+    .driver-row {
+        min-width: 0 !important;
+        grid-template-columns: 38px minmax(90px,1.1fr) 90px 55px minmax(120px,1.35fr) !important;
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+    }
+
+    .results-head { min-height: 22px !important; font-size: 8px !important; }
+    .driver-row { min-height: 34px !important; }
+    .position { font-size: 15px !important; }
+    .driver { font-size: 13px !important; }
+    .time { font-size: 13px !important; }
+    .rank { font-size: 10px !important; }
+    .vehicle { font-size: 11px !important; }
+    .vehicle.unknown { font-size: 9px !important; }
+    .no-time { padding: 12px !important; font-size: 13px !important; }
+
+    .topbar {
+        margin-bottom: 8px !important;
+        padding: 12px 16px 10px !important;
+    }
+
+    .brand { font-size: 38px !important; }
+    .title-main { font-size: 20px !important; }
+    .updated { font-size: 9px !important; }
+    .challenge-card {
+        margin-bottom: 5px !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
 }
 
 </style>
