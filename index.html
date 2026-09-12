@@ -48,17 +48,17 @@ body {
 .brand {
     position: relative;
     z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: clamp(36px, 6vw, 74px);
     font-weight: 900;
     font-style: italic;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
     line-height: .9;
     color: #ef1118;
-    text-transform: lowercase;
+    text-transform: none;
     text-shadow: 0 4px 0 #580006;
 }
 
-.brand span { color: white; }
 
 .subtitle {
     position: relative;
@@ -149,7 +149,7 @@ body {
 }
 
 .big-number {
-    font-size: 70px;
+    font-size: 52.5px;
     font-weight: 900;
     font-style: italic;
     line-height: .82;
@@ -175,6 +175,7 @@ body {
 /* hlavní název tratě */
 
 .challenge-name {
+    color: var(--accent);
     font-size: clamp(22px, 2.5vw, 31px);
     font-weight: 800;
     font-style: italic;
@@ -186,13 +187,15 @@ body {
 /* doplňkový řádek tratě */
 
 .track-detail {
-    margin-top: 6px;
-    color: #aaa;
-    font-size: 17px;
+    display: inline;
+    margin-left: 8px;
+    color: var(--accent);
+    font-size: 0.62em;
     font-weight: 400;
     font-style: normal;
     text-transform: none;
     letter-spacing: .2px;
+    opacity: .88;
 }
 
 /* auto */
@@ -399,10 +402,10 @@ body {
     }
 
     .challenge-info { padding: 10px 14px !important; }
-    .big-number { font-size: 43px !important; }
+    .big-number { font-size: 32.25px !important; }
     .number-challenge { font-size: 9px !important; }
     .challenge-name { font-size: 18px !important; }
-    .track-detail { font-size: 12px !important; margin-top: 3px !important; }
+    .track-detail { font-size: 0.62em !important; margin-left: 5px !important; }
     .challenge-extra { font-size: 13px !important; margin-top: 5px !important; }
     .challenge-status-main { font-size: 15px !important; }
     .challenge-status-title { font-size: 16px !important; }
@@ -453,7 +456,7 @@ body {
 <div class="page">
 
 <header class="topbar">
-    <div class="brand">pancarracing<span>++</span></div>
+    <div class="brand">PANCARracing</div>
 
     <div class="subtitle">
         <div class="title-main">
@@ -593,7 +596,7 @@ function createChallengeCard(challenge) {
 
     const trackDetailHtml =
         meta.trackDetail
-            ? `<div class="track-detail">${text(meta.trackDetail)}</div>`
+            ? `<span class="track-detail">${text(meta.trackDetail)}</span>`
             : "";
 
     let resultsHtml = "";
@@ -671,10 +674,8 @@ function createChallengeCard(challenge) {
             <div class="challenge-info">
 
                 <div class="challenge-name">
-                    ${text(displayTrack)}
+                    ${text(displayTrack)}${trackDetailHtml}
                 </div>
-
-                ${trackDetailHtml}
 
                 <div class="challenge-extra">
                     ${text(meta.car || "")}
