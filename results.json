@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T21:30:20+02:00",
+  "updated": "2026-09-12T22:07:45+02:00",
   "challenges": [
     {
       "id": 1,
@@ -141,7 +141,17 @@
       "id": 9,
       "name": "Circuit des 24 Heures du Mans",
       "board": "cars2_autoevent_12259_1060182346_0_0",
-      "results": []
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -1721496056,
+          "vehicle": "Sauber Mercedes C9",
+          "rank": 528,
+          "score": 228479,
+          "time": "03:48.479"
+        }
+      ]
     },
     {
       "id": 10,
@@ -160,6 +170,44 @@
       ]
     }
   ],
-  "history": [],
-  "last10": []
+  "history": [
+    {
+      "timestamp": "2026-09-12T22:07:45+02:00",
+      "challengeId": 9,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "friendJump": "NEW",
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "deltaMs": null,
+      "delta": "—",
+      "score": 228479,
+      "time": "03:48.479",
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleHash": -1721496056,
+      "track": "Le Mans",
+      "color": "blue",
+      "isNew": true
+    }
+  ],
+  "last10": [
+    {
+      "timestamp": "2026-09-12T22:07:45+02:00",
+      "challengeId": 9,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "friendJump": "NEW",
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "deltaMs": null,
+      "delta": "—",
+      "score": 228479,
+      "time": "03:48.479",
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleHash": -1721496056,
+      "track": "Le Mans",
+      "color": "blue",
+      "isNew": true
+    }
+  ]
 }
