@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T22:20:48+02:00",
+  "updated": "2026-09-12T22:43:25+02:00",
   "challenges": [
     {
       "id": 1,
@@ -163,9 +163,9 @@
           "driver": "pancar LBC",
           "vehicleHash": -830134672,
           "vehicle": "Lotus 23",
-          "rank": 5,
-          "score": 142269,
-          "time": "02:22.269"
+          "rank": 4,
+          "score": 136580,
+          "time": "02:16.580"
         }
       ]
     }
@@ -188,6 +188,24 @@
       "track": "Le Mans",
       "color": "blue",
       "isNew": true
+    },
+    {
+      "timestamp": "2026-09-12T22:43:25+02:00",
+      "challengeId": 10,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "friendJump": "1",
+      "oldFriendRank": 1,
+      "newFriendRank": 1,
+      "deltaMs": -5689,
+      "delta": "-5.689",
+      "score": 136580,
+      "time": "02:16.580",
+      "vehicle": "Lotus 23",
+      "vehicleHash": -830134672,
+      "track": "Buenos Aires",
+      "color": "blue",
+      "isNew": false
     }
   ],
   "last10": [
@@ -208,6 +226,24 @@
       "track": "Le Mans",
       "color": "blue",
       "isNew": true
+    },
+    {
+      "timestamp": "2026-09-12T22:43:25+02:00",
+      "challengeId": 10,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "friendJump": "1",
+      "oldFriendRank": 1,
+      "newFriendRank": 1,
+      "deltaMs": -5689,
+      "delta": "-5.689",
+      "score": 136580,
+      "time": "02:16.580",
+      "vehicle": "Lotus 23",
+      "vehicleHash": -830134672,
+      "track": "Buenos Aires",
+      "color": "blue",
+      "isNew": false
     }
   ]
 }
