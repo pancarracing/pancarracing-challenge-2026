@@ -368,12 +368,12 @@ body {
     min-width: 850px;
     display: grid;
     grid-template-columns:
-        minmax(150px, 1.05fr)
-        105px
-        105px
-        120px
-        minmax(220px, 1.45fr)
-        minmax(115px, .75fr);
+        minmax(145px, 1.15fr)
+        minmax(82px, max-content)
+        minmax(82px, max-content)
+        minmax(105px, max-content)
+        minmax(140px, .90fr)
+        minmax(105px, .75fr);
     align-items: center;
     column-gap: 12px;
     padding: 0 14px;
@@ -596,7 +596,7 @@ body {
     .history-head,
     .history-row {
         min-width: 0 !important;
-        grid-template-columns: minmax(75px,1fr) 52px 55px 68px minmax(100px,1.35fr) 68px !important;
+        grid-template-columns: minmax(75px,1fr) 52px 55px 68px minmax(65px,.88fr) 68px !important;
         column-gap: 5px !important;
         padding: 0 7px !important;
     }
@@ -791,17 +791,28 @@ function historyTable(events, includeTitle = false) {
         .reverse()
         .map(event => {
             const colorClass = historyColorClass(event);
-            const jump = event.isNew ? "NEW" : (event.friendJump || "—");
-            const jumpClass =
-                event.isNew || (event.friendJump && event.friendJump !== "—")
-                    ? colorClass
-                    : "";
+            let jump = event.friendJump || "—";
+            if (event.isNew) {
+                jump = event.newFriendRank ?? "—";
+            } else if (jump === "—" && event.newFriendRank != null) {
+                jump = event.newFriendRank;
+            }
+
+            const movedUp =
+                !event.isNew &&
+                Number.isInteger(event.oldFriendRank) &&
+                Number.isInteger(event.newFriendRank) &&
+                event.newFriendRank < event.oldFriendRank;
+
+            const jumpClass = movedUp ? colorClass : "";
+            const deltaTime = event.isNew ? "NEW" : (event.delta || "—");
+            const deltaClass = event.isNew ? "event-blue" : "";
 
             return `
                 <div class="history-row">
                     <div class="history-driver">${text(event.driver)}</div>
                     <div class="history-jump ${jumpClass}">${text(jump)}</div>
-                    <div class="history-delta">${text(event.delta || "—")}</div>
+                    <div class="history-delta ${deltaClass}">${text(deltaTime)}</div>
                     <div class="history-time ${colorClass}">${text(event.time)}</div>
                     <div class="history-vehicle">${text(event.vehicle || event.vehicleHash || "")}</div>
                     <div class="history-track">${text(event.track || "")}</div>
@@ -813,11 +824,11 @@ function historyTable(events, includeTitle = false) {
     return `
         <div class="history-head">
             <div>Driver</div>
-            <div>Friends</div>
-            <div>Delta</div>
-            <div>Time</div>
-            <div>Vehicle</div>
-            <div>Track</div>
+            <div>ΔFRIENDS</div>
+            <div>ΔTIME</div>
+            <div>TIME</div>
+            <div>VEHICLE</div>
+            <div>TRACK</div>
         </div>
         ${rows}
     `;
