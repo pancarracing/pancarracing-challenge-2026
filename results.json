@@ -1,0 +1,163 @@
+{
+  "updated": "2026-09-12T15:54:19+02:00",
+  "challenges": [
+    {
+      "id": 1,
+      "name": "Monza Historic 1971 10k (no chicane)",
+      "board": "cars2_autoevent_6735_612695202_0_0",
+      "results": [
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -487937394,
+          "vehicle": "Iveco Stralis",
+          "rank": 4,
+          "score": 179279,
+          "time": "02:59.279"
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1647822272,
+          "vehicle": "Mercedes-Benz Actros",
+          "rank": 5,
+          "score": 179839,
+          "time": "02:59.839"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nordschleife 2025",
+      "board": "cars2_autoevent_14309_2505909511_0_0",
+      "results": []
+    },
+    {
+      "id": 3,
+      "name": "Ascurra RX",
+      "board": "cars2_autoevent_157_2273696505_0_0",
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -983006067,
+          "vehicle": "Citroen DS3 RX",
+          "rank": 363,
+          "score": 67760,
+          "time": "01:07.760"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Indianapolis Motor Speedway Oval",
+      "board": "cars2_autoevent_15020_3826312417_0_0",
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 2081977850,
+          "vehicle": "Stock Car USA Gen.3",
+          "rank": 297,
+          "score": 56680,
+          "time": "00:56.680"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Taruma Chicane",
+      "board": "cars2_autoevent_9873_4186114222_0_0",
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "rank": 4,
+          "score": 73757,
+          "time": "01:13.757"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Pocono North/South Course 2",
+      "board": "cars2_autoevent_15482_701322116_0_0",
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -934098507,
+          "vehicle": "BMW M3 Sport Evo Group A",
+          "rank": 21,
+          "score": 95861,
+          "time": "01:35.861"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Virginia International Raceway North",
+      "board": "cars2_autoevent_10366_2134032188_0_0",
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 2016280350,
+          "vehicle": "Porsche 911 RSR 1974",
+          "rank": 4,
+          "score": 102439,
+          "time": "01:42.439"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Oulton Park Fosters",
+      "board": "cars2_autoevent_7647_4202898090_0_0",
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 575788923,
+          "vehicle": "Formula Trainer",
+          "rank": 41,
+          "score": 67635,
+          "time": "01:07.635"
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 575788923,
+          "vehicle": "Formula Trainer",
+          "rank": 48,
+          "score": 68036,
+          "time": "01:08.036"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Circuit des 24 Heures du Mans",
+      "board": "cars2_autoevent_12259_1060182346_0_0",
+      "results": []
+    },
+    {
+      "id": 10,
+      "name": "Buenos Aires Circuito No.12",
+      "board": "cars2_autoevent_1052_799677855_0_0",
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -830134672,
+          "vehicle": "Lotus 23",
+          "rank": 5,
+          "score": 142269,
+          "time": "02:22.269"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pancarracing Time Trial Challenge 2026</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: radial-gradient(circle at top, #181818 0, #090909 45%, #050505 100%);
+    color: #f4f4f4;
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.page {
+    width: min(1450px, calc(100% - 30px));
+    margin: 0 auto;
+    padding: 22px 0 50px;
+}
+
+/* HEADER */
+
+.topbar {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #050505, #151515 55%, #080808);
+    border: 1px solid #292929;
+    border-top: 4px solid #ef1118;
+    margin-bottom: 18px;
+    padding: 22px 28px 18px;
+    box-shadow: 0 18px 45px rgba(0,0,0,.5);
+}
+
+.topbar::after {
+    content: "";
+    position: absolute;
+    inset: auto -120px -90px auto;
+    width: 500px;
+    height: 180px;
+    background: #ef1118;
+    transform: rotate(-12deg);
+    opacity: .10;
+}
+
+.brand {
+    position: relative;
+    z-index: 1;
+    font-size: clamp(36px, 6vw, 74px);
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: -3px;
+    line-height: .9;
+    color: #ef1118;
+    text-transform: lowercase;
+    text-shadow: 0 4px 0 #580006;
+}
+
+.brand span { color: white; }
+
+.subtitle {
+    position: relative;
+    z-index: 1;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.title-main {
+    font-size: clamp(24px, 3vw, 40px);
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title-main strong { color: #ef1118; }
+
+.updated {
+    color: #9b9b9b;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+}
+
+/* CHALLENGE */
+
+.challenge-card {
+    --accent: #ef1118;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    background:
+        linear-gradient(
+            90deg,
+            color-mix(in srgb, var(--accent) 15%, #090909) 0%,
+            #0b0b0b 28%,
+            #090909 100%
+        );
+
+    border: 1px solid #292929;
+    border-left: 7px solid var(--accent);
+    border-top: 2px solid var(--accent);
+
+    box-shadow:
+        0 9px 22px rgba(0,0,0,.33),
+        inset 0 1px 0 rgba(255,255,255,.03);
+}
+
+.challenge-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 230px;
+    height: 100%;
+    background:
+        repeating-linear-gradient(
+            -18deg,
+            transparent 0 13px,
+            color-mix(in srgb, var(--accent) 22%, transparent) 13px 15px
+        );
+    opacity: .45;
+    pointer-events: none;
+}
+
+.challenge-head {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 125px minmax(300px, 1fr) minmax(250px, 1fr);
+    align-items: center;
+    min-height: 118px;
+}
+
+.number-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(255,255,255,.16);
+}
+
+.big-number {
+    font-size: 86px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: .85;
+    color: white;
+    text-shadow: 3px 3px 0 #000, 6px 6px 16px rgba(0,0,0,.8);
+}
+
+.challenge-info {
+    padding: 18px 24px;
+}
+
+.challenge-label {
+    display: inline-block;
+    padding: 3px 9px 2px;
+    margin-bottom: 7px;
+    background: var(--accent);
+    color: #050505;
+    font-size: 12px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    opacity: .82;
+}
+
+/* hlavní název tratě */
+
+.challenge-name {
+    font-size: clamp(22px, 2.5vw, 31px);
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.05;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+}
+
+/* doplňkový řádek tratě */
+
+.track-detail {
+    margin-top: 6px;
+    color: #aaa;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: .2px;
+}
+
+/* auto */
+
+.challenge-extra {
+    margin-top: 9px;
+    color: #e4e4e4;
+    font-size: 19px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+}
+
+.challenge-status {
+    padding: 18px 30px;
+    border-left: 1px solid rgba(255,255,255,.13);
+}
+
+.challenge-status-title {
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.challenge-status-main {
+    font-size: 23px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* RESULTS */
+
+.results {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid rgba(255,255,255,.11);
+}
+
+.results-head,
+.driver-row {
+    display: grid;
+    grid-template-columns:
+        70px
+        minmax(180px, 1.2fr)
+        150px
+        100px
+        minmax(220px, 1.4fr);
+    align-items: center;
+}
+
+.results-head {
+    min-height: 32px;
+    padding: 0 18px;
+    color: #707070;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    background: rgba(255,255,255,.015);
+}
+
+.driver-row {
+    min-height: 52px;
+    padding: 0 18px;
+    border-top: 1px solid rgba(255,255,255,.055);
+}
+
+.driver-row:hover {
+    background: rgba(255,255,255,.035);
+}
+
+.position {
+    color: var(--accent);
+    font-size: 23px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.driver {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.time {
+    font-family: Consolas, monospace;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.rank {
+    color: #8c8c8c;
+    font-family: Consolas, monospace;
+}
+
+.vehicle {
+    color: #d0d0d0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.vehicle.unknown {
+    color: #8d8d8d;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.no-time {
+    padding: 22px;
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.error {
+    padding: 30px;
+    border: 1px solid #6e1616;
+    color: #ff7777;
+    background: #1b0808;
+}
+
+@media (max-width: 900px) {
+    .challenge-head {
+        grid-template-columns: 95px 1fr;
+    }
+
+    .challenge-status {
+        grid-column: 1 / -1;
+        border-left: 0;
+        border-top: 1px solid rgba(255,255,255,.1);
+        padding: 10px 20px 13px 115px;
+    }
+
+    .results {
+        overflow-x: auto;
+    }
+
+    .results-head,
+    .driver-row {
+        min-width: 800px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<header class="topbar">
+    <div class="brand">pancarracing<span>++</span></div>
+
+    <div class="subtitle">
+        <div class="title-main">
+            Time Trial <strong>Challenge 2026</strong>
+        </div>
+
+        <div id="updated" class="updated">
+            načítám výsledky...
+        </div>
+    </div>
+</header>
+
+<main id="challengeList"></main>
+
+</div>
+
+<script>
+
+const challengeColors = {
+    1:"#ef1118",
+    2:"#ff7500",
+    3:"#dbc900",
+    4:"#77a500",
+    5:"#ef1118",
+    6:"#0878d0",
+    7:"#e1b900",
+    8:"#ef1118",
+    9:"#8b8b8b",
+    10:"#57990f"
+};
+
+const challengeMeta = {
+
+    1: {
+        car: "Mercedes Actros",
+        displayTrack: "Monza Historic 1971",
+        trackDetail: "10k (no chicane)",
+        subtitle: "Franta's TAHAC vs. Monza old"
+    },
+
+    2: {
+        car: "McLaren F1 LM",
+        subtitle: "the new green Hell is orange!"
+    },
+
+    3: {
+        car: "Citroën DS3 class",
+        subtitle: "Gravel Sliding Lovers"
+    },
+
+    4: {
+        car: "Stock USA Gen3",
+        subtitle: "Hell of NASCAR Nonsense"
+    },
+
+    5: {
+        car: "Superkart",
+        subtitle: "F1 mini-ME"
+    },
+
+    6: {
+        car: "BMW M3 / MB 190E / Audi quattro",
+        subtitle: "Tango na plynu"
+    },
+
+    7: {
+        car: "Porsche 911 RSR classic",
+        subtitle: "Classic Roulette"
+    },
+
+    8: {
+        car: "F-Trainer",
+        subtitle: "Balada pro Fajnšmekry"
+    },
+
+    9: {
+        car: "Sauber C9",
+        subtitle: "Preparation for Le Mans 2027"
+    },
+
+    10: {
+        car: "Lotus 23",
+        subtitle: "Classic a la de Pohl echt Gottwald"
+    }
+};
+
+function text(value) {
+    return String(value ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+}
+
+function createChallengeCard(challenge) {
+
+    const card = document.createElement("section");
+    card.className = "challenge-card";
+
+    card.style.setProperty(
+        "--accent",
+        challengeColors[challenge.id] || "#ef1118"
+    );
+
+    const meta = challengeMeta[challenge.id] || {};
+    const results = challenge.results || [];
+
+    const displayTrack =
+        meta.displayTrack || challenge.name;
+
+    const trackDetailHtml =
+        meta.trackDetail
+            ? `<div class="track-detail">${text(meta.trackDetail)}</div>`
+            : "";
+
+    let resultsHtml = "";
+
+    if (results.length === 0) {
+
+        resultsHtml = `
+            <div class="no-time">BEZ ČASU</div>
+        `;
+
+    } else {
+
+        const rows = results.map((result,index) => {
+
+            const vehicleName =
+                result.vehicle && String(result.vehicle).trim()
+                    ? String(result.vehicle).trim()
+                    : null;
+
+            const vehicleHtml = vehicleName
+                ? `<div class="vehicle">${text(vehicleName)}</div>`
+                : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
+
+            return `
+                <div class="driver-row">
+
+                    <div class="position">
+                        ${index + 1}.
+                    </div>
+
+                    <div class="driver">
+                        ${text(result.driver)}
+                    </div>
+
+                    <div class="time">
+                        ${text(result.time)}
+                    </div>
+
+                    <div class="rank">
+                        #${text(result.rank)}
+                    </div>
+
+                    ${vehicleHtml}
+
+                </div>
+            `;
+        }).join("");
+
+        resultsHtml = `
+            <div class="results-head">
+                <div>Pos.</div>
+                <div>Driver</div>
+                <div>Time</div>
+                <div>World</div>
+                <div>Vehicle</div>
+            </div>
+
+            ${rows}
+        `;
+    }
+
+    card.innerHTML = `
+
+        <div class="challenge-head">
+
+            <div class="number-box">
+                <div class="big-number">
+                    ${text(challenge.id)}
+                </div>
+            </div>
+
+            <div class="challenge-info">
+
+                <div class="challenge-label">
+                    ${text(challenge.id)}th Challenge
+                </div>
+
+                <div class="challenge-name">
+                    ${text(displayTrack)}
+                </div>
+
+                ${trackDetailHtml}
+
+                <div class="challenge-extra">
+                    ${text(meta.car || "")}
+                </div>
+
+            </div>
+
+            <div class="challenge-status">
+
+                <div class="challenge-status-title">
+                    Challenge
+                </div>
+
+                <div class="challenge-status-main">
+                    ${text(meta.subtitle || "")}
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="results">
+            ${resultsHtml}
+        </div>
+    `;
+
+    return card;
+}
+
+async function loadResults() {
+
+    const challengeList =
+        document.getElementById("challengeList");
+
+    try {
+
+        const response = await fetch(
+            "results.json?ts=" + Date.now(),
+            { cache:"no-store" }
+        );
+
+        if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+
+        const updated =
+            document.getElementById("updated");
+
+        if (data.updated) {
+
+            const date = new Date(data.updated);
+
+            updated.textContent =
+                "LIVE DATA • " +
+                (
+                    Number.isNaN(date.getTime())
+                        ? data.updated
+                        : date.toLocaleString("cs-CZ")
+                );
+
+        } else {
+            updated.textContent = "LIVE DATA";
+        }
+
+        challengeList.innerHTML = "";
+
+        const challenges =
+            [...data.challenges]
+            .sort((a,b) => Number(a.id) - Number(b.id));
+
+        for (const challenge of challenges) {
+            challengeList.appendChild(
+                createChallengeCard(challenge)
+            );
+        }
+
+    } catch(error) {
+
+        challengeList.innerHTML = `
+            <div class="error">
+                Nepodařilo se načíst results.json
+                <br><br>
+                ${text(error.message)}
+            </div>
+        `;
+
+        document.getElementById("updated").textContent =
+            "DATA ERROR";
+    }
+}
+
+loadResults();
+setInterval(loadResults,30000);
+
+</script>
+
+</body>
+</html>
