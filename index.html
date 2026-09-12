@@ -770,7 +770,37 @@ async function loadResults() {
 }
 
 loadResults();
-setInterval(loadResults,30000);
+
+function scheduleNextRefresh() {
+    const now = new Date();
+    const refreshMinutes = [2, 22, 42];
+
+    let next = null;
+
+    for (const minute of refreshMinutes) {
+        const candidate = new Date(now);
+        candidate.setMinutes(minute, 0, 0);
+
+        if (candidate > now) {
+            next = candidate;
+            break;
+        }
+    }
+
+    if (!next) {
+        next = new Date(now);
+        next.setHours(now.getHours() + 1, 2, 0, 0);
+    }
+
+    const delay = next.getTime() - now.getTime();
+
+    setTimeout(async () => {
+        await loadResults();
+        scheduleNextRefresh();
+    }, delay);
+}
+
+scheduleNextRefresh();
 
 </script>
 
