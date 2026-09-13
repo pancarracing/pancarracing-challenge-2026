@@ -895,7 +895,7 @@ const challengeColors = {
     1:"#ef1118",
     2:"#ff7500",
     3:"#dbc900",
-    4:"#77a500",
+    4:"#9fdcff",
     5:"#ef1118",
     6:"#0878d0",
     7:"#e1b900",
@@ -907,12 +907,12 @@ const challengeColors = {
 const challengeMeta = {
     1: { owner: "Franta's TAHAC", car: "COPA TRUCK · Mercedes-Benz Actros", displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)", subtitle: "vs. Monza Old ovalis" },
     2: { owner: "Bruce McLaren's", car: "GT4 · representative car TBD", subtitle: "the new green Hell is orange!" },
-    3: { owner: "Mr. M's", car: "MINI COOPER JCW", displayTrack: "Cascavel", trackDetail: "single layout", subtitle: "JCW attack" },
-    4: { owner: "Franta's", car: "STOCK CAR 99", subtitle: "Hell of NASCAR Nonsense" },
+    3: { owner: "Mr. M's", car: "MINI COOPER JCW", displayTrack: "Cascavel", subtitle: "JCW attack" },
+    4: { owner: "Franta's", car: "STOCK CAR 99 · BMW", subtitle: "Hell of NASCAR Nonsense" },
     5: { owner: "Mr. P's", car: "SUPERKART · 250cc", subtitle: "F1 mini-ME" },
-    6: { owner: "Tom's", car: "GROUP A · BMW M3 / MB 190E / Audi V8 quattro", subtitle: "Tango na plynu" },
-    7: { owner: "Mr. M's", car: "GT CLASSICS · Porsche 911 RSR 1974", subtitle: "Classic Roulette" },
-    8: { owner: "Mr. P's", car: "FORMULA TRAINER", subtitle: "Balada pro Fajnšmekry" },
+    6: { owner: "Tom's", car: "GROUP A · Audi V8 quattro", subtitle: "Tango na plynu" },
+    7: { owner: "Mr. P's", car: "GT CLASSICS · Porsche 911 RSR 1974", subtitle: "Classic Roulette" },
+    8: { owner: "Mr. M's", car: "FORMULA TRAINER", subtitle: "Balada pro Fajnšmekry" },
     9: { owner: "Tom's", car: "GROUP C · Sauber Mercedes C9", subtitle: "Preparation for Le Mans 2027" },
     10:{ owner: "Mr. P's", car: "VINTAGE CARS – TIER 2 · Lotus 23", subtitle: "Classic a la de Pohl echt Gottwald" }
 };
@@ -999,9 +999,9 @@ function historyTable(events) {
     }
 
     const rows = [...events].reverse().map(event => {
-        const friendJump =
-            event.friendJump ||
-            (event.newFriendRank != null ? String(event.newFriendRank) : "—");
+        const friendJump = currentMode === "challenge"
+            ? (event.challengeFriendJump || event.friendJump || (event.newFriendRank != null ? String(event.newFriendRank) : "—"))
+            : (event.kingFriendJump || event.friendJump || (event.newFriendRank != null ? String(event.newFriendRank) : "—"));
 
         const deltaTime =
             event.isNew ? "NEW" : (event.delta || "—");
@@ -1011,7 +1011,7 @@ function historyTable(events) {
             (event.newWorldRank != null ? String(event.newWorldRank) :
                 (event.rank != null ? String(event.rank) : "—"));
 
-        const friendClass = eventColorClass(event.friendColor || "");
+        const friendClass = eventColorClass(currentMode === "challenge" ? (event.challengeFriendColor || event.friendColor || "") : (event.kingFriendColor || event.friendColor || ""));
         const deltaClass = event.isNew ? "event-blue" : "";
         const timeClass = eventColorClass(event.timeColor || event.color || "blue");
         const worldClass = eventColorClass(event.worldColor || "");
@@ -1043,12 +1043,9 @@ function historyTable(events) {
     `;
 }
 
-function eventMode(event) {
-    return event && event.mode === "all" ? "all" : "challenge";
-}
-
 function modeHistory() {
-    return completeHistory.filter(event => eventMode(event) === currentMode);
+    if (currentMode === "all") return completeHistory;
+    return completeHistory.filter(event => event.challengeEligible !== false);
 }
 
 function renderHistory(data) {
@@ -1069,7 +1066,7 @@ function setScoreMode(mode) {
     document.getElementById("modeAll")?.classList.toggle("active", currentMode === "all");
     const note = document.getElementById("modeNote");
     if (note) note.textContent = currentMode === "all"
-        ? "merged ALL CLASSES · best per driver + vehicle · absolute time"
+        ? "ALL cars / ALL classes · best per driver + vehicle · absolute time"
         : "official Challenge Class · one best time per driver";
     if (latestData) renderAll(latestData);
 }
