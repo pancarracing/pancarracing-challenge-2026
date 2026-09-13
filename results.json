@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-14T01:04:55+02:00",
+  "updated": "2026-09-14T01:26:43+02:00",
   "challenges": [
     {
       "id": 1,
@@ -28,46 +28,7 @@
         }
       ],
       "boardErrors": [],
-      "results": [
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": -487937394,
-          "vehicle": "Iveco Stralis",
-          "vehicleClass": "CopaTruck",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -487937394,
-          "rank": 4,
-          "score": 179279,
-          "time": "02:59.279",
-          "board": "cars2_autoevent_6735_612695202_0_0",
-          "boardA": 6735,
-          "boardB": 612695202,
-          "mergedRank": 1
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1647822272,
-          "vehicle": "Mercedes-Benz Actros",
-          "vehicleClass": "CopaTruck",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1647822272,
-          "rank": 5,
-          "score": 179839,
-          "time": "02:59.839",
-          "board": "cars2_autoevent_6735_612695202_0_0",
-          "boardA": 6735,
-          "boardB": 612695202,
-          "mergedRank": 2
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198089049981",
@@ -219,27 +180,7 @@
         }
       ],
       "boardErrors": [],
-      "results": [
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1818602836,
-          "vehicle": "MINI Cooper JCW",
-          "vehicleClass": "MiniChallenge",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1818602836,
-          "rank": 393,
-          "score": 71798,
-          "time": "01:11.798",
-          "board": "cars2_autoevent_1951_3378488487_0_0",
-          "boardA": 1951,
-          "boardB": 3378488487,
-          "mergedRank": 1
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -308,16 +249,16 @@
       "scanMode": "complete",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_15020_3826312417_0_0",
-          "friends": 2
-        },
-        {
           "board": "cars2_autoevent_4526_3826312417_0_0",
           "friends": 1
         },
         {
           "board": "cars2_autoevent_4556_3826312417_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_15020_3826312417_0_0",
+          "friends": 2
         }
       ],
       "boardErrors": [],
@@ -635,46 +576,7 @@
         }
       ],
       "boardErrors": [],
-      "results": [
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": 2016280350,
-          "vehicle": "Porsche 911 RSR 1974",
-          "vehicleClass": "TC70S",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 2016280350,
-          "rank": 4,
-          "score": 100958,
-          "time": "01:40.958",
-          "board": "cars2_autoevent_10366_2134032188_0_0",
-          "boardA": 10366,
-          "boardB": 2134032188,
-          "mergedRank": 1
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 2016280350,
-          "vehicle": "Porsche 911 RSR 1974",
-          "vehicleClass": "TC70S",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 2016280350,
-          "rank": 5,
-          "score": 102439,
-          "time": "01:42.439",
-          "board": "cars2_autoevent_10366_2134032188_0_0",
-          "boardA": 10366,
-          "boardB": 2134032188,
-          "mergedRank": 2
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -1101,46 +1003,7 @@
         }
       ],
       "boardErrors": [],
-      "results": [
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": -830134672,
-          "vehicle": "Lotus 23",
-          "vehicleClass": "TC60S2",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -830134672,
-          "rank": 4,
-          "score": 136580,
-          "time": "02:16.580",
-          "board": "cars2_autoevent_1052_799677855_0_0",
-          "boardA": 1052,
-          "boardB": 799677855,
-          "mergedRank": 1
-        },
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": -830134672,
-          "vehicle": "Lotus 23",
-          "vehicleClass": "TC60S2",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -830134672,
-          "rank": 5,
-          "score": 139319,
-          "time": "02:19.319",
-          "board": "cars2_autoevent_1052_799677855_0_0",
-          "boardA": 1052,
-          "boardB": 799677855,
-          "mergedRank": 2
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -3363,9 +3226,9 @@
     }
   ],
   "collector": {
-    "version": "V5.3.2",
+    "version": "V5.3.3",
     "mode": "complete",
-    "elapsedSeconds": 359.3,
+    "elapsedSeconds": 361.9,
     "boardsScanned": 717,
     "boardsOk": 717,
     "rawFriendEntries": 28,
