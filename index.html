@@ -866,7 +866,7 @@ body {
 
 <section class="history-panel">
     <div class="history-title">LAST 20 ΔTIMES WITH IMPACT</div>
-    <div id="last10"></div>
+    <div id="last20"></div>
 </section>
 
 <main id="challengeList"></main>
@@ -1063,7 +1063,7 @@ function modeHistory() {
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
     const selected = modeHistory();
-    document.getElementById("last10").innerHTML = historyTable(selected.slice(-20));
+    document.getElementById("last20").innerHTML = historyTable(selected.slice(-20));
 }
 
 function openHistory() {
