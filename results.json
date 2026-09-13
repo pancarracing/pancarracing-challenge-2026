@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-13T19:34:54+02:00",
-  "collectionMode": "challenge",
+  "updated": "2026-09-13T20:21:08+02:00",
+  "collectionMode": "complete",
   "challenges": [
     {
       "id": 1,
@@ -20,7 +20,7 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 76,
       "knownCompleteBoards": 76,
       "activeBoards": [
         {
@@ -124,9 +124,14 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_14287_2505909511_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 88,
       "knownCompleteBoards": 88,
-      "activeBoards": [],
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_14284_2505909511_0_0",
+          "friends": 1
+        }
+      ],
       "boardErrors": [],
       "results": [],
       "allClassesResults": [
@@ -177,9 +182,13 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1951_3378488487_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 76,
       "knownCompleteBoards": 76,
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_1950_3378488487_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_1951_3378488487_0_0",
           "friends": 1
@@ -203,7 +212,7 @@
           "board": "cars2_autoevent_1951_3378488487_0_0",
           "boardA": 1951,
           "boardB": 3378488487,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -362,11 +371,15 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_9873_4186114222_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 78,
       "knownCompleteBoards": 78,
       "activeBoards": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9885_4186114222_0_0",
           "friends": 1
         }
       ],
@@ -388,7 +401,7 @@
           "board": "cars2_autoevent_9873_4186114222_0_0",
           "boardA": 9873,
           "boardB": 4186114222,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -456,7 +469,7 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 93,
       "knownCompleteBoards": 93,
       "activeBoards": [
         {
@@ -527,7 +540,7 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_10366_2134032188_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 76,
       "knownCompleteBoards": 76,
       "activeBoards": [
         {
@@ -603,7 +616,7 @@
           "vehicleDlc": false,
           "vehicleDlcName": "",
           "catalogMatched": false,
-          "rank": 4,
+          "rank": 5,
           "score": 102439,
           "time": "01:42.439",
           "board": "cars2_autoevent_10366_2134032188_0_0",
@@ -630,7 +643,7 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 76,
       "knownCompleteBoards": 76,
       "activeBoards": [
         {
@@ -726,12 +739,28 @@
       "allClasses": [],
       "allPolicy": "OPEN_NON_KART",
       "board": "cars2_autoevent_12259_1060182346_0_0",
-      "boardsScanned": 1,
-      "knownCompleteBoards": 80,
+      "boardsScanned": 81,
+      "knownCompleteBoards": 81,
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_12208_1060182346_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12248_1060182346_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12252_1060182346_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_12259_1060182346_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12287_1060182346_0_0",
+          "friends": 4
         }
       ],
       "boardErrors": [],
@@ -752,7 +781,7 @@
           "board": "cars2_autoevent_12259_1060182346_0_0",
           "boardA": 12259,
           "boardB": 1060182346,
-          "mergedRank": 1
+          "mergedRank": 7
         }
       ],
       "allClassesResults": [
@@ -760,7 +789,7 @@
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 532833672,
-          "vehicle": "Vehicle 532833672",
+          "vehicle": "McLaren MP4/12",
           "vehicleClass": "",
           "vehicleContent": "",
           "vehicleDlc": false,
@@ -778,7 +807,7 @@
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": -1556432632,
-          "vehicle": "Vehicle -1556432632",
+          "vehicle": "Lamborghini SC63",
           "vehicleClass": "",
           "vehicleContent": "",
           "vehicleDlc": false,
@@ -796,7 +825,7 @@
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": 1837911487,
-          "vehicle": "Vehicle 1837911487",
+          "vehicle": "AMR Hypercar",
           "vehicleClass": "",
           "vehicleContent": "",
           "vehicleDlc": false,
@@ -814,7 +843,7 @@
           "steamId": "76561198276152161",
           "driver": "Acce",
           "vehicleHash": 1937293617,
-          "vehicle": "Vehicle 1937293617",
+          "vehicle": "Porsche 963",
           "vehicleClass": "",
           "vehicleContent": "",
           "vehicleDlc": false,
@@ -832,7 +861,7 @@
           "steamId": "76561199810540463",
           "driver": "ŠotoFotograf",
           "vehicleHash": -966026248,
-          "vehicle": "Vehicle -966026248",
+          "vehicle": "Cadillac V-Series.R",
           "vehicleClass": "",
           "vehicleContent": "",
           "vehicleDlc": false,
@@ -922,7 +951,7 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 76,
       "knownCompleteBoards": 76,
       "activeBoards": [
         {
@@ -2267,12 +2296,12 @@
   ],
   "collector": {
     "version": "FINAL-2026.10-CONTROL",
-    "mode": "challenge",
-    "elapsedSeconds": 47.2,
-    "boardsScanned": 94,
-    "boardsTarget": 94,
-    "boardsOk": 94,
-    "rawFriendEntries": 15,
+    "mode": "complete",
+    "elapsedSeconds": 404.7,
+    "boardsScanned": 805,
+    "boardsTarget": 805,
+    "boardsOk": 805,
+    "rawFriendEntries": 25,
     "errors": 0,
     "catalogVehicles": 0,
     "unknownVehicles": 5
