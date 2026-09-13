@@ -1012,7 +1012,7 @@ function vehicleDlcBadge(source) {
     return `<span class="vehicle-dlc-badge"${title}>DLC</span>`;
 }
 
-function historyTable(events) {
+// HISTORY COLOR LOGIC: FINAL BLUE/GREEN/GOLD V2\nfunction historyTable(events) {
     if (!events || events.length === 0) {
         return `<div class="history-empty">Zatím žádná nová událost.</div>`;
     }
@@ -1030,10 +1030,36 @@ function historyTable(events) {
             (event.newWorldRank != null ? String(event.newWorldRank) :
                 (event.rank != null ? String(event.rank) : "—"));
 
-        const friendClass = eventColorClass(currentMode === "challenge" ? (event.challengeFriendColor || event.friendColor || "") : (event.kingFriendColor || event.friendColor || ""));
+        const selectedFriendJump = friendJump;
+        const explicitFriendColor = currentMode === "challenge"
+            ? (event.challengeFriendColor || "")
+            : (event.kingFriendColor || event.friendColor || "");
+
+        const jumpColorValue = (jumpValue) => {
+            const m = String(jumpValue || "").match(/^\\s*(\\d+)\\s*→\\s*(\\d+)\\s*$/);
+            if (!m) return "";
+            const oldRank = Number(m[1]);
+            const newRank = Number(m[2]);
+            if (newRank < oldRank) return newRank === 1 ? "gold" : "green";
+            return "";
+        };
+
+        const friendColorValue =
+            explicitFriendColor ||
+            jumpColorValue(selectedFriendJump);
+
+        const worldColorValue =
+            event.worldColor ||
+            jumpColorValue(worldJump);
+
+        const friendClass = eventColorClass(friendColorValue);
         const deltaClass = event.isNew ? "event-blue" : "";
-        const timeClass = eventColorClass(event.timeColor || event.color || "blue");
-        const worldClass = eventColorClass(event.worldColor || "");
+
+        // Dohodnuta logika barev:
+        // TIME = modra normalne; zelena pri predjeti; zlata pri prevzeti #1.
+        // Barva TIME se musi ridit aktualnim modem (CHALLENGE/KING), ne jednim globalnim timeColor.
+        const timeClass = eventColorClass(friendColorValue || "blue");
+        const worldClass = eventColorClass(worldColorValue);
 
         return `
             <div class="history-row">

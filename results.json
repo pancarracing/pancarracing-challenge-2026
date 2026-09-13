@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-13T18:39:17+02:00",
+  "updated": "2026-09-13T18:53:47+02:00",
   "collectionMode": "complete",
   "challenges": [
     {
@@ -28,7 +28,12 @@
           "friends": 2
         }
       ],
-      "boardErrors": [],
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_6715_612695202_0_0",
+          "status": "find-failed"
+        }
+      ],
       "results": [
         {
           "steamId": "76561198089049981",
@@ -545,7 +550,7 @@
       "activeBoards": [
         {
           "board": "cars2_autoevent_10366_2134032188_0_0",
-          "friends": 1
+          "friends": 2
         }
       ],
       "boardErrors": [],
@@ -567,6 +572,24 @@
           "boardA": 10366,
           "boardB": 2134032188,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 2016280350,
+          "vehicle": "Porsche 911 RSR 1974",
+          "vehicleClass": "TC70S",
+          "vehicleContent": "",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": false,
+          "rank": 5,
+          "score": 106604,
+          "time": "01:46.604",
+          "board": "cars2_autoevent_10366_2134032188_0_0",
+          "boardA": 10366,
+          "boardB": 2134032188,
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -587,6 +610,24 @@
           "boardA": 10366,
           "boardB": 2134032188,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 2016280350,
+          "vehicle": "Porsche 911 RSR 1974",
+          "vehicleClass": "TC70S",
+          "vehicleContent": "",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": false,
+          "rank": 5,
+          "score": 106604,
+          "time": "01:46.604",
+          "board": "cars2_autoevent_10366_2134032188_0_0",
+          "boardA": 10366,
+          "boardB": 2134032188,
+          "mergedRank": 2
         }
       ]
     },
@@ -1840,44 +1881,43 @@
       "worldJump": "205",
       "worldColor": "",
       "timeColor": "blue"
-    }
-  ],
-  "last10": [
+    },
     {
-      "timestamp": "2026-09-13T18:37:51+02:00",
-      "challengeId": 9,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": -1556432632,
-      "vehicle": "Vehicle -1556432632",
-      "vehicleClass": "",
+      "timestamp": "2026-09-13T18:53:47+02:00",
+      "challengeId": 7,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 2016280350,
+      "vehicle": "Porsche 911 RSR 1974",
+      "vehicleClass": "TC70S",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_12287_1060182346_0_0",
-      "boardA": 12287,
-      "boardB": 1060182346,
-      "track": "Circuit des 24 Heures du Mans",
-      "score": 211460,
-      "time": "03:31.460",
+      "board": "cars2_autoevent_10366_2134032188_0_0",
+      "boardA": 10366,
+      "boardB": 2134032188,
+      "track": "VIR",
+      "score": 106604,
+      "time": "01:46.604",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": false,
+      "challengeEligible": true,
       "oldFriendRank": null,
       "newFriendRank": 2,
       "friendJump": "2",
       "friendColor": "",
       "kingFriendJump": "2",
       "kingFriendColor": "",
-      "challengeFriendJump": "—",
+      "challengeFriendJump": "2",
       "challengeFriendColor": "",
       "oldWorldRank": null,
-      "newWorldRank": 795,
-      "worldJump": "795",
+      "newWorldRank": 5,
+      "worldJump": "5",
       "worldColor": "",
-      "timeColor": "blue",
-      "baselineReset": true
-    },
+      "timeColor": "blue"
+    }
+  ],
+  "last10": [
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
       "challengeId": 9,
@@ -2190,17 +2230,51 @@
       "worldJump": "205",
       "worldColor": "",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-13T18:53:47+02:00",
+      "challengeId": 7,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 2016280350,
+      "vehicle": "Porsche 911 RSR 1974",
+      "vehicleClass": "TC70S",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_10366_2134032188_0_0",
+      "boardA": 10366,
+      "boardB": 2134032188,
+      "track": "VIR",
+      "score": 106604,
+      "time": "01:46.604",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "friendJump": "2",
+      "friendColor": "",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "2",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 5,
+      "worldJump": "5",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "collector": {
     "version": "FINAL-2026.10-CONTROL",
     "mode": "complete",
-    "elapsedSeconds": 405.9,
+    "elapsedSeconds": 421.2,
     "boardsScanned": 804,
     "boardsTarget": 804,
-    "boardsOk": 804,
-    "rawFriendEntries": 24,
-    "errors": 0,
+    "boardsOk": 803,
+    "rawFriendEntries": 25,
+    "errors": 1,
     "catalogVehicles": 0,
     "unknownVehicles": 5
   }
