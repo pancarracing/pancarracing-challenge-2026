@@ -865,7 +865,7 @@ body {
 </section>
 
 <section class="history-panel">
-    <div class="history-title">LAST 10 ΔTIMES WITH IMPACT</div>
+    <div class="history-title">LAST 20 ΔTIMES WITH IMPACT</div>
     <div id="last10"></div>
 </section>
 
@@ -1009,7 +1009,9 @@ function historyTable(events) {
 
     const rows = [...events].reverse().map(event => {
         const friendJump = currentMode === "challenge"
-            ? (event.challengeFriendJump || event.friendJump || (event.newFriendRank != null ? String(event.newFriendRank) : "—"))
+            ? (event.challengeEligible === false
+                ? "—"
+                : (event.challengeFriendJump || event.friendJump || (event.newFriendRank != null ? String(event.newFriendRank) : "—")))
             : (event.kingFriendJump || event.friendJump || (event.newFriendRank != null ? String(event.newFriendRank) : "—"));
 
         const deltaTime =
@@ -1053,14 +1055,15 @@ function historyTable(events) {
 }
 
 function modeHistory() {
-    if (currentMode === "all") return completeHistory;
-    return completeHistory.filter(event => event.challengeEligible !== false);
+    // History is canonical and must never silently hide valid PB events.
+    // Score mode changes rank semantics only; non-eligible Challenge events show ΔFRIENDS as —.
+    return completeHistory;
 }
 
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
     const selected = modeHistory();
-    document.getElementById("last10").innerHTML = historyTable(selected.slice(-10));
+    document.getElementById("last10").innerHTML = historyTable(selected.slice(-20));
 }
 
 function openHistory() {
