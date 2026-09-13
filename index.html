@@ -129,6 +129,25 @@ body {
         inset 0 1px 0 rgba(255,255,255,.03);
 }
 
+/* 2nd challenge · BMW GT4 white / light-blue visual */
+.challenge-card.challenge-gt4-bmw {
+    --accent: #9fdcff;
+    border-right: 1px solid rgba(255,255,255,.28);
+    background:
+        linear-gradient(90deg, rgba(159,220,255,.24) 0%, rgba(245,250,255,.10) 14%, #0b0b0b 31%, #090909 100%);
+    box-shadow:
+        0 9px 22px rgba(0,0,0,.33),
+        inset 0 1px 0 rgba(255,255,255,.15);
+}
+.challenge-card.challenge-gt4-bmw::after {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3px;
+    background: #f5fbff;
+    pointer-events: none;
+}
+
 .challenge-card::before {
     content: "";
     position: absolute;
@@ -893,9 +912,9 @@ body {
 
 const challengeColors = {
     1:"#ef1118",
-    2:"#ff7500",
+    2:"#9fdcff",
     3:"#dbc900",
-    4:"#9fdcff",
+    4:"#77a500",
     5:"#ef1118",
     6:"#0878d0",
     7:"#e1b900",
@@ -906,13 +925,13 @@ const challengeColors = {
 
 const challengeMeta = {
     1: { owner: "Franta's TAHAC", car: "COPA TRUCK · Mercedes-Benz Actros", displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)", subtitle: "vs. Monza Old ovalis" },
-    2: { owner: "Bruce McLaren's", car: "GT4 · representative car TBD", subtitle: "the new green Hell is orange!" },
-    3: { owner: "Mr. M's", car: "MINI COOPER JCW", displayTrack: "Cascavel", subtitle: "JCW attack" },
-    4: { owner: "Franta's", car: "STOCK CAR 99 · BMW", subtitle: "Hell of NASCAR Nonsense" },
-    5: { owner: "Mr. P's", car: "SUPERKART · 250cc", subtitle: "F1 mini-ME" },
-    6: { owner: "Tom's", car: "GROUP A · Audi V8 quattro", subtitle: "Tango na plynu" },
+    2: { owner: "Bruce McLaren's", car: "GT4 · BMW M4 GT4", displayTrack: "Nordschleife 2020", subtitle: "the new green Hell is orange!" },
+    3: { owner: "Mr. M's", car: "MINI JCW UK · MINI Cooper JCW", displayTrack: "Cascavel", subtitle: "JCW attack" },
+    4: { owner: "Franta's", car: "STOCK CAR 99 · Chevrolet Omega Stock Car 1999", subtitle: "Hell of NASCAR Nonsense" },
+    5: { owner: "Mr. P's", car: "SUPERKART · Superkart 250cc", subtitle: "F1 mini-ME" },
+    6: { owner: "Tom's", car: "GROUP A · Audi V8 quattro DTM", subtitle: "Tango na plynu" },
     7: { owner: "Mr. P's", car: "GT CLASSICS · Porsche 911 RSR 1974", subtitle: "Classic Roulette" },
-    8: { owner: "Mr. M's", car: "FORMULA TRAINER", subtitle: "Balada pro Fajnšmekry" },
+    8: { owner: "Mr. M's", car: "FORMULA TRAINER · Formula Trainer", subtitle: "Balada pro Fajnšmekry" },
     9: { owner: "Tom's", car: "GROUP C · Sauber Mercedes C9", subtitle: "Preparation for Le Mans 2027" },
     10:{ owner: "Mr. P's", car: "VINTAGE CARS – TIER 2 · Lotus 23", subtitle: "Classic a la de Pohl echt Gottwald" }
 };
@@ -1171,6 +1190,7 @@ async function loadCarCatalog() {
 function createChallengeCard(challenge) {
     const card = document.createElement("section");
     card.className = "challenge-card";
+    if (Number(challenge.id) === 2) card.classList.add("challenge-gt4-bmw");
     card.style.setProperty("--accent", challengeColors[challenge.id] || "#ef1118");
 
     const meta = challengeMeta[challenge.id] || {};
