@@ -1,0 +1,1560 @@
+{
+  "updated": "2026-09-13",
+  "note": "Working v1 AMS2 car/DLC catalog; intended for filtering and later hash-level refinement.",
+  "cars": [
+    {
+      "class": "ARC Camaro",
+      "vehicle": "Aussie Racing Camaro",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Caterham 620R",
+      "vehicle": "Caterham 620R",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Caterham Academy",
+      "vehicle": "Caterham Academy",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Caterham Superlight",
+      "vehicle": "Caterham Superlight",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Caterham Supersport",
+      "vehicle": "Caterham Supersport",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic B",
+      "vehicle": "Chevrolet Chevette",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic B",
+      "vehicle": "Gol Classic B",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic B",
+      "vehicle": "MINI Cooper S 1965 B",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic B",
+      "vehicle": "Passat Classic B",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic B",
+      "vehicle": "Puma GTE",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic B",
+      "vehicle": "Uno Classic B",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic FL",
+      "vehicle": "Fusca Classic FL",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic FL",
+      "vehicle": "Gol Classic FL",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic FL",
+      "vehicle": "Passat Classic FL",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Classic FL",
+      "vehicle": "Puma GTB",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Fusca",
+      "vehicle": "Copa Fusca",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Montana",
+      "vehicle": "Copa Montana",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Truck",
+      "vehicle": "Iveco Stralis",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Truck",
+      "vehicle": "MAN TGX",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Truck",
+      "vehicle": "Mercedes-Benz Actros",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Truck",
+      "vehicle": "Vulkan Truck",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Truck",
+      "vehicle": "VW Constellation",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Copa Uno",
+      "vehicle": "Copa Uno",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "DPI",
+      "vehicle": "Cadillac DPi-VR",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "F-Hitech Gen1",
+      "vehicle": "Formula HiTech Gen1 Model1",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen1",
+      "vehicle": "Formula HiTech Gen1 Model2",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen1",
+      "vehicle": "Formula HiTech Gen1 Model3",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen1",
+      "vehicle": "Formula HiTech Gen1 Model4",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen1",
+      "vehicle": "McLaren MP4/7A",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen2",
+      "vehicle": "Formula HiTech Gen2 Model1",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen2",
+      "vehicle": "Formula HiTech Gen2 Model2",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen2",
+      "vehicle": "Formula HiTech Gen2 Model3",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F-Hitech Gen2",
+      "vehicle": "McLaren MP4/8",
+      "content": "DLC",
+      "dlc": "Formula HiTech"
+    },
+    {
+      "class": "F3 Brasil",
+      "vehicle": "Dallara F301",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "F3 Brasil",
+      "vehicle": "Dallara F309",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen1",
+      "vehicle": "Formula Classic Gen1 Model1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen1",
+      "vehicle": "Formula Classic Gen1 Model2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen1",
+      "vehicle": "Lotus 98T",
+      "content": "DLC",
+      "dlc": "Brazilian Racing Legends Pack"
+    },
+    {
+      "class": "Formula Classic Gen2",
+      "vehicle": "Formula Classic Gen2 Model1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen2",
+      "vehicle": "Formula Classic Gen2 Model2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen2",
+      "vehicle": "Formula Classic Gen2 Model3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen2",
+      "vehicle": "McLaren MP4/4",
+      "content": "DLC",
+      "dlc": "Brazilian Racing Legends Pack"
+    },
+    {
+      "class": "Formula Classic Gen3",
+      "vehicle": "Formula Classic Gen3 Model1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen3",
+      "vehicle": "Formula Classic Gen3 Model2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen3",
+      "vehicle": "Formula Classic Gen3 Model3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen3",
+      "vehicle": "Formula Classic Gen3 Model4",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen3",
+      "vehicle": "McLaren MP4/5B",
+      "content": "DLC",
+      "dlc": "Brazilian Racing Legends Pack"
+    },
+    {
+      "class": "Formula Classic Gen4",
+      "vehicle": "Formula Classic Gen4 Model1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen4",
+      "vehicle": "Formula Classic Gen4 Model2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen4",
+      "vehicle": "Formula Classic Gen4 Model3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Classic Gen4",
+      "vehicle": "McLaren MP4/6",
+      "content": "DLC",
+      "dlc": "Brazilian Racing Legends Pack"
+    },
+    {
+      "class": "Formula Dirt",
+      "vehicle": "Formula Dirt",
+      "content": "DLC",
+      "dlc": "Adrenaline Pack Pt1"
+    },
+    {
+      "class": "Formula Inter",
+      "vehicle": "Formula Inter MG-15",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Junior",
+      "vehicle": "Formula Junior",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen1",
+      "vehicle": "Brabham BT44",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen1",
+      "vehicle": "Formula Retro V12",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen1",
+      "vehicle": "Formula Retro V8",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen1",
+      "vehicle": "Lotus 72E",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen1",
+      "vehicle": "McLaren M23",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen2",
+      "vehicle": "Brabham Alfa Romeo BT46B",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen2",
+      "vehicle": "Brabham Cosworth BT49",
+      "content": "DLC",
+      "dlc": "Brazilian Racing Legends Pack"
+    },
+    {
+      "class": "Formula Retro Gen2",
+      "vehicle": "Formula Retro Gen2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen2",
+      "vehicle": "Lotus 79",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen3",
+      "vehicle": "Brabham BMW BT52",
+      "content": "DLC",
+      "dlc": "Brazilian Racing Legends Pack"
+    },
+    {
+      "class": "Formula Retro Gen3",
+      "vehicle": "Formula Retro Gen3 DFY",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen3",
+      "vehicle": "Formula Retro Gen3 Turbo",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Retro Gen3",
+      "vehicle": "McLaren Cosworth MP4/1C",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Trainer",
+      "vehicle": "Formula Trainer",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Trainer Advanced",
+      "vehicle": "Formula Trainer Advanced",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula USA 2023",
+      "vehicle": "Formula USA 2023",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen1",
+      "vehicle": "Lola T95/00 Ford-Cosworth",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen1",
+      "vehicle": "Lola T95/00 Mercedes-Benz",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen1",
+      "vehicle": "Reynard 95i Ford-Cosworth",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen1",
+      "vehicle": "Reynard 95i Honda",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen1",
+      "vehicle": "Reynard 95i Mercedes-Benz",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen2",
+      "vehicle": "Lola T98/00 Ford-Cosworth",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen2",
+      "vehicle": "Reynard 98i Ford-Cosworth",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen2",
+      "vehicle": "Reynard 98i Honda",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen2",
+      "vehicle": "Reynard 98i Mercedes-Benz",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen2",
+      "vehicle": "Reynard 98i Toyota",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen2",
+      "vehicle": "Swift 009c Ford-Cosworth",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen3",
+      "vehicle": "Lola B2K00 Ford-Cosworth",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen3",
+      "vehicle": "Lola B2K00 Mercedes-Benz",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen3",
+      "vehicle": "Lola B2K00 Toyota",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen3",
+      "vehicle": "Reynard 2Ki Ford-Cosworth",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen3",
+      "vehicle": "Reynard 2Ki Honda",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen3",
+      "vehicle": "Reynard 2Ki Mercedes-Benz",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula USA Gen3",
+      "vehicle": "Reynard 2Ki Toyota",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Formula V10 Gen1",
+      "vehicle": "Formula V10 Gen1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula V10 Gen1",
+      "vehicle": "McLaren-Mercedes MP4/12",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula V10 Gen2",
+      "vehicle": "Formula V10 Gen2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Vee Brazil Gen1",
+      "vehicle": "Formula Vee",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Vee Brazil Gen1",
+      "vehicle": "Formula Vee + Fin",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Vee Brazil Gen2",
+      "vehicle": "Formula Vee Gen2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Vintage Gen1",
+      "vehicle": "Formula Vintage Gen1 Model1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Vintage Gen1",
+      "vehicle": "Formula Vintage Gen1 Model2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Vintage Gen2",
+      "vehicle": "Formula Vintage Gen2 Model1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Formula Vintage Gen2",
+      "vehicle": "Formula Vintage Gen2 Model2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "G40Cup",
+      "vehicle": "Ginetta G40 Cup",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "G55 Supercup",
+      "vehicle": "Ginetta G55 GT4 Supercup",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Group A",
+      "vehicle": "Audi V8 quattro DTM",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Group A",
+      "vehicle": "BMW M3 Sport Evo Group A",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Group A",
+      "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Group C",
+      "vehicle": "Chevrolet Corvette GTP",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Group C",
+      "vehicle": "Nissan R89C",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Group C",
+      "vehicle": "Porsche 962C",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Group C",
+      "vehicle": "Sauber Mercedes C9",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT Classics",
+      "vehicle": "Chevrolet Corvette C3.R",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT Classics",
+      "vehicle": "Porsche 911 RSR 1974",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT Open",
+      "vehicle": "Ginetta G55 GT3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT Open",
+      "vehicle": "Ultima GTR Race",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT1",
+      "vehicle": "McLaren F1 GTR",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT1",
+      "vehicle": "Mercedes-Benz CLK LM",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT1",
+      "vehicle": "Nissan R390 GT1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT1",
+      "vehicle": "Porsche 911 GT1-98",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Aston Martin DBR9",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Chevrolet Corvette C5-R",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Dodge Viper GTS-R",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Lamborghini Murcielago R-GT",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Lister Storm GTM",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Maserati MC12 GT1",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Milano GT55",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "GT1 2005",
+      "vehicle": "Saleen S7-R GT1",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "GT2 2005",
+      "vehicle": "Milano GT36",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT2 2005",
+      "vehicle": "Panoz Esperante GTLM",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "GT2 2005",
+      "vehicle": "Porsche 996 GT3 RSR",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "GT2 2005",
+      "vehicle": "Spyker C8 Spyder GT2-R",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "GT2 2005",
+      "vehicle": "TVR Tuscan T400R GT2",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "GT3",
+      "vehicle": "Audi R8 LMS GT3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT3",
+      "vehicle": "BMW M6 GT3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT3",
+      "vehicle": "Lamborghini Diablo SV-R",
+      "content": "DLC",
+      "dlc": "Lamborghini Dream Pack Pt2"
+    },
+    {
+      "class": "GT3",
+      "vehicle": "McLaren 720S GT3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT3",
+      "vehicle": "Mercedes-AMG GT3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT3",
+      "vehicle": "Nissan GT-R Nismo GT3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT3",
+      "vehicle": "Porsche 911 GT3 R",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "Aston Martin Vantage GT3 Evo",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt3"
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "Audi R8 LMS GT3 evo II",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt2"
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "BMW M4 GT3",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt1"
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "Chevrolet Corvette Z06 GT3.R",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt2"
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "Lamborghini Huracan GT3 EVO2",
+      "content": "DLC",
+      "dlc": "Lamborghini Dream Pack Pt1"
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "McLaren 720S GT3 Evo",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt1"
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "Mercedes-AMG GT3 Evo",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt1"
+    },
+    {
+      "class": "GT3 Gen2",
+      "vehicle": "Porsche 992 GT3 R",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt1"
+    },
+    {
+      "class": "GT4",
+      "vehicle": "Alpine A110 GT4 Evo",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt3"
+    },
+    {
+      "class": "GT4",
+      "vehicle": "Aston Martin Vantage GT4 Evo",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt3"
+    },
+    {
+      "class": "GT4",
+      "vehicle": "Audi R8 LMS GT4",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT4",
+      "vehicle": "BMW M4 GT4",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT4",
+      "vehicle": "Chevrolet Camaro GT4.R",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT4",
+      "vehicle": "Ginetta G55 GT4",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT4",
+      "vehicle": "McLaren 570S GT4",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT4",
+      "vehicle": "Mercedes-AMG GT4",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT4",
+      "vehicle": "Porsche Cayman GT4 Clubsport MR",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT5",
+      "vehicle": "Ginetta G40",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GT5",
+      "vehicle": "Puma P052",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "GTE",
+      "vehicle": "Aston Martin Vantage GTE",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt3"
+    },
+    {
+      "class": "GTE",
+      "vehicle": "BMW M8 GTE",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "GTE",
+      "vehicle": "Chevrolet Corvette C8.R",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "GTE",
+      "vehicle": "Porsche 911 RSR GTE",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "GTR 2004",
+      "vehicle": "Gillet Vertigo Streiff",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "Hot Cars",
+      "vehicle": "Fusca 1 Hot Cars",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Hot Cars",
+      "vehicle": "Fusca 2 Hot Cars",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Hot Cars",
+      "vehicle": "Gol Hot Cars",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Hot Cars",
+      "vehicle": "Passat Hot Cars",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Hypercars",
+      "vehicle": "Aston Martin Valkyrie",
+      "content": "DLC",
+      "dlc": "Supercars Pack Pt2"
+    },
+    {
+      "class": "Hypercars",
+      "vehicle": "Brabham BT62",
+      "content": "DLC",
+      "dlc": "Supercars Pack Pt1"
+    },
+    {
+      "class": "Hypercars",
+      "vehicle": "Lamborghini Revuelto",
+      "content": "DLC",
+      "dlc": "Lamborghini Dream Pack Pt2"
+    },
+    {
+      "class": "Hypercars",
+      "vehicle": "Lamborghini Veneno Roadster",
+      "content": "DLC",
+      "dlc": "Lamborghini Dream Pack Pt1"
+    },
+    {
+      "class": "Hypercars",
+      "vehicle": "McLaren Senna",
+      "content": "DLC",
+      "dlc": "Supercars Pack Pt1"
+    },
+    {
+      "class": "Kart 125cc",
+      "vehicle": "Kart 2-Stroke 125cc Direct",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Kart GX390",
+      "vehicle": "Kart 4-Stroke Race",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Kart Rental",
+      "vehicle": "Kart 4-Stroke Rental",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Kart Shifter",
+      "vehicle": "Kart 2-Stroke 125cc Shifter",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Kartcross",
+      "vehicle": "Kart Cross",
+      "content": "DLC",
+      "dlc": "Adrenaline Pack Pt1"
+    },
+    {
+      "class": "Lancer Cup",
+      "vehicle": "Mitsubishi Lancer R",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Lancer Cup",
+      "vehicle": "Mitsubishi Lancer RS",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Ligier European Series",
+      "vehicle": "Ligier JS P4",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt3"
+    },
+    {
+      "class": "Ligier European Series",
+      "vehicle": "Ligier JS2 R",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt3"
+    },
+    {
+      "class": "LMDh",
+      "vehicle": "Alpine A424",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt2"
+    },
+    {
+      "class": "LMDh",
+      "vehicle": "Aston Martin Valkyrie Hypercar",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt3"
+    },
+    {
+      "class": "LMDh",
+      "vehicle": "BMW M Hybrid V8",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt1"
+    },
+    {
+      "class": "LMDh",
+      "vehicle": "Cadillac V-Series.R",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt1"
+    },
+    {
+      "class": "LMDh",
+      "vehicle": "Lamborghini SC63",
+      "content": "DLC",
+      "dlc": "Lamborghini Dream Pack Pt1"
+    },
+    {
+      "class": "LMDh",
+      "vehicle": "Porsche 963",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt1"
+    },
+    {
+      "class": "LMP1 2005",
+      "vehicle": "Audi R8 LMP1",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "LMP1 2005",
+      "vehicle": "Courage C60 Hybrid",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "LMP1 2005",
+      "vehicle": "Dallara SP1",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "LMP2",
+      "vehicle": "Ligier JS P217 (Gen 2)",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt2"
+    },
+    {
+      "class": "LMP2",
+      "vehicle": "Oreca 07",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt2"
+    },
+    {
+      "class": "LMP2 2005",
+      "vehicle": "Lola B05/40 Turbo",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "LMP2 2005",
+      "vehicle": "Lola B05/40 V8",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt1"
+    },
+    {
+      "class": "LMP2 Gen1",
+      "vehicle": "Ligier JS P217",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt2"
+    },
+    {
+      "class": "LMP2 Gen1",
+      "vehicle": "Oreca 07 Gen1",
+      "content": "DLC",
+      "dlc": "Endurance Pack Pt2"
+    },
+    {
+      "class": "Maserati Trofeo",
+      "vehicle": "Maserati GranSport Trofeo",
+      "content": "DLC",
+      "dlc": "Historical Endurance Pack Pt2"
+    },
+    {
+      "class": "Mini JCW UK",
+      "vehicle": "MINI Cooper JCW",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Old Stock",
+      "vehicle": "Chevrolet Opala Old Stock Race",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Opala 79",
+      "vehicle": "Chevrolet Opala Stock Cars 1979",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Opala 86",
+      "vehicle": "Chevrolet Opala Stock Cars 1986",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1",
+      "vehicle": "Ginetta G58",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1",
+      "vehicle": "MetalMoro AJR Chevrolet",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1",
+      "vehicle": "MetalMoro AJR Honda",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1",
+      "vehicle": "MetalMoro AJR Judd",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1",
+      "vehicle": "MetalMoro AJR Nissan",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1 Gen2",
+      "vehicle": "Ginetta G58 Gen2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1 Gen2",
+      "vehicle": "Ligier JS P320",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1 Gen2",
+      "vehicle": "MetalMoro AJR Gen2 Chevrolet",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1 Gen2",
+      "vehicle": "MetalMoro AJR Gen2 Honda",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1 Gen2",
+      "vehicle": "MetalMoro AJR Gen2 Nissan",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P1 Gen2",
+      "vehicle": "Sigma P1 G5",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P2",
+      "vehicle": "MetalMoro MRX Duratec Turbo P2",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P2",
+      "vehicle": "Sigma P1",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P3",
+      "vehicle": "MetalMoro MRX Duratec Turbo P3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P3",
+      "vehicle": "MetalMoro MRX Honda P3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P3",
+      "vehicle": "Roco 001",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P4",
+      "vehicle": "MCR S2000",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "P4",
+      "vehicle": "MetalMoro MRX Duratec P4",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Porsche Carrera Cup",
+      "vehicle": "Porsche 911 GT3 Cup 3.8",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Porsche Carrera Cup",
+      "vehicle": "Porsche 911 GT3 Cup 4.0",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Procar",
+      "vehicle": "BMW M1 Procar",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "RX",
+      "vehicle": "Citroen DS3 RX",
+      "content": "DLC",
+      "dlc": "Adrenaline Pack Pt1"
+    },
+    {
+      "class": "RX",
+      "vehicle": "MINI Countryman R60 RX",
+      "content": "DLC",
+      "dlc": "Adrenaline Pack Pt1"
+    },
+    {
+      "class": "RX",
+      "vehicle": "Mitsubishi Lancer Evo10 RX",
+      "content": "DLC",
+      "dlc": "Adrenaline Pack Pt1"
+    },
+    {
+      "class": "RX",
+      "vehicle": "Volkswagen Polo RX",
+      "content": "DLC",
+      "dlc": "Adrenaline Pack Pt1"
+    },
+    {
+      "class": "Sprint Race",
+      "vehicle": "Sprint Race",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car 99",
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Brasil 2019",
+      "vehicle": "Chevrolet Cruze Stock Car 2019",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Brasil 2020",
+      "vehicle": "Chevrolet Cruze Stock Car 2020",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Brasil 2020",
+      "vehicle": "Toyota Corolla Stock Car 2020",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Brasil 2021",
+      "vehicle": "Chevrolet Cruze Stock Car 2021",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Brasil 2021",
+      "vehicle": "Toyota Corolla Stock Car 2021",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Pro Series 2022",
+      "vehicle": "Chevrolet Cruze Stock Car 2022",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Pro Series 2022",
+      "vehicle": "Toyota Corolla Stock Car 2022",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Pro Series 2023",
+      "vehicle": "Chevrolet Cruze Stock Car 2023",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Pro Series 2023",
+      "vehicle": "Toyota Corolla Stock Car 2023",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Pro Series 2024",
+      "vehicle": "Chevrolet Cruze Stock Car 2024",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock Car Pro Series 2024",
+      "vehicle": "Toyota Corolla Stock Car 2024",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Stock USA Gen1",
+      "vehicle": "Stock USA Gen1",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Stock USA Gen2",
+      "vehicle": "Stock USA Gen2",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Stock USA Gen3",
+      "vehicle": "Stock USA Gen3",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Stock USA Le Mans",
+      "vehicle": "Stock USA Gen3 LM",
+      "content": "DLC",
+      "dlc": "Racin' USA Expansion Pack"
+    },
+    {
+      "class": "Street Cars",
+      "vehicle": "Chevrolet Camaro SS",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "STT",
+      "vehicle": "Super Trophy Trucks",
+      "content": "DLC",
+      "dlc": "Adrenaline Pack Pt2"
+    },
+    {
+      "class": "Super Trofeo",
+      "vehicle": "Lamborghini Huracan Super Trofeo EVO2",
+      "content": "DLC",
+      "dlc": "Lamborghini Dream Pack Pt1"
+    },
+    {
+      "class": "Super Trofeo 96",
+      "vehicle": "Lamborghini Diablo SV-R",
+      "content": "DLC",
+      "dlc": "Lamborghini Dream Pack Pt2"
+    },
+    {
+      "class": "Super V8",
+      "vehicle": "Super V8",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Supercars",
+      "vehicle": "Audi R8 V10 GT",
+      "content": "DLC",
+      "dlc": "Supercars Pack Pt2"
+    },
+    {
+      "class": "Supercars",
+      "vehicle": "Chevrolet Corvette C8 Z06 (+Z07 Upgrade)",
+      "content": "DLC",
+      "dlc": "Supercars Pack Pt1"
+    },
+    {
+      "class": "Supercars",
+      "vehicle": "Dodge Viper ACR",
+      "content": "DLC",
+      "dlc": "Supercars Pack Pt2"
+    },
+    {
+      "class": "Supercars",
+      "vehicle": "Maserati GT2 Stradale",
+      "content": "DLC",
+      "dlc": "Supercars Pack Pt2"
+    },
+    {
+      "class": "Supercars",
+      "vehicle": "McLaren F1 LM",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Supercars",
+      "vehicle": "Ultima GTR",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Superkart",
+      "vehicle": "Superkart 250cc",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "TSI Cup",
+      "vehicle": "VW Polo",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "TSI Cup",
+      "vehicle": "VW Polo GTS",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "TSI Cup",
+      "vehicle": "VW Virtus",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "TSI Cup",
+      "vehicle": "VW Virtus GTS",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Vintage Cars - Tier 1",
+      "vehicle": "BMW 2002 Turbo",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Vintage Cars - Tier 1",
+      "vehicle": "Chevrolet Corvette C3",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Vintage Cars - Tier 2",
+      "vehicle": "Lotus 23",
+      "content": "BASE/FREE",
+      "dlc": ""
+    },
+    {
+      "class": "Vintage Cars - Tier 2",
+      "vehicle": "MINI Cooper S 1965",
+      "content": "BASE/FREE",
+      "dlc": ""
+    }
+  ]
+}
