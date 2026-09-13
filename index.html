@@ -368,12 +368,12 @@ body {
     min-width: 850px;
     display: grid;
     grid-template-columns:
-        minmax(145px, 1.15fr)
-        minmax(82px, max-content)
-        minmax(82px, max-content)
-        minmax(105px, max-content)
-        minmax(140px, .90fr)
-        minmax(105px, .75fr);
+        minmax(150px, 1.05fr)
+        105px
+        105px
+        120px
+        minmax(220px, 1.45fr)
+        minmax(115px, .75fr);
     align-items: center;
     column-gap: 12px;
     padding: 0 14px;
@@ -596,7 +596,7 @@ body {
     .history-head,
     .history-row {
         min-width: 0 !important;
-        grid-template-columns: minmax(75px,1fr) 52px 55px 68px minmax(65px,.88fr) 68px !important;
+        grid-template-columns: minmax(75px,1fr) 52px 55px 68px minmax(100px,1.35fr) 68px !important;
         column-gap: 5px !important;
         padding: 0 7px !important;
     }
@@ -618,6 +618,130 @@ body {
         break-inside: avoid;
         page-break-inside: avoid;
     }
+}
+
+
+
+.vehicle-dlc-badge {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 1px 4px;
+    border: 1px solid #6f5b18;
+    border-radius: 3px;
+    color: #d4af37;
+    font: 900 9px Arial, sans-serif;
+    line-height: 1.2;
+    vertical-align: 1px;
+    white-space: nowrap;
+}
+
+/* ============================================================
+   AMS2 CAR / DLC CATALOG - START IMPLEMENTATION
+   ============================================================ */
+.car-catalog {
+    margin: 26px 0 48px;
+    border: 1px solid #242424;
+    border-top: 3px solid #ef1118;
+    background: #080808;
+}
+.car-catalog-top {
+    padding: 14px 16px 12px;
+    border-bottom: 1px solid #242424;
+}
+.car-catalog-title {
+    color: #ef1118;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: .5px;
+}
+.car-catalog-note {
+    margin-top: 4px;
+    color: #777;
+    font-size: 11px;
+}
+.car-catalog-filters {
+    display: grid;
+    grid-template-columns: minmax(180px,1.5fr) minmax(150px,.8fr) 130px;
+    gap: 8px;
+    padding: 10px 16px;
+    border-bottom: 1px solid #1d1d1d;
+}
+.car-catalog input,
+.car-catalog select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #343434;
+    background: #101010;
+    color: #ddd;
+    padding: 7px 9px;
+    font: 700 12px Arial, sans-serif;
+}
+.car-catalog input:focus,
+.car-catalog select:focus {
+    outline: 1px solid #666;
+}
+.car-catalog-count {
+    padding: 7px 16px 9px;
+    color: #777;
+    font: 700 11px Arial, sans-serif;
+}
+.car-catalog-scroll {
+    overflow-x: auto;
+    max-height: 620px;
+    overflow-y: auto;
+}
+.car-catalog-head,
+.car-catalog-row {
+    display: grid;
+    grid-template-columns: minmax(180px,.8fr) minmax(250px,1.3fr) 105px minmax(220px,1fr);
+    min-width: 780px;
+}
+.car-catalog-head {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #111;
+    color: #999;
+    border-top: 1px solid #202020;
+    border-bottom: 1px solid #333;
+    font: 800 10px Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .35px;
+}
+.car-catalog-row {
+    border-bottom: 1px solid #181818;
+    color: #cfcfcf;
+    font: 700 12px Arial, sans-serif;
+}
+.car-catalog-row:nth-child(even) {
+    background: #0b0b0b;
+}
+.car-catalog-head > div,
+.car-catalog-row > div {
+    padding: 7px 10px;
+    min-width: 0;
+}
+.catalog-content-dlc {
+    color: #d4af37;
+    font-weight: 900;
+}
+.catalog-content-base {
+    color: #777;
+}
+.catalog-empty {
+    padding: 22px;
+    color: #666;
+    text-align: center;
+    font-style: italic;
+}
+@media (max-width: 700px) {
+    .car-catalog-filters {
+        grid-template-columns: 1fr;
+    }
+}
+@media print {
+    .car-catalog { display: none !important; }
 }
 
 </style>
@@ -665,6 +789,39 @@ body {
 </section>
 
 <main id="challengeList"></main>
+
+
+<section class="car-catalog" id="carCatalog">
+    <div class="car-catalog-top">
+        <div class="car-catalog-title">AMS2 CAR / DLC CATALOG</div>
+        <div class="car-catalog-note">Working 2026 catalog • filter by class, car or DLC</div>
+    </div>
+
+    <div class="car-catalog-filters">
+        <input id="carCatalogSearch" type="search" placeholder="Search class, vehicle or DLC...">
+        <select id="carCatalogClass">
+            <option value="">All classes</option>
+        </select>
+        <select id="carCatalogContent">
+            <option value="">BASE + DLC</option>
+            <option value="DLC">DLC only</option>
+            <option value="BASE/FREE">BASE/FREE only</option>
+        </select>
+    </div>
+
+    <div id="carCatalogCount" class="car-catalog-count">loading catalog...</div>
+
+    <div class="car-catalog-scroll">
+        <div class="car-catalog-head">
+            <div>Class</div>
+            <div>Vehicle</div>
+            <div>Content</div>
+            <div>DLC Pack</div>
+        </div>
+        <div id="carCatalogRows"></div>
+    </div>
+</section>
+
 
 </div>
 
@@ -791,30 +948,19 @@ function historyTable(events, includeTitle = false) {
         .reverse()
         .map(event => {
             const colorClass = historyColorClass(event);
-            let jump = event.friendJump || "—";
-            if (event.isNew) {
-                jump = event.newFriendRank ?? "—";
-            } else if (jump === "—" && event.newFriendRank != null) {
-                jump = event.newFriendRank;
-            }
-
-            const movedUp =
-                !event.isNew &&
-                Number.isInteger(event.oldFriendRank) &&
-                Number.isInteger(event.newFriendRank) &&
-                event.newFriendRank < event.oldFriendRank;
-
-            const jumpClass = movedUp ? colorClass : "";
-            const deltaTime = event.isNew ? "NEW" : (event.delta || "—");
-            const deltaClass = event.isNew ? "event-blue" : "";
+            const jump = event.isNew ? "NEW" : (event.friendJump || "—");
+            const jumpClass =
+                event.isNew || (event.friendJump && event.friendJump !== "—")
+                    ? colorClass
+                    : "";
 
             return `
                 <div class="history-row">
                     <div class="history-driver">${text(event.driver)}</div>
                     <div class="history-jump ${jumpClass}">${text(jump)}</div>
-                    <div class="history-delta ${deltaClass}">${text(deltaTime)}</div>
+                    <div class="history-delta">${text(event.delta || "—")}</div>
                     <div class="history-time ${colorClass}">${text(event.time)}</div>
-                    <div class="history-vehicle">${text(event.vehicle || event.vehicleHash || "")}</div>
+                    <div class="history-vehicle">${text(event.vehicle || event.vehicleHash || "")}${vehicleDlcBadge(event.vehicle)}</div>
                     <div class="history-track">${text(event.track || "")}</div>
                 </div>
             `;
@@ -824,11 +970,11 @@ function historyTable(events, includeTitle = false) {
     return `
         <div class="history-head">
             <div>Driver</div>
-            <div>ΔFRIENDS</div>
-            <div>ΔTIME</div>
-            <div>TIME</div>
-            <div>VEHICLE</div>
-            <div>TRACK</div>
+            <div>Friends</div>
+            <div>Delta</div>
+            <div>Time</div>
+            <div>Vehicle</div>
+            <div>Track</div>
         </div>
         ${rows}
     `;
@@ -909,7 +1055,7 @@ function createChallengeCard(challenge) {
                     : null;
 
             const vehicleHtml = vehicleName
-                ? `<div class="vehicle">${text(vehicleName)}</div>`
+                ? `<div class="vehicle">${text(vehicleName)}${vehicleDlcBadge(vehicleName)}</div>`
                 : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
 
             return `
@@ -1063,7 +1209,140 @@ async function loadResults() {
     }
 }
 
+
+let carCatalogData = [];
+
+
+function normalizeVehicleName(value) {
+    return String(value || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+}
+
+function catalogVehicleEntry(vehicleName) {
+    const needle = normalizeVehicleName(vehicleName);
+    if (!needle || !Array.isArray(carCatalogData)) return null;
+
+    return carCatalogData.find(item =>
+        normalizeVehicleName(item.vehicle) === needle
+    ) || null;
+}
+
+function vehicleDlcBadge(vehicleName) {
+    const entry = catalogVehicleEntry(vehicleName);
+    if (!entry || entry.content !== "DLC") return "";
+
+    const title = entry.dlc
+        ? ` title="${text(entry.dlc)}"`
+        : "";
+
+    return `<span class="vehicle-dlc-badge"${title}>DLC</span>`;
+}
+
+function populateCarCatalogClassFilter() {
+    const select = document.getElementById("carCatalogClass");
+    const classes = [...new Set(carCatalogData.map(item => item.class).filter(Boolean))]
+        .sort((a,b) => a.localeCompare(b, "en"));
+
+    select.innerHTML =
+        `<option value="">All classes</option>` +
+        classes.map(value =>
+            `<option value="${text(value)}">${text(value)}</option>`
+        ).join("");
+}
+
+function renderCarCatalog() {
+    const rowsBox = document.getElementById("carCatalogRows");
+    const countBox = document.getElementById("carCatalogCount");
+    if (!rowsBox || !countBox) return;
+
+    const search = (document.getElementById("carCatalogSearch")?.value || "")
+        .trim().toLowerCase();
+    const selectedClass = document.getElementById("carCatalogClass")?.value || "";
+    const selectedContent = document.getElementById("carCatalogContent")?.value || "";
+
+    const filtered = carCatalogData.filter(item => {
+        if (selectedClass && item.class !== selectedClass) return false;
+        if (selectedContent && item.content !== selectedContent) return false;
+
+        if (search) {
+            const haystack = [
+                item.class,
+                item.vehicle,
+                item.content,
+                item.dlc
+            ].join(" ").toLowerCase();
+
+            if (!haystack.includes(search)) return false;
+        }
+        return true;
+    });
+
+    countBox.textContent =
+        `${filtered.length} / ${carCatalogData.length} vehicles`;
+
+    if (!filtered.length) {
+        rowsBox.innerHTML =
+            `<div class="catalog-empty">No matching vehicles.</div>`;
+        return;
+    }
+
+    rowsBox.innerHTML = filtered.map(item => {
+        const contentClass =
+            item.content === "DLC"
+                ? "catalog-content-dlc"
+                : "catalog-content-base";
+
+        return `
+            <div class="car-catalog-row">
+                <div>${text(item.class || "")}</div>
+                <div>${text(item.vehicle || "")}</div>
+                <div class="${contentClass}">${text(item.content || "")}</div>
+                <div>${text(item.dlc || "—")}</div>
+            </div>
+        `;
+    }).join("");
+}
+
+async function loadCarCatalog() {
+    try {
+        const response = await fetch(
+            "ams2_cars.json?ts=" + Date.now(),
+            { cache:"no-store" }
+        );
+
+        if (!response.ok) {
+            throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+        carCatalogData = Array.isArray(data.cars) ? data.cars : [];
+
+        populateCarCatalogClassFilter();
+        renderCarCatalog();
+        await loadResults();
+
+        ["carCatalogSearch", "carCatalogClass", "carCatalogContent"]
+            .forEach(id => {
+                document.getElementById(id)?.addEventListener(
+                    id === "carCatalogSearch" ? "input" : "change",
+                    renderCarCatalog
+                );
+            });
+
+    } catch (error) {
+        document.getElementById("carCatalogCount").textContent =
+            "catalog unavailable";
+        document.getElementById("carCatalogRows").innerHTML =
+            `<div class="catalog-empty">${text(error.message)}</div>`;
+    }
+}
+
 loadResults();
+loadCarCatalog();
 
 function scheduleNextRefresh() {
     const now = new Date();
