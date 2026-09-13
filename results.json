@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-13T19:29:55+02:00",
+  "updated": "2026-09-13T19:34:54+02:00",
   "collectionMode": "challenge",
   "challenges": [
     {
@@ -280,12 +280,7 @@
           "friends": 2
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_4551_3826312417_0_0",
-          "status": "find-failed"
-        }
-      ],
+      "boardErrors": [],
       "results": [],
       "allClassesResults": [
         {
@@ -2273,12 +2268,12 @@
   "collector": {
     "version": "FINAL-2026.10-CONTROL",
     "mode": "challenge",
-    "elapsedSeconds": 54.9,
+    "elapsedSeconds": 47.2,
     "boardsScanned": 94,
     "boardsTarget": 94,
-    "boardsOk": 93,
+    "boardsOk": 94,
     "rawFriendEntries": 15,
-    "errors": 1,
+    "errors": 0,
     "catalogVehicles": 0,
     "unknownVehicles": 5
   }
