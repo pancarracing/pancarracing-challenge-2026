@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-14T00:12:01+02:00",
+  "updated": "2026-09-14T00:28:36+02:00",
   "challenges": [
     {
       "id": 1,
@@ -308,6 +308,10 @@
           "friends": 1
         },
         {
+          "board": "cars2_autoevent_4556_3826312417_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_15020_3826312417_0_0",
           "friends": 2
         }
@@ -356,6 +360,25 @@
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
+          "vehicleHash": -371227432,
+          "vehicle": "Chevrolet Omega Stock Car 1999",
+          "vehicleClass": "StockCar99",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -371227432,
+          "rank": 30,
+          "score": 67239,
+          "time": "01:07.239",
+          "board": "cars2_autoevent_4556_3826312417_0_0",
+          "boardA": 4556,
+          "boardB": 3826312417,
+          "mergedRank": 3
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
           "vehicleHash": 1647822272,
           "vehicle": "Mercedes-Benz Actros",
           "vehicleClass": "CopaTruck",
@@ -370,7 +393,7 @@
           "board": "cars2_autoevent_4526_3826312417_0_0",
           "boardA": 4526,
           "boardB": 3826312417,
-          "mergedRank": 3
+          "mergedRank": 4
         }
       ]
     },
@@ -1176,6 +1199,40 @@
       "worldJump": "559",
       "worldColor": "",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T00:28:36+02:00",
+      "challengeId": 4,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -371227432,
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "vehicleClass": "StockCar99",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4556_3826312417_0_0",
+      "boardA": 4556,
+      "boardB": 3826312417,
+      "track": "Indianapolis",
+      "score": 67239,
+      "time": "01:07.239",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 30,
+      "worldJump": "30",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "last10": [
@@ -1244,6 +1301,40 @@
       "oldWorldRank": null,
       "newWorldRank": 559,
       "worldJump": "559",
+      "worldColor": "",
+      "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T00:28:36+02:00",
+      "challengeId": 4,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -371227432,
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "vehicleClass": "StockCar99",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4556_3826312417_0_0",
+      "boardA": 4556,
+      "boardB": 3826312417,
+      "track": "Indianapolis",
+      "score": 67239,
+      "time": "01:07.239",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 30,
+      "worldJump": "30",
       "worldColor": "",
       "timeColor": "blue"
     }
@@ -1316,15 +1407,49 @@
       "worldJump": "559",
       "worldColor": "",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T00:28:36+02:00",
+      "challengeId": 4,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -371227432,
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "vehicleClass": "StockCar99",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4556_3826312417_0_0",
+      "boardA": 4556,
+      "boardB": 3826312417,
+      "track": "Indianapolis",
+      "score": 67239,
+      "time": "01:07.239",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 30,
+      "worldJump": "30",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "collector": {
     "version": "V5.3.1",
     "mode": "challenge",
-    "elapsedSeconds": 47.0,
+    "elapsedSeconds": 24.1,
     "boardsScanned": 94,
     "boardsOk": 94,
-    "rawFriendEntries": 16,
+    "rawFriendEntries": 17,
     "errors": 0,
     "catalogVehicles": 259,
     "unknownVehicles": 1
