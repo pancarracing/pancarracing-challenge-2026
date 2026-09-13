@@ -259,11 +259,12 @@ body {
 .driver-row {
     display: grid;
     grid-template-columns:
-        70px
-        minmax(180px, 1.2fr)
-        150px
-        100px
-        minmax(220px, 1.4fr);
+        66px
+        minmax(165px, 1.05fr)
+        138px
+        84px
+        minmax(205px, 1.28fr)
+        minmax(135px, .82fr);
     align-items: center;
 }
 
@@ -322,6 +323,21 @@ body {
     font-family: Consolas, monospace;
     font-size: 13px;
     font-weight: normal;
+}
+
+.vehicle-class {
+    color: #858585;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .25px;
+    text-transform: uppercase;
+}
+
+.challenge-tech {
+    margin-top: 4px;
+    color: #555;
+    font: 10px Consolas, monospace;
+    letter-spacing: .2px;
 }
 
 .no-time {
@@ -501,8 +517,42 @@ body {
 
     .results-head,
     .driver-row {
-        min-width: 800px;
+        min-width: 920px;
     }
+}
+
+/* SCOREBOARD MODE */
+.score-mode-panel {
+    margin: 0 0 12px;
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
+    gap: 8px;
+    align-items: stretch;
+}
+.score-mode {
+    min-height: 52px;
+    border: 1px solid #303030;
+    background: linear-gradient(180deg,#151515,#090909);
+    color: #8d8d8d;
+    cursor: pointer;
+    text-align: left;
+    padding: 7px 14px;
+    font: 900 12px Arial,sans-serif;
+    letter-spacing: .4px;
+}
+.score-mode:hover { border-color: #696969; color: #d0d0d0; }
+.score-mode.active { border-color: #ef1118; box-shadow: inset 3px 0 0 #ef1118; color: #d8d8d8; }
+.score-mode .quiet { font-size: 11px; color: #676767; margin-right: 6px; }
+.score-mode strong { color: #ef1118; font-size: 21px; font-style: italic; letter-spacing: .6px; }
+.score-mode small { color: #999; font-size: 10px; margin-left: 5px; }
+.mode-note {
+    min-width: 210px; padding: 7px 12px; border: 1px solid #242424;
+    display:flex; align-items:center; justify-content:flex-end; text-align:right;
+    color:#656565; font: 10px Consolas,monospace; line-height:1.35;
+}
+@media (max-width: 760px) {
+    .score-mode-panel { grid-template-columns: 1fr 1fr; }
+    .mode-note { grid-column: 1 / -1; justify-content:flex-start; text-align:left; min-width:0; }
 }
 
 /* TOP RIGHT ACTIONS */
@@ -663,7 +713,7 @@ body {
 }
 
 @media print {
-    .top-actions, .history-modal, .car-catalog { display: none !important; }
+    .top-actions, .history-modal, .car-catalog, .score-mode-panel { display: none !important; }
 
     html, body {
         width: 194mm !important;
@@ -707,7 +757,7 @@ body {
     .results-head,
     .driver-row {
         min-width: 0 !important;
-        grid-template-columns: 38px minmax(90px,1.1fr) 90px 55px minmax(120px,1.35fr) !important;
+        grid-template-columns: 30px minmax(72px,.9fr) 66px 42px minmax(92px,1.1fr) 66px !important;
         padding-left: 9px !important;
         padding-right: 9px !important;
     }
@@ -718,7 +768,9 @@ body {
     .driver { font-size: 13px !important; }
     .time { font-size: 13px !important; }
     .rank { font-size: 10px !important; }
-    .vehicle { font-size: 11px !important; }
+    .vehicle { font-size: 10px !important; }
+    .vehicle-class { font-size: 7px !important; }
+    .challenge-tech { display:none !important; }
     .vehicle.unknown { font-size: 9px !important; }
     .no-time { padding: 12px !important; font-size: 13px !important; }
 
@@ -759,7 +811,7 @@ body {
 <div class="top-actions">
     <button class="top-action" type="button" onclick="openHistory()" title="Zobrazit celou historii">ΔHISTORY</button>
     <button class="top-action" type="button" onclick="window.print()" title="Uložit aktuální stav jako PDF">Drift to PDF</button>
-    <a class="top-action" href="pancar_challanges_2026.png" target="_blank" rel="noopener" title="Challenge 2026 overview">Challenge<span class="overview-year">2026</span>overwiev</a>
+    <a class="top-action" href="pancar_challenges_2026.png" target="_blank" rel="noopener" title="Challenge 2026 overview">Challenge<span class="overview-year">2026</span>overwiev</a>
 </div>
 
 <div id="historyModal" class="history-modal" onclick="historyBackdrop(event)">
@@ -792,6 +844,16 @@ body {
         </div>
     </div>
 </header>
+
+<section class="score-mode-panel" aria-label="Scoreboard mode">
+    <button id="modeChallenge" class="score-mode active" type="button" onclick="setScoreMode('challenge')">
+        <span class="quiet">pancar</span><strong>CHALLENGE</strong>
+    </button>
+    <button id="modeAll" class="score-mode" type="button" onclick="setScoreMode('all')">
+        <span class="quiet">pancar</span><strong>KING</strong><small>of all times</small>
+    </button>
+    <div id="modeNote" class="mode-note">official Challenge Class · one best time per driver</div>
+</section>
 
 <section class="history-panel">
     <div class="history-title">LAST 10 ΔTIMES WITH IMPACT</div>
@@ -843,68 +905,16 @@ const challengeColors = {
 };
 
 const challengeMeta = {
-
-    1: {
-        owner: "Franta's TAHAC",
-        car: "Mercedes Actros",
-        displayTrack: "Monza Historic 1971",
-        trackDetail: "10k (no chicane)",
-        subtitle: "vs. Monza Old ovalis"
-    },
-
-    2: {
-        owner: "Bruce McLaren's",
-        car: "GT2 2005: Porsche 911 GT3 RSR / Ferrari 360 Modena GTC",
-        subtitle: "the new green Hell is orange!"
-    },
-
-    3: {
-        owner: "Mr. M's",
-        car: "Citroën DS3 class",
-        subtitle: "Gravel Sliding Lovers"
-    },
-
-    4: {
-        owner: "Franta's",
-        car: "Stock USA Gen3",
-        subtitle: "Hell of NASCAR Nonsense"
-    },
-
-    5: {
-        owner: "Mr. P's",
-        car: "Superkart",
-        subtitle: "F1 mini-ME"
-    },
-
-    6: {
-        owner: "Tom's",
-        car: "BMW M3 / MB 190E / Audi quattro",
-        subtitle: "Tango na plynu"
-    },
-
-    7: {
-        owner: "Mr. M's",
-        car: "Porsche 911 RSR classic",
-        subtitle: "Classic Roulette"
-    },
-
-    8: {
-        owner: "Mr. P's",
-        car: "F-Trainer",
-        subtitle: "Balada pro Fajnšmekry"
-    },
-
-    9: {
-        owner: "Tom's",
-        car: "C-Class: Sauber Mercedes C9",
-        subtitle: "Preparation for Le Mans 2027"
-    },
-
-    10: {
-        owner: "Mr. P's",
-        car: "Lotus 23",
-        subtitle: "Classic a la de Pohl echt Gottwald"
-    }
+    1: { owner: "Franta's TAHAC", car: "COPA TRUCK · Mercedes-Benz Actros", displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)", subtitle: "vs. Monza Old ovalis" },
+    2: { owner: "Bruce McLaren's", car: "GT4 · representative car TBD", subtitle: "the new green Hell is orange!" },
+    3: { owner: "Mr. M's", car: "MINI COOPER JCW", displayTrack: "Cascavel", trackDetail: "single layout", subtitle: "JCW attack" },
+    4: { owner: "Franta's", car: "STOCK CAR 99", subtitle: "Hell of NASCAR Nonsense" },
+    5: { owner: "Mr. P's", car: "SUPERKART · 250cc", subtitle: "F1 mini-ME" },
+    6: { owner: "Tom's", car: "GROUP A · BMW M3 / MB 190E / Audi V8 quattro", subtitle: "Tango na plynu" },
+    7: { owner: "Mr. M's", car: "GT CLASSICS · Porsche 911 RSR 1974", subtitle: "Classic Roulette" },
+    8: { owner: "Mr. P's", car: "FORMULA TRAINER", subtitle: "Balada pro Fajnšmekry" },
+    9: { owner: "Tom's", car: "GROUP C · Sauber Mercedes C9", subtitle: "Preparation for Le Mans 2027" },
+    10:{ owner: "Mr. P's", car: "VINTAGE CARS – TIER 2 · Lotus 23", subtitle: "Classic a la de Pohl echt Gottwald" }
 };
 
 function text(value) {
@@ -935,6 +945,8 @@ function ordinal(value) {
 
 let completeHistory = [];
 let carCatalogData = [];
+let currentMode = "challenge";
+let latestData = null;
 
 function eventColorClass(value) {
     if (value === "gold") return "event-gold";
@@ -1031,20 +1043,35 @@ function historyTable(events) {
     `;
 }
 
+function eventMode(event) {
+    return event && event.mode === "all" ? "all" : "challenge";
+}
+
+function modeHistory() {
+    return completeHistory.filter(event => eventMode(event) === currentMode);
+}
+
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
-    const last10 = Array.isArray(data.last10)
-        ? data.last10
-        : completeHistory.slice(-10);
-
-    document.getElementById("last10").innerHTML = historyTable(last10);
+    const selected = modeHistory();
+    document.getElementById("last10").innerHTML = historyTable(selected.slice(-10));
 }
 
 function openHistory() {
-    document.getElementById("historyModalContent").innerHTML =
-        historyTable(completeHistory);
+    document.getElementById("historyModalContent").innerHTML = historyTable(modeHistory());
     document.getElementById("historyModal").classList.add("open");
     document.body.style.overflow = "hidden";
+}
+
+function setScoreMode(mode) {
+    currentMode = mode === "all" ? "all" : "challenge";
+    document.getElementById("modeChallenge")?.classList.toggle("active", currentMode === "challenge");
+    document.getElementById("modeAll")?.classList.toggle("active", currentMode === "all");
+    const note = document.getElementById("modeNote");
+    if (note) note.textContent = currentMode === "all"
+        ? "merged ALL CLASSES · best per driver + vehicle · absolute time"
+        : "official Challenge Class · one best time per driver";
+    if (latestData) renderAll(latestData);
 }
 
 function closeHistory() {
@@ -1145,130 +1172,76 @@ async function loadCarCatalog() {
 }
 
 function createChallengeCard(challenge) {
-
     const card = document.createElement("section");
     card.className = "challenge-card";
-
-    card.style.setProperty(
-        "--accent",
-        challengeColors[challenge.id] || "#ef1118"
-    );
+    card.style.setProperty("--accent", challengeColors[challenge.id] || "#ef1118");
 
     const meta = challengeMeta[challenge.id] || {};
-    const results = challenge.results || [];
+    const results = currentMode === "all"
+        ? (challenge.allClassesResults || challenge.allResults || challenge.resultsAll || [])
+        : (challenge.results || []);
 
-    const displayTrack =
-        meta.displayTrack || challenge.name;
-
-    const trackDetailHtml =
-        meta.trackDetail
-            ? `<span class="track-detail">${text(meta.trackDetail)}</span>`
-            : "";
+    const displayTrack = meta.displayTrack || challenge.name;
+    const trackDetailHtml = meta.trackDetail
+        ? `<span class="track-detail">${text(meta.trackDetail)}</span>` : "";
 
     let resultsHtml = "";
-
-    if (results.length === 0) {
-
-        resultsHtml = `
-            <div class="no-time">BEZ ČASU</div>
-        `;
-
+    if (!results.length) {
+        resultsHtml = `<div class="no-time">BEZ ČASU</div>`;
     } else {
-
         const rows = results.map((result,index) => {
-
-            const vehicleName =
-                result.vehicle && String(result.vehicle).trim()
-                    ? String(result.vehicle).trim()
-                    : null;
-
+            const vehicleName = result.vehicle && String(result.vehicle).trim()
+                ? String(result.vehicle).trim() : null;
             const vehicleHtml = vehicleName
                 ? `<div class="vehicle">${text(vehicleName)}${vehicleDlcBadge(result)}</div>`
                 : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
-
-            return `
-                <div class="driver-row">
-
-                    <div class="position">
-                        ${index + 1}.
-                    </div>
-
-                    <div class="driver">
-                        ${text(result.driver)}
-                    </div>
-
-                    <div class="time">
-                        ${text(result.time)}
-                    </div>
-
-                    <div class="rank">
-                        #${text(result.rank)}
-                    </div>
-
-                    ${vehicleHtml}
-
-                </div>
-            `;
+            const rank = result.rank != null ? `#${text(result.rank)}` : "—";
+            const cls = result.vehicleClass || "—";
+            return `<div class="driver-row">
+                <div class="position">${index + 1}.</div>
+                <div class="driver">${text(result.driver)}</div>
+                <div class="time">${text(result.time)}</div>
+                <div class="rank" title="Native Steam world rank on this board">${rank}</div>
+                ${vehicleHtml}
+                <div class="vehicle-class">${text(cls)}</div>
+            </div>`;
         }).join("");
-
-        resultsHtml = `
-            <div class="results-head">
-                <div>Pos.</div>
-                <div>Driver</div>
-                <div>Time</div>
-                <div>World</div>
-                <div>Vehicle</div>
-            </div>
-
-            ${rows}
-        `;
+        resultsHtml = `<div class="results-head">
+            <div>Pos.</div><div>Driver</div><div>Time</div><div>World</div><div>Vehicle</div><div>Class</div>
+        </div>${rows}`;
     }
 
-    card.innerHTML = `
+    const activeCount = Array.isArray(challenge.activeBoards) ? challenge.activeBoards.length : 0;
+    const scanInfo = challenge.boardsScanned != null
+        ? `<div class="challenge-tech">${text(currentMode === "all" ? "MERGED" : "OFFICIAL")} · ${text(challenge.boardsScanned)} boards scanned · ${text(activeCount)} with friend data</div>`
+        : "";
 
-        <div class="challenge-head">
-
-            <div class="number-box">
-                <div class="big-number">
-                    ${text(ordinal(challenge.id))}
-                </div>
-                <div class="number-challenge">
-                    Challenge
-                </div>
-            </div>
-
-            <div class="challenge-info">
-
-                <div class="challenge-name">
-                    ${text(displayTrack)}${trackDetailHtml}
-                </div>
-
-                <div class="challenge-extra">
-                    ${text(meta.car || "")}
-                </div>
-
-            </div>
-
-            <div class="challenge-status">
-
-                <div class="challenge-status-title">
-                    ${text(meta.owner || "")}
-                </div>
-
-                <div class="challenge-status-main">
-                    ${text(meta.subtitle || "")}
-                </div>
-
-            </div>
-
+    card.innerHTML = `<div class="challenge-head">
+        <div class="number-box">
+            <div class="big-number">${text(ordinal(challenge.id))}</div>
+            <div class="number-challenge">Challenge</div>
         </div>
-
-        <div class="results">
-            ${resultsHtml}
+        <div class="challenge-info">
+            <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}</div>
+            <div class="challenge-extra">${text(meta.car || "")}</div>
+            ${scanInfo}
         </div>
-    `;
-
+        <div class="challenge-status">
+            <div class="challenge-status-title">${text(meta.owner || "")}</div>
+            <div class="challenge-status-main">${text(meta.subtitle || "")}</div>
+        </div>
+    </div><div class="results">${resultsHtml}</div>`;
     return card;
+}
+
+function renderAll(data) {
+    latestData = data;
+    renderHistory(data);
+    const challengeList = document.getElementById("challengeList");
+    challengeList.innerHTML = "";
+    const challenges = Array.isArray(data.challenges)
+        ? [...data.challenges].sort((a,b) => Number(a.id) - Number(b.id)) : [];
+    for (const challenge of challenges) challengeList.appendChild(createChallengeCard(challenge));
 }
 
 async function loadResults() {
@@ -1293,34 +1266,17 @@ async function loadResults() {
             document.getElementById("updated");
 
         if (data.updated) {
-
             const date = new Date(data.updated);
-
-            updated.textContent =
-                "LIVE DATA • " +
-                (
-                    Number.isNaN(date.getTime())
-                        ? data.updated
-                        : date.toLocaleString("cs-CZ")
-                );
-
+            const stamp = Number.isNaN(date.getTime()) ? data.updated : date.toLocaleString("cs-CZ");
+            const c = data.collector || {};
+            const health = c.boardsScanned != null
+                ? ` • BOARDS ${c.boardsOk ?? "?"}/${c.boardsScanned}${c.errors ? ` • ERR ${c.errors}` : ""}` : "";
+            updated.textContent = "LIVE DATA • " + stamp + health;
         } else {
             updated.textContent = "LIVE DATA";
         }
 
-        renderHistory(data);
-
-        challengeList.innerHTML = "";
-
-        const challenges =
-            [...data.challenges]
-            .sort((a,b) => Number(a.id) - Number(b.id));
-
-        for (const challenge of challenges) {
-            challengeList.appendChild(
-                createChallengeCard(challenge)
-            );
-        }
+        renderAll(data);
 
     } catch(error) {
 

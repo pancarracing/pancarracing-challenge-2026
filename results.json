@@ -1,104 +1,329 @@
 {
-  "updated": "2026-09-13T09:05:08+02:00",
+  "schemaVersion": 2,
+  "updated": "2026-09-13T16:00:44+02:00",
   "challenges": [
     {
       "id": 1,
       "name": "Monza Historic 1971 10k (no chicane)",
+      "trackB": 612695202,
+      "challengeClasses": [
+        "Copa Truck"
+      ],
+      "allClasses": [
+        "Copa Truck",
+        "Group A",
+        "GT Classics",
+        "Formula Trainer",
+        "Vintage Cars - Tier 1",
+        "Vintage Cars - Tier 2"
+      ],
+      "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
+      "boardsScanned": 76,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_6735_612695202_0_0",
+          "friends": 2
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": -487937394,
           "vehicle": "Iveco Stralis",
-          "vehicleClass": "Copa Truck",
+          "vehicleClass": "CopaTruck",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 4,
           "score": 179279,
-          "time": "02:59.279"
+          "time": "02:59.279",
+          "board": "cars2_autoevent_6735_612695202_0_0",
+          "boardA": 6735,
+          "boardB": 612695202,
+          "mergedRank": 1
         },
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 1647822272,
           "vehicle": "Mercedes-Benz Actros",
-          "vehicleClass": "Copa Truck",
+          "vehicleClass": "CopaTruck",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 5,
           "score": 179839,
-          "time": "02:59.839"
+          "time": "02:59.839",
+          "board": "cars2_autoevent_6735_612695202_0_0",
+          "boardA": 6735,
+          "boardB": 612695202,
+          "mergedRank": 2
         }
-      ]
+      ],
+      "allClassesResults": []
     },
     {
       "id": 2,
       "name": "Nordschleife 2025",
-      "board": "cars2_autoevent_14309_2505909511_0_0",
-      "results": []
+      "trackB": 2505909511,
+      "challengeClasses": [
+        "GT4"
+      ],
+      "allClasses": [
+        "GT4",
+        "GT3",
+        "GT Open",
+        "GT1",
+        "GT2 2005",
+        "Porsche Carrera Cup",
+        "Super V8"
+      ],
+      "allPolicy": "",
+      "board": "cars2_autoevent_14287_2505909511_0_0",
+      "boardsScanned": 88,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_14284_2505909511_0_0",
+          "friends": 1
+        }
+      ],
+      "boardErrors": [],
+      "results": [],
+      "allClassesResults": []
     },
     {
       "id": 3,
-      "name": "Ascurra RX",
-      "board": "cars2_autoevent_157_2273696505_0_0",
+      "name": "Cascavel",
+      "trackB": 3378488487,
+      "challengeClasses": [
+        "MINI Cooper JCW",
+        "MINI JCW"
+      ],
+      "allClasses": [
+        "MINI Cooper JCW",
+        "MINI JCW",
+        "TSI Cup",
+        "Copa Classic B",
+        "Copa Classic FL",
+        "G40 Cup",
+        "G55 Supercup",
+        "Caterham Academy",
+        "Caterham Supersport",
+        "Caterham Superlight",
+        "Caterham 620R",
+        "Formula Trainer",
+        "Formula Vee Gen1",
+        "Formula Vee Gen2",
+        "Formula Junior"
+      ],
+      "allPolicy": "",
+      "board": "cars2_autoevent_1951_3378488487_0_0",
+      "boardsScanned": 76,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_1950_3378488487_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_1951_3378488487_0_0",
+          "friends": 1
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
-          "vehicleHash": -983006067,
-          "vehicle": "Citroen DS3 RX",
-          "vehicleClass": "RX",
-          "vehicleDlc": true,
-          "vehicleDlcName": "Adrenaline Pack Pt1",
-          "rank": 363,
-          "score": 67760,
-          "time": "01:07.760"
+          "vehicleHash": 1818602836,
+          "vehicle": "MINI Cooper JCW",
+          "vehicleClass": "MiniChallenge",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 393,
+          "score": 71798,
+          "time": "01:11.798",
+          "board": "cars2_autoevent_1951_3378488487_0_0",
+          "boardA": 1951,
+          "boardB": 3378488487,
+          "mergedRank": 1
         }
-      ]
+      ],
+      "allClassesResults": []
     },
     {
       "id": 4,
       "name": "Indianapolis Motor Speedway Oval",
-      "board": "cars2_autoevent_15020_3826312417_0_0",
-      "results": [
+      "trackB": 3826312417,
+      "challengeClasses": [
+        "Stock Car 99"
+      ],
+      "allClasses": [
+        "Stock Car 99",
+        "Stock Car Brasil 2019",
+        "Stock Car Brasil 2020",
+        "Stock Car Brasil 2021",
+        "Stock Car Brasil 2022",
+        "Stock Car Brasil 2023",
+        "Stock Car Brasil 2024",
+        "Super V8",
+        "Copa Montana",
+        "Old Stock",
+        "Stock Car USA Gen2",
+        "Stock Car USA Gen3"
+      ],
+      "allPolicy": "",
+      "board": "",
+      "boardsScanned": 85,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_4526_3826312417_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_15020_3826312417_0_0",
+          "friends": 1
+        }
+      ],
+      "boardErrors": [],
+      "results": [],
+      "allClassesResults": [
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 2081977850,
           "vehicle": "Stock Car USA Gen.3",
-          "vehicleClass": "",
+          "vehicleClass": "Stock Car USA Gen3",
+          "vehicleContent": "",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": false,
           "rank": 298,
           "score": 56680,
-          "time": "00:56.680"
+          "time": "00:56.680",
+          "board": "cars2_autoevent_15020_3826312417_0_0",
+          "boardA": 15020,
+          "boardB": 3826312417,
+          "mergedRank": 1
         }
       ]
     },
     {
       "id": 5,
       "name": "Taruma Chicane",
+      "trackB": 4186114222,
+      "challengeClasses": [
+        "Superkart"
+      ],
+      "allClasses": [
+        "Superkart",
+        "Vintage Cars - Tier 1",
+        "Vintage Cars - Tier 2",
+        "Copa Classic B",
+        "Copa Classic FL",
+        "Formula Trainer",
+        "Formula Trainer Advanced",
+        "Formula Junior",
+        "Formula Vee Gen1",
+        "Formula Vee Gen2",
+        "Kart Shifter",
+        "Kart 125cc"
+      ],
+      "allPolicy": "",
       "board": "cars2_autoevent_9873_4186114222_0_0",
+      "boardsScanned": 78,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_9873_4186114222_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9885_4186114222_0_0",
+          "friends": 1
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 306371028,
           "vehicle": "Superkart 250cc",
-          "vehicleClass": "Superkart",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 4,
           "score": 73757,
-          "time": "01:13.757"
+          "time": "01:13.757",
+          "board": "cars2_autoevent_9873_4186114222_0_0",
+          "boardA": 9873,
+          "boardB": 4186114222,
+          "mergedRank": 1
+        }
+      ],
+      "allClassesResults": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 4,
+          "score": 73757,
+          "time": "01:13.757",
+          "board": "cars2_autoevent_9873_4186114222_0_0",
+          "boardA": 9873,
+          "boardB": 4186114222,
+          "mergedRank": 1
         }
       ]
     },
     {
       "id": 6,
       "name": "Pocono North/South Course 2",
+      "trackB": 701322116,
+      "challengeClasses": [
+        "Group A"
+      ],
+      "allClasses": [
+        "Group A",
+        "Procar",
+        "Copa Classic B",
+        "Copa Classic FL",
+        "Caterham Academy",
+        "Caterham Supersport",
+        "Caterham Superlight",
+        "Caterham 620R",
+        "Hot Cars",
+        "Old Stock",
+        "Opala 79",
+        "Opala 86",
+        "GT4",
+        "GT Open",
+        "Porsche Carrera Cup"
+      ],
+      "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
+      "boardsScanned": 93,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_15482_701322116_0_0",
+          "friends": 1
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -106,68 +331,227 @@
           "vehicleHash": -934098507,
           "vehicle": "BMW M3 Sport Evo Group A",
           "vehicleClass": "Group A",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 21,
           "score": 95861,
-          "time": "01:35.861"
+          "time": "01:35.861",
+          "board": "cars2_autoevent_15482_701322116_0_0",
+          "boardA": 15482,
+          "boardB": 701322116,
+          "mergedRank": 1
+        }
+      ],
+      "allClassesResults": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -934098507,
+          "vehicle": "BMW M3 Sport Evo Group A",
+          "vehicleClass": "Group A",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 21,
+          "score": 95861,
+          "time": "01:35.861",
+          "board": "cars2_autoevent_15482_701322116_0_0",
+          "boardA": 15482,
+          "boardB": 701322116,
+          "mergedRank": 1
         }
       ]
     },
     {
       "id": 7,
       "name": "Virginia International Raceway North",
+      "trackB": 2134032188,
+      "challengeClasses": [
+        "GT Classics"
+      ],
+      "allClasses": [
+        "GT Classics",
+        "Vintage Cars - Tier 1",
+        "Vintage Cars - Tier 2",
+        "Procar",
+        "Copa Classic B",
+        "Copa Classic FL",
+        "Old Stock",
+        "Opala 79",
+        "Opala 86",
+        "Hot Cars"
+      ],
+      "allPolicy": "",
       "board": "cars2_autoevent_10366_2134032188_0_0",
+      "boardsScanned": 76,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_10366_2134032188_0_0",
+          "friends": 1
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 2016280350,
           "vehicle": "Porsche 911 RSR 1974",
-          "vehicleClass": "GT Classics",
+          "vehicleClass": "TC70S",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 4,
           "score": 102439,
-          "time": "01:42.439"
+          "time": "01:42.439",
+          "board": "cars2_autoevent_10366_2134032188_0_0",
+          "boardA": 10366,
+          "boardB": 2134032188,
+          "mergedRank": 1
         }
-      ]
+      ],
+      "allClassesResults": []
     },
     {
       "id": 8,
       "name": "Oulton Park Fosters",
+      "trackB": 4202898090,
+      "challengeClasses": [
+        "Formula Trainer"
+      ],
+      "allClasses": [
+        "Formula Trainer",
+        "Formula Trainer Advanced",
+        "Formula Vee Gen1",
+        "Formula Vee Gen2",
+        "Formula Junior",
+        "F3 Brasil"
+      ],
+      "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
+      "boardsScanned": 76,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_7647_4202898090_0_0",
+          "friends": 2
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 575788923,
           "vehicle": "Formula Trainer",
-          "vehicleClass": "Formula Trainer",
+          "vehicleClass": "F-Trainer",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 41,
           "score": 67635,
-          "time": "01:07.635"
+          "time": "01:07.635",
+          "board": "cars2_autoevent_7647_4202898090_0_0",
+          "boardA": 7647,
+          "boardB": 4202898090,
+          "mergedRank": 1
         },
         {
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": 575788923,
           "vehicle": "Formula Trainer",
-          "vehicleClass": "Formula Trainer",
+          "vehicleClass": "F-Trainer",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 48,
           "score": 68036,
-          "time": "01:08.036"
+          "time": "01:08.036",
+          "board": "cars2_autoevent_7647_4202898090_0_0",
+          "boardA": 7647,
+          "boardB": 4202898090,
+          "mergedRank": 2
+        }
+      ],
+      "allClassesResults": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 575788923,
+          "vehicle": "Formula Trainer",
+          "vehicleClass": "F-Trainer",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 41,
+          "score": 67635,
+          "time": "01:07.635",
+          "board": "cars2_autoevent_7647_4202898090_0_0",
+          "boardA": 7647,
+          "boardB": 4202898090,
+          "mergedRank": 1
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 575788923,
+          "vehicle": "Formula Trainer",
+          "vehicleClass": "F-Trainer",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 48,
+          "score": 68036,
+          "time": "01:08.036",
+          "board": "cars2_autoevent_7647_4202898090_0_0",
+          "boardA": 7647,
+          "boardB": 4202898090,
+          "mergedRank": 2
         }
       ]
     },
     {
       "id": 9,
       "name": "Circuit des 24 Heures du Mans",
+      "trackB": 1060182346,
+      "challengeClasses": [
+        "Group C"
+      ],
+      "allClasses": [],
+      "allPolicy": "OPEN_NON_KART",
       "board": "cars2_autoevent_12259_1060182346_0_0",
+      "boardsScanned": 80,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_12208_1060182346_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12248_1060182346_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12252_1060182346_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12259_1060182346_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12287_1060182346_0_0",
+          "friends": 4
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -175,32 +559,125 @@
           "vehicleHash": -1721496056,
           "vehicle": "Sauber Mercedes C9",
           "vehicleClass": "Group C",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
-          "rank": 528,
+          "catalogMatched": true,
+          "rank": 529,
           "score": 228479,
-          "time": "03:48.479"
+          "time": "03:48.479",
+          "board": "cars2_autoevent_12259_1060182346_0_0",
+          "boardA": 12259,
+          "boardB": 1060182346,
+          "mergedRank": 2
+        }
+      ],
+      "allClassesResults": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1433352906,
+          "vehicle": "Ginetta G58",
+          "vehicleClass": "P1",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 87,
+          "score": 228279,
+          "time": "03:48.279",
+          "board": "cars2_autoevent_12208_1060182346_0_0",
+          "boardA": 12208,
+          "boardB": 1060182346,
+          "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -1721496056,
+          "vehicle": "Sauber Mercedes C9",
+          "vehicleClass": "Group C",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 529,
+          "score": 228479,
+          "time": "03:48.479",
+          "board": "cars2_autoevent_12259_1060182346_0_0",
+          "boardA": 12259,
+          "boardB": 1060182346,
+          "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1368036017,
+          "vehicle": "BMW M1 Procar",
+          "vehicleClass": "Procar",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "rank": 37,
+          "score": 264212,
+          "time": "04:24.212",
+          "board": "cars2_autoevent_12252_1060182346_0_0",
+          "boardA": 12252,
+          "boardB": 1060182346,
+          "mergedRank": 3
         }
       ]
     },
     {
       "id": 10,
       "name": "Buenos Aires Circuito No.12",
+      "trackB": 799677855,
+      "challengeClasses": [
+        "Vintage Cars - Tier 2"
+      ],
+      "allClasses": [
+        "Vintage Cars - Tier 2",
+        "Vintage Cars - Tier 1",
+        "GT Classics",
+        "Copa Classic B",
+        "Copa Classic FL",
+        "Old Stock",
+        "Opala 79",
+        "Opala 86",
+        "Procar"
+      ],
+      "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
+      "boardsScanned": 76,
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_1052_799677855_0_0",
+          "friends": 1
+        }
+      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": -830134672,
           "vehicle": "Lotus 23",
-          "vehicleClass": "Vintage Cars - Tier 2",
+          "vehicleClass": "TC60S2",
+          "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
+          "catalogMatched": true,
           "rank": 4,
           "score": 136580,
-          "time": "02:16.580"
+          "time": "02:16.580",
+          "board": "cars2_autoevent_1052_799677855_0_0",
+          "boardA": 1052,
+          "boardB": 799677855,
+          "mergedRank": 1
         }
-      ]
+      ],
+      "allClassesResults": []
     }
   ],
   "history": [
@@ -230,7 +707,8 @@
       "worldColor": "",
       "vehicleClass": "Group C",
       "vehicleDlc": false,
-      "vehicleDlcName": ""
+      "vehicleDlcName": "",
+      "mode": "challenge"
     },
     {
       "timestamp": "2026-09-13T07:04:36+02:00",
@@ -258,7 +736,8 @@
       "vehicleDlcName": "",
       "track": "Buenos Aires",
       "color": "blue",
-      "isNew": false
+      "isNew": false,
+      "mode": "challenge"
     }
   ],
   "last10": [
@@ -288,7 +767,8 @@
       "worldColor": "",
       "vehicleClass": "Group C",
       "vehicleDlc": false,
-      "vehicleDlcName": ""
+      "vehicleDlcName": "",
+      "mode": "challenge"
     },
     {
       "timestamp": "2026-09-13T07:04:36+02:00",
@@ -316,7 +796,18 @@
       "vehicleDlcName": "",
       "track": "Buenos Aires",
       "color": "blue",
-      "isNew": false
+      "isNew": false,
+      "mode": "challenge"
     }
-  ]
+  ],
+  "collector": {
+    "version": "FINAL-2026.09",
+    "elapsedSeconds": 443.3,
+    "boardsScanned": 804,
+    "boardsOk": 804,
+    "rawFriendEntries": 22,
+    "errors": 0,
+    "catalogVehicles": 259,
+    "unknownVehicles": 5
+  }
 }
