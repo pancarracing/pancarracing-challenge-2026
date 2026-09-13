@@ -129,25 +129,6 @@ body {
         inset 0 1px 0 rgba(255,255,255,.03);
 }
 
-/* 2nd challenge · BMW GT4 white / light-blue visual */
-.challenge-card.challenge-gt4-bmw {
-    --accent: #9fdcff;
-    border-right: 1px solid rgba(255,255,255,.28);
-    background:
-        linear-gradient(90deg, rgba(159,220,255,.24) 0%, rgba(245,250,255,.10) 14%, #0b0b0b 31%, #090909 100%);
-    box-shadow:
-        0 9px 22px rgba(0,0,0,.33),
-        inset 0 1px 0 rgba(255,255,255,.15);
-}
-.challenge-card.challenge-gt4-bmw::after {
-    content: "";
-    position: absolute;
-    inset: 0 auto 0 0;
-    width: 3px;
-    background: #f5fbff;
-    pointer-events: none;
-}
-
 .challenge-card::before {
     content: "";
     position: absolute;
@@ -431,7 +412,16 @@ body {
 }
 
 .history-driver {
-    font-weight: 800;
+    font-weight: 400;
+}
+
+/* V5: first five LAST 10 columns intentionally larger */
+.history-driver,
+.history-jump,
+.history-delta,
+.history-time,
+.history-world {
+    font-size: 16px;
 }
 
 .history-jump,
@@ -443,7 +433,7 @@ body {
 }
 
 .history-time {
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .history-vehicle,
@@ -636,7 +626,7 @@ body {
 }
 .car-catalog-title {
     color: #ef1118;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 900;
     font-style: italic;
     letter-spacing: .5px;
@@ -644,7 +634,7 @@ body {
 .car-catalog-note {
     margin-top: 4px;
     color: #777;
-    font-size: 11px;
+    font-size: 20px;
 }
 .car-catalog-filters {
     display: grid;
@@ -661,16 +651,16 @@ body {
     background: #101010;
     color: #ddd;
     padding: 7px 9px;
-    font: 700 12px Arial, sans-serif;
+    font: 700 20px Arial, sans-serif;
 }
 .car-catalog input:focus,
 .car-catalog select:focus {
     outline: 1px solid #666;
 }
 .car-catalog-count {
-    padding: 7px 16px 9px;
+    padding: 10px 16px 12px;
     color: #777;
-    font: 700 11px Arial, sans-serif;
+    font: 700 19px Arial, sans-serif;
 }
 .car-catalog-scroll {
     overflow-x: auto;
@@ -680,8 +670,8 @@ body {
 .car-catalog-head,
 .car-catalog-row {
     display: grid;
-    grid-template-columns: minmax(180px,.8fr) minmax(250px,1.3fr) 105px minmax(220px,1fr);
-    min-width: 780px;
+    grid-template-columns: minmax(240px,.9fr) minmax(360px,1.4fr) 145px minmax(300px,1fr);
+    min-width: 1045px;
 }
 .car-catalog-head {
     position: sticky;
@@ -691,21 +681,21 @@ body {
     color: #999;
     border-top: 1px solid #202020;
     border-bottom: 1px solid #333;
-    font: 800 10px Arial, sans-serif;
+    font: 800 18px Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: .35px;
 }
 .car-catalog-row {
     border-bottom: 1px solid #181818;
     color: #cfcfcf;
-    font: 700 12px Arial, sans-serif;
+    font: 700 21px Arial, sans-serif;
 }
 .car-catalog-row:nth-child(even) {
     background: #0b0b0b;
 }
 .car-catalog-head > div,
 .car-catalog-row > div {
-    padding: 7px 10px;
+    padding: 12px 12px;
     min-width: 0;
 }
 .catalog-content-dlc {
@@ -924,16 +914,16 @@ const challengeColors = {
 };
 
 const challengeMeta = {
-    1: { owner: "Franta's TAHAC", car: "COPA TRUCK · Mercedes-Benz Actros", displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)", subtitle: "vs. Monza Old ovalis" },
-    2: { owner: "Bruce McLaren's", car: "GT4 · BMW M4 GT4", displayTrack: "Nordschleife 2020", subtitle: "the new green Hell is orange!" },
-    3: { owner: "Mr. M's", car: "MINI JCW UK · MINI Cooper JCW", displayTrack: "Cascavel", subtitle: "JCW attack" },
-    4: { owner: "Franta's", car: "STOCK CAR 99 · Chevrolet Omega Stock Car 1999", subtitle: "Hell of NASCAR Nonsense" },
-    5: { owner: "Mr. P's", car: "SUPERKART · Superkart 250cc", subtitle: "F1 mini-ME" },
-    6: { owner: "Tom's", car: "GROUP A · Audi V8 quattro DTM", subtitle: "Tango na plynu" },
-    7: { owner: "Mr. P's", car: "GT CLASSICS · Porsche 911 RSR 1974", subtitle: "Classic Roulette" },
-    8: { owner: "Mr. M's", car: "FORMULA TRAINER · Formula Trainer", subtitle: "Balada pro Fajnšmekry" },
-    9: { owner: "Tom's", car: "GROUP C · Sauber Mercedes C9", subtitle: "Preparation for Le Mans 2027" },
-    10:{ owner: "Mr. P's", car: "VINTAGE CARS – TIER 2 · Lotus 23", subtitle: "Classic a la de Pohl echt Gottwald" }
+    1: { car: "COPA TRUCK · Mercedes-Benz Actros", displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)" },
+    2: { car: "GT4 · BMW M4 GT4", displayTrack: "Nürburgring Nordschleife 2020" },
+    3: { car: "MINI JCW UK · MINI Cooper JCW", displayTrack: "Cascavel" },
+    4: { car: "STOCK CAR 99 · Chevrolet Omega Stock Car 1999" },
+    5: { car: "SUPERKART · Superkart 250cc" },
+    6: { car: "GROUP A · Audi V8 quattro DTM" },
+    7: { car: "GT CLASSICS · Porsche 911 RSR 1974" },
+    8: { car: "FORMULA TRAINER · Formula Trainer" },
+    9: { car: "GROUP C · Sauber Mercedes C9" },
+    10:{ car: "VINTAGE CARS – TIER 2 · Lotus 23" }
 };
 
 function text(value) {
@@ -1190,7 +1180,6 @@ async function loadCarCatalog() {
 function createChallengeCard(challenge) {
     const card = document.createElement("section");
     card.className = "challenge-card";
-    if (Number(challenge.id) === 2) card.classList.add("challenge-gt4-bmw");
     card.style.setProperty("--accent", challengeColors[challenge.id] || "#ef1118");
 
     const meta = challengeMeta[challenge.id] || {};
@@ -1242,10 +1231,6 @@ function createChallengeCard(challenge) {
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}</div>
             <div class="challenge-extra">${text(meta.car || "")}</div>
             ${scanInfo}
-        </div>
-        <div class="challenge-status">
-            <div class="challenge-status-title">${text(meta.owner || "")}</div>
-            <div class="challenge-status-main">${text(meta.subtitle || "")}</div>
         </div>
     </div><div class="results">${resultsHtml}</div>`;
     return card;
