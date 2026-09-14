@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-14T03:02:13+02:00",
+  "updated": "2026-09-14T08:06:02+02:00",
   "challenges": [
     {
       "id": 1,
@@ -321,27 +321,7 @@
         }
       ],
       "boardErrors": [],
-      "results": [
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": -371227432,
-          "vehicle": "Chevrolet Omega Stock Car 1999",
-          "vehicleClass": "Stock Car 99",
-          "vehicleContent": "BASE/FREE",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -371227432,
-          "rank": 27,
-          "score": 65018,
-          "time": "01:05.018",
-          "board": "cars2_autoevent_4556_3826312417_0_0",
-          "boardA": 4556,
-          "boardB": 3826312417,
-          "mergedRank": 1
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198089049981",
@@ -386,7 +366,7 @@
           "driver": "pancar LBC",
           "vehicleHash": -371227432,
           "vehicle": "Chevrolet Omega Stock Car 1999",
-          "vehicleClass": "Stock Car 99",
+          "vehicleClass": "StockCar99",
           "vehicleContent": "BASE/FREE",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -986,7 +966,7 @@
           "vehicleDlcName": "Endurance Pack Pt1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1937293617,
-          "rank": 2358,
+          "rank": 2359,
           "score": 225938,
           "time": "03:45.938",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -1005,7 +985,7 @@
           "vehicleDlcName": "Endurance Pack Pt1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -966026248,
-          "rank": 2434,
+          "rank": 2435,
           "score": 227438,
           "time": "03:47.438",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -4968,7 +4948,7 @@
   "collector": {
     "version": "V5.3.7",
     "mode": "complete",
-    "elapsedSeconds": 358.2,
+    "elapsedSeconds": 358.7,
     "boardsScanned": 717,
     "boardsOk": 717,
     "rawFriendEntries": 28,
