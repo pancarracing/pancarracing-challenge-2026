@@ -1,6 +1,6 @@
-{
+﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-14T22:26:51+02:00",
+  "updated": "2026-09-14T23:09:59+02:00",
   "challenges": [
     {
       "id": 1,
@@ -19,8 +19,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6735_612695202_0_0",
@@ -128,7 +128,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_7066_884472481_0_0",
       "boardsScanned": 1,
-      "scanMode": "complete",
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7066_884472481_0_0",
@@ -189,13 +189,58 @@
       ],
       "allClasses": [],
       "allPolicy": "",
-      "board": "cars2_autoevent_16361_1534602052_0_0",
-      "boardsScanned": 2,
-      "scanMode": "complete",
-      "activeBoards": [],
+      "board": "cars2_autoevent_733_1534602052_0_0",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_733_1534602052_0_0",
+          "friends": 1
+        }
+      ],
       "boardErrors": [],
-      "results": [],
-      "allClassesResults": []
+      "results": [
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 1818602836,
+          "vehicle": "MINI Cooper JCW",
+          "vehicleClass": "MiniChallenge",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1818602836,
+          "rank": 623,
+          "score": 101882,
+          "time": "01:41.882",
+          "board": "cars2_autoevent_733_1534602052_0_0",
+          "boardA": 733,
+          "boardB": 1534602052,
+          "mergedRank": 1
+        }
+      ],
+      "allClassesResults": [
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 1818602836,
+          "vehicle": "MINI Cooper JCW",
+          "vehicleClass": "MiniChallenge",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1818602836,
+          "rank": 623,
+          "score": 101882,
+          "time": "01:41.882",
+          "board": "cars2_autoevent_733_1534602052_0_0",
+          "boardA": 733,
+          "boardB": 1534602052,
+          "mergedRank": 1
+        }
+      ]
     },
     {
       "id": 4,
@@ -220,17 +265,9 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_4556_3826312417_0_0",
-      "boardsScanned": 85,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_15020_3826312417_0_0",
-          "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_4526_3826312417_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_4556_3826312417_0_0",
           "friends": 2
@@ -398,16 +435,12 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_9873_4186114222_0_0",
-      "boardsScanned": 78,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
           "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_9885_4186114222_0_0",
-          "friends": 1
         }
       ],
       "boardErrors": [],
@@ -537,8 +570,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
-      "boardsScanned": 93,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_15482_701322116_0_0",
@@ -648,17 +681,9 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_10366_2134032188_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_10325_2134032188_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_10357_2134032188_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_10366_2134032188_0_0",
           "friends": 2
@@ -801,8 +826,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
@@ -901,28 +926,12 @@
       "allClasses": [],
       "allPolicy": "OPEN_NON_KART",
       "board": "cars2_autoevent_12259_1060182346_0_0",
-      "boardsScanned": 80,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_12208_1060182346_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12248_1060182346_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12252_1060182346_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_12259_1060182346_0_0",
           "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_12287_1060182346_0_0",
-          "friends": 4
         }
       ],
       "boardErrors": [],
@@ -1160,8 +1169,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1052_799677855_0_0",
@@ -2621,6 +2630,44 @@
       "worldJump": "421",
       "worldColor": "",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T23:09:59+02:00",
+      "challengeId": 3,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 1818602836,
+      "vehicle": "MINI Cooper JCW",
+      "vehicleClass": "MiniChallenge",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_733_1534602052_0_0",
+      "boardA": 733,
+      "boardB": 1534602052,
+      "track": "Cascavel",
+      "score": 101882,
+      "time": "01:41.882",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "",
+      "kingFriendJump": "1",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 623,
+      "worldJump": "623",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "historyKing": [
@@ -3820,6 +3867,44 @@
       "worldJump": "421",
       "worldColor": "",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T23:09:59+02:00",
+      "challengeId": 3,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 1818602836,
+      "vehicle": "MINI Cooper JCW",
+      "vehicleClass": "MiniChallenge",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_733_1534602052_0_0",
+      "boardA": 733,
+      "boardB": 1534602052,
+      "track": "Cascavel",
+      "score": 101882,
+      "time": "01:41.882",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "",
+      "kingFriendJump": "1",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 623,
+      "worldJump": "623",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "historyChallenge": [
@@ -4567,43 +4652,47 @@
       "worldJump": "421",
       "worldColor": "",
       "timeColor": "blue"
-    }
-  ],
-  "last10": [
+    },
     {
-      "timestamp": "2026-09-13T21:16:05+02:00",
-      "challengeId": 7,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 379055283,
-      "vehicle": "Ginetta G55 GT4",
-      "vehicleClass": "GT4",
+      "timestamp": "2026-09-14T23:09:59+02:00",
+      "challengeId": 3,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 1818602836,
+      "vehicle": "MINI Cooper JCW",
+      "vehicleClass": "MiniChallenge",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_10357_2134032188_0_0",
-      "boardA": 10357,
-      "boardB": 2134032188,
-      "track": "VIR",
-      "score": 91498,
-      "time": "01:31.498",
+      "board": "cars2_autoevent_733_1534602052_0_0",
+      "boardA": 733,
+      "boardB": 1534602052,
+      "track": "Cascavel",
+      "score": 101882,
+      "time": "01:41.882",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": false,
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
       "oldFriendRank": null,
-      "newFriendRank": 2,
-      "friendJump": "2",
+      "newFriendRank": 1,
+      "friendJump": "1",
       "friendColor": "",
-      "kingFriendJump": "2",
+      "kingFriendJump": "1",
       "kingFriendColor": "",
-      "challengeFriendJump": "—",
+      "challengeFriendJump": "1",
       "challengeFriendColor": "",
       "oldWorldRank": null,
-      "newWorldRank": 16,
-      "worldJump": "16",
+      "newWorldRank": 623,
+      "worldJump": "623",
       "worldColor": "",
       "timeColor": "blue"
-    },
+    }
+  ],
+  "last10": [
     {
       "timestamp": "2026-09-13T22:29:51+02:00",
       "challengeId": 2,
@@ -4931,44 +5020,47 @@
       "worldJump": "421",
       "worldColor": "",
       "timeColor": "blue"
-    }
-  ],
-  "last20": [
+    },
     {
-      "timestamp": "2026-09-13T18:37:51+02:00",
-      "challengeId": 9,
-      "driver": "ŠotoFotograf",
-      "steamId": "76561199810540463",
-      "vehicleHash": -966026248,
-      "vehicle": "Cadillac V-Series.R",
-      "vehicleClass": "LMDh",
-      "vehicleDlc": true,
-      "vehicleDlcName": "Endurance Pack Pt1",
-      "board": "cars2_autoevent_12287_1060182346_0_0",
-      "boardA": 12287,
-      "boardB": 1060182346,
-      "track": "Circuit des 24 Heures du Mans",
-      "score": 227438,
-      "time": "03:47.438",
+      "timestamp": "2026-09-14T23:09:59+02:00",
+      "challengeId": 3,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 1818602836,
+      "vehicle": "MINI Cooper JCW",
+      "vehicleClass": "MiniChallenge",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_733_1534602052_0_0",
+      "boardA": 733,
+      "boardB": 1534602052,
+      "track": "Cascavel",
+      "score": 101882,
+      "time": "01:41.882",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": false,
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
       "oldFriendRank": null,
-      "newFriendRank": 5,
-      "friendJump": "5",
+      "newFriendRank": 1,
+      "friendJump": "1",
       "friendColor": "",
-      "kingFriendJump": "5",
+      "kingFriendJump": "1",
       "kingFriendColor": "",
-      "challengeFriendJump": "—",
+      "challengeFriendJump": "1",
       "challengeFriendColor": "",
       "oldWorldRank": null,
-      "newWorldRank": 2434,
-      "worldJump": "2434",
+      "newWorldRank": 623,
+      "worldJump": "623",
       "worldColor": "",
-      "timeColor": "blue",
-      "baselineReset": true
-    },
+      "timeColor": "blue"
+    }
+  ],
+  "last20": [
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
       "challengeId": 9,
@@ -5640,15 +5732,53 @@
       "worldJump": "421",
       "worldColor": "",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T23:09:59+02:00",
+      "challengeId": 3,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 1818602836,
+      "vehicle": "MINI Cooper JCW",
+      "vehicleClass": "MiniChallenge",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_733_1534602052_0_0",
+      "boardA": 733,
+      "boardB": 1534602052,
+      "track": "Cascavel",
+      "score": 101882,
+      "time": "01:41.882",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "",
+      "kingFriendJump": "1",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 623,
+      "worldJump": "623",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "complete",
-    "elapsedSeconds": 323.4,
-    "boardsScanned": 643,
-    "boardsOk": 643,
-    "rawFriendEntries": 30,
+    "mode": "challenge",
+    "elapsedSeconds": 5.1,
+    "boardsScanned": 10,
+    "boardsOk": 10,
+    "rawFriendEntries": 18,
     "errors": 0,
     "catalogVehicles": 259,
     "unknownVehicles": 1
