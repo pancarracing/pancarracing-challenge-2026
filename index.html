@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-<meta name="pancar-build" content="V5.3.7">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pancarracing Time Trial Challenge 2026</title>
@@ -1019,7 +1018,8 @@ function canonicalClassForUi(value) {
         "vintage cars tier 2":"vintage cars tier 2",
         "superkart":"superkart",
         "stock car 1999":"stock car 99",
-        "stockcar 99":"stock car 99"
+        "stockcar 99":"stock car 99",
+        "stockcar99":"stock car 99"
     };
     return aliases[n] || n;
 }
@@ -1090,7 +1090,7 @@ function historyTable(events) {
 }
 
 function modeHistory() {
-    // V5.3.7: collector owns the split. Browser only selects the already validated view.
+    // V5.3.5: collector owns the split. Browser only selects the already validated view.
     if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing;
     if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge;
     // Compatibility fallback for older results.json only.

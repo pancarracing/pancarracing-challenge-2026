@@ -1,4 +1,4 @@
-﻿{
+{
   "schemaVersion": 3,
   "updated": "2026-09-14T20:31:01+02:00",
   "challenges": [
@@ -30,6 +30,25 @@
       "boardErrors": [],
       "results": [
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -487937394,
+          "vehicle": "Iveco Stralis",
+          "vehicleClass": "CopaTruck",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -487937394,
+          "rank": 4,
+          "score": 179279,
+          "time": "02:59.279",
+          "board": "cars2_autoevent_6735_612695202_0_0",
+          "boardA": 6735,
+          "boardB": 612695202,
+          "mergedRank": 1
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 1647822272,
@@ -46,7 +65,7 @@
           "board": "cars2_autoevent_6735_612695202_0_0",
           "boardA": 6735,
           "boardB": 612695202,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -304,6 +323,25 @@
       "boardErrors": [],
       "results": [
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -371227432,
+          "vehicle": "Chevrolet Omega Stock Car 1999",
+          "vehicleClass": "StockCar99",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -371227432,
+          "rank": 16,
+          "score": 62435,
+          "time": "01:02.435",
+          "board": "cars2_autoevent_4556_3826312417_0_0",
+          "boardA": 4556,
+          "boardB": 3826312417,
+          "mergedRank": 1
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": -371227432,
@@ -320,7 +358,7 @@
           "board": "cars2_autoevent_4556_3826312417_0_0",
           "boardA": 4556,
           "boardB": 3826312417,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -459,6 +497,25 @@
       "boardErrors": [],
       "results": [
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 306371028,
+          "rank": 4,
+          "score": 70958,
+          "time": "01:10.958",
+          "board": "cars2_autoevent_9873_4186114222_0_0",
+          "boardA": 9873,
+          "boardB": 4186114222,
+          "mergedRank": 1
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 306371028,
@@ -475,7 +532,7 @@
           "board": "cars2_autoevent_9873_4186114222_0_0",
           "boardA": 9873,
           "boardB": 4186114222,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -575,6 +632,25 @@
       "boardErrors": [],
       "results": [
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -340376700,
+          "vehicle": "Audi V8 quattro DTM",
+          "vehicleClass": "Group A",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -340376700,
+          "rank": 18,
+          "score": 93732,
+          "time": "01:33.732",
+          "board": "cars2_autoevent_15482_701322116_0_0",
+          "boardA": 15482,
+          "boardB": 701322116,
+          "mergedRank": 1
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": -934098507,
@@ -591,7 +667,7 @@
           "board": "cars2_autoevent_15482_701322116_0_0",
           "boardA": 15482,
           "boardB": 701322116,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -675,6 +751,25 @@
       "boardErrors": [],
       "results": [
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 2016280350,
+          "vehicle": "Porsche 911 RSR 1974",
+          "vehicleClass": "TC70S",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 2016280350,
+          "rank": 4,
+          "score": 100958,
+          "time": "01:40.958",
+          "board": "cars2_autoevent_10366_2134032188_0_0",
+          "boardA": 10366,
+          "boardB": 2134032188,
+          "mergedRank": 1
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 2016280350,
@@ -691,7 +786,7 @@
           "board": "cars2_autoevent_10366_2134032188_0_0",
           "boardA": 10366,
           "boardB": 2134032188,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -818,6 +913,25 @@
           "boardA": 7647,
           "boardB": 4202898090,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 575788923,
+          "vehicle": "Formula Trainer",
+          "vehicleClass": "F-Trainer",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 575788923,
+          "rank": 48,
+          "score": 68036,
+          "time": "01:08.036",
+          "board": "cars2_autoevent_7647_4202898090_0_0",
+          "boardA": 7647,
+          "boardB": 4202898090,
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -898,6 +1012,25 @@
       "boardErrors": [],
       "results": [
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -1721496056,
+          "vehicle": "Sauber Mercedes C9",
+          "vehicleClass": "Group C",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -1721496056,
+          "rank": 421,
+          "score": 220039,
+          "time": "03:40.039",
+          "board": "cars2_autoevent_12259_1060182346_0_0",
+          "boardA": 12259,
+          "boardB": 1060182346,
+          "mergedRank": 1
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": -1721496056,
@@ -914,7 +1047,7 @@
           "board": "cars2_autoevent_12259_1060182346_0_0",
           "boardA": 12259,
           "boardB": 1060182346,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -1139,6 +1272,25 @@
           "boardA": 1052,
           "boardB": 799677855,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -830134672,
+          "vehicle": "Lotus 23",
+          "vehicleClass": "TC60S2",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -830134672,
+          "rank": 5,
+          "score": 139319,
+          "time": "02:19.319",
+          "board": "cars2_autoevent_1052_799677855_0_0",
+          "boardA": 1052,
+          "boardB": 799677855,
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
