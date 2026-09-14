@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-14T02:11:12+02:00",
+  "updated": "2026-09-14T02:34:49+02:00",
   "challenges": [
     {
       "id": 1,
@@ -308,16 +308,16 @@
       "scanMode": "complete",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_15020_3826312417_0_0",
-          "friends": 2
-        },
-        {
           "board": "cars2_autoevent_4526_3826312417_0_0",
           "friends": 1
         },
         {
           "board": "cars2_autoevent_4556_3826312417_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_15020_3826312417_0_0",
+          "friends": 2
         }
       ],
       "boardErrors": [],
@@ -4966,9 +4966,9 @@
     }
   ],
   "collector": {
-    "version": "V5.3.5",
+    "version": "V5.3.6",
     "mode": "complete",
-    "elapsedSeconds": 360.8,
+    "elapsedSeconds": 359.5,
     "boardsScanned": 717,
     "boardsOk": 717,
     "rawFriendEntries": 28,
