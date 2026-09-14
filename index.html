@@ -1002,6 +1002,40 @@ function vehicleDlcBadge(source) {
     return `<span class="vehicle-dlc-badge"${title}>DLC</span>`;
 }
 
+
+function canonicalClassForUi(value) {
+    const n = String(value || "").toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, " ").trim();
+    const aliases = {
+        "copatruck":"copa truck",
+        "mini jcw":"mini cooper jcw",
+        "minichallenge":"mini cooper jcw",
+        "f trainer":"formula trainer",
+        "tc70s":"gt classics",
+        "tc60s2":"vintage cars tier 2",
+        "vintage tier 2":"vintage cars tier 2",
+        "vintage cars tier 2":"vintage cars tier 2",
+        "superkart":"superkart",
+        "stock car 1999":"stock car 99",
+        "stockcar 99":"stock car 99"
+    };
+    return aliases[n] || n;
+}
+
+function eventIsChallengeScope(event) {
+    const challenges = Array.isArray(latestData?.challenges) ? latestData.challenges : [];
+    const ch = challenges.find(x => Number(x.id) === Number(event.challengeId));
+    if (ch && event.vehicleClass) {
+        const actual = canonicalClassForUi(event.vehicleClass);
+        const wanted = (ch.challengeClasses || []).map(canonicalClassForUi);
+        if (wanted.includes(actual)) return true;
+        return wanted.some(w => actual.startsWith(w + " ") || w.startsWith(actual + " "));
+    }
+    if (Array.isArray(event.scopes)) return event.scopes.includes("challenge");
+    return event.challengeEligible === true || event.legacyMode === "challenge";
+}
+
 function historyTable(events) {
     if (!events || events.length === 0) {
         return `<div class="history-empty">Zatím žádná nová událost.</div>`;
@@ -1009,7 +1043,7 @@ function historyTable(events) {
 
     const rows = [...events].reverse().map(event => {
         const friendJump = currentMode === "challenge"
-            ? (event.challengeEligible === false
+            ? (!eventIsChallengeScope(event)
                 ? "—"
                 : (event.challengeFriendJump || event.friendJump || (event.newFriendRank != null ? String(event.newFriendRank) : "—")))
             : (event.kingFriendJump || event.friendJump || (event.newFriendRank != null ? String(event.newFriendRank) : "—"));
@@ -1055,9 +1089,11 @@ function historyTable(events) {
 }
 
 function modeHistory() {
-    // History is canonical and must never silently hide valid PB events.
-    // Score mode changes rank semantics only; non-eligible Challenge events show ΔFRIENDS as —.
-    return completeHistory;
+    // V5.3.5: collector owns the split. Browser only selects the already validated view.
+    if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing;
+    if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge;
+    // Compatibility fallback for older results.json only.
+    return completeHistory.filter(event => currentMode === "all" || eventIsChallengeScope(event));
 }
 
 function renderHistory(data) {
@@ -1078,7 +1114,7 @@ function setScoreMode(mode) {
     document.getElementById("modeAll")?.classList.toggle("active", currentMode === "all");
     const note = document.getElementById("modeNote");
     if (note) note.textContent = currentMode === "all"
-        ? "ALL cars / ALL classes · best per driver + vehicle · absolute time"
+        ? "KING · all cars found on the 10 challenge tracks · best per driver + vehicle"
         : "official Challenge Class · one best time per driver";
     if (latestData) renderAll(latestData);
 }
