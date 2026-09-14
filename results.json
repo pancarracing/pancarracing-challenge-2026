@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-14T08:46:01+02:00",
+  "updated": "2026-09-14T09:06:02+02:00",
   "challenges": [
     {
       "id": 1,
@@ -444,11 +444,30 @@
       "activeBoards": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
-          "friends": 1
+          "friends": 2
         }
       ],
       "boardErrors": [],
       "results": [
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 306371028,
+          "rank": 4,
+          "score": 71900,
+          "time": "01:11.900",
+          "board": "cars2_autoevent_9873_4186114222_0_0",
+          "boardA": 9873,
+          "boardB": 4186114222,
+          "mergedRank": 1
+        },
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
@@ -460,13 +479,13 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 306371028,
-          "rank": 4,
+          "rank": 5,
           "score": 73757,
           "time": "01:13.757",
           "board": "cars2_autoevent_9873_4186114222_0_0",
           "boardA": 9873,
           "boardB": 4186114222,
-          "mergedRank": 1
+          "mergedRank": 2
         }
       ],
       "allClassesResults": [
@@ -490,6 +509,25 @@
           "mergedRank": 1
         },
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 306371028,
+          "rank": 4,
+          "score": 71900,
+          "time": "01:11.900",
+          "board": "cars2_autoevent_9873_4186114222_0_0",
+          "boardA": 9873,
+          "boardB": 4186114222,
+          "mergedRank": 2
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 306371028,
@@ -500,13 +538,13 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 306371028,
-          "rank": 4,
+          "rank": 5,
           "score": 73757,
           "time": "01:13.757",
           "board": "cars2_autoevent_9873_4186114222_0_0",
           "boardA": 9873,
           "boardB": 4186114222,
-          "mergedRank": 2
+          "mergedRank": 3
         }
       ]
     },
@@ -2368,6 +2406,44 @@
       "worldJump": "26→16",
       "worldColor": "green",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T09:06:02+02:00",
+      "challengeId": 5,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_9873_4186114222_0_0",
+      "boardA": 9873,
+      "boardB": 4186114222,
+      "track": "Taruma",
+      "score": 71900,
+      "time": "01:11.900",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "friendJump": "2",
+      "friendColor": "",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 4,
+      "worldJump": "4",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "historyKing": [
@@ -3520,6 +3596,44 @@
       "worldJump": "26→16",
       "worldColor": "green",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T09:06:02+02:00",
+      "challengeId": 5,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_9873_4186114222_0_0",
+      "boardA": 9873,
+      "boardB": 4186114222,
+      "track": "Taruma",
+      "score": 71900,
+      "time": "01:11.900",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "friendJump": "2",
+      "friendColor": "",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 4,
+      "worldJump": "4",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "historyChallenge": [
@@ -4042,43 +4156,47 @@
       "worldJump": "30→27",
       "worldColor": "green",
       "timeColor": "blue"
-    }
-  ],
-  "last10": [
+    },
     {
-      "timestamp": "2026-09-13T18:39:17+02:00",
-      "challengeId": 4,
+      "timestamp": "2026-09-14T09:06:02+02:00",
+      "challengeId": 5,
       "driver": "dr.slimm",
       "steamId": "76561198089049981",
-      "vehicleHash": 2081977850,
-      "vehicle": "Stock Car USA Gen.3",
-      "vehicleClass": "Stock Car USA Gen3",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_15020_3826312417_0_0",
-      "boardA": 15020,
-      "boardB": 3826312417,
-      "track": "Indianapolis",
-      "score": 53280,
-      "time": "00:53.280",
+      "board": "cars2_autoevent_9873_4186114222_0_0",
+      "boardA": 9873,
+      "boardB": 4186114222,
+      "track": "Taruma",
+      "score": 71900,
+      "time": "01:11.900",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": false,
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
       "oldFriendRank": null,
-      "newFriendRank": 1,
-      "friendJump": "1",
+      "newFriendRank": 2,
+      "friendJump": "2",
       "friendColor": "",
-      "kingFriendJump": "1",
+      "kingFriendJump": "2",
       "kingFriendColor": "",
-      "challengeFriendJump": "—",
+      "challengeFriendJump": "1",
       "challengeFriendColor": "",
       "oldWorldRank": null,
-      "newWorldRank": 205,
-      "worldJump": "205",
+      "newWorldRank": 4,
+      "worldJump": "4",
       "worldColor": "",
       "timeColor": "blue"
-    },
+    }
+  ],
+  "last10": [
     {
       "timestamp": "2026-09-13T18:53:47+02:00",
       "challengeId": 7,
@@ -4390,44 +4508,47 @@
       "worldJump": "26→16",
       "worldColor": "green",
       "timeColor": "blue"
-    }
-  ],
-  "last20": [
+    },
     {
-      "timestamp": "2026-09-13T18:37:51+02:00",
-      "challengeId": 9,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 532833672,
-      "vehicle": "McLaren MP4/12",
-      "vehicleClass": "",
+      "timestamp": "2026-09-14T09:06:02+02:00",
+      "challengeId": 5,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_12248_1060182346_0_0",
-      "boardA": 12248,
-      "boardB": 1060182346,
-      "track": "Circuit des 24 Heures du Mans",
-      "score": 206164,
-      "time": "03:26.164",
+      "board": "cars2_autoevent_9873_4186114222_0_0",
+      "boardA": 9873,
+      "boardB": 4186114222,
+      "track": "Taruma",
+      "score": 71900,
+      "time": "01:11.900",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": false,
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
       "oldFriendRank": null,
-      "newFriendRank": 1,
-      "friendJump": "1",
+      "newFriendRank": 2,
+      "friendJump": "2",
       "friendColor": "",
-      "kingFriendJump": "1",
+      "kingFriendJump": "2",
       "kingFriendColor": "",
-      "challengeFriendJump": "—",
+      "challengeFriendJump": "1",
       "challengeFriendColor": "",
       "oldWorldRank": null,
-      "newWorldRank": 62,
-      "worldJump": "62",
+      "newWorldRank": 4,
+      "worldJump": "4",
       "worldColor": "",
-      "timeColor": "blue",
-      "baselineReset": true
-    },
+      "timeColor": "blue"
+    }
+  ],
+  "last20": [
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
       "challengeId": 9,
@@ -5087,15 +5208,53 @@
       "worldJump": "26→16",
       "worldColor": "green",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T09:06:02+02:00",
+      "challengeId": 5,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_9873_4186114222_0_0",
+      "boardA": 9873,
+      "boardB": 4186114222,
+      "track": "Taruma",
+      "score": 71900,
+      "time": "01:11.900",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "friendJump": "2",
+      "friendColor": "",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 4,
+      "worldJump": "4",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "collector": {
     "version": "V5.3.7",
     "mode": "challenge",
-    "elapsedSeconds": 47.2,
+    "elapsedSeconds": 47.1,
     "boardsScanned": 94,
     "boardsOk": 94,
-    "rawFriendEntries": 18,
+    "rawFriendEntries": 19,
     "errors": 0,
     "catalogVehicles": 259,
     "unknownVehicles": 1
