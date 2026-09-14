@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updated": "2026-09-14T08:06:02+02:00",
+  "updated": "2026-09-14T08:26:01+02:00",
   "challenges": [
     {
       "id": 1,
@@ -19,8 +19,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6735_612695202_0_0",
@@ -128,7 +128,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_7066_884472481_0_0",
       "boardsScanned": 1,
-      "scanMode": "complete",
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7066_884472481_0_0",
@@ -206,13 +206,9 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1951_3378488487_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_1950_3378488487_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_1951_3378488487_0_0",
           "friends": 1
@@ -305,18 +301,18 @@
       "allPolicy": "",
       "board": "cars2_autoevent_4556_3826312417_0_0",
       "boardsScanned": 85,
-      "scanMode": "complete",
+      "scanMode": "challenge",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_4556_3826312417_0_0",
+          "friends": 2
+        },
         {
           "board": "cars2_autoevent_15020_3826312417_0_0",
           "friends": 2
         },
         {
           "board": "cars2_autoevent_4526_3826312417_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_4556_3826312417_0_0",
           "friends": 1
         }
       ],
@@ -362,6 +358,25 @@
           "mergedRank": 2
         },
         {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -371227432,
+          "vehicle": "Chevrolet Omega Stock Car 1999",
+          "vehicleClass": "StockCar99",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -371227432,
+          "rank": 26,
+          "score": 63839,
+          "time": "01:03.839",
+          "board": "cars2_autoevent_4556_3826312417_0_0",
+          "boardA": 4556,
+          "boardB": 3826312417,
+          "mergedRank": 3
+        },
+        {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": -371227432,
@@ -372,13 +387,13 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -371227432,
-          "rank": 27,
+          "rank": 28,
           "score": 65018,
           "time": "01:05.018",
           "board": "cars2_autoevent_4556_3826312417_0_0",
           "boardA": 4556,
           "boardB": 3826312417,
-          "mergedRank": 3
+          "mergedRank": 4
         },
         {
           "steamId": "76561198012880510",
@@ -397,7 +412,7 @@
           "board": "cars2_autoevent_4526_3826312417_0_0",
           "boardA": 4526,
           "boardB": 3826312417,
-          "mergedRank": 4
+          "mergedRank": 5
         }
       ]
     },
@@ -424,15 +439,11 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_9873_4186114222_0_0",
-      "boardsScanned": 78,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9885_4186114222_0_0",
           "friends": 1
         }
       ],
@@ -525,8 +536,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
-      "boardsScanned": 93,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_15482_701322116_0_0",
@@ -598,17 +609,9 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_10366_2134032188_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_10325_2134032188_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_10357_2134032188_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_10366_2134032188_0_0",
           "friends": 2
@@ -751,8 +754,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
@@ -851,28 +854,12 @@
       "allClasses": [],
       "allPolicy": "OPEN_NON_KART",
       "board": "cars2_autoevent_12259_1060182346_0_0",
-      "boardsScanned": 80,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_12208_1060182346_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12248_1060182346_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12252_1060182346_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_12259_1060182346_0_0",
           "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12287_1060182346_0_0",
-          "friends": 4
         }
       ],
       "boardErrors": [],
@@ -1072,8 +1059,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1052_799677855_0_0",
@@ -2307,6 +2294,43 @@
       "worldJump": "30→27",
       "worldColor": "green",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T08:26:01+02:00",
+      "challengeId": 4,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": -371227432,
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "vehicleClass": "StockCar99",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4556_3826312417_0_0",
+      "boardA": 4556,
+      "boardB": 3826312417,
+      "track": "Indianapolis",
+      "score": 63839,
+      "time": "01:03.839",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 26,
+      "worldJump": "26",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "historyKing": [
@@ -3385,6 +3409,43 @@
       "worldJump": "30→27",
       "worldColor": "green",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T08:26:01+02:00",
+      "challengeId": 4,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": -371227432,
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "vehicleClass": "StockCar99",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4556_3826312417_0_0",
+      "boardA": 4556,
+      "boardB": 3826312417,
+      "track": "Indianapolis",
+      "score": 63839,
+      "time": "01:03.839",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 26,
+      "worldJump": "26",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "historyChallenge": [
@@ -3911,41 +3972,6 @@
   ],
   "last10": [
     {
-      "timestamp": "2026-09-13T18:37:51+02:00",
-      "challengeId": 10,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": -830134672,
-      "vehicle": "Lotus 23",
-      "vehicleClass": "TC60S2",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_1052_799677855_0_0",
-      "boardA": 1052,
-      "boardB": 799677855,
-      "track": "Buenos Aires Circuito No.12",
-      "score": 136580,
-      "time": "02:16.580",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": true,
-      "oldFriendRank": null,
-      "newFriendRank": 1,
-      "friendJump": "1",
-      "friendColor": "",
-      "kingFriendJump": "1",
-      "kingFriendColor": "",
-      "challengeFriendJump": "1",
-      "challengeFriendColor": "",
-      "oldWorldRank": null,
-      "newWorldRank": 4,
-      "worldJump": "4",
-      "worldColor": "",
-      "timeColor": "blue",
-      "baselineReset": true
-    },
-    {
       "timestamp": "2026-09-13T18:38:18+02:00",
       "challengeId": 10,
       "driver": "dr.slimm",
@@ -4250,44 +4276,46 @@
       "worldJump": "30→27",
       "worldColor": "green",
       "timeColor": "blue"
-    }
-  ],
-  "last20": [
+    },
     {
-      "timestamp": "2026-09-13T18:37:51+02:00",
-      "challengeId": 8,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 575788923,
-      "vehicle": "Formula Trainer",
-      "vehicleClass": "F-Trainer",
+      "timestamp": "2026-09-14T08:26:01+02:00",
+      "challengeId": 4,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": -371227432,
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "vehicleClass": "StockCar99",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardA": 7647,
-      "boardB": 4202898090,
-      "track": "Oulton Park Fosters",
-      "score": 67635,
-      "time": "01:07.635",
+      "board": "cars2_autoevent_4556_3826312417_0_0",
+      "boardA": 4556,
+      "boardB": 3826312417,
+      "track": "Indianapolis",
+      "score": 63839,
+      "time": "01:03.839",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": true,
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
       "oldFriendRank": null,
-      "newFriendRank": 1,
-      "friendJump": "1",
+      "newFriendRank": 3,
+      "friendJump": "3",
       "friendColor": "",
-      "kingFriendJump": "1",
+      "kingFriendJump": "3",
       "kingFriendColor": "",
-      "challengeFriendJump": "1",
+      "challengeFriendJump": "—",
       "challengeFriendColor": "",
       "oldWorldRank": null,
-      "newWorldRank": 41,
-      "worldJump": "41",
+      "newWorldRank": 26,
+      "worldJump": "26",
       "worldColor": "",
-      "timeColor": "blue",
-      "baselineReset": true
-    },
+      "timeColor": "blue"
+    }
+  ],
+  "last20": [
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
       "challengeId": 8,
@@ -4943,15 +4971,52 @@
       "worldJump": "30→27",
       "worldColor": "green",
       "timeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-14T08:26:01+02:00",
+      "challengeId": 4,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": -371227432,
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "vehicleClass": "StockCar99",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4556_3826312417_0_0",
+      "boardA": 4556,
+      "boardB": 3826312417,
+      "track": "Indianapolis",
+      "score": 63839,
+      "time": "01:03.839",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 26,
+      "worldJump": "26",
+      "worldColor": "",
+      "timeColor": "blue"
     }
   ],
   "collector": {
     "version": "V5.3.7",
-    "mode": "complete",
-    "elapsedSeconds": 358.7,
-    "boardsScanned": 717,
-    "boardsOk": 717,
-    "rawFriendEntries": 28,
+    "mode": "challenge",
+    "elapsedSeconds": 47.0,
+    "boardsScanned": 94,
+    "boardsOk": 94,
+    "rawFriendEntries": 18,
     "errors": 0,
     "catalogVehicles": 259,
     "unknownVehicles": 1
