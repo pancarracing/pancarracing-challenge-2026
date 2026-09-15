@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-15T23:42:01+02:00",
+  "updated": "2026-09-16T00:02:01+02:00",
   "challenges": [
     {
       "id": 1,
@@ -21,13 +21,13 @@
       "board": "cars2_autoevent_6735_612695202_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_6735_612695202_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -110,13 +110,13 @@
       "board": "cars2_autoevent_7066_884472481_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_7066_884472481_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -173,13 +173,13 @@
       "board": "cars2_autoevent_733_1534602052_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_733_1534602052_0_0",
-          "friends": 2
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -305,13 +305,13 @@
       "board": "cars2_autoevent_4556_3826312417_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_4556_3826312417_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -456,13 +456,13 @@
       "board": "cars2_autoevent_9873_4186114222_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -572,13 +572,13 @@
       "board": "cars2_autoevent_15482_701322116_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_15482_701322116_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -664,13 +664,13 @@
       "board": "cars2_autoevent_10366_2134032188_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_10366_2134032188_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -790,13 +790,13 @@
       "board": "cars2_autoevent_7647_4202898090_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -871,13 +871,13 @@
       "board": "cars2_autoevent_12259_1060182346_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_12259_1060182346_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -1095,13 +1095,13 @@
       "board": "cars2_autoevent_1052_799677855_0_0",
       "boardsScanned": 1,
       "scanMode": "challenge",
-      "activeBoards": [
+      "activeBoards": [],
+      "boardErrors": [
         {
           "board": "cars2_autoevent_1052_799677855_0_0",
-          "friends": 1
+          "status": "find-failed"
         }
       ],
-      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -5922,11 +5922,11 @@
   "collector": {
     "version": "V5.4.0",
     "mode": "challenge",
-    "elapsedSeconds": 5.0,
+    "elapsedSeconds": 80.1,
     "boardsScanned": 10,
-    "boardsOk": 10,
-    "rawFriendEntries": 11,
-    "errors": 0,
+    "boardsOk": 0,
+    "rawFriendEntries": 0,
+    "errors": 10,
     "catalogVehicles": 259,
     "unknownVehicles": 1
   }
