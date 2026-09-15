@@ -445,6 +445,7 @@ body {
 .event-blue { color: #2e9cff; }
 .event-green { color: #5fcf61; }
 .event-gold { color: #d4af37; }
+.event-purple { color: #b45cff; }
 
 .history-empty {
     padding: 16px;
@@ -1057,9 +1058,14 @@ function historyTable(events) {
             (event.newWorldRank != null ? String(event.newWorldRank) :
                 (event.rank != null ? String(event.rank) : "—"));
 
-        const friendClass = eventColorClass(currentMode === "challenge" ? (event.challengeFriendColor || event.friendColor || "") : (event.kingFriendColor || event.friendColor || ""));
-        const deltaClass = event.isNew ? "event-blue" : "";
-        const timeClass = eventColorClass(event.timeColor || event.color || "blue");
+        // A completely new first recorded time is purple in both ΔFRIENDS and TIME.
+        // Gold remains reserved for beating another driver.
+        const firstRecordedTime = event.isNew === true;
+        const friendClass = firstRecordedTime
+            ? "event-purple"
+            : eventColorClass(currentMode === "challenge" ? (event.challengeFriendColor || event.friendColor || "") : (event.kingFriendColor || event.friendColor || ""));
+        const deltaClass = firstRecordedTime ? "event-purple" : "";
+        const timeClass = firstRecordedTime ? "event-purple" : eventColorClass(event.timeColor || event.color || "blue");
         const worldClass = eventColorClass(event.worldColor || "");
 
         return `
