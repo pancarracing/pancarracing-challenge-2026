@@ -1038,6 +1038,15 @@ function eventIsChallengeScope(event) {
     return event.challengeEligible === true || event.legacyMode === "challenge";
 }
 
+function canonicalHistoryTrack(event) {
+    const boardB = Number(event?.boardB) || Number(String(event?.board || "").match(/^cars2_autoevent_\d+_(\d+)_/)?.[1]);
+    if (boardB && Array.isArray(latestData?.challenges)) {
+        const challenge = latestData.challenges.find(item => Number(item.trackB) === boardB);
+        if (challenge?.name) return challenge.name;
+    }
+    return event?.track || "";
+}
+
 function historyTable(events) {
     if (!events || events.length === 0) {
         return `<div class="history-empty">Zatím žádná nová událost.</div>`;
@@ -1076,7 +1085,7 @@ function historyTable(events) {
                 <div class="history-time ${timeClass}">${text(event.time)}</div>
                 <div class="history-world ${worldClass}">${text(worldJump)}</div>
                 <div class="history-vehicle">${text(event.vehicle || event.vehicleHash || "")}${vehicleDlcBadge(event)}</div>
-                <div class="history-track">${text(event.track || "")}</div>
+                <div class="history-track">${text(canonicalHistoryTrack(event))}</div>
             </div>
         `;
     }).join("");
