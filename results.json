@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-15T17:28:01+02:00",
+  "updated": "2026-09-15T17:41:51+02:00",
   "challenges": [
     {
       "id": 1,
@@ -5934,7 +5934,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "challenge",
-    "elapsedSeconds": 5.2,
+    "elapsedSeconds": 5.0,
     "boardsScanned": 10,
     "boardsOk": 10,
     "rawFriendEntries": 19,
