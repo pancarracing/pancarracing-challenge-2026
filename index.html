@@ -1062,7 +1062,7 @@ function canonicalImpactColor(event) {
     if (explicitFriend === "green" || event.timeColor === "green" || event.color === "green") return "green";
     if (event.eventType === "TAKEOVER") return "gold";
     if (event.eventType === "RANK_UP") return "green";
-    if (event.eventType === "NEW" || event.isNew === true) return "purple";
+    if (event.eventType === "NEW" || event.isNew === true) return "white";
     return event.timeColor || event.color || "blue";
 }
 function isRealDelta(event) {
@@ -1113,7 +1113,7 @@ function historyTable(events) {
         const friendStored = currentMode === "challenge"
             ? (event.challengeFriendColor || event.friendColor || "")
             : (event.kingFriendColor || event.friendColor || "");
-        const friendClass = eventColorClass(friendStored || (event.isNew ? "purple" : mainColor));
+        const friendClass = eventColorClass(friendStored || (event.isNew ? "white" : mainColor));
         const deltaClass = eventColorClass(mainColor);
         const timeClass = eventColorClass(mainColor);
         const worldClass = eventColorClass(event.worldColor || "");
