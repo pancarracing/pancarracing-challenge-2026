@@ -965,6 +965,7 @@ let currentMode = "challenge";
 let latestData = null;
 
 function eventColorClass(value) {
+    if (String(value || "").toLowerCase() === "white") return "";
     if (value === "gold") return "event-gold";
     if (value === "green") return "event-green";
     if (value === "blue") return "event-blue";

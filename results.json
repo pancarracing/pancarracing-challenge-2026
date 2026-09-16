@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-16T11:51:51+02:00",
+  "updated": "2026-09-16T12:09:03+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1414,19 +1414,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1469,19 +1463,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1524,19 +1512,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1579,19 +1561,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1634,19 +1610,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1689,19 +1659,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1744,19 +1708,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1799,19 +1757,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -1854,19 +1806,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:38:18+02:00",
@@ -1908,19 +1854,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:53:47+02:00",
@@ -1962,12 +1902,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -2016,13 +1956,7 @@
         "deltaFriends": "gold",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-13T22:29:51+02:00",
@@ -2064,19 +1998,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T00:28:36+02:00",
@@ -2118,12 +2046,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -2168,17 +2096,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T08:26:01+02:00",
@@ -2223,12 +2145,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -2276,13 +2198,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T09:06:02+02:00",
@@ -2328,12 +2248,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -2382,13 +2302,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -2434,15 +2352,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -2488,15 +2404,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T23:09:59+02:00",
@@ -2542,15 +2456,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-15T12:15:29+02:00",
@@ -2596,15 +2508,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-16T08:29:10+02:00",
@@ -2612,7 +2522,7 @@
       "timestampKind": "first-observed-on-live-page",
       "challengeId": 3,
       "driver": "Vojtano帅哥",
-      "steamId": "76561199878210155",
+      "steamId": "",
       "vehicleHash": 1818602836,
       "vehicle": "MINI Cooper JCW",
       "vehicleClass": "MINICHALLENGE",
@@ -2633,27 +2543,13 @@
       "friendJump": "NEW→3",
       "eventTypeFixed": "post_freeze_new",
       "cellColors": {
-        "time": "purple",
-        "deltaTime": "purple",
-        "friends": "purple",
-        "deltaFriends": "purple",
-        "world": "purple",
-        "deltaWorld": "purple"
-      },
-      "vehicleDlc": false,
-      "board": "cars2_autoevent_733_1534602052_0_0",
-      "boardA": 733,
-      "boardB": 1534602052,
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "kingFriendJump": "3",
-      "newWorldRank": 688,
-      "worldJump": "688",
-      "timeColor": "blue",
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-16T08:35:09+02:00",
@@ -3283,19 +3179,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3338,19 +3228,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3393,19 +3277,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3448,19 +3326,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3503,19 +3375,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3558,19 +3424,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3613,19 +3473,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3668,19 +3522,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3723,19 +3571,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:38:18+02:00",
@@ -3777,19 +3619,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:53:47+02:00",
@@ -3831,12 +3667,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -3885,13 +3721,7 @@
         "deltaFriends": "gold",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-13T22:29:51+02:00",
@@ -3933,19 +3763,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T00:28:36+02:00",
@@ -3987,12 +3811,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -4037,17 +3861,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T08:26:01+02:00",
@@ -4092,12 +3910,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -4145,13 +3963,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T09:06:02+02:00",
@@ -4197,12 +4013,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -4251,13 +4067,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -4303,15 +4117,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -4357,15 +4169,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T23:09:59+02:00",
@@ -4411,15 +4221,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-15T12:15:29+02:00",
@@ -4465,15 +4273,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-16T08:29:10+02:00",
@@ -4481,7 +4287,7 @@
       "timestampKind": "first-observed-on-live-page",
       "challengeId": 3,
       "driver": "Vojtano帅哥",
-      "steamId": "76561199878210155",
+      "steamId": "",
       "vehicleHash": 1818602836,
       "vehicle": "MINI Cooper JCW",
       "vehicleClass": "MINICHALLENGE",
@@ -4502,27 +4308,13 @@
       "friendJump": "NEW→3",
       "eventTypeFixed": "post_freeze_new",
       "cellColors": {
-        "time": "purple",
-        "deltaTime": "purple",
-        "friends": "purple",
-        "deltaFriends": "purple",
-        "world": "purple",
-        "deltaWorld": "purple"
-      },
-      "vehicleDlc": false,
-      "board": "cars2_autoevent_733_1534602052_0_0",
-      "boardA": 733,
-      "boardB": 1534602052,
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "kingFriendJump": "3",
-      "newWorldRank": 688,
-      "worldJump": "688",
-      "timeColor": "blue",
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-16T08:35:09+02:00",
@@ -5152,19 +4944,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5207,19 +4993,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5262,19 +5042,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5317,19 +5091,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5372,19 +5140,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5427,19 +5189,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5482,19 +5238,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5537,19 +5287,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -5592,19 +5336,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:38:18+02:00",
@@ -5646,19 +5384,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-13T18:53:47+02:00",
@@ -5700,12 +5432,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -5754,13 +5486,7 @@
         "deltaFriends": "gold",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-13T22:29:51+02:00",
@@ -5802,19 +5528,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T00:28:36+02:00",
@@ -5856,12 +5576,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -5906,17 +5626,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T08:26:01+02:00",
@@ -5961,12 +5675,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -6014,13 +5728,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T09:06:02+02:00",
@@ -6066,12 +5778,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -6120,13 +5832,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -6172,15 +5882,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -6226,15 +5934,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T23:09:59+02:00",
@@ -6280,15 +5986,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-15T12:15:29+02:00",
@@ -6334,15 +6038,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-16T08:29:10+02:00",
@@ -6350,7 +6052,7 @@
       "timestampKind": "first-observed-on-live-page",
       "challengeId": 3,
       "driver": "Vojtano帅哥",
-      "steamId": "76561199878210155",
+      "steamId": "",
       "vehicleHash": 1818602836,
       "vehicle": "MINI Cooper JCW",
       "vehicleClass": "MINICHALLENGE",
@@ -6371,27 +6073,13 @@
       "friendJump": "NEW→3",
       "eventTypeFixed": "post_freeze_new",
       "cellColors": {
-        "time": "purple",
-        "deltaTime": "purple",
-        "friends": "purple",
-        "deltaFriends": "purple",
-        "world": "purple",
-        "deltaWorld": "purple"
-      },
-      "vehicleDlc": false,
-      "board": "cars2_autoevent_733_1534602052_0_0",
-      "boardA": 733,
-      "boardB": 1534602052,
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "kingFriendJump": "3",
-      "newWorldRank": 688,
-      "worldJump": "688",
-      "timeColor": "blue",
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     }
   ],
   "last10": [
@@ -6891,12 +6579,12 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
       }
     },
     {
@@ -6945,13 +6633,11 @@
       "cellColors": {
         "time": "green",
         "deltaTime": "green",
-        "friends": "gray",
-        "deltaFriends": "gray",
+        "friends": "white",
+        "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -6997,15 +6683,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -7051,15 +6735,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-14T23:09:59+02:00",
@@ -7105,15 +6787,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-15T12:15:29+02:00",
@@ -7159,15 +6839,13 @@
       "impactEvent": true,
       "eventTypeFixed": "baseline",
       "cellColors": {
-        "time": "blue",
-        "deltaTime": "blue",
-        "friends": "blue",
-        "deltaFriends": "blue",
-        "world": "blue",
-        "deltaWorld": "blue"
-      },
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-16T08:29:10+02:00",
@@ -7175,7 +6853,7 @@
       "timestampKind": "first-observed-on-live-page",
       "challengeId": 3,
       "driver": "Vojtano帅哥",
-      "steamId": "76561199878210155",
+      "steamId": "",
       "vehicleHash": 1818602836,
       "vehicle": "MINI Cooper JCW",
       "vehicleClass": "MINICHALLENGE",
@@ -7196,27 +6874,13 @@
       "friendJump": "NEW→3",
       "eventTypeFixed": "post_freeze_new",
       "cellColors": {
-        "time": "purple",
-        "deltaTime": "purple",
-        "friends": "purple",
-        "deltaFriends": "purple",
-        "world": "purple",
-        "deltaWorld": "purple"
-      },
-      "vehicleDlc": false,
-      "board": "cars2_autoevent_733_1534602052_0_0",
-      "boardA": 733,
-      "boardB": 1534602052,
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "kingFriendJump": "3",
-      "newWorldRank": 688,
-      "worldJump": "688",
-      "timeColor": "blue",
-      "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+        "time": "white",
+        "deltaTime": "white",
+        "friends": "white",
+        "deltaFriends": "white",
+        "world": "white",
+        "deltaWorld": "white"
+      }
     },
     {
       "timestamp": "2026-09-16T08:35:09+02:00",
@@ -7807,7 +7471,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "challenge",
-    "elapsedSeconds": 9.6,
+    "elapsedSeconds": 9.7,
     "boardsScanned": 19,
     "boardsOk": 19,
     "rawFriendEntries": 33,
