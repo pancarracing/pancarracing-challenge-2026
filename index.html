@@ -1049,6 +1049,10 @@ function canonicalImpactEvent(event) {
     if (!event || event.baselineReset === true || event.impactEvent === false || event.eventType === "BASELINE") return false;
     const s=String(event.historySource||""); return s!=="baseline" && s!=="import";
 }
+function cellEventColor(event, cell, fallback) {
+    const fixed=event && event.cellColors;
+    return fixed && fixed[cell] ? fixed[cell] : fallback;
+}
 function canonicalImpactColor(event) {
     // RC12 precedence: explicit impact colors > semantic event > legacy default blue.
     // Legacy NEW rows often contain timeColor:"blue"; that is NOT an explicit historical color.
@@ -1112,14 +1116,18 @@ function historyTable(events) {
         const deltaClass = eventColorClass(mainColor);
         const timeClass = eventColorClass(mainColor);
         const worldClass = eventColorClass(event.worldColor || "");
+        const fixedFriendClass = eventColorClass(cellEventColor(event,"deltaFriends", mainColor));
+        const fixedDeltaClass = eventColorClass(cellEventColor(event,"deltaTime", mainColor));
+        const fixedTimeClass = eventColorClass(cellEventColor(event,"time", mainColor));
+        const fixedWorldClass = eventColorClass(cellEventColor(event,"deltaWorld", event.worldColor || mainColor));
 
         return `
             <div class="history-row">
                 <div class="history-driver">${text(event.driver)}</div>
-                <div class="history-jump ${friendClass}">${text(friendJump)}</div>
-                <div class="history-delta ${deltaClass}">${text(deltaTime)}</div>
-                <div class="history-time ${timeClass}">${text(event.time)}</div>
-                <div class="history-world ${worldClass}">${text(worldJump)}</div>
+                <div class="history-jump ${fixedFriendClass}">${text(friendJump)}</div>
+                <div class="history-delta ${fixedDeltaClass}">${text(deltaTime)}</div>
+                <div class="history-time ${fixedTimeClass}">${text(event.time)}</div>
+                <div class="history-world ${fixedWorldClass}">${text(worldJump)}</div>
                 <div class="history-vehicle">${text(event.vehicle || event.vehicleHash || "")}${vehicleDlcBadge(event)}</div>
                 <div class="history-track">${text(canonicalHistoryTrack(event))}</div>
             </div>
@@ -1150,8 +1158,8 @@ function modeHistory() {
 
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
-    const selected = modeHistory().slice().sort((a,b)=>String(a.timestamp||a.detectedAt||"").localeCompare(String(b.timestamp||b.detectedAt||"")));
-    document.getElementById("last20").innerHTML = historyTable(selected.slice(-20));
+    const selected = modeHistory().slice().sort((a,b)=>String(b.timestamp||b.detectedAt||"").localeCompare(String(a.timestamp||a.detectedAt||"")));
+    document.getElementById("last20").innerHTML = historyTable(selected.slice(0,20));
 }
 
 function openHistory() {
