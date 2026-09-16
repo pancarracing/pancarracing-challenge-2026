@@ -1067,14 +1067,16 @@ function historyTable(events) {
             (event.newWorldRank != null ? String(event.newWorldRank) :
                 (event.rank != null ? String(event.rank) : "—"));
 
-        // A completely new first recorded time is purple in both ΔFRIENDS and TIME.
-        // Gold remains reserved for beating another driver.
+        // RC8: history is immutable. Render the color stored with the event.
+        // NEW gets purple only when no historical color was stored; gold therefore stays gold forever.
         const firstRecordedTime = event.isNew === true;
-        const friendClass = firstRecordedTime
-            ? "event-purple"
-            : eventColorClass(currentMode === "challenge" ? (event.challengeFriendColor || event.friendColor || "") : (event.kingFriendColor || event.friendColor || ""));
-        const deltaClass = firstRecordedTime ? "event-purple" : "";
-        const timeClass = firstRecordedTime ? "event-purple" : eventColorClass(event.timeColor || event.color || "blue");
+        const storedFriendColor = currentMode === "challenge"
+            ? (event.challengeFriendColor || event.friendColor || event.displayFriendColor || "")
+            : (event.kingFriendColor || event.friendColor || event.displayFriendColor || "");
+        const storedTimeColor = event.timeColor || event.color || event.displayTimeColor || "";
+        const friendClass = eventColorClass(storedFriendColor || (firstRecordedTime ? "purple" : ""));
+        const deltaClass = eventColorClass(firstRecordedTime ? (event.displayDeltaColor || "purple") : "");
+        const timeClass = eventColorClass(storedTimeColor || (firstRecordedTime ? "purple" : "blue"));
         const worldClass = eventColorClass(event.worldColor || "");
 
         return `
