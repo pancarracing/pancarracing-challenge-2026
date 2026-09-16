@@ -1092,7 +1092,7 @@ function historyTable(events) {
         return `<div class="history-empty">Zatím žádná nová událost.</div>`;
     }
 
-    const rows = [...events].reverse().map(event => {
+    const rows = [...events].map(event => {
         const friendJump = currentMode === "challenge"
             ? (!eventIsChallengeScope(event)
                 ? "—"
