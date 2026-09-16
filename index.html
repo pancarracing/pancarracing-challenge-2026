@@ -817,6 +817,9 @@ body {
 <style id="rc6css">.rc6{max-width:1180px;margin:18px auto;padding:16px;background:#0d0d12;border:1px solid #292934;border-radius:14px}.rc6 table{width:100%;border-collapse:collapse}.rc6 th,.rc6 td{padding:8px;border-bottom:1px solid #292934;text-align:left}.rc6 button{background:#181820;color:#eee;border:1px solid #555;border-radius:12px;padding:5px 8px;cursor:pointer}.rc6scroll{overflow:auto}</style><style id="rc9-track-fixes">
 .challenge-card .track-name,.challenge .track-name,[data-track-name]{white-space:nowrap!important;overflow:visible!important;text-overflow:clip!important}
 .rc9-track-badge{display:inline-block;margin-left:8px;padding:2px 7px;border:1px solid currentColor;border-radius:10px;font-size:.68em;font-weight:800;white-space:nowrap;vertical-align:middle}
+</style><style id="rc11-track-layout">
+.challenge-card h2,.challenge-card h3,.challenge-section h2,.challenge-section h3,.track-name,[data-track-name]{white-space:nowrap!important;max-width:none!important}
+.rc9-track-badge{white-space:nowrap!important}
 </style></head>
 
 <body>
@@ -1041,6 +1044,18 @@ function eventIsChallengeScope(event) {
     return event.challengeEligible === true || event.legacyMode === "challenge";
 }
 
+function canonicalImpactEvent(event) {
+    if (!event || event.baselineReset === true || event.impactEvent === false || event.eventType === "BASELINE") return false;
+    const s=String(event.historySource||""); return s!=="baseline" && s!=="import";
+}
+function canonicalImpactColor(event) {
+    const stored=event.challengeFriendColor||event.friendColor||event.displayFriendColor||event.timeColor||event.color||"";
+    if(stored)return stored;
+    if(event.eventType==="TAKEOVER")return "gold";
+    if(event.eventType==="RANK_UP")return "green";
+    if(event.eventType==="NEW"||event.isNew===true)return "purple";
+    return "blue";
+}
 function canonicalHistoryTrack(event) {
     const boardB = Number(event?.boardB) || Number(String(event?.board || "").match(/^cars2_autoevent_\d+_(\d+)_/)?.[1]);
     if (boardB && Array.isArray(latestData?.challenges)) {
@@ -1070,20 +1085,11 @@ function historyTable(events) {
             (event.newWorldRank != null ? String(event.newWorldRank) :
                 (event.rank != null ? String(event.rank) : "—"));
 
-        // RC9: immutable four-color history.
-        // Stored historical colors always win. Purple is only the fallback for a genuinely new,
-        // not-yet-historical first time. Gold therefore can never be overwritten by isNew.
-        const firstRecordedTime = event.isNew === true;
-        const storedFriendColor = currentMode === "challenge"
-            ? (event.challengeFriendColor || event.friendColor || event.displayFriendColor || "")
-            : (event.kingFriendColor || event.friendColor || event.displayFriendColor || "");
-        const storedTimeColor = event.timeColor || event.color || event.displayTimeColor || "";
-        const frozen = event.frozen === true || !!event.historySource;
-        const friendColor = storedFriendColor || ((!frozen && firstRecordedTime) ? "purple" : "");
-        const timeColor = storedTimeColor || ((!frozen && firstRecordedTime) ? "purple" : "blue");
-        const friendClass = eventColorClass(friendColor);
-        const deltaClass = eventColorClass((!frozen && firstRecordedTime) ? "purple" : "");
-        const timeClass = eventColorClass(timeColor);
+        // RC11 canonical four-color impact log.
+        const mainColor = canonicalImpactColor(event);
+        const friendClass = eventColorClass(mainColor);
+        const deltaClass = eventColorClass(mainColor);
+        const timeClass = eventColorClass(mainColor);
         const worldClass = eventColorClass(event.worldColor || "");
 
         return `
@@ -1115,10 +1121,10 @@ function historyTable(events) {
 
 function modeHistory() {
     // V5.3.5: collector owns the split. Browser only selects the already validated view.
-    if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing;
-    if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge;
+    if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing.filter(canonicalImpactEvent);
+    if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge.filter(canonicalImpactEvent);
     // Compatibility fallback for older results.json only.
-    return completeHistory.filter(event => currentMode === "all" || eventIsChallengeScope(event));
+    return completeHistory.filter(event => canonicalImpactEvent(event) && (currentMode === "all" || eventIsChallengeScope(event)));
 }
 
 function renderHistory(data) {
@@ -1421,5 +1427,5 @@ addEventListener("DOMContentLoaded",async()=>{
   for(let x of base.filter(x=>x.dlc)){for(let el of document.querySelectorAll("h2,h3,.track-name")){if(el.textContent.trim().startsWith(x.name)&&!el.querySelector(".rc9-track-badge"))el.insertAdjacentHTML("beforeend",R9badge(x.pack))}}
  }catch(e){console.error("track db",e)}
 });
-</script></body>
+</script><script id="rc11-track-merge">addEventListener("DOMContentLoaded",()=>document.querySelectorAll(".challenge-card,.challenge-section").forEach(card=>card.querySelectorAll("th,td,div").forEach(el=>{if(!el.textContent.trim()&&String(el.className).toLowerCase().includes("track"))el.style.display="none"})));</script></body>
 </html>
