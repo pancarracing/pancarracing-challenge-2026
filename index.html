@@ -1150,7 +1150,9 @@ function historyTable(events) {
 }
 
 function modeHistory() {
-    // V5.3.5: collector owns the split. Browser only selects the already validated view.
+    // V2.2 KING MASTER: this is an authoritative frozen display table.
+    // Never reconstruct/filter/reorder it from live Steam history.
+    if (currentMode === "all" && Array.isArray(latestData?.kingMasterTop20)) return latestData.kingMasterTop20.slice();
     if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing.filter(canonicalImpactEvent);
     if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge.filter(canonicalImpactEvent);
     // Compatibility fallback for older results.json only.
@@ -1159,7 +1161,10 @@ function modeHistory() {
 
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
-    const selected = modeHistory().slice().sort((a,b)=>String(b.timestamp||b.detectedAt||"").localeCompare(String(a.timestamp||a.detectedAt||"")));
+    // KING MASTER is already in approved #1..#20 order (newest first). Do not sort it.
+    const selected = currentMode === "all" && Array.isArray(latestData?.kingMasterTop20)
+        ? modeHistory().slice()
+        : modeHistory().slice().sort((a,b)=>String(b.timestamp||b.detectedAt||"").localeCompare(String(a.timestamp||a.detectedAt||"")));
     document.getElementById("last20").innerHTML = historyTable(selected.slice(0,20));
 }
 
