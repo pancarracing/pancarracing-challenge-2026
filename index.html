@@ -1150,7 +1150,7 @@ function modeHistory() {
 
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
-    const selected = modeHistory();
+    const selected = modeHistory().slice().sort((a,b)=>String(a.timestamp||a.detectedAt||"").localeCompare(String(b.timestamp||b.detectedAt||"")));
     document.getElementById("last20").innerHTML = historyTable(selected.slice(-20));
 }
 
