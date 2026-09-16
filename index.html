@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- PANCARtiming 2.2.1 -->
 <title>Pancarracing Time Trial Challenge 2026</title>
 
 <style>
@@ -384,7 +385,7 @@ body {
     min-width: 850px;
     display: grid;
     grid-template-columns:
-        minmax(105px, .72fr)
+        minmax(74px, .50fr)
         96px
         92px
         112px
@@ -533,6 +534,7 @@ body {
 
 /* SCOREBOARD MODE */
 .score-mode-panel {
+    position: sticky; top: 6px; z-index: 9000; background:#050505; padding:6px 0;
     margin: 0 0 12px;
     display: grid;
     grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto;
@@ -813,6 +815,11 @@ body {
     }
 }
 
+
+.player-dlc-badge{display:inline-block;margin-left:5px;padding:1px 5px;border:1px solid #d4af37;border-radius:8px;color:#d4af37;font:800 8px Arial,sans-serif;vertical-align:middle;white-space:nowrap}
+.history-row .history-time{padding:2px 5px;border-radius:4px;background:rgba(255,255,255,.025)}
+.history-row .gold::after{content:" 🏆"}
+.rc-filter{width:100%;box-sizing:border-box;background:#101010;color:#ddd;border:1px solid #343434;padding:8px;margin:0 0 10px;font-weight:700}
 </style>
 <style id="rc6css">.rc6{max-width:1180px;margin:18px auto;padding:16px;background:#0d0d12;border:1px solid #292934;border-radius:14px}.rc6 table{width:100%;border-collapse:collapse}.rc6 th,.rc6 td{padding:8px;border-bottom:1px solid #292934;text-align:left}.rc6 button{background:#181820;color:#eee;border:1px solid #555;border-radius:12px;padding:5px 8px;cursor:pointer}.rc6scroll{overflow:auto}</style><style id="rc9-track-fixes">
 .challenge-card .track-name,.challenge .track-name,[data-track-name]{white-space:nowrap!important;overflow:visible!important;text-overflow:clip!important}
@@ -919,6 +926,15 @@ const challengeColors = {
     9:"#8b8b8b",
     10:"#57990f"
 };
+let playerDlcStatus={version:2,drivers:{}}; let dlcCatalogGlobal=[]; let trackDatabaseGlobal=[];
+function normPack(x){return String(x||"").toLowerCase().replace(/[´’]/g,"'").replace(/[^a-z0-9]+/g," ").trim()}
+function playerHasDlc(driver, pack){
+ if(!pack||/base game/i.test(pack)) return false; const ds=Object.values(playerDlcStatus.drivers||{});
+ const d=ds.find(x=>String(x.name||'').toLowerCase()===String(driver||'').toLowerCase()); if(!d)return false;
+ for(const c of dlcCatalogGlobal){if((d.dlc||{})[c.id]==='ANO'){let a=normPack(c.name),b=normPack(pack);if(a&&b&&(a.includes(b)||b.includes(a)||a.split(' ').filter(x=>x.length>4).some(x=>b.includes(x))))return true;}} return false;
+}
+function playerDlcBadge(driver,event){let pack=event?.vehicleDlcName||event?.trackDlcName||event?.dlcName||'';return playerHasDlc(driver,pack)?'<span class="player-dlc-badge" title="Hráč má '+text(pack)+'">DLC ✓</span>':''}
+
 
 const challengeMeta = {
     1: { car: "COPA TRUCK · Mercedes-Benz Actros", displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)" },
@@ -1124,7 +1140,7 @@ function historyTable(events) {
 
         return `
             <div class="history-row">
-                <div class="history-driver">${text(event.driver)}</div>
+                <div class="history-driver">${text(event.driver)}${playerDlcBadge(event.driver,event)}</div>
                 <div class="history-jump ${fixedFriendClass}">${text(friendJump)}</div>
                 <div class="history-delta ${fixedDeltaClass}">${text(deltaTime)}</div>
                 <div class="history-time ${fixedTimeClass}">${text(event.time)}</div>
@@ -1310,7 +1326,7 @@ function createChallengeCard(challenge) {
             const cls = result.vehicleClass || "—";
             return `<div class="driver-row">
                 <div class="position">${index + 1}.</div>
-                <div class="driver">${text(result.driver)}</div>
+                <div class="driver">${text(result.driver)}${playerDlcBadge(result.driver,result)}</div>
                 <div class="time">${text(result.time)}</div>
                 <div class="rank" title="Native Steam world rank on this board">${rank}</div>
                 ${vehicleHtml}
@@ -1441,7 +1457,7 @@ bootstrap();
 
 <section class="rc6" id="dlc-overview"><h2>AMS2 DLC PŘEHLED</h2><div style="opacity:.7;margin-bottom:10px">Ruční přehled DLC všech jezdců — ANO / NE / ?</div><div class="rc6scroll"><table id="rc7dlc"></table></div></section>
 <section class="rc6" id="rc9-car-database"><h2>DATABÁZE AUT</h2><div class="rc6scroll"><table id="rc9cars"></table></div></section>
-<section class="rc6" id="track-database"><h2>DATABÁZE TRATÍ</h2><div class="rc6scroll"><table id="rc6tracks"></table></div></section><script id="rc7dlcjs">async function RC7J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}addEventListener("DOMContentLoaded",async()=>{try{let[cat,st]=await Promise.all([RC7J("dlc_catalog.json"),RC7J("dlc_status.json")]);let ds=Object.entries(st.drivers||{}).map(([id,x])=>({id,name:x.name||id,dlc:x.dlc||{}})).sort((a,b)=>a.name.localeCompare(b.name));let q=document.querySelector("#rc7dlc");if(!q)return;q.innerHTML="<thead><tr><th>DLC</th>"+ds.map(d=>`<th>${d.name}</th>`).join("")+"</tr></thead><tbody>"+cat.map(x=>`<tr><td>${x.name}</td>`+ds.map(d=>{let v=d.dlc[x.id]||"?";return`<td>${v==="ANO"?"✓":v==="NE"?"✕":"?"}</td>`}).join("")+"</tr>").join("")+"</tbody>"}catch(e){console.error("DLC overview",e)}})</script>
+<section class="rc6" id="track-database"><h2>ALL TRACKS / DLC</h2><input class="rc-filter" id="trackDbSearch" type="search" placeholder="Filtrovat trať nebo DLC…"><div class="rc6scroll"><table id="rc6tracks"></table></div></section><script id="rc7dlcjs">async function RC7J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}addEventListener("DOMContentLoaded",async()=>{try{let[cat,st]=await Promise.all([RC7J("dlc_catalog.json"),RC7J("dlc_status.json")]); dlcCatalogGlobal=cat; playerDlcStatus=st;let ds=Object.entries(st.drivers||{}).map(([id,x])=>({id,name:x.name||id,dlc:x.dlc||{}})).sort((a,b)=>a.name.localeCompare(b.name));let q=document.querySelector("#rc7dlc");if(!q)return;q.innerHTML="<thead><tr><th>DLC</th>"+ds.map(d=>`<th>${d.name}</th>`).join("")+"</tr></thead><tbody>"+cat.map(x=>`<tr><td>${x.name}</td>`+ds.map(d=>{let v=d.dlc[x.id]||"?";return`<td>${v==="ANO"?"✓":v==="NE"?"✕":"?"}</td>`}).join("")+"</tr>").join("")+"</tbody>"}catch(e){console.error("DLC overview",e)}})</script>
 <script id="rc9dbjs">
 async function R9J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}
 function R9badge(pack){return pack&&pack!=="Base Game"?`<span class="rc9-track-badge">DLC · ${pack}</span>`:""}
@@ -1457,7 +1473,7 @@ addEventListener("DOMContentLoaded",async()=>{
   try{let tn=await R9J("track_names.json");for(let [b,n] of Object.entries(tn||{})){if(!full.some(x=>String(x.trackB)===String(b)))full.push({trackB:b,name:typeof n==="string"?n:(n.name||""),pack:(meta.get(String(b))||{}).pack})}}catch(_){}
   if(!full.length)full=base;
   full.sort((a,b)=>(a.name||"").localeCompare(b.name||""));
-  let q=document.querySelector("#rc6tracks");if(q)q.innerHTML="<tr><th>TRAŤ</th><th>TRACK B</th><th>CONTENT</th></tr>"+full.map(x=>`<tr><td>${x.name||""}</td><td>${x.trackB}</td><td>${x.pack&&x.pack!=="Base Game"?"DLC · "+x.pack:"BASE"}</td></tr>`).join("");
+  let q=document.querySelector("#rc6tracks"); trackDatabaseGlobal=full; function drawTracks(){let z=(document.querySelector("#trackDbSearch")?.value||"").toLowerCase();let rows=full.filter(x=>!z||`${x.name||""} ${x.pack||""} ${x.trackB||""}`.toLowerCase().includes(z));if(q)q.innerHTML="<tr><th>TRAŤ</th><th>TRACK B</th><th>CONTENT</th></tr>"+rows.map(x=>`<tr><td>${x.name||""}</td><td>${x.trackB}</td><td>${x.pack&&x.pack!=="Base Game"?"DLC · "+x.pack:"BASE"}</td></tr>`).join("");} drawTracks(); document.querySelector("#trackDbSearch")?.addEventListener("input",drawTracks);
   // Add pack badge beside every visible challenge track by exact text match.
   for(let x of base.filter(x=>x.dlc)){for(let el of document.querySelectorAll("h2,h3,.track-name,.challenge-name")){if(el.textContent.trim().startsWith(x.name)&&!el.querySelector(".rc9-track-badge"))el.insertAdjacentHTML("beforeend",R9badge(x.pack))}}
  }catch(e){console.error("track db",e)}
