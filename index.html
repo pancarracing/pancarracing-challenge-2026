@@ -1071,9 +1071,11 @@ function cellEventColor(event, cell, fallback) {
     return fixed && fixed[cell] ? fixed[cell] : fallback;
 }
 function canonicalImpactColor(event) {
-    // RC12 precedence: explicit impact colors > semantic event > legacy default blue.
-    // Legacy NEW rows often contain timeColor:"blue"; that is NOT an explicit historical color.
-    const explicitFriend = event.challengeFriendColor || event.friendColor || event.displayFriendColor || "";
+    // KING and CHALLENGE colors are intentionally independent.
+    // Never let a CHALLENGE takeover color leak into KING history.
+    const explicitFriend = currentMode === "all"
+        ? (event.kingFriendColor || event.displayFriendColor || event.friendColor || "")
+        : (event.challengeFriendColor || event.friendColor || event.displayFriendColor || "");
     if (explicitFriend === "gold" || event.timeColor === "gold" || event.color === "gold") return "gold";
     if (explicitFriend === "green" || event.timeColor === "green" || event.color === "green") return "green";
     if (event.eventType === "TAKEOVER") return "gold";
@@ -1166,8 +1168,8 @@ function historyTable(events) {
 }
 
 function modeHistory() {
-    // V2.2 KING MASTER: this is an authoritative frozen display table.
-    // Never reconstruct/filter/reorder it from live Steam history.
+    // 2.2.6K: immutable post-cutoff KING events first, then untouched approved MASTER.
+    if (currentMode === "all" && Array.isArray(latestData?.kingDisplayHistory)) return latestData.kingDisplayHistory.slice();
     if (currentMode === "all" && Array.isArray(latestData?.kingMasterTop20)) return latestData.kingMasterTop20.slice();
     if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing.filter(canonicalImpactEvent);
     if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge.filter(canonicalImpactEvent);
@@ -1177,8 +1179,8 @@ function modeHistory() {
 
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
-    // KING MASTER is already in approved #1..#20 order (newest first). Do not sort it.
-    const selected = currentMode === "all" && Array.isArray(latestData?.kingMasterTop20)
+    // KING display is already ordered: frozen new events newest-first, then approved MASTER.
+    const selected = currentMode === "all" && (Array.isArray(latestData?.kingDisplayHistory) || Array.isArray(latestData?.kingMasterTop20))
         ? modeHistory().slice()
         : modeHistory().slice().sort((a,b)=>String(b.timestamp||b.detectedAt||"").localeCompare(String(a.timestamp||a.detectedAt||"")));
     document.getElementById("last20").innerHTML = historyTable(selected.slice(0,20));
