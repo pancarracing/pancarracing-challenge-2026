@@ -1,0 +1,72 @@
+[
+  {
+    "challenge": 1,
+    "trackB": 612695202,
+    "name": "Monza Historic 1971 10k (no chicane)",
+    "dlc": true,
+    "pack": "Monza Pack / Premium Track Pack"
+  },
+  {
+    "challenge": 2,
+    "trackB": 884472481,
+    "name": "Nürburgring Nordschleife 2020",
+    "dlc": true,
+    "pack": "Nürburgring Pack / Premium Track Pack"
+  },
+  {
+    "challenge": 3,
+    "trackB": 1534602052,
+    "name": "Brands Hatch Full",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 4,
+    "trackB": 3826312417,
+    "name": "Indianapolis Motor Speedway Oval",
+    "dlc": true,
+    "pack": "Racin' USA Expansion Pack Pt3"
+  },
+  {
+    "challenge": 5,
+    "trackB": 4186114222,
+    "name": "Taruma Chicane",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 6,
+    "trackB": 701322116,
+    "name": "Pocono North/South Course 2",
+    "dlc": true,
+    "pack": "Racin' USA Expansion Pack"
+  },
+  {
+    "challenge": 7,
+    "trackB": 2134032188,
+    "name": "Virginia International Raceway North",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 8,
+    "trackB": 4202898090,
+    "name": "Oulton Park Fosters",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 9,
+    "trackB": 1060182346,
+    "name": "Circuit des 24 Heures du Mans",
+    "dlc": true,
+    "pack": "Le Mans DLC"
+  },
+  {
+    "challenge": 10,
+    "trackB": 799677855,
+    "name": "Buenos Aires Circuito No.12",
+    "dlc": false,
+    "pack": "Base Game"
+  }
+]
