@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-16T14:56:12+02:00",
+  "updated": "2026-09-16T15:17:46+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2876,9 +2876,9 @@
       "steamId": "76561198012880510",
       "vehicleHash": -1556432632,
       "vehicle": "Vehicle -1556432632",
-      "vehicleClass": "",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
-      "vehicleDlcName": "",
+      "vehicleDlcName": "Lamborghini Dream Pack Pt1",
       "board": "cars2_autoevent_12287_1060182346_0_0",
       "boardA": 12287,
       "boardB": 1060182346,
@@ -2921,9 +2921,9 @@
       "steamId": "76561198089049981",
       "vehicleHash": 1837911487,
       "vehicle": "Vehicle 1837911487",
-      "vehicleClass": "",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
-      "vehicleDlcName": "",
+      "vehicleDlcName": "Endurance Pack Pt3",
       "board": "cars2_autoevent_12287_1060182346_0_0",
       "boardA": 12287,
       "boardB": 1060182346,
