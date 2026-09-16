@@ -1454,7 +1454,7 @@ addEventListener("DOMContentLoaded",async()=>{
   full.sort((a,b)=>(a.name||"").localeCompare(b.name||""));
   let q=document.querySelector("#rc6tracks");if(q)q.innerHTML="<tr><th>TRAŤ</th><th>TRACK B</th><th>CONTENT</th></tr>"+full.map(x=>`<tr><td>${x.name||""}</td><td>${x.trackB}</td><td>${x.pack&&x.pack!=="Base Game"?"DLC · "+x.pack:"BASE"}</td></tr>`).join("");
   // Add pack badge beside every visible challenge track by exact text match.
-  for(let x of base.filter(x=>x.dlc)){for(let el of document.querySelectorAll("h2,h3,.track-name")){if(el.textContent.trim().startsWith(x.name)&&!el.querySelector(".rc9-track-badge"))el.insertAdjacentHTML("beforeend",R9badge(x.pack))}}
+  for(let x of base.filter(x=>x.dlc)){for(let el of document.querySelectorAll("h2,h3,.track-name,.challenge-name")){if(el.textContent.trim().startsWith(x.name)&&!el.querySelector(".rc9-track-badge"))el.insertAdjacentHTML("beforeend",R9badge(x.pack))}}
  }catch(e){console.error("track db",e)}
 });
 </script><script id="rc11-track-merge">addEventListener("DOMContentLoaded",()=>document.querySelectorAll(".challenge-card,.challenge-section").forEach(card=>card.querySelectorAll("th,td,div").forEach(el=>{if(!el.textContent.trim()&&String(el.className).toLowerCase().includes("track"))el.style.display="none"})));</script></body>
