@@ -1151,7 +1151,7 @@ function modeHistory() {
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
     const selected = modeHistory();
-    document.getElementById("last20").innerHTML = historyTable(legacyRecoveredTop20(selected));
+    document.getElementById("last20").innerHTML = historyTable(selected.slice(-20));
 }
 
 function openHistory() {
