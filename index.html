@@ -1389,17 +1389,7 @@ bootstrap();
 
 </script>
 
-<section class="rc6" id="dlc-availability"><h2>DLC AVAILABILITY</h2><div class="rc6scroll"><table id="rc6dlc"></table></div></section>
-<section class="rc6" id="track-database"><h2>DATABÁZE TRATÍ</h2><div class="rc6scroll"><table id="rc6tracks"></table></div></section><script id="rc6js">
-const RC6_DLC_API=window.PANCAR_DLC_API||"";
-async function J(u,o){let r=await fetch(u,{cache:"no-store",...(o||{})});if(!r.ok)throw Error(r.status);return r.json()}
-addEventListener("DOMContentLoaded",async()=>{try{
- let [t,s,r]=await Promise.all([J("track_database.json"),J("dlc_status.json").catch(()=>({drivers:{}})),J("results.json")]);
- let m=new Map;for(let c of (r.challenges||[]))for(let k of ["results","allClassesResults"])for(let x of(c[k]||[]))if(x.steamId)m.set(String(x.steamId),x.driver||String(x.steamId));
- let d=[...m].map(([id,n])=>({id,n})).sort((a,b)=>a.n.localeCompare(b.n));
- let q=document.querySelector("#rc6dlc");q.innerHTML="<tr><th>Challenge</th><th>Trať</th>"+d.map(x=>`<th>${x.n}</th>`).join("")+"</tr>"+t.filter(x=>x.dlc).map(x=>`<tr><td>#${x.challenge}</td><td>${x.name}</td>`+d.map(y=>{let v=s.drivers?.[y.id]?.[x.trackB]||"?";return`<td><button data-id="${y.id}" data-b="${x.trackB}" data-v="${v}">${v==="yes"?"✓ MÁ":v==="no"?"✕ NEMÁ":"?"}</button></td>`}).join("")+"</tr>").join("");
- q.onclick=async e=>{let b=e.target.closest("button");if(!b)return;if(!RC6_DLC_API){alert("Pro online zápis MÁ/NEMÁ ještě chybí bezpečný PIN API endpoint. GitHub Pages sám zapisovat neumí.");return}let pin=prompt("PIN jezdce:");if(pin===null)return;let v=b.dataset.v==="yes"?"no":b.dataset.v==="no"?"?":"yes";await J(RC6_DLC_API,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({steamId:b.dataset.id,trackB:b.dataset.b,value:v,pin})});location.reload()};
- document.querySelector("#rc6tracks").innerHTML="<tr><th>#</th><th>Trať</th><th>Track B</th><th>DLC</th><th>Balíček</th></tr>"+t.map(x=>`<tr><td>${x.challenge}</td><td>${x.name}</td><td>${x.trackB}</td><td>${x.dlc?"ANO":"NE"}</td><td>${x.pack}</td></tr>`).join("");
-}catch(e){console.error(e)}})
-</script></body>
+<section class="rc6" id="dlc-overview"><h2>AMS2 DLC PŘEHLED</h2><div style="opacity:.7;margin-bottom:10px">Ruční přehled DLC všech jezdců — ANO / NE / ?</div><div class="rc6scroll"><table id="rc7dlc"></table></div></section>
+<section class="rc6" id="track-database"><h2>DATABÁZE TRATÍ</h2><div class="rc6scroll"><table id="rc6tracks"></table></div></section><script id="rc7dlcjs">async function RC7J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}addEventListener("DOMContentLoaded",async()=>{try{let[cat,st]=await Promise.all([RC7J("dlc_catalog.json"),RC7J("dlc_status.json")]);let ds=Object.entries(st.drivers||{}).map(([id,x])=>({id,name:x.name||id,dlc:x.dlc||{}})).sort((a,b)=>a.name.localeCompare(b.name));let q=document.querySelector("#rc7dlc");if(!q)return;q.innerHTML="<thead><tr><th>DLC</th>"+ds.map(d=>`<th>${d.name}</th>`).join("")+"</tr></thead><tbody>"+cat.map(x=>`<tr><td>${x.name}</td>`+ds.map(d=>{let v=d.dlc[x.id]||"?";return`<td>${v==="ANO"?"✓":v==="NE"?"✕":"?"}</td>`}).join("")+"</tr>").join("")+"</tbody>"}catch(e){console.error("DLC overview",e)}})</script>
+</body>
 </html>
