@@ -1,1 +1,1888 @@
-[]
+﻿{
+  "version": 224,
+  "cars": [
+    {
+      "vehicle": "McLaren MP4/12",
+      "class": "",
+      "vehicleHash": 532833672,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "ARC Camaro",
+      "class": "ARC_Cam",
+      "vehicleHash": 1785300635,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 911 GT3 Cup 3.8",
+      "class": "Carrera Cup",
+      "vehicleHash": 2144142462,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 911 GT3 Cup 4.0",
+      "class": "Carrera Cup",
+      "vehicleHash": 4185261879,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Caterham 620R",
+      "class": "Cat620R",
+      "vehicleHash": 1864701845,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Caterham Academy",
+      "class": "Cat_Academy",
+      "vehicleHash": 3344191486,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Caterham Superlight",
+      "class": "Cat_Superlight",
+      "vehicleHash": 2634322913,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Caterham Supersport",
+      "class": "Cat_Supersport",
+      "vehicleHash": 851522805,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Chevette",
+      "class": "CopaClassicB",
+      "vehicleHash": 3139107173,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Gol Classic B",
+      "class": "CopaClassicB",
+      "vehicleHash": 3961611648,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MINI Cooper S 1965 B",
+      "class": "CopaClassicB",
+      "vehicleHash": 3219375297,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Passat Classic B",
+      "class": "CopaClassicB",
+      "vehicleHash": 1700425966,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Puma GTE",
+      "class": "CopaClassicB",
+      "vehicleHash": 1031807465,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Uno Classic B",
+      "class": "CopaClassicB",
+      "vehicleHash": 311092313,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Fusca Classic FL",
+      "class": "CopaClassicFL",
+      "vehicleHash": 3479642929,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Gol Classic FL",
+      "class": "CopaClassicFL",
+      "vehicleHash": 4249119195,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Passat Classic FL",
+      "class": "CopaClassicFL",
+      "vehicleHash": 1661024873,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Puma GTB",
+      "class": "CopaClassicFL",
+      "vehicleHash": 3685661790,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Copa Fusca",
+      "class": "CopaFusca",
+      "vehicleHash": 1775576087,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Iveco Stralis",
+      "class": "CopaTruck",
+      "vehicleHash": 3807029902,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MAN TGX",
+      "class": "CopaTruck",
+      "vehicleHash": 3475834286,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mercedes-Benz Actros",
+      "class": "CopaTruck",
+      "vehicleHash": 1647822272,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Volkswagen Constellation",
+      "class": "CopaTruck",
+      "vehicleHash": 2208170194,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Vulkan Truck",
+      "class": "CopaTruck",
+      "vehicleHash": 3675657510,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Copa Uno",
+      "class": "CopaUno",
+      "vehicleHash": 3450755330,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Cadillac DPi-VR",
+      "class": "DPI",
+      "vehicleHash": 912279169,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Dallara F301",
+      "class": "F-3",
+      "vehicleHash": 428770333,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Dallara F309",
+      "class": "F-3",
+      "vehicleHash": 302183120,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen1 Model1",
+      "class": "F-Classic_Gen1",
+      "vehicleHash": 697161929,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen1 Model2",
+      "class": "F-Classic_Gen1",
+      "vehicleHash": 2475456876,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lotus Renault 98T",
+      "class": "F-Classic_Gen1",
+      "vehicleHash": 1959097924,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen2 Model1",
+      "class": "F-Classic_Gen2",
+      "vehicleHash": 2627500172,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen2 Model2",
+      "class": "F-Classic_Gen2",
+      "vehicleHash": 3290156078,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen2 Model3",
+      "class": "F-Classic_Gen2",
+      "vehicleHash": 3800898953,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Honda MP4/4",
+      "class": "F-Classic_Gen2",
+      "vehicleHash": 3805951878,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen3 Model1",
+      "class": "F-Classic_Gen3",
+      "vehicleHash": 2594777760,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen3 Model2",
+      "class": "F-Classic_Gen3",
+      "vehicleHash": 2632349744,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen3 Model3",
+      "class": "F-Classic_Gen3",
+      "vehicleHash": 2466922353,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen3 Model4",
+      "class": "F-Classic_Gen3",
+      "vehicleHash": 264295457,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Honda MP4/5B",
+      "class": "F-Classic_Gen3",
+      "vehicleHash": 4233667965,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen4 Model1",
+      "class": "F-Classic_Gen4",
+      "vehicleHash": 1294128988,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen4 Model2",
+      "class": "F-Classic_Gen4",
+      "vehicleHash": 157362639,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Classic Gen4 Model3",
+      "class": "F-Classic_Gen4",
+      "vehicleHash": 121318055,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Honda MP4/6",
+      "class": "F-Classic_Gen4",
+      "vehicleHash": 271036494,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Dirt",
+      "class": "F-Dirt",
+      "vehicleHash": 3940470292,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula HiTech Gen1 Model1",
+      "class": "F-Hitech_Gen1",
+      "vehicleHash": 3748902680,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula HiTech Gen1 Model2",
+      "class": "F-Hitech_Gen1",
+      "vehicleHash": 3273879600,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula HiTech Gen1 Model3",
+      "class": "F-Hitech_Gen1",
+      "vehicleHash": 2554368317,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula HiTech Gen1 Model4",
+      "class": "F-Hitech_Gen1",
+      "vehicleHash": 1820184336,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Honda MP4/7A",
+      "class": "F-Hitech_Gen1",
+      "vehicleHash": 3774322824,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula HiTech Gen2 Model1",
+      "class": "F-Hitech_Gen2",
+      "vehicleHash": 1511161791,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula HiTech Gen2 Model2",
+      "class": "F-Hitech_Gen2",
+      "vehicleHash": 3421673436,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula HiTech Gen2 Model3",
+      "class": "F-Hitech_Gen2",
+      "vehicleHash": 2362068653,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Cosworth MP4/8",
+      "class": "F-Hitech_Gen2",
+      "vehicleHash": 3023125930,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Inter MG-15",
+      "class": "F-Inter",
+      "vehicleHash": 4227776611,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Junior",
+      "class": "F-Junior",
+      "vehicleHash": 1609162502,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula V8 Gen3",
+      "class": "F-Reiza",
+      "vehicleHash": 1948072701,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Brabham BT44",
+      "class": "F-Retro_Gen1",
+      "vehicleHash": 3269868756,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Retro V12",
+      "class": "F-Retro_Gen1",
+      "vehicleHash": 3762756777,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Retro V8",
+      "class": "F-Retro_Gen1",
+      "vehicleHash": 1437730287,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lotus 72E",
+      "class": "F-Retro_Gen1",
+      "vehicleHash": 435621847,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren M23",
+      "class": "F-Retro_Gen1",
+      "vehicleHash": 553963368,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Brabham Alfa Romeo BT46B",
+      "class": "F-Retro_Gen2",
+      "vehicleHash": 476615325,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Brabham Cosworth BT49",
+      "class": "F-Retro_Gen2",
+      "vehicleHash": 240609990,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Retro Gen2",
+      "class": "F-Retro_Gen2",
+      "vehicleHash": 369722929,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lotus 79",
+      "class": "F-Retro_Gen2",
+      "vehicleHash": 1439296671,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Brabham BMW BT52",
+      "class": "F-Retro_Gen3",
+      "vehicleHash": 280856873,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Retro Gen3 DFY",
+      "class": "F-Retro_Gen3",
+      "vehicleHash": 3341651197,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Retro Gen3 Turbo",
+      "class": "F-Retro_Gen3",
+      "vehicleHash": 1408558396,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Cosworth MP4/1C",
+      "class": "F-Retro_Gen3",
+      "vehicleHash": 2005556145,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Trainer",
+      "class": "F-Trainer",
+      "vehicleHash": 575788923,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Trainer Advanced",
+      "class": "F-Trainer_A",
+      "vehicleHash": 1982976051,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula USA 2023",
+      "class": "F-USA_2023",
+      "vehicleHash": 3934174784,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola T95/00 Ford-Cosworth",
+      "class": "F-USA_Gen1",
+      "vehicleHash": 2817390816,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola T95/00 Mercedes-Benz",
+      "class": "F-USA_Gen1",
+      "vehicleHash": 1701517873,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 95i Ford-Cosworth",
+      "class": "F-USA_Gen1",
+      "vehicleHash": 3500895211,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 95i Honda",
+      "class": "F-USA_Gen1",
+      "vehicleHash": 243649723,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 95i Mercedes-Benz",
+      "class": "F-USA_Gen1",
+      "vehicleHash": 3462120896,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola T98/00 Ford-Cosworth",
+      "class": "F-USA_Gen2",
+      "vehicleHash": 1408764300,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 98i Ford-Cosworth",
+      "class": "F-USA_Gen2",
+      "vehicleHash": 3888679639,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 98i Honda",
+      "class": "F-USA_Gen2",
+      "vehicleHash": 2011027431,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 98i Mercedes-Benz",
+      "class": "F-USA_Gen2",
+      "vehicleHash": 174857498,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 98i Toyota",
+      "class": "F-USA_Gen2",
+      "vehicleHash": 3082410750,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Swift 009c Ford-Cosworth",
+      "class": "F-USA_Gen2",
+      "vehicleHash": 943684424,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola B2K00 Ford-Cosworth",
+      "class": "F-USA_Gen3",
+      "vehicleHash": 3449331147,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola B2K00 Mercedes-Benz",
+      "class": "F-USA_Gen3",
+      "vehicleHash": 1305671580,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola B2K00 Toyota",
+      "class": "F-USA_Gen3",
+      "vehicleHash": 2411434144,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 2Ki Ford-Cosworth",
+      "class": "F-USA_Gen3",
+      "vehicleHash": 990042821,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 2Ki Honda",
+      "class": "F-USA_Gen3",
+      "vehicleHash": 1530597907,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 2Ki Mercedes-Benz",
+      "class": "F-USA_Gen3",
+      "vehicleHash": 290327508,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Reynard 2Ki Toyota",
+      "class": "F-USA_Gen3",
+      "vehicleHash": 3730628460,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Ultimate Hybrid Gen2",
+      "class": "F-Ultimate",
+      "vehicleHash": 3152927777,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Ultimate Hybrid Gen1",
+      "class": "F-Ultimate_Gen1",
+      "vehicleHash": 1971065697,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "class": "F-Ultimate_Gen2",
+      "vehicleHash": 1947909519,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula V10 Gen1",
+      "class": "F-V10_Gen1",
+      "vehicleHash": 884102371,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Mercedes MP4/12",
+      "class": "F-V10_Gen1",
+      "vehicleHash": 2528016455,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula V10 Gen2",
+      "class": "F-V10_Gen2",
+      "vehicleHash": 523915852,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Vee Gen1",
+      "class": "F-Vee",
+      "vehicleHash": 2154877129,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Vee Gen1 + Fin",
+      "class": "F-Vee",
+      "vehicleHash": 4108554168,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Vee Gen2",
+      "class": "F-Vee_Gen2",
+      "vehicleHash": 4165343230,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Vintage Gen1 Model1",
+      "class": "F-Vintage_Gen1",
+      "vehicleHash": 3033198665,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Vintage Gen1 Model2",
+      "class": "F-Vintage_Gen1",
+      "vehicleHash": 318400650,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Brabham BT26A",
+      "class": "F-Vintage_Gen2",
+      "vehicleHash": 3093361391,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Vintage Gen2 Model1",
+      "class": "F-Vintage_Gen2",
+      "vehicleHash": 2306571942,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Vintage Gen2 Model2",
+      "class": "F-Vintage_Gen2",
+      "vehicleHash": 617290135,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lotus 49C",
+      "class": "F-Vintage_Gen2",
+      "vehicleHash": 1061494025,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Edge Model1",
+      "class": "FE-G1",
+      "vehicleHash": 2308835666,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Edge Model2",
+      "class": "FE-G1",
+      "vehicleHash": 1758947754,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Edge Model3",
+      "class": "FE-G1",
+      "vehicleHash": 1775904576,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ginetta G40 Cup",
+      "class": "G40Cup",
+      "vehicleHash": 3543759449,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ginetta G55 GT4 Supercup",
+      "class": "G55Supercup",
+      "vehicleHash": 2091910841,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren F1 GTR",
+      "class": "GT1",
+      "vehicleHash": 3293397987,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mercedes-Benz CLK LM",
+      "class": "GT1",
+      "vehicleHash": 1979398129,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Nissan R390 GT1",
+      "class": "GT1",
+      "vehicleHash": 3951943788,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 911 GT1-98",
+      "class": "GT1",
+      "vehicleHash": 1076438091,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Aston Martin DBR9",
+      "class": "GT1_05",
+      "vehicleHash": 1401751841,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette C5-R",
+      "class": "GT1_05",
+      "vehicleHash": 3337128667,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Dodge Viper GTS-R",
+      "class": "GT1_05",
+      "vehicleHash": 2526524124,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini Murcielago R-GT",
+      "class": "GT1_05",
+      "vehicleHash": 1380008006,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Maserati MC12 GT1",
+      "class": "GT1_05",
+      "vehicleHash": 1646202889,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Milano GT36",
+      "class": "GT2_05",
+      "vehicleHash": 2353598647,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 996 GT3 RSR",
+      "class": "GT2_05",
+      "vehicleHash": 2119768860,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Audi R8 LMS GT3",
+      "class": "GT3",
+      "vehicleHash": 3159329812,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M6 GT3",
+      "class": "GT3",
+      "vehicleHash": 4053780148,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren 720S GT3",
+      "class": "GT3",
+      "vehicleHash": 3984410799,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mercedes-AMG GT3",
+      "class": "GT3",
+      "vehicleHash": 1353949246,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Nissan GT-R Nismo GT3",
+      "class": "GT3",
+      "vehicleHash": 2878763807,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 911 GT3 R",
+      "class": "GT3",
+      "vehicleHash": 809291220,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Aston Martin Vantage GT3 Evo",
+      "class": "GT3_Gen2",
+      "vehicleHash": 1327147786,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Audi R8 LMS GT3 evo II",
+      "class": "GT3_Gen2",
+      "vehicleHash": 2057865340,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M4 GT3",
+      "class": "GT3_Gen2",
+      "vehicleHash": 1311912387,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette Z06 GT3.R",
+      "class": "GT3_Gen2",
+      "vehicleHash": 9617015,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini Huracan GT3 EVO2",
+      "class": "GT3_Gen2",
+      "vehicleHash": 2639507036,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren 720S GT3 Evo",
+      "class": "GT3_Gen2",
+      "vehicleHash": 3268025689,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mercedes-AMG GT3 Evo",
+      "class": "GT3_Gen2",
+      "vehicleHash": 160008140,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 992 GT3 R",
+      "class": "GT3_Gen2",
+      "vehicleHash": 3775400938,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Alpine A110 GT4 Evo",
+      "class": "GT4",
+      "vehicleHash": 969706465,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Aston Martin Vantage GT4 Evo",
+      "class": "GT4",
+      "vehicleHash": 3770744782,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Audi R8 LMS GT4",
+      "class": "GT4",
+      "vehicleHash": 1132970248,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M4 GT4",
+      "class": "GT4",
+      "vehicleHash": 2328936252,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Camaro GT4.R",
+      "class": "GT4",
+      "vehicleHash": 2275271988,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ginetta G55 GT4",
+      "class": "GT4",
+      "vehicleHash": 379055283,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren 570S GT4",
+      "class": "GT4",
+      "vehicleHash": 850609487,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mercedes-AMG GT4",
+      "class": "GT4",
+      "vehicleHash": 3439822416,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche Cayman GT4 Clubsport MR",
+      "class": "GT4",
+      "vehicleHash": 1464988033,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ginetta G40",
+      "class": "GT5",
+      "vehicleHash": 310900789,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Puma P052",
+      "class": "GT5",
+      "vehicleHash": 4201761928,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Aston Martin Vantage GTE",
+      "class": "GTE",
+      "vehicleHash": 1401532035,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M8 GTE",
+      "class": "GTE",
+      "vehicleHash": 901145560,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette C8.R",
+      "class": "GTE",
+      "vehicleHash": 2565548698,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 911 RSR GTE",
+      "class": "GTE",
+      "vehicleHash": 24108228,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ginetta G55 GT3",
+      "class": "GTOpen",
+      "vehicleHash": 3124293020,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ultima GTR Race",
+      "class": "GTOpen",
+      "vehicleHash": 306785397,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M3 E46 GTR",
+      "class": "GTR_04",
+      "vehicleHash": 2960734215,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Audi V8 quattro DTM",
+      "class": "Group A",
+      "vehicleHash": 3954590596,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M3 Sport Evo Group A",
+      "class": "Group A",
+      "vehicleHash": 3360868789,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+      "class": "Group A",
+      "vehicleHash": 262982797,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette GTP",
+      "class": "Group C",
+      "vehicleHash": 373176631,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Nissan R89C",
+      "class": "Group C",
+      "vehicleHash": 1891730007,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 962C",
+      "class": "Group C",
+      "vehicleHash": 957632269,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Sauber Mercedes C9",
+      "class": "Group C",
+      "vehicleHash": 65306143,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Sauber Mercedes C9",
+      "class": "Group C",
+      "vehicleHash": 2573471240,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Fusca 1 Hot Cars",
+      "class": "Hot Cars",
+      "vehicleHash": 3208164682,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Fusca 2 Hot Cars",
+      "class": "Hot Cars",
+      "vehicleHash": 150641251,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Gol Hot Cars",
+      "class": "Hot Cars",
+      "vehicleHash": 1653755268,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Passat Hot Cars",
+      "class": "Hot Cars",
+      "vehicleHash": 390318757,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Aston Martin Valkyrie",
+      "class": "Hypercars",
+      "vehicleHash": 3679464635,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Brabham BT62",
+      "class": "Hypercars",
+      "vehicleHash": 1630268373,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini Revuelto",
+      "class": "Hypercars",
+      "vehicleHash": 1656093112,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini Veneno Roadster",
+      "class": "Hypercars",
+      "vehicleHash": 1564669712,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren Senna",
+      "class": "Hypercars",
+      "vehicleHash": 3319008304,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Kart 2-Stroke 125cc Direct",
+      "class": "Kart125cc",
+      "vehicleHash": 844159614,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Kart 4-Stroke Race",
+      "class": "KartGX390",
+      "vehicleHash": 374810616,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Kart 4-Stroke Rental",
+      "class": "KartRental",
+      "vehicleHash": 2178374017,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Kart 2-Stroke 125cc Shifter",
+      "class": "KartShifter",
+      "vehicleHash": 3555177586,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Kart Cross",
+      "class": "Kartcross",
+      "vehicleHash": 3210405866,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ligier JS P4",
+      "class": "LES_2025",
+      "vehicleHash": 478471898,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ligier JS2 R",
+      "class": "LES_2025",
+      "vehicleHash": 1561601348,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Alpine A424",
+      "class": "LMDh",
+      "vehicleHash": 2890512899,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Aston Martin Valkyrie Hypercar",
+      "class": "LMDh",
+      "vehicleHash": 3398380056,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Aston Martin Valkyrie Hypercar",
+      "class": "LMDh",
+      "vehicleHash": 1837911487,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M Hybrid V8",
+      "class": "LMDh",
+      "vehicleHash": 3452624126,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Cadillac V-Series.R",
+      "class": "LMDh",
+      "vehicleHash": 16119375,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Cadillac V-Series.R",
+      "class": "LMDh",
+      "vehicleHash": 3328941048,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini SC63",
+      "class": "LMDh",
+      "vehicleHash": 1122735892,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini SC63",
+      "class": "LMDh",
+      "vehicleHash": 2738534664,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 963",
+      "class": "LMDh",
+      "vehicleHash": 3483562328,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 963",
+      "class": "LMDh",
+      "vehicleHash": 1937293617,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Audi R8 LMP1",
+      "class": "LMP1_05",
+      "vehicleHash": 1466312296,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Courage C60 Hybrid",
+      "class": "LMP1_05",
+      "vehicleHash": 1168262642,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Dallara SP1",
+      "class": "LMP1_05",
+      "vehicleHash": 3684432650,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ligier JS P217",
+      "class": "LMP2",
+      "vehicleHash": 2787549126,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Oreca 07",
+      "class": "LMP2",
+      "vehicleHash": 3810818093,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola B05/40 Turbo",
+      "class": "LMP2_05",
+      "vehicleHash": 1841695623,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lola B05/40 V8",
+      "class": "LMP2_05",
+      "vehicleHash": 2719756828,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ligier JS P217",
+      "class": "LMP2_Gen1",
+      "vehicleHash": 1679105968,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Oreca 07",
+      "class": "LMP2_Gen1",
+      "vehicleHash": 440916666,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mitsubishi Lancer R",
+      "class": "LancerCup",
+      "vehicleHash": 4244272652,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mitsubishi Lancer RS",
+      "class": "LancerCup",
+      "vehicleHash": 213908738,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MINI Cooper JCW",
+      "class": "MiniChallenge",
+      "vehicleHash": 1818602836,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Copa Montana",
+      "class": "Montana",
+      "vehicleHash": 979672157,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Opala Old Stock Race",
+      "class": "OldStock",
+      "vehicleHash": 4232818804,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Opala Stock Cars 1979",
+      "class": "Opala79",
+      "vehicleHash": 3093399710,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Opala Stock Cars 1986",
+      "class": "Opala86",
+      "vehicleHash": 245459304,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ginetta G58",
+      "class": "P1",
+      "vehicleHash": 1433352906,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro AJR Chevrolet",
+      "class": "P1",
+      "vehicleHash": 1932261404,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro AJR Honda",
+      "class": "P1",
+      "vehicleHash": 3058279372,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro AJR Judd",
+      "class": "P1",
+      "vehicleHash": 2549193333,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro AJR Nissan",
+      "class": "P1",
+      "vehicleHash": 1618401665,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ginetta G58 Gen2",
+      "class": "P1Gen2",
+      "vehicleHash": 1989434463,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ligier JS P320",
+      "class": "P1Gen2",
+      "vehicleHash": 1723657866,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro AJR Gen2 Chevrolet",
+      "class": "P1Gen2",
+      "vehicleHash": 3130153134,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro AJR Gen2 Honda",
+      "class": "P1Gen2",
+      "vehicleHash": 995681332,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro AJR Gen2 Nissan",
+      "class": "P1Gen2",
+      "vehicleHash": 4226310544,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Sigma P1 G5",
+      "class": "P1Gen2",
+      "vehicleHash": 2574413060,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro MRX Duratec Turbo P2",
+      "class": "P2",
+      "vehicleHash": 703591920,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Sigma P1",
+      "class": "P2",
+      "vehicleHash": 2424147950,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro MRX Duratec Turbo P3",
+      "class": "P3",
+      "vehicleHash": 2460885512,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro MRX Honda P3",
+      "class": "P3",
+      "vehicleHash": 65202613,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Roco 001",
+      "class": "P3",
+      "vehicleHash": 802736208,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MCR S2000",
+      "class": "P4",
+      "vehicleHash": 95104745,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MetalMoro MRX Duratec P4",
+      "class": "P4",
+      "vehicleHash": 4113330868,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW M1 Procar",
+      "class": "Procar",
+      "vehicleHash": 1368036017,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Citroen DS3 RX",
+      "class": "RX",
+      "vehicleHash": 3311961229,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MINI Countryman R60 RX",
+      "class": "RX",
+      "vehicleHash": 4225812019,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Mitsubishi Lancer Evo10 RX",
+      "class": "RX",
+      "vehicleHash": 512055145,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Volkswagen Polo RX",
+      "class": "RX",
+      "vehicleHash": 2037619631,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini Diablo SV-R",
+      "class": "ST96",
+      "vehicleHash": 1625859751,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Super Trophy Trucks",
+      "class": "STT",
+      "vehicleHash": 2256376589,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Sprint Race",
+      "class": "SprintRace",
+      "vehicleHash": 2890738582,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Stock Car USA Gen.3",
+      "class": "Stock Car USA Gen3",
+      "vehicleHash": 2081977850,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Omega Stock Car 1999",
+      "class": "StockCar99",
+      "vehicleHash": 3923739864,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Cruze Stock Car 2019",
+      "class": "StockCarV8",
+      "vehicleHash": 1323381033,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Cruze Stock Car 2020",
+      "class": "StockCarV8_2020",
+      "vehicleHash": 1836524676,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Toyota Corolla Stock Car 2020",
+      "class": "StockCarV8_2020",
+      "vehicleHash": 619110280,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Cruze Stock Car 2021",
+      "class": "StockCarV8_2021",
+      "vehicleHash": 2937887491,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Toyota Corolla Stock Car 2021",
+      "class": "StockCarV8_2021",
+      "vehicleHash": 806954123,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Cruze Stock Car 2022",
+      "class": "StockCarV8_2022",
+      "vehicleHash": 1767659669,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Toyota Corolla Stock Car 2022",
+      "class": "StockCarV8_2022",
+      "vehicleHash": 539628044,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Cruze Stock Car 2023",
+      "class": "StockCarV8_2023",
+      "vehicleHash": 1137681361,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Toyota Corolla Stock Car 2023",
+      "class": "StockCarV8_2023",
+      "vehicleHash": 3020033602,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Cruze Stock Car 2024",
+      "class": "StockCarV8_2024",
+      "vehicleHash": 3184894457,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Toyota Corolla Stock Car 2024",
+      "class": "StockCarV8_2024",
+      "vehicleHash": 3335781548,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Stock USA Gen1",
+      "class": "Stock_USA_Gen1",
+      "vehicleHash": 506087870,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Stock USA Gen2",
+      "class": "Stock_USA_Gen2",
+      "vehicleHash": 1041490421,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Stock USA Gen3",
+      "class": "Stock_USA_Gen3",
+      "vehicleHash": 3095637497,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Stock USA Gen3 LM",
+      "class": "Stock_USA_Gen3_LM",
+      "vehicleHash": 1221944856,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Camaro SS",
+      "class": "Street",
+      "vehicleHash": 2171800879,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini Huracan Super Trofeo EVO2",
+      "class": "Super Trofeo",
+      "vehicleHash": 2609920549,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Superkart 250cc",
+      "class": "SuperKart",
+      "vehicleHash": 306371028,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Super V8",
+      "class": "SuperV8",
+      "vehicleHash": 253111186,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Audi R8 V10 GT",
+      "class": "Supercars",
+      "vehicleHash": 855020114,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette C8 Z06 (+Z07 Upgrade)",
+      "class": "Supercars",
+      "vehicleHash": 2669155993,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Dodge Viper ACR",
+      "class": "Supercars",
+      "vehicleHash": 2459629855,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Maserati GT2 Stradale",
+      "class": "Supercars",
+      "vehicleHash": 1025465700,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "McLaren F1 LM",
+      "class": "Supercars",
+      "vehicleHash": 4090831314,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ultima GTR",
+      "class": "Supercars",
+      "vehicleHash": 1560162507,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "BMW 2002 Turbo",
+      "class": "TC60S",
+      "vehicleHash": 143364290,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette C3",
+      "class": "TC60S",
+      "vehicleHash": 4079929816,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lamborghini Miura SV",
+      "class": "TC60S",
+      "vehicleHash": 2898635650,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Lotus 23",
+      "class": "TC60S2",
+      "vehicleHash": 3464832624,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "MINI Cooper S 1965",
+      "class": "TC60S2",
+      "vehicleHash": 1330326301,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette C3.R",
+      "class": "TC70S",
+      "vehicleHash": 1965836946,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Chevrolet Corvette C3.R Convertible",
+      "class": "TC70S",
+      "vehicleHash": 3244624535,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Porsche 911 RSR 1974",
+      "class": "TC70S",
+      "vehicleHash": 2016280350,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Volkswagen Polo",
+      "class": "TSICup",
+      "vehicleHash": 3124727135,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Volkswagen Polo GTS",
+      "class": "TSICup",
+      "vehicleHash": 2531995910,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Volkswagen Virtus",
+      "class": "TSICup",
+      "vehicleHash": 3157454457,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Volkswagen Virtus GTS",
+      "class": "TSICup",
+      "vehicleHash": 2984004017,
+      "content": "UNKNOWN",
+      "dlc": ""
+    }
+  ]
+}
