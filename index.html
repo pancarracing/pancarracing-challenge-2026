@@ -1049,12 +1049,29 @@ function canonicalImpactEvent(event) {
     const s=String(event.historySource||""); return s!=="baseline" && s!=="import";
 }
 function canonicalImpactColor(event) {
-    const stored=event.challengeFriendColor||event.friendColor||event.displayFriendColor||event.timeColor||event.color||"";
-    if(stored)return stored;
-    if(event.eventType==="TAKEOVER")return "gold";
-    if(event.eventType==="RANK_UP")return "green";
-    if(event.eventType==="NEW"||event.isNew===true)return "purple";
-    return "blue";
+    // RC12 precedence: explicit impact colors > semantic event > legacy default blue.
+    // Legacy NEW rows often contain timeColor:"blue"; that is NOT an explicit historical color.
+    const explicitFriend = event.challengeFriendColor || event.friendColor || event.displayFriendColor || "";
+    if (explicitFriend === "gold" || event.timeColor === "gold" || event.color === "gold") return "gold";
+    if (explicitFriend === "green" || event.timeColor === "green" || event.color === "green") return "green";
+    if (event.eventType === "TAKEOVER") return "gold";
+    if (event.eventType === "RANK_UP") return "green";
+    if (event.eventType === "NEW" || event.isNew === true) return "purple";
+    return event.timeColor || event.color || "blue";
+}
+function isRealDelta(event) {
+    return event && event.isNew !== true && event.delta && event.delta !== "NEW" && event.delta !== "—";
+}
+function legacyRecoveredTop20(events) {
+    // One-time-safe legacy recovery:
+    // preserve every genuine stored delta first (these contain our historical gold/green/blue),
+    // then fill remaining slots with the newest NEW detections. Final display is chronological.
+    const src=(events||[]).filter(canonicalImpactEvent);
+    const deltas=src.filter(isRealDelta);
+    const deltaSet=new Set(deltas);
+    const newestNew=src.filter(e=>!deltaSet.has(e)).slice().reverse().slice(0,Math.max(0,20-deltas.length));
+    const picked=(deltas.length>=20?deltas.slice(-20):deltas.concat(newestNew));
+    return picked.sort((x,y)=>String(x.timestamp||"").localeCompare(String(y.timestamp||""))).slice(-20);
 }
 function canonicalHistoryTrack(event) {
     const boardB = Number(event?.boardB) || Number(String(event?.board || "").match(/^cars2_autoevent_\d+_(\d+)_/)?.[1]);
@@ -1085,9 +1102,12 @@ function historyTable(events) {
             (event.newWorldRank != null ? String(event.newWorldRank) :
                 (event.rank != null ? String(event.rank) : "—"));
 
-        // RC11 canonical four-color impact log.
+        // RC12 original column color semantics.
         const mainColor = canonicalImpactColor(event);
-        const friendClass = eventColorClass(mainColor);
+        const friendStored = currentMode === "challenge"
+            ? (event.challengeFriendColor || event.friendColor || "")
+            : (event.kingFriendColor || event.friendColor || "");
+        const friendClass = eventColorClass(friendStored || (event.isNew ? "purple" : mainColor));
         const deltaClass = eventColorClass(mainColor);
         const timeClass = eventColorClass(mainColor);
         const worldClass = eventColorClass(event.worldColor || "");
@@ -1130,7 +1150,7 @@ function modeHistory() {
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
     const selected = modeHistory();
-    document.getElementById("last20").innerHTML = historyTable(selected.slice(-20));
+    document.getElementById("last20").innerHTML = historyTable(legacyRecoveredTop20(selected));
 }
 
 function openHistory() {
