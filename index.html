@@ -814,7 +814,10 @@ body {
 }
 
 </style>
-<style id="rc6css">.rc6{max-width:1180px;margin:18px auto;padding:16px;background:#0d0d12;border:1px solid #292934;border-radius:14px}.rc6 table{width:100%;border-collapse:collapse}.rc6 th,.rc6 td{padding:8px;border-bottom:1px solid #292934;text-align:left}.rc6 button{background:#181820;color:#eee;border:1px solid #555;border-radius:12px;padding:5px 8px;cursor:pointer}.rc6scroll{overflow:auto}</style></head>
+<style id="rc6css">.rc6{max-width:1180px;margin:18px auto;padding:16px;background:#0d0d12;border:1px solid #292934;border-radius:14px}.rc6 table{width:100%;border-collapse:collapse}.rc6 th,.rc6 td{padding:8px;border-bottom:1px solid #292934;text-align:left}.rc6 button{background:#181820;color:#eee;border:1px solid #555;border-radius:12px;padding:5px 8px;cursor:pointer}.rc6scroll{overflow:auto}</style><style id="rc9-track-fixes">
+.challenge-card .track-name,.challenge .track-name,[data-track-name]{white-space:nowrap!important;overflow:visible!important;text-overflow:clip!important}
+.rc9-track-badge{display:inline-block;margin-left:8px;padding:2px 7px;border:1px solid currentColor;border-radius:10px;font-size:.68em;font-weight:800;white-space:nowrap;vertical-align:middle}
+</style></head>
 
 <body>
 
@@ -1067,16 +1070,20 @@ function historyTable(events) {
             (event.newWorldRank != null ? String(event.newWorldRank) :
                 (event.rank != null ? String(event.rank) : "—"));
 
-        // RC8: history is immutable. Render the color stored with the event.
-        // NEW gets purple only when no historical color was stored; gold therefore stays gold forever.
+        // RC9: immutable four-color history.
+        // Stored historical colors always win. Purple is only the fallback for a genuinely new,
+        // not-yet-historical first time. Gold therefore can never be overwritten by isNew.
         const firstRecordedTime = event.isNew === true;
         const storedFriendColor = currentMode === "challenge"
             ? (event.challengeFriendColor || event.friendColor || event.displayFriendColor || "")
             : (event.kingFriendColor || event.friendColor || event.displayFriendColor || "");
         const storedTimeColor = event.timeColor || event.color || event.displayTimeColor || "";
-        const friendClass = eventColorClass(storedFriendColor || (firstRecordedTime ? "purple" : ""));
-        const deltaClass = eventColorClass(firstRecordedTime ? (event.displayDeltaColor || "purple") : "");
-        const timeClass = eventColorClass(storedTimeColor || (firstRecordedTime ? "purple" : "blue"));
+        const frozen = event.frozen === true || !!event.historySource;
+        const friendColor = storedFriendColor || ((!frozen && firstRecordedTime) ? "purple" : "");
+        const timeColor = storedTimeColor || ((!frozen && firstRecordedTime) ? "purple" : "blue");
+        const friendClass = eventColorClass(friendColor);
+        const deltaClass = eventColorClass((!frozen && firstRecordedTime) ? "purple" : "");
+        const timeClass = eventColorClass(timeColor);
         const worldClass = eventColorClass(event.worldColor || "");
 
         return `
@@ -1392,6 +1399,27 @@ bootstrap();
 </script>
 
 <section class="rc6" id="dlc-overview"><h2>AMS2 DLC PŘEHLED</h2><div style="opacity:.7;margin-bottom:10px">Ruční přehled DLC všech jezdců — ANO / NE / ?</div><div class="rc6scroll"><table id="rc7dlc"></table></div></section>
+<section class="rc6" id="rc9-car-database"><h2>DATABÁZE AUT</h2><div class="rc6scroll"><table id="rc9cars"></table></div></section>
 <section class="rc6" id="track-database"><h2>DATABÁZE TRATÍ</h2><div class="rc6scroll"><table id="rc6tracks"></table></div></section><script id="rc7dlcjs">async function RC7J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}addEventListener("DOMContentLoaded",async()=>{try{let[cat,st]=await Promise.all([RC7J("dlc_catalog.json"),RC7J("dlc_status.json")]);let ds=Object.entries(st.drivers||{}).map(([id,x])=>({id,name:x.name||id,dlc:x.dlc||{}})).sort((a,b)=>a.name.localeCompare(b.name));let q=document.querySelector("#rc7dlc");if(!q)return;q.innerHTML="<thead><tr><th>DLC</th>"+ds.map(d=>`<th>${d.name}</th>`).join("")+"</tr></thead><tbody>"+cat.map(x=>`<tr><td>${x.name}</td>`+ds.map(d=>{let v=d.dlc[x.id]||"?";return`<td>${v==="ANO"?"✓":v==="NE"?"✕":"?"}</td>`}).join("")+"</tr>").join("")+"</tbody>"}catch(e){console.error("DLC overview",e)}})</script>
-</body>
+<script id="rc9dbjs">
+async function R9J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}
+function R9badge(pack){return pack&&pack!=="Base Game"?`<span class="rc9-track-badge">DLC · ${pack}</span>`:""}
+addEventListener("DOMContentLoaded",async()=>{
+ try{
+  let cars=await R9J("ams2_cars.json"); let arr=Array.isArray(cars)?cars:(cars.cars||Object.values(cars));
+  let q=document.querySelector("#rc9cars");if(q)q.innerHTML="<tr><th>AUTO</th><th>HASH</th><th>CLASS</th><th>CONTENT</th></tr>"+arr.map(x=>`<tr><td>${x.name||x.vehicleName||""}</td><td>${x.hash??x.vehicleHash??""}</td><td>${x.class||x.vehicleClass||""}</td><td>${x.dlc||x.content||x.pack||"BASE"}</td></tr>`).join("");
+ }catch(e){console.error("car db",e)}
+ try{
+  let base=await R9J("track_database.json");let meta=new Map(base.map(x=>[String(x.trackB),x]));
+  let full=[];
+  try{let bc=await R9J("board_catalog.json");let a=Array.isArray(bc)?bc:(bc.boards||Object.values(bc));for(let x of a){let b=x.trackB??x.B??x.boardB;if(b!=null)full.push({trackB:b,name:x.trackName||x.name||x.track||"",pack:(meta.get(String(b))||{}).pack})}}catch(_){}
+  try{let tn=await R9J("track_names.json");for(let [b,n] of Object.entries(tn||{})){if(!full.some(x=>String(x.trackB)===String(b)))full.push({trackB:b,name:typeof n==="string"?n:(n.name||""),pack:(meta.get(String(b))||{}).pack})}}catch(_){}
+  if(!full.length)full=base;
+  full.sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+  let q=document.querySelector("#rc6tracks");if(q)q.innerHTML="<tr><th>TRAŤ</th><th>TRACK B</th><th>CONTENT</th></tr>"+full.map(x=>`<tr><td>${x.name||""}</td><td>${x.trackB}</td><td>${x.pack&&x.pack!=="Base Game"?"DLC · "+x.pack:"BASE"}</td></tr>`).join("");
+  // Add pack badge beside every visible challenge track by exact text match.
+  for(let x of base.filter(x=>x.dlc)){for(let el of document.querySelectorAll("h2,h3,.track-name")){if(el.textContent.trim().startsWith(x.name)&&!el.querySelector(".rc9-track-badge"))el.insertAdjacentHTML("beforeend",R9badge(x.pack))}}
+ }catch(e){console.error("track db",e)}
+});
+</script></body>
 </html>
