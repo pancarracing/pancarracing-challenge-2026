@@ -1,1 +1,38 @@
-{"version":2,"updated":null,"drivers":{}}
+{
+  "version": 2,
+  "updated": "2026-09-16T08:07:50",
+  "drivers": {
+    "": {
+      "name": "",
+      "dlc": {}
+    },
+    "manual:pancar-lbc": {
+      "name": "pancar LBC",
+      "dlc": {
+        "dlc01": "ANO",
+        "dlc02": "ANO",
+        "dlc03": "?",
+        "dlc04": "ANO",
+        "dlc05": "ANO",
+        "dlc06": "?",
+        "dlc07": "?",
+        "dlc08": "?",
+        "dlc09": "?",
+        "dlc10": "ANO",
+        "dlc11": "?",
+        "dlc12": "ANO",
+        "dlc13": "ANO",
+        "dlc14": "?",
+        "dlc15": "?",
+        "dlc16": "ANO",
+        "dlc17": "ANO",
+        "dlc18": "?",
+        "dlc19": "?",
+        "dlc20": "?",
+        "dlc21": "ANO",
+        "dlc22": "?",
+        "dlc23": "ANO"
+      }
+    }
+  }
+}
