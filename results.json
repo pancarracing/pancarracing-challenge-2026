@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-17T21:12:36+02:00",
+  "updated": "2026-09-17T21:15:28+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1509,7 +1509,7 @@
           "vehicleDlcName": "Endurance Pack Pt3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -896587240,
-          "rank": 928,
+          "rank": 929,
           "score": 85000,
           "time": "01:25.000",
           "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -1568,7 +1568,7 @@
           "vehicleDlcName": "Endurance Pack Pt3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -896587240,
-          "rank": 928,
+          "rank": 929,
           "score": 85000,
           "time": "01:25.000",
           "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -5458,8 +5458,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-0.899",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T21:12:36+02:00"
     }
   ],
   "historyKing": [
@@ -15832,8 +15834,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-0.899",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T21:12:36+02:00"
     }
   ],
   "last10": [
@@ -17264,7 +17268,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "challenge",
-    "elapsedSeconds": 21.5,
+    "elapsedSeconds": 22.0,
     "boardsScanned": 42,
     "boardsOk": 42,
     "rawFriendEntries": 56,
