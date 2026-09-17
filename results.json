@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-17T21:16:01+02:00",
+  "updated": "2026-09-17T21:17:20+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2166,8 +2166,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_7202_399001429_0_0",
-      "boardsScanned": 101,
-      "scanMode": "complete",
+      "boardsScanned": 2,
+      "scanMode": "challenge",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7212_399001429_0_0",
@@ -5552,7 +5552,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T21:16:01+02:00"
     }
   ],
   "historyKing": [
@@ -16118,7 +16120,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T21:16:01+02:00"
     }
   ],
   "last10": [
@@ -17549,11 +17553,11 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "complete",
-    "elapsedSeconds": 53.0,
-    "boardsScanned": 101,
-    "boardsOk": 101,
-    "rawFriendEntries": 1,
+    "mode": "challenge",
+    "elapsedSeconds": 22.8,
+    "boardsScanned": 43,
+    "boardsOk": 43,
+    "rawFriendEntries": 57,
     "errors": 0,
     "catalogVehicles": 270,
     "unknownVehicles": 7
