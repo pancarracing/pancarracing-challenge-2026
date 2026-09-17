@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-17T06:32:58+02:00",
+  "updated": "2026-09-17T06:45:54+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1453,9 +1453,9 @@
       ],
       "allClasses": [],
       "allPolicy": "",
-      "board": "cars2_autoevent_4731_2816254725_0_0",
+      "board": "cars2_autoevent_4723_2816254725_0_0",
       "boardsScanned": 101,
-      "scanMode": "challenge",
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4704_2816254725_0_0",
@@ -1622,7 +1622,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -1110072839,
-          "rank": 1995,
+          "rank": 1996,
           "score": 107204,
           "time": "01:47.204",
           "board": "cars2_autoevent_12774_2816254725_0_0",
@@ -1644,7 +1644,7 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 101,
-      "scanMode": "challenge",
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12829_3037871603_0_0",
@@ -1725,7 +1725,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_12081_775712153_0_0",
       "boardsScanned": 101,
-      "scanMode": "challenge",
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9167_775712153_0_0",
@@ -1838,7 +1838,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -896587240,
-          "rank": 1590,
+          "rank": 1591,
           "score": 127679,
           "time": "02:07.679",
           "board": "cars2_autoevent_12559_775712153_0_0",
@@ -1917,7 +1917,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
       "boardsScanned": 101,
-      "scanMode": "challenge",
+      "scanMode": "complete",
       "activeBoards": [],
       "boardErrors": [],
       "results": [],
@@ -1934,7 +1934,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_4810_2590843191_0_0",
       "boardsScanned": 76,
-      "scanMode": "challenge",
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
@@ -1975,8 +1975,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 2,
-      "scanMode": "challenge",
+      "boardsScanned": 101,
+      "scanMode": "complete",
       "activeBoards": [],
       "boardErrors": [],
       "results": [],
@@ -1992,8 +1992,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_7202_399001429_0_0",
-      "boardsScanned": 1,
-      "scanMode": "challenge",
+      "boardsScanned": 101,
+      "scanMode": "complete",
       "activeBoards": [],
       "boardErrors": [],
       "results": [],
@@ -2009,8 +2009,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_5131_3212997714_0_0",
-      "boardsScanned": 1,
-      "scanMode": "challenge",
+      "boardsScanned": 101,
+      "scanMode": "complete",
       "activeBoards": [],
       "boardErrors": [],
       "results": [],
@@ -4008,7 +4008,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4054,7 +4056,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-4.086",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4099,8 +4103,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-0.321",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4145,7 +4151,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4189,8 +4197,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4234,8 +4244,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4279,8 +4291,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4324,8 +4338,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4371,7 +4387,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "blue"
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4415,8 +4433,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4461,7 +4481,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4505,8 +4527,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4550,8 +4574,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4596,7 +4622,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4640,8 +4668,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4685,8 +4715,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4730,8 +4762,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4775,8 +4809,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4820,8 +4856,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4865,8 +4903,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4910,8 +4950,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -4956,7 +4998,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     }
   ],
   "historyKing": [
@@ -13757,7 +13801,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-4.086",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -13802,8 +13848,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-0.321",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     },
     {
       "timestamp": "2026-09-17T06:32:58+02:00",
@@ -13849,7 +13897,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "blue"
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     }
   ],
   "last10": [
@@ -15270,11 +15320,11 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "challenge",
-    "elapsedSeconds": 350.6,
-    "boardsScanned": 694,
-    "boardsOk": 694,
-    "rawFriendEntries": 55,
+    "mode": "complete",
+    "elapsedSeconds": 19366.6,
+    "boardsScanned": 783,
+    "boardsOk": 783,
+    "rawFriendEntries": 19,
     "errors": 0,
     "catalogVehicles": 269,
     "unknownVehicles": 7
