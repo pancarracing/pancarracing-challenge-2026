@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-17T21:01:52+02:00",
+  "updated": "2026-09-17T21:06:21+02:00",
   "challenges": [
     {
       "id": 1,
@@ -253,7 +253,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1818602836,
-          "rank": 541,
+          "rank": 542,
           "score": 99984,
           "time": "01:39.984",
           "board": "cars2_autoevent_733_1534602052_0_0",
@@ -272,7 +272,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1818602836,
-          "rank": 689,
+          "rank": 690,
           "score": 104433,
           "time": "01:44.433",
           "board": "cars2_autoevent_733_1534602052_0_0",
@@ -312,7 +312,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1818602836,
-          "rank": 541,
+          "rank": 542,
           "score": 99984,
           "time": "01:39.984",
           "board": "cars2_autoevent_733_1534602052_0_0",
@@ -331,7 +331,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1818602836,
-          "rank": 689,
+          "rank": 690,
           "score": 104433,
           "time": "01:44.433",
           "board": "cars2_autoevent_733_1534602052_0_0",
@@ -5410,8 +5410,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-1.019",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T21:01:52+02:00"
     }
   ],
   "historyKing": [
@@ -15592,8 +15594,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-1.019",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T21:01:52+02:00"
     }
   ],
   "last10": [
@@ -17022,7 +17026,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "challenge",
-    "elapsedSeconds": 21.2,
+    "elapsedSeconds": 21.8,
     "boardsScanned": 42,
     "boardsOk": 42,
     "rawFriendEntries": 56,
