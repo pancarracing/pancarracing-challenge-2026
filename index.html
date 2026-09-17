@@ -1027,6 +1027,20 @@ function vehicleDlcBadge(source) {
     return `<span class="vehicle-dlc-badge"${title}>DLC</span>`;
 }
 
+function trackDlcInfo(challenge) {
+    const cid = Number(challenge?.id);
+    const b = String(challenge?.trackB ?? "");
+    const entry = (trackDatabaseGlobal || []).find(x => Number(x.challenge) === cid)
+        || (trackDatabaseGlobal || []).find(x => String(x.trackB ?? "") === b);
+    if (!entry || entry.dlc !== true || !entry.pack || entry.pack === "Base Game") return {dlc:false,name:""};
+    return {dlc:true,name:String(entry.pack)};
+}
+function trackDlcBadge(challenge) {
+    const info=trackDlcInfo(challenge);
+    if(!info.dlc) return "";
+    return `<span class="rc9-track-badge" title="${text(info.name)}">DLC · ${text(info.name)}</span>`;
+}
+
 
 function canonicalClassForUi(value) {
     const n = String(value || "").toLowerCase()
@@ -1351,7 +1365,7 @@ function createChallengeCard(challenge) {
             <div class="number-challenge">Challenge</div>
         </div>
         <div class="challenge-info">
-            <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}</div>
+            <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
             <div class="challenge-extra">${text(meta.car || "")}</div>
             ${scanInfo}
         </div>
@@ -1449,6 +1463,10 @@ function scheduleNextRefresh() {
 
 async function bootstrap() {
     await loadCarCatalog();
+    try {
+        const td = await fetch("track_database.json", {cache:"no-store"});
+        if (td.ok) { const x=await td.json(); trackDatabaseGlobal=Array.isArray(x)?x:[]; }
+    } catch (_) {}
     await loadResults();
     scheduleNextRefresh();
 }
@@ -1476,8 +1494,7 @@ addEventListener("DOMContentLoaded",async()=>{
   if(!full.length)full=base;
   full.sort((a,b)=>(a.name||"").localeCompare(b.name||""));
   let q=document.querySelector("#rc6tracks"); trackDatabaseGlobal=full; function drawTracks(){let z=(document.querySelector("#trackDbSearch")?.value||"").toLowerCase();let rows=full.filter(x=>!z||`${x.name||""} ${x.pack||""} ${x.trackB||""}`.toLowerCase().includes(z));if(q)q.innerHTML="<tr><th>TRAŤ</th><th>TRACK B</th><th>CONTENT</th></tr>"+rows.map(x=>`<tr><td>${x.name||""}</td><td>${x.trackB}</td><td>${x.pack&&x.pack!=="Base Game"?"DLC · "+x.pack:"BASE"}</td></tr>`).join("");} drawTracks(); document.querySelector("#trackDbSearch")?.addEventListener("input",drawTracks);
-  // Add pack badge beside every visible challenge track by exact text match.
-  for(let x of base.filter(x=>x.dlc)){for(let el of document.querySelectorAll("h2,h3,.track-name,.challenge-name")){if(el.textContent.trim().startsWith(x.name)&&!el.querySelector(".rc9-track-badge"))el.insertAdjacentHTML("beforeend",R9badge(x.pack))}}
+  // Challenge/KING track badges are rendered deterministically by challenge id / trackB.
  }catch(e){console.error("track db",e)}
 });
 </script><script id="rc11-track-merge">addEventListener("DOMContentLoaded",()=>document.querySelectorAll(".challenge-card,.challenge-section").forEach(card=>card.querySelectorAll("th,td,div").forEach(el=>{if(!el.textContent.trim()&&String(el.className).toLowerCase().includes("track"))el.style.display="none"})));</script></body>

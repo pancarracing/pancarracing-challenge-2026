@@ -68,5 +68,61 @@
     "name": "Buenos Aires Circuito No.12",
     "dlc": false,
     "pack": "Base Game"
+  },
+  {
+    "challenge": 11,
+    "trackB": 2816254725,
+    "name": "Interlagos GP",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 12,
+    "trackB": 3037871603,
+    "name": "Imola",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 13,
+    "trackB": 775712153,
+    "name": "Spa-Francorchamps 2022",
+    "dlc": true,
+    "pack": "Spa-Francorchamps Pack / Premium Track Pack"
+  },
+  {
+    "challenge": 14,
+    "trackB": 1063112912,
+    "name": "Virginia International Raceway Full",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 15,
+    "trackB": 2590843191,
+    "name": "Interlagos Historic 1978 Outer",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 16,
+    "trackB": 2558461772,
+    "name": "Spa-Francorchamps Historic 1970",
+    "dlc": true,
+    "pack": "Spa-Francorchamps Pack / Premium Track Pack"
+  },
+  {
+    "challenge": 17,
+    "trackB": 399001429,
+    "name": "Nürburgring Nordschleife Historic 1971",
+    "dlc": true,
+    "pack": "Nürburgring Pack / Premium Track Pack"
+  },
+  {
+    "challenge": 18,
+    "trackB": 3212997714,
+    "name": "Jacarepaguá Historic 2005 Oval",
+    "dlc": false,
+    "pack": "Base Game"
   }
 ]
