@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-17T20:23:05+02:00",
+  "updated": "2026-09-17T20:28:47+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2098,7 +2098,8 @@
       "name": "Spa-Francorchamps Historic 1970",
       "trackB": 2558461772,
       "challengeClasses": [
-        "Opala Stock Cars 1986"
+        "Opala 79",
+        "Opala 86"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -2112,7 +2113,27 @@
         }
       ],
       "boardErrors": [],
-      "results": [],
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 245459304,
+          "vehicle": "Chevrolet Opala Stock Cars 1986",
+          "vehicleClass": "Opala86",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 245459304,
+          "rank": 3,
+          "score": 274253,
+          "time": "04:34.253",
+          "board": "cars2_autoevent_9261_2558461772_0_0",
+          "boardA": 9261,
+          "boardB": 2558461772,
+          "mergedRank": 1
+        }
+      ],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -15290,6 +15311,53 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-17T20:13:58+02:00"
+    },
+    {
+      "timestamp": "2026-09-17T20:13:58+02:00",
+      "challengeId": 16,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 245459304,
+      "vehicle": "Chevrolet Opala Stock Cars 1986",
+      "vehicleClass": "Opala86",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_9261_2558461772_0_0",
+      "boardA": 9261,
+      "boardB": 2558461772,
+      "track": "16",
+      "score": 274253,
+      "time": "04:34.253",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 3,
+      "worldJump": "3",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T20:13:58+02:00"
     }
   ],
   "last10": [
@@ -16716,7 +16784,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "challenge",
-    "elapsedSeconds": 22.2,
+    "elapsedSeconds": 21.9,
     "boardsScanned": 42,
     "boardsOk": 42,
     "rawFriendEntries": 56,
