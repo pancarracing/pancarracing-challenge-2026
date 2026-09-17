@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-17T17:35:08+02:00",
+  "updated": "2026-09-17T18:05:06+02:00",
   "challenges": [
     {
       "id": 1,
@@ -4187,7 +4187,7 @@
       "vehicle": "Lamborghini SC63",
       "vehicleClass": "LMDh",
       "vehicleDlc": false,
-      "vehicleDlcName": "",
+      "vehicleDlcName": "Lamborghini Dream Pack Pt1",
       "board": "cars2_autoevent_12355_2816254725_0_0",
       "boardA": 12355,
       "boardB": 2816254725,
@@ -4234,7 +4234,7 @@
       "vehicle": "Aston Martin Valkyrie Hypercar",
       "vehicleClass": "LMDh",
       "vehicleDlc": false,
-      "vehicleDlcName": "",
+      "vehicleDlcName": "Endurance Pack Pt3",
       "board": "cars2_autoevent_12355_2816254725_0_0",
       "boardA": 12355,
       "boardB": 2816254725,
@@ -4281,7 +4281,7 @@
       "vehicle": "Porsche 963",
       "vehicleClass": "LMDh",
       "vehicleDlc": false,
-      "vehicleDlcName": "",
+      "vehicleDlcName": "Endurance Pack Pt1",
       "board": "cars2_autoevent_12355_2816254725_0_0",
       "boardA": 12355,
       "boardB": 2816254725,
@@ -4846,7 +4846,7 @@
       "vehicle": "Aston Martin Valkyrie Hypercar",
       "vehicleClass": "LMDh",
       "vehicleDlc": false,
-      "vehicleDlcName": "",
+      "vehicleDlcName": "Endurance Pack Pt3",
       "board": "cars2_autoevent_12559_775712153_0_0",
       "boardA": 12559,
       "boardB": 775712153,
