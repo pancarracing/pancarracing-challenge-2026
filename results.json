@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-17T20:13:58+02:00",
+  "updated": "2026-09-17T20:23:05+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2098,7 +2098,7 @@
       "name": "Spa-Francorchamps Historic 1970",
       "trackB": 2558461772,
       "challengeClasses": [
-        "Opala 86"
+        "Opala Stock Cars 1986"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -4598,7 +4598,7 @@
       "steamId": "76561198089049981",
       "vehicleHash": 247012445,
       "vehicle": "Vehicle 247012445",
-      "vehicleClass": "",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12829_3037871603_0_0",
@@ -4645,7 +4645,7 @@
       "steamId": "76561198276152161",
       "vehicleHash": 247012445,
       "vehicle": "Vehicle 247012445",
-      "vehicleClass": "",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12829_3037871603_0_0",
@@ -4692,7 +4692,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": 247012445,
       "vehicle": "Vehicle 247012445",
-      "vehicleClass": "",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12829_3037871603_0_0",
@@ -5295,7 +5295,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-0.611",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T20:13:58+02:00"
     },
     {
       "timestamp": "2026-09-17T20:13:58+02:00",
@@ -5340,7 +5342,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T20:13:58+02:00"
     }
   ],
   "historyKing": [
@@ -15283,7 +15287,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-0.611",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T20:13:58+02:00"
     }
   ],
   "last10": [
@@ -16710,7 +16716,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "challenge",
-    "elapsedSeconds": 21.2,
+    "elapsedSeconds": 22.2,
     "boardsScanned": 42,
     "boardsOk": 42,
     "rawFriendEntries": 56,
