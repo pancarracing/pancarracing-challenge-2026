@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-18T05:50:05+02:00",
+  "updated": "2026-09-18T05:58:38+02:00",
   "challenges": [
     {
       "id": 1,
@@ -20,7 +20,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
       "boardsScanned": 2,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6735_612695202_0_0",
@@ -151,7 +151,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_7066_884472481_0_0",
       "boardsScanned": 1,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7066_884472481_0_0",
@@ -214,7 +214,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_733_1534602052_0_0",
       "boardsScanned": 1,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_733_1534602052_0_0",
@@ -365,7 +365,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_4526_3826312417_0_0",
       "boardsScanned": 3,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4526_3826312417_0_0",
@@ -543,7 +543,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_9873_4186114222_0_0",
       "boardsScanned": 2,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
@@ -682,7 +682,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
       "boardsScanned": 3,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_15482_701322116_0_0",
@@ -839,7 +839,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_10325_2134032188_0_0",
       "boardsScanned": 3,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_10325_2134032188_0_0",
@@ -992,7 +992,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
       "boardsScanned": 1,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
@@ -1095,7 +1095,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_12208_1060182346_0_0",
       "boardsScanned": 5,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12208_1060182346_0_0",
@@ -1354,7 +1354,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
       "boardsScanned": 1,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1052_799677855_0_0",
@@ -1458,7 +1458,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_4731_2816254725_0_0",
       "boardsScanned": 5,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4723_2816254725_0_0",
@@ -1688,7 +1688,7 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 1,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12829_3037871603_0_0",
@@ -1830,7 +1830,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_12081_775712153_0_0",
       "boardsScanned": 6,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12980_775712153_0_0",
@@ -2045,7 +2045,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
       "boardsScanned": 2,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [],
       "boardErrors": [],
       "results": [],
@@ -2062,7 +2062,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_4810_2590843191_0_0",
       "boardsScanned": 2,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
@@ -2105,7 +2105,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
       "boardsScanned": 2,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9261_2558461772_0_0",
@@ -2167,7 +2167,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_7202_399001429_0_0",
       "boardsScanned": 2,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7212_399001429_0_0",
@@ -2229,7 +2229,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_5131_3212997714_0_0",
       "boardsScanned": 2,
-      "scanMode": "challenge",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_5165_3212997714_0_0",
@@ -2237,19 +2237,39 @@
         }
       ],
       "boardErrors": [],
-      "results": [],
+      "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 318327800,
+          "vehicle": "Mercedes-Benz CLK GTR",
+          "vehicleClass": "GT1",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 318327800,
+          "rank": 15,
+          "score": 46464,
+          "time": "00:46.464",
+          "board": "cars2_autoevent_5165_3212997714_0_0",
+          "boardA": 5165,
+          "boardB": 3212997714,
+          "mergedRank": 1
+        }
+      ],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
           "vehicleHash": 318327800,
-          "vehicle": "Vehicle 318327800",
-          "vehicleClass": "",
-          "vehicleContent": "",
+          "vehicle": "Mercedes-Benz CLK GTR",
+          "vehicleClass": "GT1",
+          "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
-          "catalogMatched": false,
-          "vehicleHashResolvedAs": null,
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 318327800,
           "rank": 15,
           "score": 46464,
           "time": "00:46.464",
@@ -5672,7 +5692,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-2.745",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-18T05:50:05+02:00"
     }
   ],
   "historyKing": [
@@ -16528,6 +16550,53 @@
       "kingFrozenAt": "2026-09-17T21:16:01+02:00"
     },
     {
+      "timestamp": "2026-09-17T21:30:48+02:00",
+      "challengeId": 18,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 318327800,
+      "vehicle": "Mercedes-Benz CLK GTR",
+      "vehicleClass": "GT1",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_5165_3212997714_0_0",
+      "boardA": 5165,
+      "boardB": 3212997714,
+      "track": "18",
+      "score": 46464,
+      "time": "00:46.464",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 15,
+      "worldJump": "15",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-17T21:30:48+02:00"
+    },
+    {
       "timestamp": "2026-09-18T05:50:05+02:00",
       "challengeId": 3,
       "driver": "pancar LBC",
@@ -16571,7 +16640,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-2.745",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-18T05:50:05+02:00"
     }
   ],
   "last10": [
@@ -18004,13 +18075,13 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "challenge",
-    "elapsedSeconds": 22.6,
+    "mode": "ultra",
+    "elapsedSeconds": 22.1,
     "boardsScanned": 44,
     "boardsOk": 44,
     "rawFriendEntries": 58,
     "errors": 0,
-    "catalogVehicles": 270,
-    "unknownVehicles": 8
+    "catalogVehicles": 271,
+    "unknownVehicles": 2
   }
 }
