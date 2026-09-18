@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-18T19:54:53+02:00",
+  "updated": "2026-09-18T19:59:38+02:00",
   "challenges": [
     {
       "id": 1,
@@ -5883,8 +5883,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-2.499",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-18T19:54:53+02:00"
     }
   ],
   "historyKing": [
@@ -17597,8 +17599,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-2.499",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-18T19:54:53+02:00"
     }
   ],
   "last10": [
@@ -19037,7 +19041,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 22.0,
+    "elapsedSeconds": 22.1,
     "boardsScanned": 44,
     "boardsOk": 44,
     "rawFriendEntries": 58,
