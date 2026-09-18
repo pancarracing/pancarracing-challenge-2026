@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-18T21:21:50+02:00",
+  "updated": "2026-09-18T21:25:21+02:00",
   "challenges": [
     {
       "id": 1,
@@ -992,7 +992,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
       "boardsScanned": 1,
-      "scanMode": "fast101",
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
@@ -1190,7 +1190,7 @@
           "vehicleDlcName": "Lamborghini Dream Pack Pt1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -1556432632,
-          "rank": 797,
+          "rank": 798,
           "score": 211460,
           "time": "03:31.460",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -1209,7 +1209,7 @@
           "vehicleDlcName": "Endurance Pack Pt3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1837911487,
-          "rank": 1632,
+          "rank": 1633,
           "score": 216901,
           "time": "03:36.901",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -1247,7 +1247,7 @@
           "vehicleDlcName": "Endurance Pack Pt1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1937293617,
-          "rank": 2363,
+          "rank": 2364,
           "score": 225938,
           "time": "03:45.938",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -1266,7 +1266,7 @@
           "vehicleDlcName": "Endurance Pack Pt1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -966026248,
-          "rank": 2439,
+          "rank": 2440,
           "score": 227438,
           "time": "03:47.438",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -19282,11 +19282,11 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "fast101",
-    "elapsedSeconds": 0.6,
-    "boardsScanned": 1,
-    "boardsOk": 1,
-    "rawFriendEntries": 2,
+    "mode": "ultra",
+    "elapsedSeconds": 22.2,
+    "boardsScanned": 44,
+    "boardsOk": 44,
+    "rawFriendEntries": 58,
     "errors": 0,
     "catalogVehicles": 271,
     "unknownVehicles": 2
