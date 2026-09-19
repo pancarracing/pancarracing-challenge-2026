@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-19T09:50:05+02:00",
+  "updated": "2026-09-19T11:11:38+02:00",
   "challenges": [
     {
       "id": 1,
@@ -6050,7 +6050,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-14.037",
       "displayFriendColor": "gold",
-      "displayTimeColor": "green"
+      "displayTimeColor": "green",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T09:50:05+02:00"
     }
   ],
   "historyKing": [
@@ -18289,7 +18291,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-14.037",
       "displayFriendColor": "gold",
-      "displayTimeColor": "green"
+      "displayTimeColor": "green",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T09:50:05+02:00"
     }
   ],
   "last10": [
@@ -19730,7 +19734,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 22.9,
+    "elapsedSeconds": 22.6,
     "boardsScanned": 45,
     "boardsOk": 45,
     "rawFriendEntries": 59,
