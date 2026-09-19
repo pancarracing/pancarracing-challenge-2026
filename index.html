@@ -1472,10 +1472,14 @@ function scheduleNextRefresh() {
     const delay = next.getTime() - now.getTime();
 
     setTimeout(async () => {
-        await loadResults();
+        // Safety: never do the periodic fetch/render while the browser is in the background.
+        // This removes PANCAR's 20-minute browser activity while AMS2 has foreground focus.
+        if (document.hasFocus()) await loadResults();
         scheduleNextRefresh();
     }, delay);
 }
+
+window.addEventListener("focus", () => { loadResults(); });
 
 async function bootstrap() {
     await loadCarCatalog();
