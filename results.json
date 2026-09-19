@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-19T05:00:23+02:00",
+  "updated": "2026-09-19T05:01:15+02:00",
   "challenges": [
     {
       "id": 1,
@@ -991,8 +991,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
@@ -1003,156 +1003,7 @@
           "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_7633_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7632_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7631_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7630_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7629_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7628_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7627_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7626_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7625_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7624_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7623_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7622_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7621_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7620_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7619_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7618_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7617_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7616_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7615_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7614_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7613_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7612_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7611_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7610_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7609_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7608_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7607_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7606_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7605_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7604_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7603_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7602_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7601_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7600_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7599_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7598_4202898090_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_7597_4202898090_0_0",
-          "status": "find-failed"
-        }
-      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198089049981",
@@ -1628,7 +1479,7 @@
       ],
       "allClasses": [],
       "allPolicy": "",
-      "board": "cars2_autoevent_4723_2816254725_0_0",
+      "board": "cars2_autoevent_4731_2816254725_0_0",
       "boardsScanned": 5,
       "scanMode": "ultra",
       "activeBoards": [
@@ -1858,7 +1709,7 @@
       ],
       "allClasses": [],
       "allPolicy": "",
-      "board": "cars2_autoevent_12829_3037871603_0_0",
+      "board": "",
       "boardsScanned": 1,
       "scanMode": "ultra",
       "activeBoards": [
@@ -6150,8 +6001,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T05:00:23+02:00"
     }
   ],
   "historyKing": [
@@ -19639,12 +19492,12 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "fast101",
-    "elapsedSeconds": 41.3,
-    "boardsScanned": 101,
-    "boardsOk": 64,
-    "rawFriendEntries": 3,
-    "errors": 37,
+    "mode": "ultra",
+    "elapsedSeconds": 22.7,
+    "boardsScanned": 45,
+    "boardsOk": 45,
+    "rawFriendEntries": 59,
+    "errors": 0,
     "catalogVehicles": 271,
     "unknownVehicles": 2
   }
