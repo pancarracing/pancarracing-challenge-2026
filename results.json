@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-19T19:14:12+02:00",
+  "updated": "2026-09-19T19:34:45+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2450,8 +2450,8 @@
         "challenge"
       ],
       "displayDelta": "NEW",
-      "displayTimeColor": "blue",
       "displayFriendColor": "white",
+      "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-19T18:53:26+02:00"
     },
@@ -3225,7 +3225,7 @@
       "kingFriendJump": "3",
       "kingFriendColor": "",
       "challengeFriendJump": "3→3",
-      "challengeFriendColor": "gold",
+      "challengeFriendColor": "",
       "oldWorldRank": 26,
       "newWorldRank": 16,
       "worldJump": "26→16",
@@ -3244,10 +3244,7 @@
         "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T09:06:02+02:00",
@@ -3332,7 +3329,7 @@
       "kingFriendJump": "2",
       "kingFriendColor": "",
       "challengeFriendJump": "2→2",
-      "challengeFriendColor": "gold",
+      "challengeFriendColor": "",
       "oldWorldRank": 4,
       "newWorldRank": 4,
       "worldJump": "4",
@@ -3351,10 +3348,7 @@
         "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -3609,10 +3603,10 @@
       "kingFriendJump": "3",
       "newWorldRank": 692,
       "worldJump": "692",
-      "timeColor": "blue",
+      "timeColor": "white",
       "displayDelta": "NEW",
-      "displayTimeColor": "blue",
       "displayFriendColor": "white",
+      "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-19T18:53:26+02:00"
     },
@@ -3822,9 +3816,9 @@
       "oldFriendRank": null,
       "newFriendRank": 1,
       "friendJump": "1",
-      "friendColor": "",
+      "friendColor": "gold",
       "kingFriendJump": "1",
-      "kingFriendColor": "",
+      "kingFriendColor": "gold",
       "challengeFriendJump": "—",
       "challengeFriendColor": "",
       "oldWorldRank": null,
@@ -3835,7 +3829,7 @@
       "frozen": true,
       "historySource": "snapshot-delta",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "gold",
       "displayTimeColor": "blue",
       "impactEvent": true,
       "eventType": "NEW",
@@ -6376,51 +6370,6 @@
       "displayTimeColor": "green",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-19T13:54:43+02:00"
-    },
-    {
-      "timestamp": "2026-09-19T19:14:12+02:00",
-      "challengeId": 7,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 1948072701,
-      "vehicle": "Formula V8 Gen3",
-      "vehicleClass": "F-Reiza",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_10325_2134032188_0_0",
-      "boardA": 10325,
-      "boardB": 2134032188,
-      "track": "VIR",
-      "score": 72416,
-      "time": "01:12.416",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldFriendRank": null,
-      "newFriendRank": 1,
-      "friendJump": "1",
-      "friendColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "oldWorldRank": null,
-      "newWorldRank": 2,
-      "worldJump": "2",
-      "worldColor": "",
-      "timeColor": "gold",
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "white",
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
     }
   ],
   "historyKing": [
@@ -17255,8 +17204,8 @@
         "challenge"
       ],
       "displayDelta": "NEW",
-      "displayTimeColor": "blue",
       "displayFriendColor": "white",
+      "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-19T18:53:26+02:00"
     },
@@ -18030,7 +17979,7 @@
       "kingFriendJump": "3",
       "kingFriendColor": "",
       "challengeFriendJump": "3→3",
-      "challengeFriendColor": "gold",
+      "challengeFriendColor": "",
       "oldWorldRank": 26,
       "newWorldRank": 16,
       "worldJump": "26→16",
@@ -18049,10 +17998,7 @@
         "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T09:06:02+02:00",
@@ -18137,7 +18083,7 @@
       "kingFriendJump": "2",
       "kingFriendColor": "",
       "challengeFriendJump": "2→2",
-      "challengeFriendColor": "gold",
+      "challengeFriendColor": "",
       "oldWorldRank": 4,
       "newWorldRank": 4,
       "worldJump": "4",
@@ -18156,10 +18102,7 @@
         "deltaFriends": "white",
         "world": "green",
         "deltaWorld": "green"
-      },
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "blue"
+      }
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -18414,10 +18357,10 @@
       "kingFriendJump": "3",
       "newWorldRank": 692,
       "worldJump": "692",
-      "timeColor": "blue",
+      "timeColor": "white",
       "displayDelta": "NEW",
-      "displayTimeColor": "blue",
       "displayFriendColor": "white",
+      "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-19T18:53:26+02:00"
     },
@@ -21289,7 +21232,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 24.4,
+    "elapsedSeconds": 24.3,
     "boardsScanned": 48,
     "boardsOk": 48,
     "rawFriendEntries": 62,
