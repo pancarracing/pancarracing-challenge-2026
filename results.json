@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-19T13:59:12+02:00",
+  "updated": "2026-09-19T15:03:53+02:00",
   "challenges": [
     {
       "id": 1,
@@ -19,8 +19,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6735_612695202_0_0",
@@ -1513,7 +1513,7 @@
           "vehicleDlcName": "Lamborghini Dream Pack Pt1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1122735892,
-          "rank": 770,
+          "rank": 771,
           "score": 84619,
           "time": "01:24.619",
           "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -1532,7 +1532,7 @@
           "vehicleDlcName": "Endurance Pack Pt3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -896587240,
-          "rank": 931,
+          "rank": 932,
           "score": 85000,
           "time": "01:25.000",
           "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -1572,7 +1572,7 @@
           "vehicleDlcName": "Lamborghini Dream Pack Pt1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1122735892,
-          "rank": 770,
+          "rank": 771,
           "score": 84619,
           "time": "01:24.619",
           "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -1591,7 +1591,7 @@
           "vehicleDlcName": "Endurance Pack Pt3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -896587240,
-          "rank": 931,
+          "rank": 932,
           "score": 85000,
           "time": "01:25.000",
           "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -20729,11 +20729,11 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "fast101",
-    "elapsedSeconds": 63.3,
-    "boardsScanned": 101,
-    "boardsOk": 101,
-    "rawFriendEntries": 3,
+    "mode": "ultra",
+    "elapsedSeconds": 30.2,
+    "boardsScanned": 48,
+    "boardsOk": 48,
+    "rawFriendEntries": 62,
     "errors": 0,
     "catalogVehicles": 271,
     "unknownVehicles": 2
