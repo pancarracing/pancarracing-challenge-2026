@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-19T04:57:11+02:00",
+  "updated": "2026-09-19T05:00:23+02:00",
   "challenges": [
     {
       "id": 1,
@@ -991,15 +991,168 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardsScanned": 1,
+      "boardsScanned": 101,
       "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
           "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_7662_4202898090_0_0",
+          "friends": 1
         }
       ],
-      "boardErrors": [],
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_7633_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7632_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7631_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7630_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7629_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7628_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7627_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7626_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7625_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7624_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7623_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7622_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7621_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7620_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7619_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7618_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7617_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7616_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7615_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7614_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7613_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7612_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7611_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7610_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7609_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7608_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7607_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7606_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7605_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7604_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7603_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7602_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7601_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7600_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7599_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7598_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7597_4202898090_0_0",
+          "status": "find-failed"
+        }
+      ],
       "results": [
         {
           "steamId": "76561198089049981",
@@ -1078,6 +1231,25 @@
           "boardA": 7647,
           "boardB": 4202898090,
           "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 306371028,
+          "rank": 13,
+          "score": 96913,
+          "time": "01:36.913",
+          "board": "cars2_autoevent_7662_4202898090_0_0",
+          "boardA": 7662,
+          "boardB": 4202898090,
+          "mergedRank": 3
         }
       ]
     },
@@ -5935,6 +6107,51 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-18T20:45:56+02:00"
+    },
+    {
+      "timestamp": "2026-09-19T05:00:23+02:00",
+      "challengeId": 8,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7662_4202898090_0_0",
+      "boardA": 7662,
+      "boardB": 4202898090,
+      "track": "Oulton",
+      "score": 96913,
+      "time": "01:36.913",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 13,
+      "worldJump": "13",
+      "worldColor": "",
+      "timeColor": "blue",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "",
+      "displayTimeColor": "blue"
     }
   ],
   "historyKing": [
@@ -9098,6 +9315,53 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-18T20:45:56+02:00"
+    },
+    {
+      "timestamp": "2026-09-19T05:00:23+02:00",
+      "challengeId": 8,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7662_4202898090_0_0",
+      "boardA": 7662,
+      "boardB": 4202898090,
+      "track": "Oulton",
+      "score": 96913,
+      "time": "01:36.913",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 13,
+      "worldJump": "13",
+      "worldColor": "",
+      "timeColor": "white",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T05:00:23+02:00"
     }
   ],
   "kingMasterTop20": [
@@ -12263,9 +12527,103 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-18T20:45:56+02:00"
+    },
+    {
+      "timestamp": "2026-09-19T05:00:23+02:00",
+      "challengeId": 8,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7662_4202898090_0_0",
+      "boardA": 7662,
+      "boardB": 4202898090,
+      "track": "Oulton",
+      "score": 96913,
+      "time": "01:36.913",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 13,
+      "worldJump": "13",
+      "worldColor": "",
+      "timeColor": "white",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T05:00:23+02:00"
     }
   ],
   "kingDisplayHistory": [
+    {
+      "timestamp": "2026-09-19T05:00:23+02:00",
+      "challengeId": 8,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7662_4202898090_0_0",
+      "boardA": 7662,
+      "boardB": 4202898090,
+      "track": "Oulton",
+      "score": 96913,
+      "time": "01:36.913",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 13,
+      "worldJump": "13",
+      "worldColor": "",
+      "timeColor": "white",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T05:00:23+02:00"
+    },
     {
       "timestamp": "2026-09-18T20:45:56+02:00",
       "challengeId": 3,
@@ -17847,6 +18205,53 @@
   ],
   "last10": [
     {
+      "timestamp": "2026-09-19T05:00:23+02:00",
+      "challengeId": 8,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7662_4202898090_0_0",
+      "boardA": 7662,
+      "boardB": 4202898090,
+      "track": "Oulton",
+      "score": 96913,
+      "time": "01:36.913",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 13,
+      "worldJump": "13",
+      "worldColor": "",
+      "timeColor": "white",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T05:00:23+02:00"
+    },
+    {
       "timestamp": "2026-09-18T20:45:56+02:00",
       "challengeId": 3,
       "driver": "dr.slimm",
@@ -18276,57 +18681,56 @@
       "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-17T21:12:36+02:00"
-    },
-    {
-      "timestamp": "2026-09-17T21:01:52+02:00",
-      "challengeId": 7,
-      "driver": "dr.slimm",
-      "steamId": "76561198089049981",
-      "vehicleHash": 2016280350,
-      "vehicle": "Porsche 911 RSR 1974",
-      "vehicleClass": "TC70S",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_10366_2134032188_0_0",
-      "boardA": 10366,
-      "boardB": 2134032188,
-      "track": "VIR",
-      "score": 99939,
-      "time": "01:39.939",
-      "isNew": false,
-      "deltaMs": -1019,
-      "delta": "-1.019",
-      "challengeEligible": true,
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "oldFriendRank": 4,
-      "newFriendRank": 4,
-      "friendJump": "4",
-      "friendColor": "",
-      "kingFriendJump": "4",
-      "kingFriendColor": "",
-      "challengeFriendJump": "2",
-      "challengeFriendColor": "",
-      "oldWorldRank": 5,
-      "newWorldRank": 5,
-      "worldJump": "5",
-      "worldColor": "",
-      "timeColor": "green",
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "RANK_UP",
-      "displaySemanticColor": "green",
-      "displayDelta": "-1.019",
-      "displayFriendColor": "green",
-      "displayTimeColor": "blue",
-      "kingFrozen": true,
-      "kingFrozenAt": "2026-09-17T21:01:52+02:00"
     }
   ],
   "last20": [
+    {
+      "timestamp": "2026-09-19T05:00:23+02:00",
+      "challengeId": 8,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 306371028,
+      "vehicle": "Superkart 250cc",
+      "vehicleClass": "SuperKart",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7662_4202898090_0_0",
+      "boardA": 7662,
+      "boardB": 4202898090,
+      "track": "Oulton",
+      "score": 96913,
+      "time": "01:36.913",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "friendJump": "3",
+      "friendColor": "",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 13,
+      "worldJump": "13",
+      "worldColor": "",
+      "timeColor": "white",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T05:00:23+02:00"
+    },
     {
       "timestamp": "2026-09-18T20:45:56+02:00",
       "challengeId": 3,
@@ -19231,63 +19635,16 @@
       "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-17T06:32:58+02:00"
-    },
-    {
-      "timestamp": "2026-09-17T06:32:58+02:00",
-      "challengeId": 13,
-      "driver": "Acce",
-      "steamId": "76561198276152161",
-      "vehicleHash": -1485318279,
-      "vehicle": "Vehicle -1485318279",
-      "vehicleClass": "",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_19155_775712153_0_0",
-      "boardA": 19155,
-      "boardB": 775712153,
-      "track": "13",
-      "score": 110500,
-      "time": "01:50.500",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldFriendRank": null,
-      "newFriendRank": 4,
-      "friendJump": "4",
-      "friendColor": "",
-      "kingFriendJump": "4",
-      "kingFriendColor": "",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "oldWorldRank": null,
-      "newWorldRank": 225,
-      "worldJump": "225",
-      "worldColor": "",
-      "timeColor": "white",
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "white",
-      "displayDelta": "NEW",
-      "displayFriendColor": "white",
-      "displayTimeColor": "blue",
-      "kingFrozen": true,
-      "kingFrozenAt": "2026-09-17T06:32:58+02:00"
     }
   ],
   "collector": {
     "version": "V5.3.5",
     "mode": "fast101",
-    "elapsedSeconds": 0.5,
-    "boardsScanned": 1,
-    "boardsOk": 1,
-    "rawFriendEntries": 2,
-    "errors": 0,
+    "elapsedSeconds": 41.3,
+    "boardsScanned": 101,
+    "boardsOk": 64,
+    "rawFriendEntries": 3,
+    "errors": 37,
     "catalogVehicles": 271,
     "unknownVehicles": 2
   }
