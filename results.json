@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-19T12:05:55+02:00",
+  "updated": "2026-09-19T12:08:26+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2067,8 +2067,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 3,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12585_1063112912_0_0",
@@ -2129,8 +2129,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4810_2590843191_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 3,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
@@ -2141,108 +2141,7 @@
           "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_4809_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4886_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4808_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4887_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4807_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4888_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4806_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4889_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4805_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4890_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4804_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4891_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4803_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4892_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4802_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4893_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4801_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4894_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4800_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4895_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4799_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4896_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4798_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4897_2590843191_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_4797_2590843191_0_0",
-          "status": "find-failed"
-        }
-      ],
+      "boardErrors": [],
       "results": [],
       "allClassesResults": [
         {
@@ -6337,7 +6236,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T12:05:55+02:00"
     },
     {
       "timestamp": "2026-09-19T12:05:55+02:00",
@@ -6382,7 +6283,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T12:05:55+02:00"
     }
   ],
   "historyKing": [
@@ -19095,7 +18998,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-19T12:05:55+02:00"
     }
   ],
   "last10": [
@@ -20535,12 +20440,12 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "fast101",
-    "elapsedSeconds": 95.5,
-    "boardsScanned": 202,
-    "boardsOk": 177,
-    "rawFriendEntries": 3,
-    "errors": 25,
+    "mode": "ultra",
+    "elapsedSeconds": 24.2,
+    "boardsScanned": 48,
+    "boardsOk": 48,
+    "rawFriendEntries": 62,
+    "errors": 0,
     "catalogVehicles": 271,
     "unknownVehicles": 2
   }
