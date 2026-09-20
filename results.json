@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-20T20:30:25+02:00",
+  "updated": "2026-09-20T20:30:56+02:00",
   "challenges": [
     {
       "id": 1,
@@ -689,15 +689,16 @@
           "friends": 2
         },
         {
-          "board": "cars2_autoevent_15489_701322116_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_15475_701322116_0_0",
           "friends": 1
         }
       ],
-      "boardErrors": [],
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_15489_701322116_0_0",
+          "status": "find-failed"
+        }
+      ],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -742,25 +743,6 @@
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
-          "vehicleHash": 1979398129,
-          "vehicle": "Mercedes-Benz CLK LM",
-          "vehicleClass": "GT1",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1979398129,
-          "rank": 3,
-          "score": 83620,
-          "time": "01:23.620",
-          "board": "cars2_autoevent_15489_701322116_0_0",
-          "boardA": 15489,
-          "boardB": 701322116,
-          "mergedRank": 1
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
           "vehicleHash": 262982797,
           "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
           "vehicleClass": "Group A",
@@ -775,7 +757,7 @@
           "board": "cars2_autoevent_15482_701322116_0_0",
           "boardA": 15482,
           "boardB": 701322116,
-          "mergedRank": 2
+          "mergedRank": 1
         },
         {
           "steamId": "76561198089049981",
@@ -794,7 +776,7 @@
           "board": "cars2_autoevent_15482_701322116_0_0",
           "boardA": 15482,
           "boardB": 701322116,
-          "mergedRank": 3
+          "mergedRank": 2
         },
         {
           "steamId": "76561198012880510",
@@ -813,7 +795,7 @@
           "board": "cars2_autoevent_15475_701322116_0_0",
           "boardA": 15475,
           "boardB": 701322116,
-          "mergedRank": 4
+          "mergedRank": 3
         }
       ]
     },
@@ -22281,11 +22263,11 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 27.8,
+    "elapsedSeconds": 35.8,
     "boardsScanned": 53,
-    "boardsOk": 53,
-    "rawFriendEntries": 67,
-    "errors": 0,
+    "boardsOk": 52,
+    "rawFriendEntries": 66,
+    "errors": 1,
     "catalogVehicles": 271,
     "unknownVehicles": 2
   }
