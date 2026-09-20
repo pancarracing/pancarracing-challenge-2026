@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-20T22:40:44+02:00",
+  "updated": "2026-09-20T22:41:44+02:00",
   "challenges": [
     {
       "id": 1,
@@ -155,14 +155,14 @@
       "activeBoards": [
         {
           "board": "cars2_autoevent_7066_884472481_0_0",
-          "friends": 1
+          "friends": 2
         }
       ],
       "boardErrors": [],
       "results": [
         {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
           "vehicleHash": 379055283,
           "vehicle": "Ginetta G55 GT4",
           "vehicleClass": "GT4",
@@ -171,16 +171,14 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 379055283,
-          "rank": 561,
-          "score": 477025,
-          "time": "07:57.025",
+          "rank": 457,
+          "score": 458199,
+          "time": "07:38.199",
           "board": "cars2_autoevent_7066_884472481_0_0",
           "boardA": 7066,
           "boardB": 884472481,
           "mergedRank": 1
-        }
-      ],
-      "allClassesResults": [
+        },
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
@@ -192,13 +190,53 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 379055283,
-          "rank": 561,
+          "rank": 562,
           "score": 477025,
           "time": "07:57.025",
           "board": "cars2_autoevent_7066_884472481_0_0",
           "boardA": 7066,
           "boardB": 884472481,
+          "mergedRank": 2
+        }
+      ],
+      "allClassesResults": [
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 379055283,
+          "vehicle": "Ginetta G55 GT4",
+          "vehicleClass": "GT4",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 379055283,
+          "rank": 457,
+          "score": 458199,
+          "time": "07:38.199",
+          "board": "cars2_autoevent_7066_884472481_0_0",
+          "boardA": 7066,
+          "boardB": 884472481,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 379055283,
+          "vehicle": "Ginetta G55 GT4",
+          "vehicleClass": "GT4",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 379055283,
+          "rank": 562,
+          "score": 477025,
+          "time": "07:57.025",
+          "board": "cars2_autoevent_7066_884472481_0_0",
+          "boardA": 7066,
+          "boardB": 884472481,
+          "mergedRank": 2
         }
       ]
     },
@@ -1629,7 +1667,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1353949246,
-          "rank": 4899,
+          "rank": 4900,
           "score": 96219,
           "time": "01:36.219",
           "board": "cars2_autoevent_4704_2816254725_0_0",
@@ -1876,7 +1914,12 @@
           "friends": 2
         }
       ],
-      "boardErrors": [],
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_12081_775712153_0_0",
+          "status": "find-failed"
+        }
+      ],
       "results": [
         {
           "steamId": "76561198089049981",
@@ -1948,7 +1991,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": null,
-          "rank": 199,
+          "rank": 200,
           "score": 109880,
           "time": "01:49.880",
           "board": "cars2_autoevent_19155_775712153_0_0",
@@ -1967,7 +2010,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": null,
-          "rank": 230,
+          "rank": 231,
           "score": 110500,
           "time": "01:50.500",
           "board": "cars2_autoevent_19155_775712153_0_0",
@@ -2196,9 +2239,17 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 16,
+      "scanMode": "ultra",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_9261_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12561_2558461772_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
@@ -2208,19 +2259,7 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9259_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9261_2558461772_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_9271_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9272_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2232,7 +2271,7 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9295_2558461772_0_0",
+          "board": "cars2_autoevent_9272_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2240,7 +2279,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_12561_2558461772_0_0",
+          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9295_2558461772_0_0",
           "friends": 1
         },
         {
@@ -7090,7 +7133,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:40:44+02:00"
     },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
@@ -7134,8 +7179,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:40:44+02:00"
     },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
@@ -7179,8 +7226,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:40:44+02:00"
     },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
@@ -7224,8 +7273,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:40:44+02:00"
     },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
@@ -7269,8 +7320,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:40:44+02:00"
     },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
@@ -7314,8 +7367,56 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:40:44+02:00"
+    },
+    {
+      "timestamp": "2026-09-20T22:41:44+02:00",
+      "challengeId": 2,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 379055283,
+      "vehicle": "Ginetta G55 GT4",
+      "vehicleClass": "GT4",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7066_884472481_0_0",
+      "boardA": 7066,
+      "boardB": 884472481,
+      "track": "Nordschleife",
+      "score": 458199,
+      "time": "07:38.199",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 457,
+      "worldJump": "457",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold"
     }
   ],
   "historyKing": [
@@ -11567,6 +11668,54 @@
       "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-20T22:40:44+02:00"
+    },
+    {
+      "timestamp": "2026-09-20T22:41:44+02:00",
+      "challengeId": 2,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 379055283,
+      "vehicle": "Ginetta G55 GT4",
+      "vehicleClass": "GT4",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7066_884472481_0_0",
+      "boardA": 7066,
+      "boardB": 884472481,
+      "track": "Nordschleife",
+      "score": 458199,
+      "time": "07:38.199",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 457,
+      "worldJump": "457",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "gold",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:41:44+02:00"
     }
   ],
   "kingMasterTop20": [
@@ -15820,9 +15969,105 @@
       "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-20T22:40:44+02:00"
+    },
+    {
+      "timestamp": "2026-09-20T22:41:44+02:00",
+      "challengeId": 2,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 379055283,
+      "vehicle": "Ginetta G55 GT4",
+      "vehicleClass": "GT4",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7066_884472481_0_0",
+      "boardA": 7066,
+      "boardB": 884472481,
+      "track": "Nordschleife",
+      "score": 458199,
+      "time": "07:38.199",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 457,
+      "worldJump": "457",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "gold",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:41:44+02:00"
     }
   ],
   "kingDisplayHistory": [
+    {
+      "timestamp": "2026-09-20T22:41:44+02:00",
+      "challengeId": 2,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 379055283,
+      "vehicle": "Ginetta G55 GT4",
+      "vehicleClass": "GT4",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7066_884472481_0_0",
+      "boardA": 7066,
+      "boardB": 884472481,
+      "track": "Nordschleife",
+      "score": 458199,
+      "time": "07:38.199",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 457,
+      "worldJump": "457",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "gold",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:41:44+02:00"
+    },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
       "challengeId": 16,
@@ -22762,9 +23007,103 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-20T21:29:26+02:00"
+    },
+    {
+      "timestamp": "2026-09-20T22:41:44+02:00",
+      "challengeId": 2,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 379055283,
+      "vehicle": "Ginetta G55 GT4",
+      "vehicleClass": "GT4",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7066_884472481_0_0",
+      "boardA": 7066,
+      "boardB": 884472481,
+      "track": "Nordschleife",
+      "score": 458199,
+      "time": "07:38.199",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 457,
+      "worldJump": "457",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold"
     }
   ],
   "last10": [
+    {
+      "timestamp": "2026-09-20T22:41:44+02:00",
+      "challengeId": 2,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 379055283,
+      "vehicle": "Ginetta G55 GT4",
+      "vehicleClass": "GT4",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_7066_884472481_0_0",
+      "boardA": 7066,
+      "boardB": 884472481,
+      "track": "Nordschleife",
+      "score": 458199,
+      "time": "07:38.199",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "king",
+        "challenge"
+      ],
+      "oldFriendRank": null,
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 457,
+      "worldJump": "457",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "gold",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T22:41:44+02:00"
+    },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
       "challengeId": 16,
@@ -23188,56 +23527,57 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-20T21:29:26+02:00"
-    },
+    }
+  ],
+  "last20": [
     {
-      "timestamp": "2026-09-20T14:45:43+02:00",
-      "challengeId": 16,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 262982797,
-      "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
-      "vehicleClass": "Group A",
+      "timestamp": "2026-09-20T22:41:44+02:00",
+      "challengeId": 2,
+      "driver": "dr.slimm",
+      "steamId": "76561198089049981",
+      "vehicleHash": 379055283,
+      "vehicle": "Ginetta G55 GT4",
+      "vehicleClass": "GT4",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_9271_2558461772_0_0",
-      "boardA": 9271,
-      "boardB": 2558461772,
-      "track": "16",
-      "score": 249760,
-      "time": "04:09.760",
+      "board": "cars2_autoevent_7066_884472481_0_0",
+      "boardA": 7066,
+      "boardB": 884472481,
+      "track": "Nordschleife",
+      "score": 458199,
+      "time": "07:38.199",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": false,
+      "challengeEligible": true,
       "scopes": [
-        "king"
+        "king",
+        "challenge"
       ],
       "oldFriendRank": null,
-      "newFriendRank": 6,
-      "friendJump": "6",
-      "friendColor": "",
-      "kingFriendJump": "6",
-      "kingFriendColor": "",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
+      "newFriendRank": 1,
+      "friendJump": "1",
+      "friendColor": "gold",
+      "kingFriendJump": "1",
+      "kingFriendColor": "gold",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
       "oldWorldRank": null,
-      "newWorldRank": 24,
-      "worldJump": "24",
+      "newWorldRank": 457,
+      "worldJump": "457",
       "worldColor": "",
-      "timeColor": "white",
+      "timeColor": "gold",
       "frozen": true,
       "historySource": "snapshot-delta",
       "impactEvent": true,
       "eventType": "NEW",
-      "displaySemanticColor": "white",
+      "displaySemanticColor": "gold",
       "displayDelta": "NEW",
-      "displayFriendColor": "white",
-      "displayTimeColor": "blue",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold",
       "kingFrozen": true,
-      "kingFrozenAt": "2026-09-20T14:45:43+02:00"
-    }
-  ],
-  "last20": [
+      "kingFrozenAt": "2026-09-20T22:41:44+02:00"
+    },
     {
       "timestamp": "2026-09-20T22:40:44+02:00",
       "challengeId": 16,
@@ -24135,64 +24475,16 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-19T12:05:55+02:00"
-    },
-    {
-      "timestamp": "2026-09-19T12:05:55+02:00",
-      "challengeId": 14,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 1122735892,
-      "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMDh",
-      "vehicleDlc": true,
-      "vehicleDlcName": "Lamborghini Dream Pack Pt1",
-      "board": "cars2_autoevent_12585_1063112912_0_0",
-      "boardA": 12585,
-      "boardB": 1063112912,
-      "track": "14",
-      "score": 98503,
-      "time": "01:38.503",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": true,
-      "scopes": [
-        "king",
-        "challenge"
-      ],
-      "oldFriendRank": null,
-      "newFriendRank": 1,
-      "friendJump": "1",
-      "friendColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
-      "challengeFriendJump": "1",
-      "challengeFriendColor": "gold",
-      "oldWorldRank": null,
-      "newWorldRank": 196,
-      "worldJump": "196",
-      "worldColor": "",
-      "timeColor": "gold",
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "gold",
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold",
-      "kingFrozen": true,
-      "kingFrozenAt": "2026-09-19T12:05:55+02:00"
     }
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "fast101",
-    "elapsedSeconds": 51.1,
-    "boardsScanned": 101,
-    "boardsOk": 101,
-    "rawFriendEntries": 15,
-    "errors": 0,
+    "mode": "ultra",
+    "elapsedSeconds": 38.5,
+    "boardsScanned": 61,
+    "boardsOk": 60,
+    "rawFriendEntries": 76,
+    "errors": 1,
     "catalogVehicles": 271,
     "unknownVehicles": 6
   }
