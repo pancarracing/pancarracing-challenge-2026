@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-20T21:29:26+02:00",
+  "updated": "2026-09-20T21:29:56+02:00",
   "challenges": [
     {
       "id": 1,
@@ -4336,9 +4336,9 @@
       "oldFriendRank": null,
       "newFriendRank": 1,
       "friendJump": "1",
-      "friendColor": "",
+      "friendColor": "gold",
       "kingFriendJump": "1",
-      "kingFriendColor": "",
+      "kingFriendColor": "gold",
       "challengeFriendJump": "—",
       "challengeFriendColor": "",
       "oldWorldRank": null,
@@ -4352,7 +4352,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "gold",
       "displayTimeColor": "blue"
     },
     {
@@ -6723,51 +6723,6 @@
     },
     {
       "timestamp": "2026-09-20T21:29:26+02:00",
-      "challengeId": 6,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 1979398129,
-      "vehicle": "Mercedes-Benz CLK LM",
-      "vehicleClass": "GT1",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_15489_701322116_0_0",
-      "boardA": 15489,
-      "boardB": 701322116,
-      "track": "Pocono",
-      "score": 83620,
-      "time": "01:23.620",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldFriendRank": null,
-      "newFriendRank": 1,
-      "friendJump": "1",
-      "friendColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "oldWorldRank": null,
-      "newWorldRank": 3,
-      "worldJump": "3",
-      "worldColor": "",
-      "timeColor": "gold",
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "white",
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
-    },
-    {
-      "timestamp": "2026-09-20T21:29:26+02:00",
       "challengeId": 16,
       "driver": "pancar LBC",
       "steamId": "76561198012880510",
@@ -6810,7 +6765,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-6.221",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T21:29:26+02:00"
     }
   ],
   "historyKing": [
@@ -21126,7 +21083,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-6.221",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T21:29:26+02:00"
     }
   ],
   "last10": [
@@ -22563,7 +22522,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 27.3,
+    "elapsedSeconds": 26.9,
     "boardsScanned": 53,
     "boardsOk": 53,
     "rawFriendEntries": 67,
