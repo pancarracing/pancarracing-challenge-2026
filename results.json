@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-20T21:31:11+02:00",
+  "updated": "2026-09-20T21:32:36+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2196,9 +2196,17 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 10,
+      "scanMode": "ultra",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_9261_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12561_2558461772_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
@@ -2208,15 +2216,7 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9261_2558461772_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_9271_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9272_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2228,11 +2228,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9300_2558461772_0_0",
+          "board": "cars2_autoevent_9272_2558461772_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_12561_2558461772_0_0",
+          "board": "cars2_autoevent_9300_2558461772_0_0",
           "friends": 1
         }
       ],
@@ -6857,8 +6857,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T21:31:11+02:00"
     },
     {
       "timestamp": "2026-09-20T21:31:11+02:00",
@@ -6902,8 +6904,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-20T21:31:11+02:00"
     }
   ],
   "historyKing": [
@@ -22935,11 +22939,11 @@
   ],
   "collector": {
     "version": "V5.3.5",
-    "mode": "fast101",
-    "elapsedSeconds": 51.2,
-    "boardsScanned": 101,
-    "boardsOk": 101,
-    "rawFriendEntries": 9,
+    "mode": "ultra",
+    "elapsedSeconds": 27.8,
+    "boardsScanned": 55,
+    "boardsOk": 55,
+    "rawFriendEntries": 69,
     "errors": 0,
     "catalogVehicles": 271,
     "unknownVehicles": 2
