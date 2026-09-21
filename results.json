@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-21T12:04:57+02:00",
+  "updated": "2026-09-21T13:12:39+02:00",
   "challenges": [
     {
       "id": 1,
@@ -474,63 +474,6 @@
           "boardA": 15020,
           "boardB": 3826312417,
           "mergedRank": 2
-        },
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": -371227432,
-          "vehicle": "Chevrolet Omega Stock Car 1999",
-          "vehicleClass": "StockCar99",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -371227432,
-          "rank": 16,
-          "score": 62435,
-          "time": "01:02.435",
-          "board": "cars2_autoevent_4556_3826312417_0_0",
-          "boardA": 4556,
-          "boardB": 3826312417,
-          "mergedRank": 3
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": -371227432,
-          "vehicle": "Chevrolet Omega Stock Car 1999",
-          "vehicleClass": "StockCar99",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -371227432,
-          "rank": 17,
-          "score": 62519,
-          "time": "01:02.519",
-          "board": "cars2_autoevent_4556_3826312417_0_0",
-          "boardA": 4556,
-          "boardB": 3826312417,
-          "mergedRank": 4
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1647822272,
-          "vehicle": "Mercedes-Benz Actros",
-          "vehicleClass": "CopaTruck",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1647822272,
-          "rank": 26,
-          "score": 85839,
-          "time": "01:25.839",
-          "board": "cars2_autoevent_4526_3826312417_0_0",
-          "boardA": 4526,
-          "boardB": 3826312417,
-          "mergedRank": 5
         }
       ]
     },
@@ -588,7 +531,7 @@
           "board": "cars2_autoevent_9873_4186114222_0_0",
           "boardA": 9873,
           "boardB": 4186114222,
-          "mergedRank": 1
+          "mergedRank": 2
         },
         {
           "steamId": "76561198012880510",
@@ -648,25 +591,6 @@
           "boardA": 9873,
           "boardB": 4186114222,
           "mergedRank": 2
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 306371028,
-          "vehicle": "Superkart 250cc",
-          "vehicleClass": "SuperKart",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 306371028,
-          "rank": 5,
-          "score": 71093,
-          "time": "01:11.093",
-          "board": "cars2_autoevent_9873_4186114222_0_0",
-          "boardA": 9873,
-          "boardB": 4186114222,
-          "mergedRank": 3
         }
       ]
     },
@@ -885,44 +809,6 @@
           "mergedRank": 1
         },
         {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 379055283,
-          "vehicle": "Ginetta G55 GT4",
-          "vehicleClass": "GT4",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 379055283,
-          "rank": 16,
-          "score": 91498,
-          "time": "01:31.498",
-          "board": "cars2_autoevent_10357_2134032188_0_0",
-          "boardA": 10357,
-          "boardB": 2134032188,
-          "mergedRank": 2
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 2016280350,
-          "vehicle": "Porsche 911 RSR 1974",
-          "vehicleClass": "TC70S",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 2016280350,
-          "rank": 3,
-          "score": 98299,
-          "time": "01:38.299",
-          "board": "cars2_autoevent_10366_2134032188_0_0",
-          "boardA": 10366,
-          "boardB": 2134032188,
-          "mergedRank": 3
-        },
-        {
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": 2016280350,
@@ -939,7 +825,7 @@
           "board": "cars2_autoevent_10366_2134032188_0_0",
           "boardA": 10366,
           "boardB": 2134032188,
-          "mergedRank": 4
+          "mergedRank": 2
         }
       ]
     },
@@ -1149,44 +1035,6 @@
           "mergedRank": 1
         },
         {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": -1556432632,
-          "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMDh",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -1556432632,
-          "rank": 798,
-          "score": 211460,
-          "time": "03:31.460",
-          "board": "cars2_autoevent_12287_1060182346_0_0",
-          "boardA": 12287,
-          "boardB": 1060182346,
-          "mergedRank": 2
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": -1721496056,
-          "vehicle": "Sauber Mercedes C9",
-          "vehicleClass": "Group C",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -1721496056,
-          "rank": 300,
-          "score": 214442,
-          "time": "03:34.442",
-          "board": "cars2_autoevent_12259_1060182346_0_0",
-          "boardA": 12259,
-          "boardB": 1060182346,
-          "mergedRank": 3
-        },
-        {
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": 1837911487,
@@ -1203,26 +1051,7 @@
           "board": "cars2_autoevent_12287_1060182346_0_0",
           "boardA": 12287,
           "boardB": 1060182346,
-          "mergedRank": 4
-        },
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": -1721496056,
-          "vehicle": "Sauber Mercedes C9",
-          "vehicleClass": "Group C",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -1721496056,
-          "rank": 426,
-          "score": 220039,
-          "time": "03:40.039",
-          "board": "cars2_autoevent_12259_1060182346_0_0",
-          "boardA": 12259,
-          "boardB": 1060182346,
-          "mergedRank": 5
+          "mergedRank": 2
         },
         {
           "steamId": "76561198276152161",
@@ -1241,7 +1070,7 @@
           "board": "cars2_autoevent_12287_1060182346_0_0",
           "boardA": 12287,
           "boardB": 1060182346,
-          "mergedRank": 6
+          "mergedRank": 3
         },
         {
           "steamId": "76561199810540463",
@@ -1260,45 +1089,7 @@
           "board": "cars2_autoevent_12287_1060182346_0_0",
           "boardA": 12287,
           "boardB": 1060182346,
-          "mergedRank": 7
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1433352906,
-          "vehicle": "Ginetta G58",
-          "vehicleClass": "P1",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1433352906,
-          "rank": 88,
-          "score": 228279,
-          "time": "03:48.279",
-          "board": "cars2_autoevent_12208_1060182346_0_0",
-          "boardA": 12208,
-          "boardB": 1060182346,
-          "mergedRank": 8
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1368036017,
-          "vehicle": "BMW M1 Procar",
-          "vehicleClass": "Procar",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1368036017,
-          "rank": 37,
-          "score": 264212,
-          "time": "04:24.212",
-          "board": "cars2_autoevent_12252_1060182346_0_0",
-          "boardA": 12252,
-          "boardB": 1060182346,
-          "mergedRank": 9
+          "mergedRank": 4
         }
       ]
     },
@@ -3060,7 +2851,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-1.713",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3106,7 +2899,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3151,8 +2946,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3198,7 +2995,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-5.695",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3243,8 +3042,10 @@
       "eventType": "IMPROVED",
       "displaySemanticColor": "white",
       "displayDelta": "-2.745",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3289,8 +3090,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3335,8 +3138,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-2.499",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3381,8 +3186,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-2.664",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3428,7 +3235,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3474,7 +3283,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-4.140",
       "displayFriendColor": "gold",
-      "displayTimeColor": "green"
+      "displayTimeColor": "green",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3519,8 +3330,10 @@
       "eventType": "IMPROVED",
       "displaySemanticColor": "white",
       "displayDelta": "-1.918",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3566,7 +3379,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-0.972",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3611,8 +3426,10 @@
       "eventType": "IMPROVED",
       "displaySemanticColor": "white",
       "displayDelta": "-0.308",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3658,7 +3475,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-14.037",
       "displayFriendColor": "gold",
-      "displayTimeColor": "green"
+      "displayTimeColor": "green",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3703,7 +3522,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -3749,7 +3570,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     }
   ],
   "historyKing": [
@@ -9952,6 +9775,41 @@
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
+      "challengeId": 3,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1818602836,
+      "vehicle": "MINI Cooper JCW",
+      "vehicleClass": "MiniChallenge",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_1951_3378488487_0_0",
+      "boardA": 1951,
+      "boardB": 3378488487,
+      "track": "Cascavel",
+      "score": 71798,
+      "time": "01:11.798",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "friendJump": "2",
+      "friendColor": "",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "oldWorldRank": null,
+      "newWorldRank": 393,
+      "worldJump": "393",
+      "worldColor": "",
+      "timeColor": "blue",
+      "baselineReset": true
+    },
+    {
+      "timestamp": "2026-09-13T18:37:51+02:00",
       "challengeId": 5,
       "driver": "pancar LBC",
       "steamId": "76561198012880510",
@@ -10400,80 +10258,6 @@
       "timeColor": "blue"
     },
     {
-      "timestamp": "2026-09-14T08:26:01+02:00",
-      "challengeId": 4,
-      "driver": "dr.slimm",
-      "steamId": "76561198089049981",
-      "vehicleHash": -371227432,
-      "vehicle": "Chevrolet Omega Stock Car 1999",
-      "vehicleClass": "StockCar99",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_4556_3826312417_0_0",
-      "boardA": 4556,
-      "boardB": 3826312417,
-      "track": "Indianapolis",
-      "score": 63839,
-      "time": "01:03.839",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldFriendRank": null,
-      "newFriendRank": 3,
-      "friendJump": "3",
-      "friendColor": "",
-      "kingFriendJump": "3",
-      "kingFriendColor": "",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "oldWorldRank": null,
-      "newWorldRank": 26,
-      "worldJump": "26",
-      "worldColor": "",
-      "timeColor": "blue"
-    },
-    {
-      "timestamp": "2026-09-14T08:46:01+02:00",
-      "challengeId": 4,
-      "driver": "dr.slimm",
-      "steamId": "76561198089049981",
-      "vehicleHash": -371227432,
-      "vehicle": "Chevrolet Omega Stock Car 1999",
-      "vehicleClass": "StockCar99",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_4556_3826312417_0_0",
-      "boardA": 4556,
-      "boardB": 3826312417,
-      "track": "Indianapolis",
-      "score": 62435,
-      "time": "01:02.435",
-      "isNew": false,
-      "deltaMs": -1404,
-      "delta": "-1.404",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldFriendRank": 3,
-      "newFriendRank": 3,
-      "friendJump": "3",
-      "friendColor": "",
-      "kingFriendJump": "3",
-      "kingFriendColor": "",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "oldWorldRank": 26,
-      "newWorldRank": 16,
-      "worldJump": "26→16",
-      "worldColor": "green",
-      "timeColor": "blue"
-    },
-    {
       "timestamp": "2026-09-14T09:06:02+02:00",
       "challengeId": 5,
       "driver": "dr.slimm",
@@ -10745,7 +10529,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-1.713",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -10791,7 +10577,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -10836,8 +10624,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -10883,7 +10673,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-5.695",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -10928,8 +10720,10 @@
       "eventType": "IMPROVED",
       "displaySemanticColor": "white",
       "displayDelta": "-2.745",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -10974,8 +10768,10 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11020,8 +10816,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-2.499",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11066,8 +10864,10 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-2.664",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11113,7 +10913,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11159,7 +10961,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-4.140",
       "displayFriendColor": "gold",
-      "displayTimeColor": "green"
+      "displayTimeColor": "green",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11204,8 +11008,10 @@
       "eventType": "IMPROVED",
       "displaySemanticColor": "white",
       "displayDelta": "-1.918",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11251,7 +11057,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-0.972",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11296,8 +11104,10 @@
       "eventType": "IMPROVED",
       "displaySemanticColor": "white",
       "displayDelta": "-0.308",
-      "displayFriendColor": "",
-      "displayTimeColor": "blue"
+      "displayFriendColor": "green",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11343,7 +11153,9 @@
       "displaySemanticColor": "green",
       "displayDelta": "-14.037",
       "displayFriendColor": "gold",
-      "displayTimeColor": "green"
+      "displayTimeColor": "green",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -11389,7 +11201,9 @@
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
       "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayTimeColor": "gold",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-21T12:04:57+02:00"
     }
   ],
   "last10": [
