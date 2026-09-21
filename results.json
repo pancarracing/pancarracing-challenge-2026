@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-21T15:16:33+02:00",
+  "updated": "2026-09-21T15:16:58+02:00",
   "challenges": [
     {
       "id": 1,
@@ -624,10 +624,6 @@
       "scanMode": "ultra",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_15482_701322116_0_0",
-          "friends": 2
-        },
-        {
           "board": "cars2_autoevent_15475_701322116_0_0",
           "friends": 1
         },
@@ -637,46 +633,7 @@
         }
       ],
       "boardErrors": [],
-      "results": [
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 262982797,
-          "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
-          "vehicleClass": "Group A",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 262982797,
-          "rank": 18,
-          "score": 93548,
-          "time": "01:33.548",
-          "board": "cars2_autoevent_15482_701322116_0_0",
-          "boardA": 15482,
-          "boardB": 701322116,
-          "mergedRank": 1
-        },
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": -340376700,
-          "vehicle": "Audi V8 quattro DTM",
-          "vehicleClass": "Group A",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -340376700,
-          "rank": 19,
-          "score": 93732,
-          "time": "01:33.732",
-          "board": "cars2_autoevent_15482_701322116_0_0",
-          "boardA": 15482,
-          "boardB": 701322116,
-          "mergedRank": 2
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -696,25 +653,6 @@
           "boardA": 15489,
           "boardB": 701322116,
           "mergedRank": 1
-        },
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": -340376700,
-          "vehicle": "Audi V8 quattro DTM",
-          "vehicleClass": "Group A",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -340376700,
-          "rank": 19,
-          "score": 93732,
-          "time": "01:33.732",
-          "board": "cars2_autoevent_15482_701322116_0_0",
-          "boardA": 15482,
-          "boardB": 701322116,
-          "mergedRank": 2
         }
       ]
     },
@@ -13712,10 +13650,10 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 22.3,
+    "elapsedSeconds": 37.7,
     "boardsScanned": 43,
     "boardsOk": 43,
-    "rawFriendEntries": 50,
+    "rawFriendEntries": 48,
     "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 1
