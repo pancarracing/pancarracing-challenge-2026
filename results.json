@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-21T16:40:54+02:00",
+  "updated": "2026-09-21T17:01:39+02:00",
   "challenges": [
     {
       "id": 1,
@@ -965,6 +965,10 @@
       "scanMode": "ultra",
       "activeBoards": [
         {
+          "board": "cars2_autoevent_12208_1060182346_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_12248_1060182346_0_0",
           "friends": 1
         },
@@ -981,12 +985,7 @@
           "friends": 4
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_12208_1060182346_0_0",
-          "status": "download-timeout"
-        }
-      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -13727,11 +13726,11 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 37.2,
+    "elapsedSeconds": 21.8,
     "boardsScanned": 43,
-    "boardsOk": 42,
-    "rawFriendEntries": 49,
-    "errors": 1,
+    "boardsOk": 43,
+    "rawFriendEntries": 50,
+    "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 1
   }
