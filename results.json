@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-21T14:34:27+02:00",
+  "updated": "2026-09-21T14:34:52+02:00",
   "challenges": [
     {
       "id": 1,
@@ -977,55 +977,17 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_12259_1060182346_0_0",
-          "friends": 2
-        },
-        {
           "board": "cars2_autoevent_12287_1060182346_0_0",
           "friends": 4
         }
       ],
-      "boardErrors": [],
-      "results": [
+      "boardErrors": [
         {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": -1721496056,
-          "vehicle": "Sauber Mercedes C9",
-          "vehicleClass": "Group C",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -1721496056,
-          "rank": 300,
-          "score": 214442,
-          "time": "03:34.442",
           "board": "cars2_autoevent_12259_1060182346_0_0",
-          "boardA": 12259,
-          "boardB": 1060182346,
-          "mergedRank": 1
-        },
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": -1721496056,
-          "vehicle": "Sauber Mercedes C9",
-          "vehicleClass": "Group C",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": -1721496056,
-          "rank": 426,
-          "score": 220039,
-          "time": "03:40.039",
-          "board": "cars2_autoevent_12259_1060182346_0_0",
-          "boardA": 12259,
-          "boardB": 1060182346,
-          "mergedRank": 2
+          "status": "download-timeout"
         }
       ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -13698,11 +13660,11 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 22.0,
+    "elapsedSeconds": 37.3,
     "boardsScanned": 43,
-    "boardsOk": 43,
-    "rawFriendEntries": 50,
-    "errors": 0,
+    "boardsOk": 42,
+    "rawFriendEntries": 48,
+    "errors": 1,
     "catalogVehicles": 274,
     "unknownVehicles": 1
   }
