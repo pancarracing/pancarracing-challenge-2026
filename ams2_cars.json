@@ -681,6 +681,13 @@
       "dlc": ""
     },
     {
+      "vehicle": "Renault R25",
+      "class": "F-V10_Gen3",
+      "vehicleHash": 1788311230,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
       "vehicle": "Formula Vee Gen1",
       "class": "F-Vee",
       "vehicleHash": 2154877129,
@@ -793,13 +800,6 @@
       "dlc": ""
     },
     {
-      "vehicle": "Mercedes-Benz CLK GTR",
-      "class": "GT1",
-      "vehicleHash": 318327800,
-      "content": "UNKNOWN",
-      "dlc": ""
-    },
-    {
       "vehicle": "Mercedes-Benz CLK LM",
       "class": "GT1",
       "vehicleHash": 1979398129,
@@ -852,6 +852,20 @@
       "vehicle": "Maserati MC12 GT1",
       "class": "GT1_05",
       "vehicleHash": 1646202889,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Maserati MC12 GT1",
+      "class": "GT1_05",
+      "vehicleHash": 913906120,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Ferrari 360 GTC",
+      "class": "GT2_05",
+      "vehicleHash": 3070846641,
       "content": "UNKNOWN",
       "dlc": ""
     },
@@ -1087,6 +1101,13 @@
       "dlc": ""
     },
     {
+      "vehicle": "BMW M3 GTR",
+      "class": "GTR2004",
+      "vehicleHash": 531354511,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
       "vehicle": "BMW M3 E46 GTR",
       "class": "GTR_04",
       "vehicleHash": 2960734215,
@@ -1279,8 +1300,8 @@
       "vehicle": "Aston Martin Valkyrie Hypercar",
       "class": "LMDh",
       "vehicleHash": 1837911487,
-      "content": "DLC",
-      "dlc": "Endurance Pack Pt3"
+      "content": "UNKNOWN",
+      "dlc": ""
     },
     {
       "vehicle": "BMW M Hybrid V8",
@@ -1300,8 +1321,8 @@
       "vehicle": "Cadillac V-Series.R",
       "class": "LMDh",
       "vehicleHash": 3328941048,
-      "content": "DLC",
-      "dlc": "Endurance Pack Pt1"
+      "content": "UNKNOWN",
+      "dlc": ""
     },
     {
       "vehicle": "Lamborghini SC63",
@@ -1314,8 +1335,8 @@
       "vehicle": "Lamborghini SC63",
       "class": "LMDh",
       "vehicleHash": 2738534664,
-      "content": "DLC",
-      "dlc": "Lamborghini Dream Pack Pt1"
+      "content": "UNKNOWN",
+      "dlc": ""
     },
     {
       "vehicle": "Porsche 963",
@@ -1328,8 +1349,8 @@
       "vehicle": "Porsche 963",
       "class": "LMDh",
       "vehicleHash": 1937293617,
-      "content": "DLC",
-      "dlc": "Endurance Pack Pt1"
+      "content": "UNKNOWN",
+      "dlc": ""
     },
     {
       "vehicle": "Audi R8 LMP1",
