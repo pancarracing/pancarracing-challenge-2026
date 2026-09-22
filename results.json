@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-22T22:58:15+02:00",
+  "updated": "2026-09-22T22:59:28+02:00",
   "challenges": [
     {
       "id": 1,
@@ -93,6 +93,25 @@
           "mergedRank": 1
         },
         {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1647822272,
+          "vehicle": "Mercedes-Benz Actros",
+          "vehicleClass": "CopaTruck",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1647822272,
+          "rank": 5,
+          "score": 178126,
+          "time": "02:58.126",
+          "board": "cars2_autoevent_6735_612695202_0_0",
+          "boardA": 6735,
+          "boardB": 612695202,
+          "mergedRank": 2
+        },
+        {
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": -487937394,
@@ -109,7 +128,7 @@
           "board": "cars2_autoevent_6735_612695202_0_0",
           "boardA": 6735,
           "boardB": 612695202,
-          "mergedRank": 2
+          "mergedRank": 3
         }
       ]
     },
@@ -478,6 +497,63 @@
           "boardA": 15020,
           "boardB": 3826312417,
           "mergedRank": 2
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": -371227432,
+          "vehicle": "Chevrolet Omega Stock Car 1999",
+          "vehicleClass": "StockCar99",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -371227432,
+          "rank": 16,
+          "score": 62435,
+          "time": "01:02.435",
+          "board": "cars2_autoevent_4556_3826312417_0_0",
+          "boardA": 4556,
+          "boardB": 3826312417,
+          "mergedRank": 3
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -371227432,
+          "vehicle": "Chevrolet Omega Stock Car 1999",
+          "vehicleClass": "StockCar99",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -371227432,
+          "rank": 17,
+          "score": 62519,
+          "time": "01:02.519",
+          "board": "cars2_autoevent_4556_3826312417_0_0",
+          "boardA": 4556,
+          "boardB": 3826312417,
+          "mergedRank": 4
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1647822272,
+          "vehicle": "Mercedes-Benz Actros",
+          "vehicleClass": "CopaTruck",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1647822272,
+          "rank": 26,
+          "score": 85839,
+          "time": "01:25.839",
+          "board": "cars2_autoevent_4526_3826312417_0_0",
+          "boardA": 4526,
+          "boardB": 3826312417,
+          "mergedRank": 5
         }
       ]
     },
@@ -535,7 +611,7 @@
           "board": "cars2_autoevent_9873_4186114222_0_0",
           "boardA": 9873,
           "boardB": 4186114222,
-          "mergedRank": 2
+          "mergedRank": 1
         },
         {
           "steamId": "76561198012880510",
@@ -595,6 +671,25 @@
           "boardA": 9873,
           "boardB": 4186114222,
           "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 306371028,
+          "rank": 5,
+          "score": 71093,
+          "time": "01:11.093",
+          "board": "cars2_autoevent_9873_4186114222_0_0",
+          "boardA": 9873,
+          "boardB": 4186114222,
+          "mergedRank": 3
         }
       ]
     },
@@ -702,6 +797,25 @@
           "mergedRank": 1
         },
         {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 262982797,
+          "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+          "vehicleClass": "Group A",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 262982797,
+          "rank": 18,
+          "score": 93548,
+          "time": "01:33.548",
+          "board": "cars2_autoevent_15482_701322116_0_0",
+          "boardA": 15482,
+          "boardB": 701322116,
+          "mergedRank": 2
+        },
+        {
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": -340376700,
@@ -718,7 +832,26 @@
           "board": "cars2_autoevent_15482_701322116_0_0",
           "boardA": 15482,
           "boardB": 701322116,
-          "mergedRank": 2
+          "mergedRank": 3
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 390318757,
+          "vehicle": "Passat Hot Cars",
+          "vehicleClass": "Hot Cars",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 390318757,
+          "rank": 1,
+          "score": 134669,
+          "time": "02:14.669",
+          "board": "cars2_autoevent_15475_701322116_0_0",
+          "boardA": 15475,
+          "boardB": 701322116,
+          "mergedRank": 4
         }
       ]
     },
@@ -821,6 +954,44 @@
           "mergedRank": 1
         },
         {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 379055283,
+          "vehicle": "Ginetta G55 GT4",
+          "vehicleClass": "GT4",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 379055283,
+          "rank": 16,
+          "score": 91498,
+          "time": "01:31.498",
+          "board": "cars2_autoevent_10357_2134032188_0_0",
+          "boardA": 10357,
+          "boardB": 2134032188,
+          "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 2016280350,
+          "vehicle": "Porsche 911 RSR 1974",
+          "vehicleClass": "TC70S",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 2016280350,
+          "rank": 3,
+          "score": 98299,
+          "time": "01:38.299",
+          "board": "cars2_autoevent_10366_2134032188_0_0",
+          "boardA": 10366,
+          "boardB": 2134032188,
+          "mergedRank": 3
+        },
+        {
           "steamId": "76561198089049981",
           "driver": "dr.slimm",
           "vehicleHash": 2016280350,
@@ -837,7 +1008,7 @@
           "board": "cars2_autoevent_10366_2134032188_0_0",
           "boardA": 10366,
           "boardB": 2134032188,
-          "mergedRank": 2
+          "mergedRank": 4
         }
       ]
     },
@@ -949,6 +1120,25 @@
           "boardA": 7647,
           "boardB": 4202898090,
           "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 306371028,
+          "vehicle": "Superkart 250cc",
+          "vehicleClass": "SuperKart",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 306371028,
+          "rank": 13,
+          "score": 96913,
+          "time": "01:36.913",
+          "board": "cars2_autoevent_7662_4202898090_0_0",
+          "boardA": 7662,
+          "boardB": 4202898090,
+          "mergedRank": 3
         }
       ]
     },
@@ -965,8 +1155,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_12208_1060182346_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 5,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12208_1060182346_0_0",
@@ -989,248 +1179,7 @@
           "friends": 4
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_12184_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12185_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12186_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12187_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12188_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12189_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12190_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12191_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12192_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12193_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12194_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12195_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12196_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12197_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12198_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12199_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12200_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12201_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12202_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12203_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12204_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12205_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12206_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12207_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12288_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12289_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12290_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12291_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12292_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12293_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12294_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12295_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12296_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12297_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12298_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12299_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12300_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12301_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12302_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12303_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12304_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12305_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12306_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12307_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12308_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12309_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12310_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12311_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12183_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12312_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12182_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12313_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12181_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12314_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12180_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12315_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12179_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12316_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12178_1060182346_0_0",
-          "status": "find-failed"
-        },
-        {
-          "board": "cars2_autoevent_12317_1060182346_0_0",
-          "status": "find-failed"
-        }
-      ],
+      "boardErrors": [],
       "results": [
         {
           "steamId": "76561198012880510",
@@ -1622,6 +1571,25 @@
           "boardA": 4704,
           "boardB": 2816254725,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1564669712,
+          "vehicle": "Lamborghini Veneno Roadster",
+          "vehicleClass": "Hypercars",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1564669712,
+          "rank": 189,
+          "score": 103699,
+          "time": "01:43.699",
+          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "boardA": 4723,
+          "boardB": 2816254725,
+          "mergedRank": 2
         }
       ]
     },
@@ -1827,6 +1795,177 @@
           "boardA": 9281,
           "boardB": 2558461772,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 306785397,
+          "vehicle": "Ultima GTR Race",
+          "vehicleClass": "GTOpen",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 306785397,
+          "rank": 5,
+          "score": 215399,
+          "time": "03:35.399",
+          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "boardA": 9259,
+          "boardB": 2558461772,
+          "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1564669712,
+          "vehicle": "Lamborghini Veneno Roadster",
+          "vehicleClass": "Hypercars",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1564669712,
+          "rank": 12,
+          "score": 219305,
+          "time": "03:39.305",
+          "board": "cars2_autoevent_9295_2558461772_0_0",
+          "boardA": 9295,
+          "boardB": 2558461772,
+          "mergedRank": 3
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 617290135,
+          "vehicle": "Formula Vintage Gen2 Model2",
+          "vehicleClass": "F-Vintage_Gen2",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 617290135,
+          "rank": 91,
+          "score": 223879,
+          "time": "03:43.879",
+          "board": "cars2_autoevent_9252_2558461772_0_0",
+          "boardA": 9252,
+          "boardB": 2558461772,
+          "mergedRank": 4
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 318400650,
+          "vehicle": "Formula Vintage Gen1 Model2",
+          "vehicleClass": "F-Vintage_Gen1",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 318400650,
+          "rank": 60,
+          "score": 230466,
+          "time": "03:50.466",
+          "board": "cars2_autoevent_9251_2558461772_0_0",
+          "boardA": 9251,
+          "boardB": 2558461772,
+          "mergedRank": 5
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1560162507,
+          "vehicle": "Ultima GTR",
+          "vehicleClass": "Supercars",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1560162507,
+          "rank": 10,
+          "score": 231239,
+          "time": "03:51.239",
+          "board": "cars2_autoevent_9300_2558461772_0_0",
+          "boardA": 9300,
+          "boardB": 2558461772,
+          "mergedRank": 6
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -109705417,
+          "vehicle": "Porsche 911 GT3 Cup 4.0",
+          "vehicleClass": "Carrera Cup",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -109705417,
+          "rank": 9,
+          "score": 231519,
+          "time": "03:51.519",
+          "board": "cars2_autoevent_9275_2558461772_0_0",
+          "boardA": 9275,
+          "boardB": 2558461772,
+          "mergedRank": 7
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1818602836,
+          "vehicle": "MINI Cooper JCW",
+          "vehicleClass": "MiniChallenge",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1818602836,
+          "rank": 7,
+          "score": 241924,
+          "time": "04:01.924",
+          "board": "cars2_autoevent_9272_2558461772_0_0",
+          "boardA": 9272,
+          "boardB": 2558461772,
+          "mergedRank": 8
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 262982797,
+          "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+          "vehicleClass": "Group A",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 262982797,
+          "rank": 24,
+          "score": 249760,
+          "time": "04:09.760",
+          "board": "cars2_autoevent_9271_2558461772_0_0",
+          "boardA": 9271,
+          "boardB": 2558461772,
+          "mergedRank": 9
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 245459304,
+          "vehicle": "Chevrolet Opala Stock Cars 1986",
+          "vehicleClass": "Opala86",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 245459304,
+          "rank": 3,
+          "score": 274253,
+          "time": "04:34.253",
+          "board": "cars2_autoevent_9261_2558461772_0_0",
+          "boardA": 9261,
+          "boardB": 2558461772,
+          "mergedRank": 10
         }
       ]
     },
@@ -14250,12 +14389,12 @@
   ],
   "collector": {
     "version": "2.4.4-GUMA",
-    "mode": "fast101",
-    "elapsedSeconds": 36.0,
-    "boardsScanned": 101,
-    "boardsOk": 41,
-    "rawFriendEntries": 9,
-    "errors": 60,
+    "mode": "ultra",
+    "elapsedSeconds": 19.1,
+    "boardsScanned": 38,
+    "boardsOk": 38,
+    "rawFriendEntries": 53,
+    "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 1
   }
