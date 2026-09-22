@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-22T22:59:28+02:00",
+  "updated": "2026-09-22T23:10:50+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1522,36 +1522,17 @@
       "scanMode": "ultra",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_4704_2816254725_0_0",
           "friends": 1
         }
       ],
-      "boardErrors": [],
-      "results": [
+      "boardErrors": [
         {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1564669712,
-          "vehicle": "Lamborghini Veneno Roadster",
-          "vehicleClass": "Hypercars",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1564669712,
-          "rank": 189,
-          "score": 103699,
-          "time": "01:43.699",
           "board": "cars2_autoevent_4723_2816254725_0_0",
-          "boardA": 4723,
-          "boardB": 2816254725,
-          "mergedRank": 1
+          "status": "find-failed"
         }
       ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -1571,25 +1552,6 @@
           "boardA": 4704,
           "boardB": 2816254725,
           "mergedRank": 1
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1564669712,
-          "vehicle": "Lamborghini Veneno Roadster",
-          "vehicleClass": "Hypercars",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1564669712,
-          "rank": 189,
-          "score": 103699,
-          "time": "01:43.699",
-          "board": "cars2_autoevent_4723_2816254725_0_0",
-          "boardA": 4723,
-          "boardB": 2816254725,
-          "mergedRank": 2
         }
       ]
     },
@@ -14390,11 +14352,11 @@
   "collector": {
     "version": "2.4.4-GUMA",
     "mode": "ultra",
-    "elapsedSeconds": 19.1,
+    "elapsedSeconds": 26.7,
     "boardsScanned": 38,
-    "boardsOk": 38,
-    "rawFriendEntries": 53,
-    "errors": 0,
+    "boardsOk": 37,
+    "rawFriendEntries": 52,
+    "errors": 1,
     "catalogVehicles": 274,
     "unknownVehicles": 1
   }
