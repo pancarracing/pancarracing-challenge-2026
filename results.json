@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-22T05:13:36+02:00",
+  "updated": "2026-09-22T05:34:06+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1275,7 +1275,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1353949246,
-          "rank": 4904,
+          "rank": 4905,
           "score": 96219,
           "time": "01:36.219",
           "board": "cars2_autoevent_4704_2816254725_0_0",
@@ -13726,7 +13726,7 @@
   "collector": {
     "version": "V5.3.5",
     "mode": "ultra",
-    "elapsedSeconds": 21.4,
+    "elapsedSeconds": 20.7,
     "boardsScanned": 43,
     "boardsOk": 43,
     "rawFriendEntries": 50,
