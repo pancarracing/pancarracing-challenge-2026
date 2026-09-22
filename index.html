@@ -1236,7 +1236,7 @@ function setScoreMode(mode) {
     if (excelLink) excelLink.href = currentMode === "all" ? "GUMAkontrola/KING_HISTORY.xlsx" : "GUMAkontrola/CHALLENGE_HISTORY.xlsx";
     const note = document.getElementById("modeNote");
     if (note) note.textContent = currentMode === "all"
-        ? "KING · all cars found on the 10 challenge tracks · best per driver + vehicle"
+        ? "KING · all cars / all classes on 18 challenge tracks · best time per driver"
         : "official Challenge Class · one best time per driver";
     if (latestData) renderAll(latestData);
 }
