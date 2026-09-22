@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-22T22:20:33+02:00",
+  "updated": "2026-09-22T22:36:20+02:00",
   "challenges": [
     {
       "id": 1,
@@ -20,7 +20,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
       "boardsScanned": 101,
-      "scanMode": "ultra",
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12495_612695202_0_0",
@@ -131,8 +131,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7066_884472481_0_0",
-      "boardsScanned": 26,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7066_884472481_0_0",
@@ -239,6 +239,106 @@
         {
           "board": "cars2_autoevent_7116_884472481_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7015_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7117_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7014_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7118_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7013_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7119_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7012_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7120_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7011_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7121_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7010_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7122_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7009_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7123_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7008_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7124_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7007_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7125_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7006_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7126_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7005_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7127_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7004_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7128_884472481_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7003_884472481_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -333,8 +433,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_733_1534602052_0_0",
-      "boardsScanned": 26,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_733_1534602052_0_0",
@@ -440,6 +540,106 @@
         },
         {
           "board": "cars2_autoevent_783_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_682_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_784_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_681_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_785_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_680_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_786_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_679_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_787_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_678_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_788_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_677_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_789_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_676_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_790_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_675_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_791_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_674_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_792_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_673_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_793_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_672_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_794_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_671_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_795_1534602052_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_670_1534602052_0_0",
           "status": "find-failed"
         }
       ],
@@ -585,8 +785,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_4526_3826312417_0_0",
-      "boardsScanned": 35,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_15020_3826312417_0_0",
@@ -729,6 +929,86 @@
         {
           "board": "cars2_autoevent_15037_3826312417_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15002_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15038_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15001_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15039_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15000_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15040_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_14999_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15041_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_14998_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15042_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_14997_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15043_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_14996_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15044_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_14995_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15045_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_14994_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15046_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_14993_3826312417_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15047_3826312417_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -835,8 +1115,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_9873_4186114222_0_0",
-      "boardsScanned": 27,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
@@ -947,6 +1227,90 @@
         {
           "board": "cars2_autoevent_9929_4186114222_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9828_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9930_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9827_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9931_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9826_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9932_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9825_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9933_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9824_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9934_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9823_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9935_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9822_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9936_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9821_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9937_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9820_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9938_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9819_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9939_4186114222_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_9818_4186114222_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -1056,8 +1420,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
-      "boardsScanned": 15,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_15475_701322116_0_0",
@@ -1119,6 +1483,106 @@
         },
         {
           "board": "cars2_autoevent_15532_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15431_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15533_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15430_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15534_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15429_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15535_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15428_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15536_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15427_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15537_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15426_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15538_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15425_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15539_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15424_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15540_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15423_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15541_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15422_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15542_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15421_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15543_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15420_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15544_701322116_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_15419_701322116_0_0",
           "status": "find-failed"
         }
       ],
@@ -1224,8 +1688,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_10325_2134032188_0_0",
-      "boardsScanned": 28,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_10325_2134032188_0_0",
@@ -1340,6 +1804,70 @@
         {
           "board": "cars2_autoevent_10395_2134032188_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10294_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10396_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10293_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10397_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10292_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10398_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10291_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10399_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10290_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10400_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10289_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10401_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10288_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10402_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10287_2134032188_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10403_2134032188_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -1440,8 +1968,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardsScanned": 34,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
@@ -1572,6 +2100,90 @@
         {
           "board": "cars2_autoevent_7633_4202898090_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7603_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7602_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7601_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7600_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7599_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7598_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7597_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7596_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7595_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7594_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7593_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7592_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7591_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7590_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7589_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7588_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7587_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7586_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7585_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7584_4202898090_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7583_4202898090_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -1668,8 +2280,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_12208_1060182346_0_0",
-      "boardsScanned": 35,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12208_1060182346_0_0",
@@ -1812,6 +2424,78 @@
         {
           "board": "cars2_autoevent_12302_1060182346_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12192_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12303_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12191_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12304_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12190_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12305_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12189_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12306_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12188_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12307_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12187_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12308_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12186_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12309_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12185_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12310_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12184_1060182346_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12311_1060182346_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -1953,8 +2637,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
-      "boardsScanned": 33,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1052_799677855_0_0",
@@ -2089,6 +2773,106 @@
         {
           "board": "cars2_autoevent_1102_799677855_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1103_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1104_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1105_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1106_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1107_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1108_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1109_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1110_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1111_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1112_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1113_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1114_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1115_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1116_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1117_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1118_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1119_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1120_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1121_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1122_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1123_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1124_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1125_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1126_799677855_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_1127_799677855_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -2186,8 +2970,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4723_2816254725_0_0",
-      "boardsScanned": 38,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4704_2816254725_0_0",
@@ -2338,6 +3122,78 @@
         {
           "board": "cars2_autoevent_4768_2816254725_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4769_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4770_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4771_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4772_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4773_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4774_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4775_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4776_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4777_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4778_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4779_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4780_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4781_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4782_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4783_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4784_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4785_2816254725_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4786_2816254725_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -2398,7 +3254,7 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 0,
-      "scanMode": "ultra",
+      "scanMode": "fast101",
       "activeBoards": [],
       "boardErrors": [],
       "results": [],
@@ -2418,8 +3274,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12081_775712153_0_0",
-      "boardsScanned": 100,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [],
       "boardErrors": [
         {
@@ -2836,8 +3692,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
-      "boardsScanned": 32,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [],
       "boardErrors": [
         {
@@ -2959,6 +3815,106 @@
         {
           "board": "cars2_autoevent_10263_1063112912_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10264_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10265_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10266_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10267_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10268_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10269_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10270_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10271_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10272_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10273_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10274_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10275_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10276_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10277_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10278_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10279_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10280_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10281_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10282_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10283_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10284_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10285_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10286_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10287_1063112912_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_10288_1063112912_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [],
@@ -2974,8 +3930,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4810_2590843191_0_0",
-      "boardsScanned": 51,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
@@ -3178,6 +4134,102 @@
         {
           "board": "cars2_autoevent_4809_2590843191_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4760_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4759_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4758_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4757_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4756_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4755_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4754_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4753_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4752_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4751_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4750_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4749_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4748_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4747_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4746_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4745_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4744_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4743_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4742_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4741_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4740_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4739_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4738_2590843191_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_4737_2590843191_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [],
@@ -3215,8 +4267,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 44,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9251_2558461772_0_0",
@@ -3252,6 +4304,10 @@
         },
         {
           "board": "cars2_autoevent_9295_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9300_2558461772_0_0",
           "friends": 1
         }
       ],
@@ -3391,6 +4447,54 @@
         {
           "board": "cars2_autoevent_12100_2558461772_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12064_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12101_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12063_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12102_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12062_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12103_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12061_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12104_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12060_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12105_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12059_2558461772_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_12106_2558461772_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -3446,8 +4550,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_7202_399001429_0_0",
-      "boardsScanned": 27,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7212_399001429_0_0",
@@ -3554,6 +4658,90 @@
         {
           "board": "cars2_autoevent_7257_399001429_0_0",
           "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7156_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7258_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7155_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7259_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7154_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7260_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7153_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7261_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7152_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7262_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7151_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7263_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7150_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7264_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7149_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7265_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7148_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7266_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7147_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7267_399001429_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_7146_399001429_0_0",
+          "status": "find-failed"
         }
       ],
       "results": [
@@ -3609,8 +4797,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_5131_3212997714_0_0",
-      "boardsScanned": 27,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_5165_3212997714_0_0",
@@ -3716,6 +4904,86 @@
         },
         {
           "board": "cars2_autoevent_5198_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5097_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5199_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5096_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5200_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5095_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5201_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5094_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5202_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5093_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5203_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5092_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5204_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5091_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5205_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5090_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5206_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5089_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5207_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5088_3212997714_0_0",
+          "status": "find-failed"
+        },
+        {
+          "board": "cars2_autoevent_5208_3212997714_0_0",
           "status": "find-failed"
         }
       ],
@@ -16058,12 +17326,12 @@
   ],
   "collector": {
     "version": "2.4.4-GUMA",
-    "mode": "ultra",
-    "elapsedSeconds": 206.3,
-    "boardsScanned": 679,
-    "boardsOk": 146,
-    "rawFriendEntries": 52,
-    "errors": 533,
+    "mode": "fast101",
+    "elapsedSeconds": 647.0,
+    "boardsScanned": 1717,
+    "boardsOk": 868,
+    "rawFriendEntries": 53,
+    "errors": 849,
     "catalogVehicles": 274,
     "unknownVehicles": 1
   }
