@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
@@ -385,13 +385,14 @@ body {
     min-width: 850px;
     display: grid;
     grid-template-columns:
-        minmax(74px, .50fr)
-        96px
-        92px
-        112px
-        78px
-        minmax(154px, 1fr)
-        minmax(110px, .75fr);
+        142px
+        minmax(74px, .55fr)
+        86px
+        82px
+        102px
+        72px
+        minmax(128px, .82fr)
+        minmax(145px, .95fr);
     align-items: center;
     column-gap: 12px;
     padding: 0 14px;
@@ -791,7 +792,7 @@ body {
     .history-head,
     .history-row {
         min-width: 0 !important;
-        grid-template-columns: minmax(58px,.72fr) 48px 50px 60px 42px minmax(70px,1fr) 58px !important;
+        grid-template-columns: 92px minmax(58px,.72fr) 44px 46px 58px 40px minmax(76px,.85fr) 68px !important;
         column-gap: 5px !important;
         padding: 0 7px !important;
     }
@@ -879,7 +880,7 @@ body {
 </section>
 
 <section class="history-panel">
-    <div class="history-title">LAST 20 ΔTIMES WITH IMPACT</div>
+    <div class="history-title">LAST 20 ΔTIMES WITH IMPACT · <a id="historyExcelLink" href="GUMAkontrola/CHALLENGE_HISTORY.xlsx" target="_blank">EXCEL</a></div>
     <div id="last20"></div>
 </section>
 
@@ -1177,6 +1178,7 @@ function historyTable(events) {
 
         return `
             <div class="history-row">
+                <div class="history-stamp">${text(event.timestamp || event.detectedAt || "—")}</div>
                 <div class="history-driver">${text(event.driver)}${playerDlcBadge(event.driver,event)}</div>
                 <div class="history-jump ${fixedFriendClass}">${text(friendJump)}</div>
                 <div class="history-delta ${fixedDeltaClass}">${text(deltaTime)}</div>
@@ -1190,6 +1192,7 @@ function historyTable(events) {
 
     return `
         <div class="history-head">
+            <div>TIMESTAMP</div>
             <div>Driver</div>
             <div>ΔFRIENDS</div>
             <div>ΔTIME</div>
@@ -1214,10 +1217,8 @@ function modeHistory() {
 
 function renderHistory(data) {
     completeHistory = Array.isArray(data.history) ? data.history : [];
-    // KING display is already ordered: frozen new events newest-first, then approved MASTER.
-    const selected = currentMode === "all" && (Array.isArray(latestData?.kingDisplayHistory) || Array.isArray(latestData?.kingMasterTop20))
-        ? modeHistory().slice()
-        : modeHistory().slice().sort((a,b)=>String(b.timestamp||b.detectedAt||"").localeCompare(String(a.timestamp||a.detectedAt||"")));
+    // Chronology contract: acquisition timestamp is the ONLY ordering key.
+    const selected = modeHistory().slice().sort((a,b)=>String(b.timestamp||b.detectedAt||"").localeCompare(String(a.timestamp||a.detectedAt||"")));
     document.getElementById("last20").innerHTML = historyTable(selected.slice(0,20));
 }
 
@@ -1231,6 +1232,8 @@ function setScoreMode(mode) {
     currentMode = mode === "all" ? "all" : "challenge";
     document.getElementById("modeChallenge")?.classList.toggle("active", currentMode === "challenge");
     document.getElementById("modeAll")?.classList.toggle("active", currentMode === "all");
+    const excelLink = document.getElementById("historyExcelLink");
+    if (excelLink) excelLink.href = currentMode === "all" ? "GUMAkontrola/KING_HISTORY.xlsx" : "GUMAkontrola/CHALLENGE_HISTORY.xlsx";
     const note = document.getElementById("modeNote");
     if (note) note.textContent = currentMode === "all"
         ? "KING · all cars found on the 10 challenge tracks · best per driver + vehicle"
@@ -1379,11 +1382,11 @@ function createChallengeCard(challenge) {
     card.innerHTML = `<div class="challenge-head">
         <div class="number-box">
             <div class="big-number">${text(ordinal(challenge.id))}</div>
-            <div class="number-challenge">Challenge</div>
+            <div class="number-challenge">${currentMode === "all" ? "KING" : "Challenge"}</div>
         </div>
         <div class="challenge-info">
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
-            <div class="challenge-extra"><strong>TŘÍDA:</strong> ${text(meta.classLabel || (challenge.challengeClasses || []).join(" + ") || "—")}</div>
+            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "ALL CARS / ALL CLASSES · BEST TIME PER DRIVER" : text(meta.classLabel || (challenge.challengeClasses || []).join(" + ") || "—")}</div>
         </div>
     </div><div class="results">${resultsHtml}</div>`;
     return card;
