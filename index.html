@@ -876,7 +876,7 @@ body {
     <button id="modeAll" class="score-mode" type="button" onclick="setScoreMode('all')">
         <span class="quiet">pancar</span><strong>KING</strong><small>of all times</small>
     </button>
-    <div id="modeNote" class="mode-note">official Challenge Class · one best time per driver</div>
+    <div id="modeNote" class="mode-note">official Challenge Class · one best time per driver + car + CAR</div>
 </section>
 
 <section class="history-panel">
@@ -1236,8 +1236,8 @@ function setScoreMode(mode) {
     if (excelLink) excelLink.href = currentMode === "all" ? "GUMAkontrola/KING_HISTORY.xlsx" : "GUMAkontrola/CHALLENGE_HISTORY.xlsx";
     const note = document.getElementById("modeNote");
     if (note) note.textContent = currentMode === "all"
-        ? "KING · all cars / all classes on 18 challenge tracks · best time per driver + car"
-        : "official Challenge Class · one best time per driver";
+        ? "KING · all cars / all classes on 18 challenge tracks · best time per driver + car + CAR + car"
+        : "official Challenge Class · one best time per driver + car + CAR";
     if (latestData) renderAll(latestData);
 }
 
@@ -1386,7 +1386,7 @@ function createChallengeCard(challenge) {
         </div>
         <div class="challenge-info">
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
-            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "ALL CARS / ALL CLASSES · BEST TIME PER DRIVER" : text(meta.classLabel || (challenge.challengeClasses || []).join(" + ") || "—")}</div>
+            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "ALL CARS / ALL CLASSES · best time per driver + car + CAR" : text(meta.classLabel || (challenge.challengeClasses || []).join(" + ") || "—")}</div>
         </div>
     </div><div class="results">${resultsHtml}</div>`;
     return card;
