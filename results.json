@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-22T23:10:50+02:00",
+  "updated": "2026-09-23T05:47:07+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1522,17 +1522,36 @@
       "scanMode": "ultra",
       "activeBoards": [
         {
+          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_4704_2816254725_0_0",
           "friends": 1
         }
       ],
-      "boardErrors": [
+      "boardErrors": [],
+      "results": [
         {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1564669712,
+          "vehicle": "Lamborghini Veneno Roadster",
+          "vehicleClass": "Hypercars",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1564669712,
+          "rank": 189,
+          "score": 103699,
+          "time": "01:43.699",
           "board": "cars2_autoevent_4723_2816254725_0_0",
-          "status": "find-failed"
+          "boardA": 4723,
+          "boardB": 2816254725,
+          "mergedRank": 1
         }
       ],
-      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -1552,6 +1571,25 @@
           "boardA": 4704,
           "boardB": 2816254725,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1564669712,
+          "vehicle": "Lamborghini Veneno Roadster",
+          "vehicleClass": "Hypercars",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1564669712,
+          "rank": 189,
+          "score": 103699,
+          "time": "01:43.699",
+          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "boardA": 4723,
+          "boardB": 2816254725,
+          "mergedRank": 2
         }
       ]
     },
@@ -4474,6 +4512,51 @@
       "displayDelta": "-48.688",
       "displayFriendColor": "",
       "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-23T05:47:07+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1564669712,
+      "vehicle": "Lamborghini Veneno Roadster",
+      "vehicleClass": "Hypercars",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4723_2816254725_0_0",
+      "boardA": 4723,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 103699,
+      "time": "01:43.699",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "challenge"
+      ],
+      "oldFriendRank": 1,
+      "newFriendRank": null,
+      "friendJump": "—",
+      "friendColor": "",
+      "kingFriendJump": "—",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 189,
+      "worldJump": "189",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold"
     }
   ],
   "historyKing": [
@@ -12916,6 +12999,51 @@
       "displayTimeColor": "gold",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-21T13:13:05+02:00"
+    },
+    {
+      "timestamp": "2026-09-23T05:47:07+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1564669712,
+      "vehicle": "Lamborghini Veneno Roadster",
+      "vehicleClass": "Hypercars",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4723_2816254725_0_0",
+      "boardA": 4723,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 103699,
+      "time": "01:43.699",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": true,
+      "scopes": [
+        "challenge"
+      ],
+      "oldFriendRank": 1,
+      "newFriendRank": null,
+      "friendJump": "—",
+      "friendColor": "",
+      "kingFriendJump": "—",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "gold",
+      "oldWorldRank": null,
+      "newWorldRank": 189,
+      "worldJump": "189",
+      "worldColor": "",
+      "timeColor": "gold",
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold"
     }
   ],
   "last10": [
@@ -14352,11 +14480,11 @@
   "collector": {
     "version": "2.4.4-GUMA",
     "mode": "ultra",
-    "elapsedSeconds": 26.7,
+    "elapsedSeconds": 19.7,
     "boardsScanned": 38,
-    "boardsOk": 37,
-    "rawFriendEntries": 52,
-    "errors": 1,
+    "boardsOk": 38,
+    "rawFriendEntries": 53,
+    "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 1
   }
