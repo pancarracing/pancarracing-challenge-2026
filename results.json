@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-24T20:13:27+02:00",
+  "updated": "2026-09-24T20:20:08+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1518,19 +1518,25 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4723_2816254725_0_0",
-      "boardsScanned": 2,
-      "scanMode": "ultra",
+      "boardsScanned": 132,
+      "scanMode": "fast101",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_4704_2816254725_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "friends": 1
         }
       ],
-      "boardErrors": [],
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_4775_2816254725_0_0",
+          "status": "find-wait-failed"
+        }
+      ],
+      "scanStatus": "partial",
       "results": [
         {
           "steamId": "76561198012880510",
@@ -1607,10 +1613,11 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "",
-      "boardsScanned": 0,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [],
       "boardErrors": [],
+      "scanStatus": "ok",
       "results": [],
       "allClassesResults": []
     },
@@ -1628,10 +1635,16 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12081_775712153_0_0",
-      "boardsScanned": 0,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [],
-      "boardErrors": [],
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_12083_775712153_0_0",
+          "status": "find-wait-failed"
+        }
+      ],
+      "scanStatus": "partial",
       "results": [],
       "allClassesResults": []
     },
@@ -1649,10 +1662,11 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
-      "boardsScanned": 0,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [],
       "boardErrors": [],
+      "scanStatus": "ok",
       "results": [],
       "allClassesResults": []
     },
@@ -1666,8 +1680,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4810_2590843191_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
@@ -1675,6 +1689,7 @@
         }
       ],
       "boardErrors": [],
+      "scanStatus": "ok",
       "results": [],
       "allClassesResults": [
         {
@@ -1710,15 +1725,11 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 10,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_9261_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
         },
         {
@@ -1726,7 +1737,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9251_2558461772_0_0",
+          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9261_2558461772_0_0",
           "friends": 1
         },
         {
@@ -1755,6 +1770,7 @@
         }
       ],
       "boardErrors": [],
+      "scanStatus": "ok",
       "results": [
         {
           "steamId": "76561198012880510",
@@ -1979,8 +1995,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_7202_399001429_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7212_399001429_0_0",
@@ -1988,6 +2004,7 @@
         }
       ],
       "boardErrors": [],
+      "scanStatus": "ok",
       "results": [
         {
           "steamId": "76561198012880510",
@@ -2041,8 +2058,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_5131_3212997714_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_5165_3212997714_0_0",
@@ -2050,6 +2067,7 @@
         }
       ],
       "boardErrors": [],
+      "scanStatus": "ok",
       "results": [],
       "allClassesResults": [
         {
@@ -15986,13 +16004,16 @@
     }
   ],
   "collector": {
-    "version": "2.5.3-KING-COVERAGE-HISTORY",
-    "mode": "ultra",
-    "elapsedSeconds": 22.1,
-    "boardsScanned": 38,
-    "boardsOk": 38,
-    "rawFriendEntries": 53,
-    "errors": 0,
+    "version": "2.5.4-BOARD-STATUS",
+    "mode": "fast101",
+    "elapsedSeconds": 314.3,
+    "boardsScanned": 839,
+    "boardsOk": 224,
+    "boardsNotFound": 613,
+    "boardsEmptyFriends": 209,
+    "tracksNeedDiscovery": [],
+    "rawFriendEntries": 15,
+    "errors": 2,
     "catalogVehicles": 274,
     "unknownVehicles": 1
   }
