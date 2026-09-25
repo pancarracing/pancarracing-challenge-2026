@@ -78,7 +78,7 @@
   },
   {
     "challenge": 12,
-    "trackB": 3037871603,
+    "trackB": 731129913,
     "name": "Imola",
     "dlc": false,
     "pack": "Base Game"
@@ -124,5 +124,12 @@
     "name": "Jacarepaguá Historic 2005 Oval",
     "dlc": false,
     "pack": "Base Game"
+  },
+  {
+    "challenge": 19,
+    "trackB": 2249037056,
+    "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
+    "dlc": true,
+    "pack": "Barcelona Pack"
   }
 ]

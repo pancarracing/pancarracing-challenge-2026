@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-25T05:32:56+02:00",
+  "updated": "2026-09-25T05:46:04+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1575,7 +1575,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1353949246,
-          "rank": 4915,
+          "rank": 4916,
           "score": 96219,
           "time": "01:36.219",
           "board": "cars2_autoevent_4704_2816254725_0_0",
@@ -1607,7 +1607,7 @@
     {
       "id": 12,
       "name": "Imola",
-      "trackB": 3037871603,
+      "trackB": 731129913,
       "challengeClasses": [
         "Hypercars",
         "LMDh",
@@ -2090,6 +2090,24 @@
           "mergedRank": 1
         }
       ]
+    },
+    {
+      "id": 19,
+      "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
+      "trackB": 2249037056,
+      "challengeClasses": [
+        "Formula Ultimate Hybrid Gen3"
+      ],
+      "allClasses": [],
+      "allPolicy": "",
+      "board": "",
+      "boardsScanned": 0,
+      "scanMode": "ultra",
+      "activeBoards": [],
+      "boardErrors": [],
+      "scanStatus": "needs-discovery",
+      "results": [],
+      "allClassesResults": []
     }
   ],
   "history": [
@@ -16004,9 +16022,9 @@
     }
   ],
   "collector": {
-    "version": "2.5.4-BOARD-STATUS",
+    "version": "2.5.5-BARCELONA-19",
     "mode": "ultra",
-    "elapsedSeconds": 19.6,
+    "elapsedSeconds": 19.5,
     "boardsScanned": 38,
     "boardsOk": 38,
     "boardsNotFound": 0,
@@ -16014,7 +16032,8 @@
     "tracksNeedDiscovery": [
       12,
       13,
-      14
+      14,
+      19
     ],
     "rawFriendEntries": 53,
     "errors": 0,
