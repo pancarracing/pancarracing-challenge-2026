@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- PANCARtiming 2.2.1 -->
+<!-- PANCARtiming 2.5.8 -->
 <title>Pancarracing Time Trial Challenge 2026</title>
 
 <style>
@@ -938,25 +938,25 @@ function playerDlcBadge(driver,event){let pack=event?.vehicleDlcName||event?.tra
 
 
 const challengeMeta = {
-    1: { classLabel: "Copa Truck", displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)" },
-    2: { classLabel: "GT4", displayTrack: "Nürburgring Nordschleife 2020" },
-    3: { classLabel: "MINI JCW UK", displayTrack: "Brands Hatch Full" },
-    4: { classLabel: "Stock Car 99" },
-    5: { classLabel: "Superkart" },
-    6: { classLabel: "German Classics" },
-    7: { classLabel: "GT Classics" },
-    8: { classLabel: "Formula Trainer" },
-    9: { classLabel: "Group C" },
-    10:{ classLabel: "Vintage Cars – Tier 2" },
-    11:{ classLabel: "Hypercars + LMDh + LMP2 + Formula Ultimate Hybrid Gen3" },
-    12:{ classLabel: "Hypercars + LMDh + LMP2 + Formula Ultimate Hybrid Gen3" },
-    13:{ classLabel: "Hypercars + LMDh + LMP2 + Formula Ultimate Hybrid Gen3" },
-    14:{ classLabel: "Hypercars + LMDh + LMP2 + Formula Ultimate Hybrid Gen3" },
-    15:{ classLabel: "F-USA 2023" },
-    16:{ classLabel: "Opala Stock Cars 1979 + 1986" },
-    17:{ classLabel: "German Classics" },
-    18:{ classLabel: "GT1" },
-    19:{ classLabel: "F-Hybrid Gen3", displayTrack: "Circuit de Barcelona-Catalunya GP", trackDetail: "(no chicane)" }
+    1: { displayTrack: "Monza Historic 1971", trackDetail: "10k (no chicane)" },
+    2: { displayTrack: "Nürburgring Nordschleife 2020" },
+    3: { displayTrack: "Brands Hatch Full" },
+    4: { },
+    5: { },
+    6: { },
+    7: { },
+    8: { },
+    9: { },
+    10:{ },
+    11:{ },
+    12:{ },
+    13:{ },
+    14:{ },
+    15:{ },
+    16:{ },
+    17:{ },
+    18:{ },
+    19:{ displayTrack: "Circuit de Barcelona-Catalunya GP", trackDetail: "(no chicane)" }
 };
 
 function text(value) {
@@ -1237,7 +1237,7 @@ function setScoreMode(mode) {
     if (excelLink) excelLink.href = currentMode === "all" ? "GUMAkontrola/KING_HISTORY.xlsx" : "GUMAkontrola/CHALLENGE_HISTORY.xlsx";
     const note = document.getElementById("modeNote");
     if (note) note.textContent = currentMode === "all"
-        ? `KING · all cars / all classes on ${(latestData?.challenges || []).length} challenge tracks · best time per driver + car + CAR + car`
+        ? `KING · all cars / all classes on ${(latestData?.challenges || []).length} challenge tracks · best time per driver + car`
         : "official Challenge Class · one best time per driver + car + CAR";
     if (latestData) renderAll(latestData);
 }
@@ -1339,6 +1339,30 @@ async function loadCarCatalog() {
     }
 }
 
+function configuredClassLabel(challenge) {
+    const pretty = {
+        "f usa gen3":"F-USA Gen3", "f usa 2023":"F-USA 2023", "lmph":"LMDh",
+        "opala 79":"Opala 1979", "opala 86":"Opala 1986",
+        "formula ultimate hybrid gen3":"F-Hybrid Gen3"
+    };
+    const labels = (challenge.challengeClasses || []).map(value => {
+        const key = String(value).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+        return pretty[key] || String(value);
+    });
+    return [...new Set(labels)].join(" + ") || "Třída není nastavena";
+}
+
+function coverageNotice(challenge) {
+    const known = Number(challenge.catalogBoards);
+    const checked = Number(challenge.friendsBoardsChecked);
+    const counts = Number.isFinite(known) && Number.isFinite(checked)
+        ? `Známé tabulky s ověřenými časy přátel: ${checked}/${known}. ` : "";
+    if (challenge.scanStatus === "partial") return counts + "Část dotazů selhala; zobrazeny i dříve uložené časy.";
+    if (challenge.scanStatus === "needs-discovery") return counts + "Zatím chybí leaderboardy této trati.";
+    if (challenge.scanStatus === "needs-catalog") return counts + "Zbývá načíst známé tabulky: v timingu spusť CATALOG.";
+    return counts + "Zobrazeny dosud načtené časy; úplnost všech leaderboardů není ověřena.";
+}
+
 function createChallengeCard(challenge) {
     const card = document.createElement("section");
     card.className = "challenge-card";
@@ -1355,7 +1379,8 @@ function createChallengeCard(challenge) {
 
     let resultsHtml = "";
     if (!results.length) {
-        resultsHtml = `<div class="no-time">BEZ ČASU</div>`;
+        const incomplete = ["needs-discovery", "needs-catalog", "partial", "not-scanned"].includes(challenge.scanStatus);
+        resultsHtml = `<div class="no-time">${incomplete ? "ČASY ZATÍM NEOVĚŘENÉ" : "V NAČTENÝCH TABULKÁCH BEZ ČASU"}</div>`;
     } else {
         const rows = results.map((result,index) => {
             const vehicleName = result.vehicle && String(result.vehicle).trim()
@@ -1387,9 +1412,9 @@ function createChallengeCard(challenge) {
         </div>
         <div class="challenge-info">
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
-            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "ALL CARS / ALL CLASSES · best time per driver + car + CAR" : text(meta.classLabel || (challenge.challengeClasses || []).join(" + ") || "—")}</div>
+            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem" : text(configuredClassLabel(challenge))}</div>
         </div>
-    </div><div class="results">${resultsHtml}</div>`;
+    </div><div class="coverage-note" style="padding:8px 14px;font-size:12px;color:#b3ac93;line-height:1.45">${text(coverageNotice(challenge))}</div><div class="results">${resultsHtml}</div>`;
     return card;
 }
 
@@ -1430,7 +1455,9 @@ async function loadResults() {
             const c = data.collector || {};
             const health = c.boardsScanned != null
                 ? ` • BOARDS ${c.boardsOk ?? "?"}/${c.boardsScanned}${c.errors ? ` • ERR ${c.errors}` : ""}` : "";
-            updated.textContent = "LIVE DATA • " + stamp + health;
+            const pending = (data.challenges || []).filter(x => x.scanStatus === "needs-catalog").length;
+            const missing = (data.challenges || []).filter(x => x.scanStatus === "needs-discovery").length;
+            updated.textContent = "LIVE DATA • " + stamp + health + (pending ? ` • KATALOG ${pending}` : "") + (missing ? ` • CHYBÍ DESKY ${missing}` : "");
         } else {
             updated.textContent = "LIVE DATA";
         }
@@ -1508,14 +1535,15 @@ function R9badge(pack){return pack&&pack!=="Base Game"?`<span class="rc9-track-b
 addEventListener("DOMContentLoaded",async()=>{
  try{
   let cars=await R9J("ams2_cars.json"); let arr=Array.isArray(cars)?cars:(cars.cars||Object.values(cars));
-  let q=document.querySelector("#rc9cars");if(q)q.innerHTML="<tr><th>AUTO</th><th>HASH</th><th>CLASS</th><th>CONTENT</th></tr>"+arr.map(x=>`<tr><td>${x.name||x.vehicleName||""}</td><td>${x.hash??x.vehicleHash??""}</td><td>${x.class||x.vehicleClass||""}</td><td>${x.dlc||x.content||x.pack||"BASE"}</td></tr>`).join("");
+  let q=document.querySelector("#rc9cars");if(q)q.innerHTML="<tr><th>AUTO</th><th>HASH</th><th>CLASS</th><th>CONTENT</th></tr>"+arr.map(x=>`<tr><td>${text(x.vehicle||x.name||x.vehicleName||"")}</td><td>${text(x.hash??x.vehicleHash??"")}</td><td>${text(x.class||x.vehicleClass||"")}</td><td>${text(x.dlc||x.content||x.pack||"BASE")}</td></tr>`).join("");
  }catch(e){console.error("car db",e)}
  try{
   let base=await R9J("track_database.json");let meta=new Map(base.map(x=>[String(x.trackB),x]));
-  let full=[];
-  try{let bc=await R9J("board_catalog.json");let a=Array.isArray(bc)?bc:(bc.boards||Object.values(bc));for(let x of a){let b=x.trackB??x.B??x.boardB;if(b!=null)full.push({trackB:b,name:x.trackName||x.name||x.track||"",pack:(meta.get(String(b))||{}).pack})}}catch(_){}
-  try{let tn=await R9J("track_names.json");for(let [b,n] of Object.entries(tn||{})){if(!full.some(x=>String(x.trackB)===String(b)))full.push({trackB:b,name:typeof n==="string"?n:(n.name||""),pack:(meta.get(String(b))||{}).pack})}}catch(_){}
-  if(!full.length)full=base;
+  let byB=new Map(base.map(x=>[String(x.trackB),{...x}]));
+  function addTrack(b,n){if(!/^\d+$/.test(String(b)))return;let key=String(b);let prev=byB.get(key)||{};byB.set(key,{...prev,trackB:Number(b),name:prev.name||n||`Trať ${b}`})}
+  try{let bc=await R9J("board_catalog.json");let a=Array.isArray(bc)?bc:Object.values(bc.tracks||{});for(let x of a){addTrack(x.trackB??x.B??x.boardB,x.trackName||x.name||x.track)}}catch(_){}
+  try{let tn=await R9J("track_names.json");for(let [b,n] of Object.entries(tn.tracks||tn||{})){addTrack(b,typeof n==="string"?n:n.name)}}catch(_){}
+  let full=[...byB.values()];
   full.sort((a,b)=>(a.name||"").localeCompare(b.name||""));
   let q=document.querySelector("#rc6tracks"); trackDatabaseGlobal=full; function drawTracks(){let z=(document.querySelector("#trackDbSearch")?.value||"").toLowerCase();let rows=full.filter(x=>!z||`${x.name||""} ${x.pack||""} ${x.trackB||""}`.toLowerCase().includes(z));if(q)q.innerHTML="<tr><th>TRAŤ</th><th>TRACK B</th><th>CONTENT</th></tr>"+rows.map(x=>`<tr><td>${x.name||""}</td><td>${x.trackB}</td><td>${x.pack&&x.pack!=="Base Game"?"DLC · "+x.pack:"BASE"}</td></tr>`).join("");} drawTracks(); document.querySelector("#trackDbSearch")?.addEventListener("input",drawTracks);
   // Challenge/KING track badges are rendered deterministically by challenge id / trackB.
