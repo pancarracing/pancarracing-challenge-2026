@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-27T15:37:55+02:00",
+  "updated": "2026-09-27T15:54:07+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1615,11 +1615,7 @@
       "name": "Interlagos GP",
       "trackB": 2816254725,
       "challengeClasses": [
-        "Hypercars",
-        "LMDh",
-        "LMP2",
-        "LMP2 Gen2",
-        "Formula Ultimate Hybrid Gen3"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -1874,11 +1870,7 @@
       "name": "Imola",
       "trackB": 3037871603,
       "challengeClasses": [
-        "Hypercars",
-        "LMDh",
-        "LMP2",
-        "LMP2 Gen2",
-        "Formula Ultimate Hybrid Gen3"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -1898,65 +1890,7 @@
       "catalogBoardsPending": 0,
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
-      "results": [
-        {
-          "steamId": "76561198089049981",
-          "driver": "dr.slimm",
-          "vehicleHash": 247012445,
-          "vehicle": "Formula Ultimate Hybrid Gen3 2026",
-          "vehicleClass": "Formula Ultimate Hybrid Gen3",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 247012445,
-          "rank": 434,
-          "score": 81399,
-          "time": "01:21.399",
-          "board": "cars2_autoevent_12829_3037871603_0_0",
-          "boardA": 12829,
-          "boardB": 3037871603,
-          "mergedRank": 1
-        },
-        {
-          "steamId": "76561198276152161",
-          "driver": "Acce",
-          "vehicleHash": 247012445,
-          "vehicle": "Formula Ultimate Hybrid Gen3 2026",
-          "vehicleClass": "Formula Ultimate Hybrid Gen3",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 247012445,
-          "rank": 746,
-          "score": 82580,
-          "time": "01:22.580",
-          "board": "cars2_autoevent_12829_3037871603_0_0",
-          "boardA": 12829,
-          "boardB": 3037871603,
-          "mergedRank": 2
-        },
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 247012445,
-          "vehicle": "Formula Ultimate Hybrid Gen3 2026",
-          "vehicleClass": "Formula Ultimate Hybrid Gen3",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 247012445,
-          "rank": 798,
-          "score": 82780,
-          "time": "01:22.780",
-          "board": "cars2_autoevent_12829_3037871603_0_0",
-          "boardA": 12829,
-          "boardB": 3037871603,
-          "mergedRank": 3
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198089049981",
@@ -2022,11 +1956,7 @@
       "name": "Spa-Francorchamps 2022",
       "trackB": 775712153,
       "challengeClasses": [
-        "Hypercars",
-        "LMDh",
-        "LMP2",
-        "LMP2 Gen2",
-        "Formula Ultimate Hybrid Gen3"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -2057,8 +1987,8 @@
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 41,
-      "friendsBoardsChecked": 41,
+      "catalogBoards": 47,
+      "friendsBoardsChecked": 47,
       "catalogBoardsPending": 0,
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
@@ -2243,11 +2173,7 @@
       "name": "Virginia International Raceway Full",
       "trackB": 1063112912,
       "challengeClasses": [
-        "Hypercars",
-        "LMDh",
-        "LMP2",
-        "LMP2 Gen2",
-        "Formula Ultimate Hybrid Gen3"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -2315,7 +2241,7 @@
       "name": "Interlagos Historic 1978 Outer",
       "trackB": 2590843191,
       "challengeClasses": [
-        "F-USA-Gen3"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -2339,27 +2265,7 @@
       "catalogBoardsPending": 0,
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
-      "results": [
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 1530597907,
-          "vehicle": "Reynard 2Ki Honda",
-          "vehicleClass": "F-USA_Gen3",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 1530597907,
-          "rank": 15,
-          "score": 40260,
-          "time": "00:40.260",
-          "board": "cars2_autoevent_4870_2590843191_0_0",
-          "boardA": 4870,
-          "boardB": 2590843191,
-          "mergedRank": 1
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -2406,8 +2312,6 @@
       "name": "Spa-Francorchamps Historic 1970",
       "trackB": 2558461772,
       "challengeClasses": [
-        "Opala 79",
-        "Opala 86",
         "LMPH"
       ],
       "allClasses": [],
@@ -2706,7 +2610,7 @@
       "name": "Nürburgring Nordschleife Historic 1971",
       "trackB": 399001429,
       "challengeClasses": [
-        "Group A"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -2726,27 +2630,7 @@
       "catalogBoardsPending": 0,
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
-      "results": [
-        {
-          "steamId": "76561198012880510",
-          "driver": "pancar LBC",
-          "vehicleHash": 262982797,
-          "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
-          "vehicleClass": "Group A",
-          "vehicleContent": "UNKNOWN",
-          "vehicleDlc": false,
-          "vehicleDlcName": "",
-          "catalogMatched": true,
-          "vehicleHashResolvedAs": 262982797,
-          "rank": 38,
-          "score": 549456,
-          "time": "09:09.456",
-          "board": "cars2_autoevent_7212_399001429_0_0",
-          "boardA": 7212,
-          "boardB": 399001429,
-          "mergedRank": 1
-        }
-      ],
+      "results": [],
       "allClassesResults": [
         {
           "steamId": "76561198012880510",
@@ -2774,7 +2658,7 @@
       "name": "Jacarepaguá Historic 2005 Oval",
       "trackB": 3212997714,
       "challengeClasses": [
-        "GT1"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -2845,7 +2729,7 @@
       "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
       "trackB": 2249037056,
       "challengeClasses": [
-        "Formula Ultimate Hybrid Gen3"
+        "LMPH"
       ],
       "allClasses": [],
       "allPolicy": "",
@@ -22138,11 +22022,11 @@
   "collector": {
     "version": "2.5.7-REVIEW",
     "mode": "fast101",
-    "elapsedSeconds": 388.2,
+    "elapsedSeconds": 386.9,
     "boardsScanned": 914,
-    "boardsOk": 593,
-    "boardsNotFound": 321,
-    "boardsEmptyFriends": 564,
+    "boardsOk": 599,
+    "boardsNotFound": 315,
+    "boardsEmptyFriends": 570,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
     "rawFriendEntries": 37,
