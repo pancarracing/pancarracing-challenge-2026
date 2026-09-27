@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-27T16:47:30+02:00",
+  "updated": "2026-09-27T17:23:44+02:00",
   "challenges": [
     {
       "id": 1,
@@ -84,7 +84,7 @@
           "driver": "pancar LBC",
           "vehicleHash": -1556432632,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1052,7 +1052,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 262982797,
-          "rank": 8,
+          "rank": 9,
           "score": 97359,
           "time": "01:37.359",
           "board": "cars2_autoevent_10351_2134032188_0_0",
@@ -1244,7 +1244,7 @@
         "Group C"
       ],
       "allClasses": [
-        "LMPH",
+        "LMDh",
         "Hypercars"
       ],
       "allPolicy": "",
@@ -1345,7 +1345,7 @@
           "driver": "pancar LBC",
           "vehicleHash": -1556432632,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1383,7 +1383,7 @@
           "driver": "dr.slimm",
           "vehicleHash": 1837911487,
           "vehicle": "Aston Martin Valkyrie Hypercar",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1421,13 +1421,13 @@
           "driver": "Acce",
           "vehicleHash": 1937293617,
           "vehicle": "Porsche 963",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1937293617,
-          "rank": 2376,
+          "rank": 2377,
           "score": 225938,
           "time": "03:45.938",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -1440,13 +1440,13 @@
           "driver": "ŠotoFotograf",
           "vehicleHash": -966026248,
           "vehicle": "Cadillac V-Series.R",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -966026248,
-          "rank": 2453,
+          "rank": 2454,
           "score": 227438,
           "time": "03:47.438",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -1514,8 +1514,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
-      "boardsScanned": 101,
-      "scanMode": "fast101",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1052_799677855_0_0",
@@ -1615,32 +1615,32 @@
       "name": "Interlagos GP",
       "trackB": 2816254725,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
-      "board": "cars2_autoevent_4704_2816254725_0_0",
-      "boardsScanned": 552,
-      "scanMode": "fast101",
+      "board": "cars2_autoevent_4723_2816254725_0_0",
+      "boardsScanned": 5,
+      "scanMode": "ultra",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12355_2816254725_0_0",
-          "friends": 3
-        },
-        {
-          "board": "cars2_autoevent_12773_2816254725_0_0",
+          "board": "cars2_autoevent_4723_2816254725_0_0",
           "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12774_2816254725_0_0",
-          "friends": 2
         },
         {
           "board": "cars2_autoevent_4704_2816254725_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "board": "cars2_autoevent_12355_2816254725_0_0",
+          "friends": 3
+        },
+        {
+          "board": "cars2_autoevent_12774_2816254725_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_12773_2816254725_0_0",
           "friends": 1
         }
       ],
@@ -1657,7 +1657,7 @@
           "driver": "pancar LBC",
           "vehicleHash": 1122735892,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1676,7 +1676,7 @@
           "driver": "dr.slimm",
           "vehicleHash": -896587240,
           "vehicle": "Aston Martin Valkyrie Hypercar",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1695,7 +1695,7 @@
           "driver": "Acce",
           "vehicleHash": -811404968,
           "vehicle": "Porsche 963",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1735,7 +1735,7 @@
           "driver": "pancar LBC",
           "vehicleHash": 1122735892,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1754,7 +1754,7 @@
           "driver": "dr.slimm",
           "vehicleHash": -896587240,
           "vehicle": "Aston Martin Valkyrie Hypercar",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1773,7 +1773,7 @@
           "driver": "Acce",
           "vehicleHash": -811404968,
           "vehicle": "Porsche 963",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -1870,13 +1870,13 @@
       "name": "Imola",
       "trackB": 3037871603,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12829_3037871603_0_0",
-      "boardsScanned": 473,
-      "scanMode": "fast101",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12829_3037871603_0_0",
@@ -1956,14 +1956,22 @@
       "name": "Spa-Francorchamps 2022",
       "trackB": 775712153,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
-      "board": "cars2_autoevent_9167_775712153_0_0",
-      "boardsScanned": 516,
-      "scanMode": "fast101",
+      "board": "cars2_autoevent_12081_775712153_0_0",
+      "boardsScanned": 5,
+      "scanMode": "ultra",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_9167_775712153_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_9168_775712153_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_12559_775712153_0_0",
           "friends": 1
@@ -1975,14 +1983,6 @@
         {
           "board": "cars2_autoevent_19155_775712153_0_0",
           "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_9167_775712153_0_0",
-          "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_9168_775712153_0_0",
-          "friends": 1
         }
       ],
       "boardErrors": [],
@@ -1998,7 +1998,7 @@
           "driver": "dr.slimm",
           "vehicleHash": -896587240,
           "vehicle": "Aston Martin Valkyrie Hypercar",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -2095,7 +2095,7 @@
           "driver": "dr.slimm",
           "vehicleHash": -896587240,
           "vehicle": "Aston Martin Valkyrie Hypercar",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -2173,13 +2173,13 @@
       "name": "Virginia International Raceway Full",
       "trackB": 1063112912,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12585_1063112912_0_0",
@@ -2199,7 +2199,7 @@
           "driver": "pancar LBC",
           "vehicleHash": 1122735892,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -2220,7 +2220,7 @@
           "driver": "pancar LBC",
           "vehicleHash": 1122735892,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -2241,13 +2241,13 @@
       "name": "Interlagos Historic 1978 Outer",
       "trackB": 2590843191,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4810_2590843191_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
@@ -2258,13 +2258,8 @@
           "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_4826_2590843191_0_0",
-          "status": "download-board-mismatch"
-        }
-      ],
-      "scanStatus": "partial",
+      "boardErrors": [],
+      "scanStatus": "ok",
       "catalogBoards": 78,
       "friendsBoardsChecked": 78,
       "catalogBoardsPending": 0,
@@ -2317,24 +2312,16 @@
       "name": "Spa-Francorchamps Historic 1970",
       "trackB": 2558461772,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 549,
-      "scanMode": "fast101",
+      "boardsScanned": 11,
+      "scanMode": "ultra",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12561_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9251_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9252_2558461772_0_0",
+          "board": "cars2_autoevent_9261_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2342,7 +2329,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9261_2558461772_0_0",
+          "board": "cars2_autoevent_9252_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2368,6 +2359,10 @@
         {
           "board": "cars2_autoevent_9300_2558461772_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12561_2558461772_0_0",
+          "friends": 1
         }
       ],
       "boardErrors": [],
@@ -2383,7 +2378,7 @@
           "driver": "pancar LBC",
           "vehicleHash": -1556432632,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -2404,7 +2399,7 @@
           "driver": "pancar LBC",
           "vehicleHash": -1556432632,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMPH",
+          "vehicleClass": "LMDh",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -2615,13 +2610,13 @@
       "name": "Nürburgring Nordschleife Historic 1971",
       "trackB": 399001429,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_7202_399001429_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7212_399001429_0_0",
@@ -2663,13 +2658,13 @@
       "name": "Jacarepaguá Historic 2005 Oval",
       "trackB": 3212997714,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_5131_3212997714_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_5165_3212997714_0_0",
@@ -2734,42 +2729,29 @@
       "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
       "trackB": 2249037056,
       "challengeClasses": [
-        "LMPH"
+        "LMDh"
       ],
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12829_2249037056_0_0",
-      "boardsScanned": 573,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_12699_2249037056_0_0",
-          "friends": 3
-        },
         {
           "board": "cars2_autoevent_2102_2249037056_0_0",
           "friends": 1
-        }
-      ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_2074_2249037056_0_0",
-          "status": "find-wait-failed"
         },
         {
-          "board": "cars2_autoevent_12257_2249037056_0_0",
-          "status": "find-wait-failed"
-        },
-        {
-          "board": "cars2_autoevent_12564_2249037056_0_0",
-          "status": "find-wait-failed"
+          "board": "cars2_autoevent_12699_2249037056_0_0",
+          "friends": 3
         }
       ],
-      "scanStatus": "partial",
-      "catalogBoards": 83,
+      "boardErrors": [],
+      "scanStatus": "needs-catalog",
+      "catalogBoards": 86,
       "friendsBoardsChecked": 83,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 3,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [],
       "allClassesResults": [
@@ -3350,7 +3332,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": -1556432632,
       "vehicle": "Vehicle -1556432632",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "Lamborghini Dream Pack Pt1",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -3385,7 +3367,7 @@
       "steamId": "76561198089049981",
       "vehicleHash": 1837911487,
       "vehicle": "Vehicle 1837911487",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "Endurance Pack Pt3",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -3420,7 +3402,7 @@
       "steamId": "76561198276152161",
       "vehicleHash": 1937293617,
       "vehicle": "Vehicle 1937293617",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "Endurance Pack Pt1",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -3455,7 +3437,7 @@
       "steamId": "76561199810540463",
       "vehicleHash": -966026248,
       "vehicle": "Vehicle -966026248",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "Endurance Pack Pt1",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -5253,7 +5235,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": -1556432632,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12495_612695202_0_0",
@@ -5982,7 +5964,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": 1122735892,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -6028,7 +6010,7 @@
       "steamId": "76561198089049981",
       "vehicleHash": -896587240,
       "vehicle": "Aston Martin Valkyrie Hypercar",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -6074,7 +6056,7 @@
       "steamId": "76561198276152161",
       "vehicleHash": -811404968,
       "vehicle": "Porsche 963",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -6528,7 +6510,7 @@
       "steamId": "76561198089049981",
       "vehicleHash": -896587240,
       "vehicle": "Aston Martin Valkyrie Hypercar",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12559_775712153_0_0",
@@ -6709,7 +6691,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": 1122735892,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12585_1063112912_0_0",
@@ -6755,7 +6737,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": -1556432632,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12561_2558461772_0_0",
@@ -11193,7 +11175,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": -1556432632,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": true,
       "vehicleDlcName": "Lamborghini Dream Pack Pt1",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -11228,7 +11210,7 @@
       "steamId": "76561198089049981",
       "vehicleHash": 1837911487,
       "vehicle": "Aston Martin Valkyrie Hypercar",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": true,
       "vehicleDlcName": "Endurance Pack Pt3",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -11263,7 +11245,7 @@
       "steamId": "76561198276152161",
       "vehicleHash": 1937293617,
       "vehicle": "Porsche 963",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": true,
       "vehicleDlcName": "Endurance Pack Pt1",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -11298,7 +11280,7 @@
       "steamId": "76561199810540463",
       "vehicleHash": -966026248,
       "vehicle": "Cadillac V-Series.R",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": true,
       "vehicleDlcName": "Endurance Pack Pt1",
       "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -13037,7 +13019,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": -1556432632,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12495_612695202_0_0",
@@ -13751,7 +13733,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": 1122735892,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -13799,7 +13781,7 @@
       "steamId": "76561198089049981",
       "vehicleHash": -896587240,
       "vehicle": "Aston Martin Valkyrie Hypercar",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -13847,7 +13829,7 @@
       "steamId": "76561198276152161",
       "vehicleHash": -811404968,
       "vehicle": "Porsche 963",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -14321,7 +14303,7 @@
       "steamId": "76561198089049981",
       "vehicleHash": -896587240,
       "vehicle": "Aston Martin Valkyrie Hypercar",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12559_775712153_0_0",
@@ -14510,7 +14492,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": 1122735892,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12585_1063112912_0_0",
@@ -14558,7 +14540,7 @@
       "steamId": "76561198012880510",
       "vehicleHash": -1556432632,
       "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMPH",
+      "vehicleClass": "LMDh",
       "vehicleDlc": false,
       "vehicleDlcName": "",
       "board": "cars2_autoevent_12561_2558461772_0_0",
@@ -22641,16 +22623,18 @@
   ],
   "collector": {
     "version": "2.5.7-REVIEW",
-    "mode": "fast101",
-    "elapsedSeconds": 1888.4,
-    "boardsScanned": 4952,
-    "boardsOk": 674,
-    "boardsNotFound": 4274,
-    "boardsEmptyFriends": 643,
+    "mode": "ultra",
+    "elapsedSeconds": 29.2,
+    "boardsScanned": 55,
+    "boardsOk": 55,
+    "boardsNotFound": 0,
+    "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
-    "tracksNeedCatalog": [],
-    "rawFriendEntries": 42,
-    "errors": 4,
+    "tracksNeedCatalog": [
+      19
+    ],
+    "rawFriendEntries": 80,
+    "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 2
   }
