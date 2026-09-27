@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-27T13:33:10+02:00",
+  "updated": "2026-09-27T13:47:11+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1624,15 +1624,15 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4723_2816254725_0_0",
-      "boardsScanned": 79,
-      "scanMode": "complete",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_4704_2816254725_0_0",
+          "board": "cars2_autoevent_4723_2816254725_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "board": "cars2_autoevent_4704_2816254725_0_0",
           "friends": 1
         }
       ],
@@ -2260,8 +2260,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "",
-      "boardsScanned": 76,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_2102_2249037056_0_0",
@@ -2269,11 +2269,11 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "ok",
-      "catalogBoards": 76,
+      "scanStatus": "needs-catalog",
+      "catalogBoards": 77,
       "friendsBoardsChecked": 76,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 1,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [],
       "allClassesResults": [
@@ -17423,19 +17423,23 @@
   ],
   "collector": {
     "version": "2.5.8-FRIEND-SYNC",
-    "mode": "complete",
-    "requestedMode": "complete",
+    "mode": "ultra",
+    "requestedMode": "ultra",
     "friendSync": false,
     "friendAdded": [],
     "friendRemoved": [],
-    "elapsedSeconds": 557.8,
-    "boardsScanned": 155,
-    "boardsOk": 155,
+    "elapsedSeconds": 21.2,
+    "boardsScanned": 42,
+    "boardsOk": 42,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 152,
-    "tracksNeedDiscovery": [],
-    "tracksNeedCatalog": [],
-    "rawFriendEntries": 3,
+    "boardsEmptyFriends": 0,
+    "tracksNeedDiscovery": [
+      12
+    ],
+    "tracksNeedCatalog": [
+      19
+    ],
+    "rawFriendEntries": 57,
     "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 1
