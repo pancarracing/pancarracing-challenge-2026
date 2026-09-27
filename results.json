@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-27T16:12:34+02:00",
+  "updated": "2026-09-27T16:25:52+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2317,15 +2317,15 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 11,
-      "scanMode": "ultra",
+      "boardsScanned": 549,
+      "scanMode": "fast101",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_9261_2558461772_0_0",
+          "board": "cars2_autoevent_12561_2558461772_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2333,7 +2333,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9251_2558461772_0_0",
+          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9261_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2359,14 +2363,19 @@
         {
           "board": "cars2_autoevent_9300_2558461772_0_0",
           "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12561_2558461772_0_0",
-          "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "ok",
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_9246_2558461772_0_0",
+          "status": "find-wait-failed"
+        },
+        {
+          "board": "cars2_autoevent_12320_2558461772_0_0",
+          "status": "find-wait-failed"
+        }
+      ],
+      "scanStatus": "partial",
       "catalogBoards": 80,
       "friendsBoardsChecked": 80,
       "catalogBoardsPending": 0,
@@ -2378,7 +2387,7 @@
           "driver": "pancar LBC",
           "vehicleHash": -1556432632,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMDh",
+          "vehicleClass": "LMPH",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -2399,7 +2408,7 @@
           "driver": "pancar LBC",
           "vehicleHash": -1556432632,
           "vehicle": "Lamborghini SC63",
-          "vehicleClass": "LMDh",
+          "vehicleClass": "LMPH",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -22633,14 +22642,14 @@
   "collector": {
     "version": "2.5.7-REVIEW",
     "mode": "fast101",
-    "elapsedSeconds": 345.4,
-    "boardsScanned": 1125,
-    "boardsOk": 166,
-    "boardsNotFound": 957,
-    "boardsEmptyFriends": 159,
+    "elapsedSeconds": 177.5,
+    "boardsScanned": 549,
+    "boardsOk": 79,
+    "boardsNotFound": 468,
+    "boardsEmptyFriends": 68,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 12,
+    "rawFriendEntries": 11,
     "errors": 2,
     "catalogVehicles": 274,
     "unknownVehicles": 2
