@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-27T13:48:48+02:00",
+  "updated": "2026-09-27T13:53:41+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2260,8 +2260,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 80,
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_2102_2249037056_0_0",
@@ -2269,11 +2269,11 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
-      "catalogBoards": 77,
-      "friendsBoardsChecked": 76,
-      "catalogBoardsPending": 1,
-      "catalogCoverageComplete": false,
+      "scanStatus": "ok",
+      "catalogBoards": 80,
+      "friendsBoardsChecked": 80,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [],
       "allClassesResults": [
@@ -17423,23 +17423,19 @@
   ],
   "collector": {
     "version": "2.5.8-FRIEND-SYNC",
-    "mode": "ultra",
-    "requestedMode": "ultra",
+    "mode": "complete",
+    "requestedMode": "complete",
     "friendSync": false,
     "friendAdded": [],
     "friendRemoved": [],
-    "elapsedSeconds": 21.7,
-    "boardsScanned": 42,
-    "boardsOk": 42,
+    "elapsedSeconds": 1054.7,
+    "boardsScanned": 80,
+    "boardsOk": 80,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 0,
-    "tracksNeedDiscovery": [
-      12
-    ],
-    "tracksNeedCatalog": [
-      19
-    ],
-    "rawFriendEntries": 57,
+    "boardsEmptyFriends": 79,
+    "tracksNeedDiscovery": [],
+    "tracksNeedCatalog": [],
+    "rawFriendEntries": 1,
     "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 1
