@@ -653,13 +653,6 @@
       "dlc": ""
     },
     {
-      "vehicle": "Formula Ultimate Hybrid Gen3",
-      "class": "F-Ultimate_Gen2",
-      "vehicleHash": 1947909519,
-      "content": "UNKNOWN",
-      "dlc": ""
-    },
-    {
       "vehicle": "Formula V10 Gen1",
       "class": "F-V10_Gen1",
       "vehicleHash": 884102371,
@@ -768,6 +761,13 @@
       "vehicle": "Formula Edge Model3",
       "class": "FE-G1",
       "vehicleHash": 1775904576,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "class": "Formula Ultimate Hybrid Gen3",
+      "vehicleHash": 1947909519,
       "content": "UNKNOWN",
       "dlc": ""
     },

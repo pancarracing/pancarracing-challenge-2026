@@ -1081,7 +1081,9 @@ function canonicalClassForUi(value) {
         "lmp2 gen 2":"lmp2",
         "formula ultimate hybrid gen3":"formula ultimate hybrid gen3",
         "formula ultimate hybrid gen 3":"formula ultimate hybrid gen3",
-        "formula ultimate hybrid gen3 2026":"formula ultimate hybrid gen3"
+        "formula ultimate hybrid gen3 2026":"formula ultimate hybrid gen3",
+        "f ultimate gen2":"formula ultimate hybrid gen3",
+        "f ultimate gen 2":"formula ultimate hybrid gen3"
     };
     return aliases[n] || n;
 }
@@ -1117,7 +1119,7 @@ function canonicalImpactColor(event) {
     if (explicitFriend === "green" || event.timeColor === "green" || event.color === "green") return "green";
     if (event.eventType === "TAKEOVER") return "gold";
     if (event.eventType === "RANK_UP") return "green";
-    if (event.eventType === "NEW" || event.isNew === true) return "white";
+    if (event.eventType === "NEW" || event.isNew === true) return "purple";
     return event.timeColor || event.color || "blue";
 }
 function isRealDelta(event) {
@@ -1363,15 +1365,89 @@ function coverageNotice(challenge) {
     return counts + "Zobrazeny dosud načtené časy; úplnost všech leaderboardů není ověřena.";
 }
 
+
+// PANCAR-4.44-CLASS-FILTER
+const P444_KEY="pancar.challenge.classes.11-19.v1";
+let p444Selected=null;
+
+function p444Canon(v){ return canonicalClassForUi(v); }
+function p444Rows(ch){ return ch.allClassesResults || ch.allResults || ch.resultsAll || []; }
+function p444ClassLabel(raw){
+    const c=p444Canon(raw);
+    const pretty={"lmdh":"LMDh","formula ultimate hybrid gen3":"Formula Ultimate Hybrid Gen3"};
+    return pretty[c] || String(raw || c || "—");
+}
+function p444Available(){
+    const out=new Map();
+    for(const ch of (latestData?.challenges||[])){
+        if(Number(ch.id)<11 || Number(ch.id)>19) continue;
+        for(const r of p444Rows(ch)){
+            const c=p444Canon(r.vehicleClass);
+            if(c && !out.has(c)) out.set(c,p444ClassLabel(r.vehicleClass));
+        }
+    }
+    return [...out.entries()].sort((a,b)=>a[1].localeCompare(b[1],"en"));
+}
+function p444Configured(){
+    const set=new Set();
+    for(const ch of (latestData?.challenges||[])){
+        if(Number(ch.id)<11 || Number(ch.id)>19) continue;
+        for(const c of (ch.challengeClasses||[])) set.add(p444Canon(c));
+    }
+    return set;
+}
+function p444Load(){
+    if(p444Selected instanceof Set) return p444Selected;
+    try{
+        const a=JSON.parse(localStorage.getItem(P444_KEY)||"null");
+        if(Array.isArray(a)){ p444Selected=new Set(a.map(p444Canon)); return p444Selected; }
+    }catch(_){}
+    p444Selected=p444Configured();
+    return p444Selected;
+}
+function p444Save(){ localStorage.setItem(P444_KEY,JSON.stringify([...p444Load()])); }
+function p444FilterRows(ch,rows){
+    if(currentMode==="all" || Number(ch.id)<11 || Number(ch.id)>19) return rows;
+    const sel=p444Load();
+    return rows.filter(r=>sel.has(p444Canon(r.vehicleClass)));
+}
+function p444SelectedLabel(){
+    const sel=p444Load(), avail=new Map(p444Available());
+    if(!sel.size) return "NIC";
+    return [...sel].map(c=>avail.get(c)||p444ClassLabel(c)).join(" + ");
+}
+function p444Bar(){
+    const d=document.createElement("div"); d.className="p444-filterbar";
+    d.innerHTML=`<button class="p444-filterbtn" onclick="p444Open()">CLASS FILTER 11–19</button><div class="p444-summary">${text(p444SelectedLabel())}</div>`;
+    return d;
+}
+function p444Open(){
+    const grid=document.getElementById("p444Grid"); if(!grid)return;
+    const sel=p444Load();
+    grid.innerHTML=p444Available().map(([c,label])=>`<label class="p444-item"><input type="checkbox" data-p444="${text(c)}" ${sel.has(c)?"checked":""}><span>${text(label)}</span></label>`).join("");
+    grid.querySelectorAll("input[data-p444]").forEach(x=>x.addEventListener("change",()=>{
+        const c=x.dataset.p444; if(x.checked)sel.add(c); else sel.delete(c); p444Save(); if(latestData)renderAll(latestData);
+    }));
+    document.getElementById("p444Modal")?.classList.add("open");
+}
+function p444Close(){document.getElementById("p444Modal")?.classList.remove("open")}
+function p444Backdrop(e){if(e.target?.id==="p444Modal")p444Close()}
+function p444SelectAll(){p444Selected=new Set(p444Available().map(x=>x[0]));p444Save();p444Open();if(latestData)renderAll(latestData)}
+function p444Clear(){p444Selected=new Set();p444Save();p444Open();if(latestData)renderAll(latestData)}
+function p444ResetConfig(){p444Selected=p444Configured();p444Save();p444Open();if(latestData)renderAll(latestData)}
+
 function createChallengeCard(challenge) {
     const card = document.createElement("section");
     card.className = "challenge-card";
     card.style.setProperty("--accent", challengeColors[challenge.id] || "#ef1118");
 
     const meta = challengeMeta[challenge.id] || {};
+    const allRows444 = (challenge.allClassesResults || challenge.allResults || challenge.resultsAll || []);
     const results = currentMode === "all"
-        ? (challenge.allClassesResults || challenge.allResults || challenge.resultsAll || [])
-        : (challenge.results || []);
+        ? allRows444
+        : ((Number(challenge.id) >= 11 && Number(challenge.id) <= 19)
+            ? p444FilterRows(challenge, allRows444)
+            : (challenge.results || []));
 
     const displayTrack = meta.displayTrack || challenge.name;
     const trackDetailHtml = meta.trackDetail
@@ -1412,7 +1488,7 @@ function createChallengeCard(challenge) {
         </div>
         <div class="challenge-info">
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
-            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem" : text(configuredClassLabel(challenge))}</div>
+            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem" : text((Number(challenge.id)>=11 && Number(challenge.id)<=19) ? p444SelectedLabel() : configuredClassLabel(challenge))}</div>
         </div>
     </div><div class="coverage-note" style="padding:8px 14px;font-size:12px;color:#b3ac93;line-height:1.45">${text(coverageNotice(challenge))}</div><div class="results">${resultsHtml}</div>`;
     return card;
@@ -1425,7 +1501,10 @@ function renderAll(data) {
     challengeList.innerHTML = "";
     const challenges = Array.isArray(data.challenges)
         ? [...data.challenges].sort((a,b) => Number(a.id) - Number(b.id)) : [];
-    for (const challenge of challenges) challengeList.appendChild(createChallengeCard(challenge));
+    for (const challenge of challenges) {
+        challengeList.appendChild(createChallengeCard(challenge));
+        if (currentMode === "challenge" && Number(challenge.id) === 10) challengeList.appendChild(p444Bar());
+    }
 }
 
 async function loadResults() {
@@ -1549,5 +1628,37 @@ addEventListener("DOMContentLoaded",async()=>{
   // Challenge/KING track badges are rendered deterministically by challenge id / trackB.
  }catch(e){console.error("track db",e)}
 });
-</script><script id="rc11-track-merge">addEventListener("DOMContentLoaded",()=>document.querySelectorAll(".challenge-card,.challenge-section").forEach(card=>card.querySelectorAll("th,td,div").forEach(el=>{if(!el.textContent.trim()&&String(el.className).toLowerCase().includes("track"))el.style.display="none"})));</script></body>
+</script><script id="rc11-track-merge">addEventListener("DOMContentLoaded",()=>document.querySelectorAll(".challenge-card,.challenge-section").forEach(card=>card.querySelectorAll("th,td,div").forEach(el=>{if(!el.textContent.trim()&&String(el.className).toLowerCase().includes("track"))el.style.display="none"})));</script>
+<!-- PANCAR-4.44-CLASS-FILTER -->
+<style id="pancar444css">
+.p444-filterbar{margin:8px 0 12px;border:1px solid #333;border-left:7px solid #ef1118;background:#0b0b0b;padding:10px 12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.p444-filterbtn{border:1px solid #555;background:#151515;color:#eee;padding:8px 12px;font:900 12px Arial,sans-serif;cursor:pointer}
+.p444-filterbtn:hover{border-color:#ef1118}
+.p444-summary{color:#999;font:11px Consolas,monospace}
+.p444-modal{display:none;position:fixed;inset:0;z-index:12000;background:rgba(0,0,0,.88);padding:24px;overflow:auto}
+.p444-modal.open{display:block}
+.p444-box{width:min(760px,100%);margin:5vh auto;background:#090909;border:1px solid #444;border-top:3px solid #ef1118;padding:14px}
+.p444-top{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px}
+.p444-title{font:900 18px Arial,sans-serif;color:#ef1118}
+.p444-close{border:1px solid #555;background:#111;color:#ddd;padding:6px 10px;cursor:pointer}
+.p444-actions{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px}
+.p444-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:6px}
+.p444-item{display:flex;gap:8px;align-items:center;border:1px solid #242424;background:#101010;padding:8px;cursor:pointer}
+.p444-item input{accent-color:#ef1118}
+.p444-hint{color:#777;font:11px Consolas,monospace;margin-top:10px}
+</style>
+<div id="p444Modal" class="p444-modal" onclick="p444Backdrop(event)">
+  <div class="p444-box">
+    <div class="p444-top"><div class="p444-title">CLASS FILTER · CHALLENGE 11–19</div><button class="p444-close" onclick="p444Close()">X</button></div>
+    <div class="p444-actions">
+      <button class="p444-filterbtn" onclick="p444SelectAll()">VŠECHNY</button>
+      <button class="p444-filterbtn" onclick="p444Clear()">NIC</button>
+      <button class="p444-filterbtn" onclick="p444ResetConfig()">CONFIG</button>
+    </div>
+    <div id="p444Grid" class="p444-grid"></div>
+    <div class="p444-hint">KING se tímto filtrem nikdy nemění. Filtr platí pouze pro Challenge #11–#19 a ukládá se v tomto prohlížeči.</div>
+  </div>
+</div>
+
+</body>
 </html>
