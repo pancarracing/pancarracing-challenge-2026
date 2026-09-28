@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-28T09:54:07+02:00",
+  "updated": "2026-09-28T09:58:00+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1620,11 +1620,19 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4704_2816254725_0_0",
-      "boardsScanned": 5,
-      "scanMode": "ultra",
+      "boardsScanned": 552,
+      "scanMode": "fast101",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "board": "cars2_autoevent_12355_2816254725_0_0",
+          "friends": 3
+        },
+        {
+          "board": "cars2_autoevent_12773_2816254725_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_4673_2816254725_0_0",
           "friends": 1
         },
         {
@@ -1632,24 +1640,25 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_12355_2816254725_0_0",
-          "friends": 3
-        },
-        {
-          "board": "cars2_autoevent_12774_2816254725_0_0",
-          "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_12773_2816254725_0_0",
-          "friends": 2
+          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "needs-catalog",
-      "catalogBoards": 85,
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_12774_2816254725_0_0",
+          "status": "download-timeout"
+        },
+        {
+          "board": "cars2_autoevent_12237_2816254725_0_0",
+          "status": "find-wait-failed"
+        }
+      ],
+      "scanStatus": "partial",
+      "catalogBoards": 83,
       "friendsBoardsChecked": 83,
-      "catalogBoardsPending": 2,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -1752,6 +1761,25 @@
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
+          "vehicleHash": 1948072701,
+          "vehicle": "Formula V8 Gen3",
+          "vehicleClass": "F-Reiza",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1948072701,
+          "rank": 943,
+          "score": 75780,
+          "time": "01:15.780",
+          "board": "cars2_autoevent_4673_2816254725_0_0",
+          "boardA": 4673,
+          "boardB": 2816254725,
+          "mergedRank": 3
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
           "vehicleHash": 1122735892,
           "vehicle": "Lamborghini SC63",
           "vehicleClass": "LMDh",
@@ -1766,7 +1794,7 @@
           "board": "cars2_autoevent_12355_2816254725_0_0",
           "boardA": 12355,
           "boardB": 2816254725,
-          "mergedRank": 3
+          "mergedRank": 4
         },
         {
           "steamId": "76561198089049981",
@@ -1785,7 +1813,7 @@
           "board": "cars2_autoevent_12355_2816254725_0_0",
           "boardA": 12355,
           "boardB": 2816254725,
-          "mergedRank": 4
+          "mergedRank": 5
         },
         {
           "steamId": "76561198276152161",
@@ -1804,7 +1832,7 @@
           "board": "cars2_autoevent_12355_2816254725_0_0",
           "boardA": 12355,
           "boardB": 2816254725,
-          "mergedRank": 5
+          "mergedRank": 6
         },
         {
           "steamId": "76561198012880510",
@@ -1823,7 +1851,7 @@
           "board": "cars2_autoevent_4704_2816254725_0_0",
           "boardA": 4704,
           "boardB": 2816254725,
-          "mergedRank": 6
+          "mergedRank": 7
         },
         {
           "steamId": "76561198089049981",
@@ -1842,7 +1870,7 @@
           "board": "cars2_autoevent_12774_2816254725_0_0",
           "boardA": 12774,
           "boardB": 2816254725,
-          "mergedRank": 7
+          "mergedRank": 8
         },
         {
           "steamId": "76561198012880510",
@@ -1861,7 +1889,7 @@
           "board": "cars2_autoevent_4723_2816254725_0_0",
           "boardA": 4723,
           "boardB": 2816254725,
-          "mergedRank": 8
+          "mergedRank": 9
         },
         {
           "steamId": "76561198012880510",
@@ -1880,7 +1908,7 @@
           "board": "cars2_autoevent_12774_2816254725_0_0",
           "boardA": 12774,
           "boardB": 2816254725,
-          "mergedRank": 9
+          "mergedRank": 10
         }
       ]
     },
@@ -7078,6 +7106,51 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-28T09:58:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1948072701,
+      "vehicle": "Formula V8 Gen3",
+      "vehicleClass": "F-Reiza",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4673_2816254725_0_0",
+      "boardA": 4673,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75780,
+      "time": "01:15.780",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 943,
+      "worldJump": "943",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "",
+      "displayTimeColor": "blue"
     }
   ],
   "historyKing": [
@@ -11100,6 +11173,51 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-28T09:58:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1948072701,
+      "vehicle": "Formula V8 Gen3",
+      "vehicleClass": "F-Reiza",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4673_2816254725_0_0",
+      "boardA": 4673,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75780,
+      "time": "01:15.780",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 943,
+      "worldJump": "943",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
     }
   ],
   "kingMasterTop20": [],
@@ -15089,9 +15207,101 @@
       "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-28T08:39:00+02:00"
+    },
+    {
+      "timestamp": "2026-09-28T09:58:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1948072701,
+      "vehicle": "Formula V8 Gen3",
+      "vehicleClass": "F-Reiza",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4673_2816254725_0_0",
+      "boardA": 4673,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75780,
+      "time": "01:15.780",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 943,
+      "worldJump": "943",
+      "worldColor": "",
+      "timeColor": "white",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-28T09:58:00+02:00"
     }
   ],
   "kingDisplayHistory": [
+    {
+      "timestamp": "2026-09-28T09:58:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1948072701,
+      "vehicle": "Formula V8 Gen3",
+      "vehicleClass": "F-Reiza",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4673_2816254725_0_0",
+      "boardA": 4673,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75780,
+      "time": "01:15.780",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 943,
+      "worldJump": "943",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
+    },
     {
       "timestamp": "2026-09-28T08:39:00+02:00",
       "challengeId": 11,
@@ -21779,6 +21989,51 @@
   ],
   "last10": [
     {
+      "timestamp": "2026-09-28T09:58:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1948072701,
+      "vehicle": "Formula V8 Gen3",
+      "vehicleClass": "F-Reiza",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4673_2816254725_0_0",
+      "boardA": 4673,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75780,
+      "time": "01:15.780",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 943,
+      "worldJump": "943",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
+    },
+    {
       "timestamp": "2026-09-28T08:39:00+02:00",
       "challengeId": 11,
       "driver": "pancar LBC",
@@ -22185,23 +22440,25 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
-    },
+    }
+  ],
+  "last20": [
     {
-      "timestamp": "2026-09-27T14:57:23+02:00",
+      "timestamp": "2026-09-28T09:58:00+02:00",
       "challengeId": 11,
       "driver": "pancar LBC",
       "steamId": "76561198012880510",
-      "vehicleHash": -1110072839,
-      "vehicle": "Chevrolet Cruze Stock Car 2024",
-      "vehicleClass": "StockCarV8_2024",
+      "vehicleHash": 1948072701,
+      "vehicle": "Formula V8 Gen3",
+      "vehicleClass": "F-Reiza",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_12774_2816254725_0_0",
-      "boardA": 12774,
+      "board": "cars2_autoevent_4673_2816254725_0_0",
+      "boardA": 4673,
       "boardB": 2816254725,
       "track": "11",
-      "score": 107204,
-      "time": "01:47.204",
+      "score": 75780,
+      "time": "01:15.780",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
@@ -22210,18 +22467,18 @@
         "king"
       ],
       "oldWorldRank": null,
-      "newWorldRank": 2009,
-      "worldJump": "2009",
+      "newWorldRank": 943,
+      "worldJump": "943",
       "worldColor": "",
       "timeColor": "blue",
-      "kingFriendJump": "8",
+      "kingFriendJump": "3",
       "kingFriendColor": "",
       "challengeFriendJump": "—",
       "challengeFriendColor": "",
-      "friendJump": "8",
+      "friendJump": "3",
       "friendColor": "",
       "oldFriendRank": null,
-      "newFriendRank": 8,
+      "newFriendRank": 3,
       "frozen": true,
       "historySource": "snapshot-delta",
       "impactEvent": true,
@@ -22230,9 +22487,7 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
-    }
-  ],
-  "last20": [
+    },
     {
       "timestamp": "2026-09-28T08:39:00+02:00",
       "challengeId": 11,
@@ -23094,71 +23349,20 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
-    },
-    {
-      "timestamp": "2026-09-27T14:57:23+02:00",
-      "challengeId": 13,
-      "driver": "dr.slimm",
-      "steamId": "76561198089049981",
-      "vehicleHash": 575788923,
-      "vehicle": "Formula Trainer",
-      "vehicleClass": "F-Trainer",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_9167_775712153_0_0",
-      "boardA": 9167,
-      "boardB": 775712153,
-      "track": "13",
-      "score": 173624,
-      "time": "02:53.624",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldWorldRank": null,
-      "newWorldRank": 47,
-      "worldJump": "47",
-      "worldColor": "",
-      "timeColor": "blue",
-      "kingFriendJump": "7",
-      "kingFriendColor": "",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "friendJump": "7",
-      "friendColor": "",
-      "oldFriendRank": null,
-      "newFriendRank": 7,
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "white",
-      "displayDelta": "NEW",
-      "displayFriendColor": "white",
-      "displayTimeColor": "blue"
     }
   ],
   "collector": {
     "version": "4.44",
-    "mode": "ultra",
-    "elapsedSeconds": 27.8,
-    "boardsScanned": 55,
-    "boardsOk": 55,
-    "boardsNotFound": 0,
-    "boardsEmptyFriends": 0,
+    "mode": "fast101",
+    "elapsedSeconds": 238.3,
+    "boardsScanned": 552,
+    "boardsOk": 82,
+    "boardsNotFound": 468,
+    "boardsEmptyFriends": 77,
     "tracksNeedDiscovery": [],
-    "tracksNeedCatalog": [
-      11,
-      13,
-      14,
-      16,
-      19
-    ],
-    "rawFriendEntries": 81,
-    "errors": 0,
+    "tracksNeedCatalog": [],
+    "rawFriendEntries": 8,
+    "errors": 2,
     "catalogVehicles": 274,
     "unknownVehicles": 2
   }
