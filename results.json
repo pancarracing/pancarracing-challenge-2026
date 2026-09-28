@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-28T20:04:40+02:00",
+  "updated": "2026-09-28T20:14:58+02:00",
   "challenges": [
     {
       "id": 1,
@@ -7212,7 +7212,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     }
   ],
@@ -23554,7 +23554,7 @@
   "collector": {
     "version": "4.44",
     "mode": "ultra",
-    "elapsedSeconds": 559.6,
+    "elapsedSeconds": 554.5,
     "boardsScanned": 1097,
     "boardsOk": 1089,
     "boardsNotFound": 8,
