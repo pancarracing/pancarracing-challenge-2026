@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-28T07:46:18+02:00",
+  "updated": "2026-09-28T08:39:00+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1620,45 +1620,36 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4704_2816254725_0_0",
-      "boardsScanned": 552,
-      "scanMode": "fast101",
+      "boardsScanned": 5,
+      "scanMode": "ultra",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12355_2816254725_0_0",
-          "friends": 3
-        },
-        {
-          "board": "cars2_autoevent_12773_2816254725_0_0",
+          "board": "cars2_autoevent_4723_2816254725_0_0",
           "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12774_2816254725_0_0",
-          "friends": 2
         },
         {
           "board": "cars2_autoevent_4704_2816254725_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
-          "friends": 1
-        }
-      ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_12413_2816254725_0_0",
-          "status": "find-wait-failed"
+          "board": "cars2_autoevent_12355_2816254725_0_0",
+          "friends": 3
         },
         {
-          "board": "cars2_autoevent_12576_2816254725_0_0",
-          "status": "find-wait-failed"
+          "board": "cars2_autoevent_12774_2816254725_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_12773_2816254725_0_0",
+          "friends": 2
         }
       ],
-      "scanStatus": "partial",
-      "catalogBoards": 83,
+      "boardErrors": [],
+      "scanStatus": "needs-catalog",
+      "catalogBoards": 85,
       "friendsBoardsChecked": 83,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 2,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -1742,6 +1733,25 @@
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
+          "vehicleHash": 1947909519,
+          "vehicle": "Formula Ultimate Hybrid Gen3",
+          "vehicleClass": "Formula Ultimate Hybrid Gen3",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1947909519,
+          "rank": 5319,
+          "score": 75380,
+          "time": "01:15.380",
+          "board": "cars2_autoevent_12773_2816254725_0_0",
+          "boardA": 12773,
+          "boardB": 2816254725,
+          "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
           "vehicleHash": 1122735892,
           "vehicle": "Lamborghini SC63",
           "vehicleClass": "LMDh",
@@ -1756,7 +1766,7 @@
           "board": "cars2_autoevent_12355_2816254725_0_0",
           "boardA": 12355,
           "boardB": 2816254725,
-          "mergedRank": 2
+          "mergedRank": 3
         },
         {
           "steamId": "76561198089049981",
@@ -1775,7 +1785,7 @@
           "board": "cars2_autoevent_12355_2816254725_0_0",
           "boardA": 12355,
           "boardB": 2816254725,
-          "mergedRank": 3
+          "mergedRank": 4
         },
         {
           "steamId": "76561198276152161",
@@ -1794,7 +1804,7 @@
           "board": "cars2_autoevent_12355_2816254725_0_0",
           "boardA": 12355,
           "boardB": 2816254725,
-          "mergedRank": 4
+          "mergedRank": 5
         },
         {
           "steamId": "76561198012880510",
@@ -1813,7 +1823,7 @@
           "board": "cars2_autoevent_4704_2816254725_0_0",
           "boardA": 4704,
           "boardB": 2816254725,
-          "mergedRank": 5
+          "mergedRank": 6
         },
         {
           "steamId": "76561198089049981",
@@ -1832,7 +1842,7 @@
           "board": "cars2_autoevent_12774_2816254725_0_0",
           "boardA": 12774,
           "boardB": 2816254725,
-          "mergedRank": 6
+          "mergedRank": 7
         },
         {
           "steamId": "76561198012880510",
@@ -1851,7 +1861,7 @@
           "board": "cars2_autoevent_4723_2816254725_0_0",
           "boardA": 4723,
           "boardB": 2816254725,
-          "mergedRank": 7
+          "mergedRank": 8
         },
         {
           "steamId": "76561198012880510",
@@ -1870,7 +1880,7 @@
           "board": "cars2_autoevent_12774_2816254725_0_0",
           "boardA": 12774,
           "boardB": 2816254725,
-          "mergedRank": 8
+          "mergedRank": 9
         }
       ]
     },
@@ -1884,8 +1894,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12829_3037871603_0_0",
-      "boardsScanned": 473,
-      "scanMode": "fast101",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12829_3037871603_0_0",
@@ -1970,9 +1980,17 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9167_775712153_0_0",
-      "boardsScanned": 516,
-      "scanMode": "fast101",
+      "boardsScanned": 5,
+      "scanMode": "ultra",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_9167_775712153_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_9168_775712153_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_12559_775712153_0_0",
           "friends": 1
@@ -1984,31 +2002,14 @@
         {
           "board": "cars2_autoevent_19155_775712153_0_0",
           "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_9167_775712153_0_0",
-          "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_9168_775712153_0_0",
-          "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_12264_775712153_0_0",
-          "status": "find-wait-failed"
-        },
-        {
-          "board": "cars2_autoevent_12396_775712153_0_0",
-          "status": "find-wait-failed"
-        }
-      ],
-      "scanStatus": "partial",
-      "catalogBoards": 47,
+      "boardErrors": [],
+      "scanStatus": "needs-catalog",
+      "catalogBoards": 49,
       "friendsBoardsChecked": 47,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 2,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -2196,29 +2197,20 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12585_1063112912_0_0",
           "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_12472_1063112912_0_0",
-          "status": "find-wait-failed"
-        },
-        {
-          "board": "cars2_autoevent_12635_1063112912_0_0",
-          "status": "find-wait-failed"
-        }
-      ],
-      "scanStatus": "partial",
-      "catalogBoards": 78,
+      "boardErrors": [],
+      "scanStatus": "needs-catalog",
+      "catalogBoards": 80,
       "friendsBoardsChecked": 78,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 2,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -2273,8 +2265,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4810_2590843191_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
@@ -2344,19 +2336,11 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9261_2558461772_0_0",
-      "boardsScanned": 549,
-      "scanMode": "fast101",
+      "boardsScanned": 11,
+      "scanMode": "ultra",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12561_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9251_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9252_2558461772_0_0",
+          "board": "cars2_autoevent_9261_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2364,7 +2348,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9261_2558461772_0_0",
+          "board": "cars2_autoevent_9252_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
         },
         {
@@ -2390,27 +2378,18 @@
         {
           "board": "cars2_autoevent_9300_2558461772_0_0",
           "friends": 1
-        }
-      ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_12288_2558461772_0_0",
-          "status": "find-wait-failed"
         },
         {
-          "board": "cars2_autoevent_12412_2558461772_0_0",
-          "status": "find-wait-failed"
-        },
-        {
-          "board": "cars2_autoevent_12413_2558461772_0_0",
-          "status": "find-wait-failed"
+          "board": "cars2_autoevent_12561_2558461772_0_0",
+          "friends": 1
         }
       ],
-      "scanStatus": "partial",
-      "catalogBoards": 80,
+      "boardErrors": [],
+      "scanStatus": "needs-catalog",
+      "catalogBoards": 83,
       "friendsBoardsChecked": 80,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 3,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -2655,8 +2634,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_7202_399001429_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7212_399001429_0_0",
@@ -2703,8 +2682,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_5131_3212997714_0_0",
-      "boardsScanned": 547,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_5165_3212997714_0_0",
@@ -2774,24 +2753,24 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12829_2249037056_0_0",
-      "boardsScanned": 573,
-      "scanMode": "fast101",
+      "boardsScanned": 2,
+      "scanMode": "ultra",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_12699_2249037056_0_0",
-          "friends": 3
-        },
         {
           "board": "cars2_autoevent_2102_2249037056_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12699_2249037056_0_0",
+          "friends": 3
         }
       ],
       "boardErrors": [],
-      "scanStatus": "ok",
-      "catalogBoards": 83,
+      "scanStatus": "needs-catalog",
+      "catalogBoards": 84,
       "friendsBoardsChecked": 83,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 1,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [],
       "allClassesResults": [
@@ -2908,7 +2887,10 @@
       "worldJump": "4",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -2943,7 +2925,10 @@
       "worldJump": "5",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3083,7 +3068,10 @@
       "worldJump": "298",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3118,7 +3106,10 @@
       "worldJump": "25",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3153,7 +3144,10 @@
       "worldJump": "6",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3188,7 +3182,10 @@
       "worldJump": "4",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3223,7 +3220,10 @@
       "worldJump": "21",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3258,7 +3258,10 @@
       "worldJump": "4",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3293,7 +3296,10 @@
       "worldJump": "41",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3328,7 +3334,10 @@
       "worldJump": "48",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3363,7 +3372,10 @@
       "worldJump": "62",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3398,7 +3410,10 @@
       "worldJump": "795",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3433,7 +3448,10 @@
       "worldJump": "1630",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3468,7 +3486,10 @@
       "worldJump": "2358",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3503,7 +3524,10 @@
       "worldJump": "2434",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3538,7 +3562,10 @@
       "worldJump": "87",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3573,7 +3600,10 @@
       "worldJump": "529",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3608,7 +3638,10 @@
       "worldJump": "37",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:37:51+02:00",
@@ -3643,7 +3676,10 @@
       "worldJump": "4",
       "worldColor": "",
       "timeColor": "blue",
-      "baselineReset": true
+      "baselineReset": true,
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:38:18+02:00",
@@ -3677,7 +3713,10 @@
       "newWorldRank": 5,
       "worldJump": "5",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:39:17+02:00",
@@ -3711,7 +3750,10 @@
       "newWorldRank": 205,
       "worldJump": "205",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T18:53:47+02:00",
@@ -3745,7 +3787,10 @@
       "newWorldRank": 5,
       "worldJump": "5",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T19:06:19+02:00",
@@ -3779,7 +3824,10 @@
       "newWorldRank": 4,
       "worldJump": "5→4",
       "worldColor": "green",
-      "timeColor": "gold"
+      "timeColor": "gold",
+      "displaySemanticColor": "gold",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold"
     },
     {
       "timestamp": "2026-09-13T21:16:05+02:00",
@@ -3813,7 +3861,10 @@
       "newWorldRank": 2,
       "worldJump": "2",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T21:16:05+02:00",
@@ -3847,7 +3898,10 @@
       "newWorldRank": 16,
       "worldJump": "16",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-13T22:29:51+02:00",
@@ -3881,7 +3935,10 @@
       "newWorldRank": 559,
       "worldJump": "559",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-14T00:28:36+02:00",
@@ -3915,7 +3972,10 @@
       "newWorldRank": 30,
       "worldJump": "30",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-14T01:04:55+02:00",
@@ -3949,7 +4009,10 @@
       "newWorldRank": 27,
       "worldJump": "30→27",
       "worldColor": "green",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-14T08:26:01+02:00",
@@ -3986,7 +4049,10 @@
       "newWorldRank": 26,
       "worldJump": "26",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-14T08:46:01+02:00",
@@ -4023,7 +4089,10 @@
       "newWorldRank": 16,
       "worldJump": "26→16",
       "worldColor": "green",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-14T09:06:02+02:00",
@@ -4061,7 +4130,10 @@
       "newWorldRank": 4,
       "worldJump": "4",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-14T09:26:02+02:00",
@@ -4099,7 +4171,10 @@
       "newWorldRank": 4,
       "worldJump": "4",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -4144,7 +4219,8 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      "displayTimeColor": "blue",
+      "displayFriendColor": "blue"
     },
     {
       "timestamp": "2026-09-14T16:15:20+02:00",
@@ -4189,7 +4265,8 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayTimeColor": "blue"
+      "displayTimeColor": "blue",
+      "displayFriendColor": "blue"
     },
     {
       "timestamp": "2026-09-14T23:09:59+02:00",
@@ -4227,7 +4304,10 @@
       "newWorldRank": 623,
       "worldJump": "623",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-15T12:15:29+02:00",
@@ -4265,7 +4345,10 @@
       "newWorldRank": 539,
       "worldJump": "539",
       "worldColor": "",
-      "timeColor": "blue"
+      "timeColor": "blue",
+      "displaySemanticColor": "blue",
+      "displayFriendColor": "blue",
+      "displayTimeColor": "blue"
     },
     {
       "timestamp": "2026-09-21T12:04:57+02:00",
@@ -5310,7 +5393,7 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-48.688",
-      "displayFriendColor": "",
+      "displayFriendColor": "green",
       "displayTimeColor": "blue"
     },
     {
@@ -5586,7 +5669,7 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-0.907",
-      "displayFriendColor": "",
+      "displayFriendColor": "green",
       "displayTimeColor": "blue"
     },
     {
@@ -5677,7 +5760,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -5768,7 +5851,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -5813,7 +5896,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6040,7 +6123,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6086,7 +6169,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6132,7 +6215,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6177,7 +6260,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6222,7 +6305,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6314,7 +6397,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6360,7 +6443,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6450,7 +6533,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6495,7 +6578,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6540,7 +6623,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6631,7 +6714,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6676,7 +6759,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6721,7 +6804,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6903,7 +6986,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "white",
       "displayTimeColor": "blue"
     },
     {
@@ -6942,6 +7025,51 @@
       "friendColor": "",
       "oldFriendRank": null,
       "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-28T08:39:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1947909519,
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_12773_2816254725_0_0",
+      "boardA": 12773,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75380,
+      "time": "01:15.380",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 5319,
+      "worldJump": "5319",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
       "frozen": true,
       "historySource": "snapshot-delta",
       "impactEvent": true,
@@ -10927,6 +11055,51 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-09-28T08:39:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1947909519,
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_12773_2816254725_0_0",
+      "boardA": 12773,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75380,
+      "time": "01:15.380",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 5319,
+      "worldJump": "5319",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
     }
   ],
   "kingMasterTop20": [],
@@ -14869,9 +15042,101 @@
       "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-09-27T16:12:34+02:00"
+    },
+    {
+      "timestamp": "2026-09-28T08:39:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1947909519,
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_12773_2816254725_0_0",
+      "boardA": 12773,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75380,
+      "time": "01:15.380",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 5319,
+      "worldJump": "5319",
+      "worldColor": "",
+      "timeColor": "white",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-09-28T08:39:00+02:00"
     }
   ],
   "kingDisplayHistory": [
+    {
+      "timestamp": "2026-09-28T08:39:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1947909519,
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_12773_2816254725_0_0",
+      "boardA": 12773,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75380,
+      "time": "01:15.380",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 5319,
+      "worldJump": "5319",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
+    },
     {
       "timestamp": "2026-09-27T16:12:34+02:00",
       "challengeId": 19,
@@ -21514,6 +21779,51 @@
   ],
   "last10": [
     {
+      "timestamp": "2026-09-28T08:39:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1947909519,
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "vehicleClass": "Formula Ultimate Hybrid Gen3",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_12773_2816254725_0_0",
+      "boardA": 12773,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75380,
+      "time": "01:15.380",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 5319,
+      "worldJump": "5319",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "white",
+      "displayDelta": "NEW",
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
+    },
+    {
       "timestamp": "2026-09-27T16:12:34+02:00",
       "challengeId": 19,
       "driver": "dr.slimm",
@@ -21920,55 +22230,54 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
-    },
+    }
+  ],
+  "last20": [
     {
-      "timestamp": "2026-09-27T14:57:23+02:00",
-      "challengeId": 12,
-      "driver": "dr.slimm",
-      "steamId": "76561198089049981",
-      "vehicleHash": 247012445,
-      "vehicle": "Formula Ultimate Hybrid Gen3 2026",
+      "timestamp": "2026-09-28T08:39:00+02:00",
+      "challengeId": 11,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1947909519,
+      "vehicle": "Formula Ultimate Hybrid Gen3",
       "vehicleClass": "Formula Ultimate Hybrid Gen3",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_12829_3037871603_0_0",
-      "boardA": 12829,
-      "boardB": 3037871603,
-      "track": "12",
-      "score": 81399,
-      "time": "01:21.399",
+      "board": "cars2_autoevent_12773_2816254725_0_0",
+      "boardA": 12773,
+      "boardB": 2816254725,
+      "track": "11",
+      "score": 75380,
+      "time": "01:15.380",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
-      "challengeEligible": true,
+      "challengeEligible": false,
       "scopes": [
-        "challenge",
         "king"
       ],
       "oldWorldRank": null,
-      "newWorldRank": 434,
-      "worldJump": "434",
+      "newWorldRank": 5319,
+      "worldJump": "5319",
       "worldColor": "",
-      "timeColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
-      "challengeFriendJump": "1",
-      "challengeFriendColor": "gold",
-      "friendJump": "1",
-      "friendColor": "gold",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
       "oldFriendRank": null,
-      "newFriendRank": 1,
+      "newFriendRank": 2,
       "frozen": true,
       "historySource": "snapshot-delta",
       "impactEvent": true,
       "eventType": "NEW",
       "displaySemanticColor": "white",
       "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
-    }
-  ],
-  "last20": [
+      "displayFriendColor": "white",
+      "displayTimeColor": "blue"
+    },
     {
       "timestamp": "2026-09-27T16:12:34+02:00",
       "challengeId": 19,
@@ -22830,65 +23139,26 @@
       "displayDelta": "NEW",
       "displayFriendColor": "white",
       "displayTimeColor": "blue"
-    },
-    {
-      "timestamp": "2026-09-27T14:57:23+02:00",
-      "challengeId": 13,
-      "driver": "Acce",
-      "steamId": "76561198276152161",
-      "vehicleHash": 575788923,
-      "vehicle": "Formula Trainer",
-      "vehicleClass": "F-Trainer",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_9167_775712153_0_0",
-      "boardA": 9167,
-      "boardB": 775712153,
-      "track": "13",
-      "score": 179603,
-      "time": "02:59.603",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldWorldRank": null,
-      "newWorldRank": 59,
-      "worldJump": "59",
-      "worldColor": "",
-      "timeColor": "blue",
-      "kingFriendJump": "8",
-      "kingFriendColor": "",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "friendJump": "8",
-      "friendColor": "",
-      "oldFriendRank": null,
-      "newFriendRank": 8,
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "white",
-      "displayDelta": "NEW",
-      "displayFriendColor": "white",
-      "displayTimeColor": "blue"
     }
   ],
   "collector": {
     "version": "4.44",
-    "mode": "fast101",
-    "elapsedSeconds": 1849.7,
-    "boardsScanned": 4851,
-    "boardsOk": 609,
-    "boardsNotFound": 4233,
-    "boardsEmptyFriends": 579,
+    "mode": "ultra",
+    "elapsedSeconds": 27.3,
+    "boardsScanned": 55,
+    "boardsOk": 55,
+    "boardsNotFound": 0,
+    "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
-    "tracksNeedCatalog": [],
-    "rawFriendEntries": 40,
-    "errors": 9,
+    "tracksNeedCatalog": [
+      11,
+      13,
+      14,
+      16,
+      19
+    ],
+    "rawFriendEntries": 81,
+    "errors": 0,
     "catalogVehicles": 274,
     "unknownVehicles": 2
   }
