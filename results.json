@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-29T22:22:07+02:00",
+  "updated": "2026-09-29T22:42:31+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1773,8 +1773,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_4704_2816254725_0_0",
-      "boardsScanned": 101,
-      "scanMode": "ultra",
+      "boardsScanned": 570,
+      "scanMode": "fast101",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12355_2816254725_0_0",
@@ -7922,7 +7922,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "purple",
       "displayTimeColor": "blue"
     },
     {
@@ -7967,7 +7967,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "purple",
       "displayTimeColor": "blue"
     },
     {
@@ -8012,7 +8012,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "purple",
       "displayTimeColor": "blue"
     }
   ],
@@ -25512,20 +25512,16 @@
   ],
   "collector": {
     "version": "4.44",
-    "mode": "ultra",
-    "elapsedSeconds": 1003.2,
-    "boardsScanned": 1916,
-    "boardsOk": 1903,
-    "boardsNotFound": 10,
-    "boardsEmptyFriends": 1830,
+    "mode": "fast101",
+    "elapsedSeconds": 221.9,
+    "boardsScanned": 570,
+    "boardsOk": 101,
+    "boardsNotFound": 469,
+    "boardsEmptyFriends": 92,
     "tracksNeedDiscovery": [],
-    "tracksNeedCatalog": [
-      3,
-      4,
-      9
-    ],
-    "rawFriendEntries": 101,
-    "errors": 3,
+    "tracksNeedCatalog": [],
+    "rawFriendEntries": 14,
+    "errors": 0,
     "catalogVehicles": 291,
     "unknownVehicles": 4
   }
