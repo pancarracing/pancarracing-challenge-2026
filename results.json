@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-29T16:26:57+02:00",
+  "updated": "2026-09-29T17:26:53+02:00",
   "challenges": [
     {
       "id": 1,
@@ -166,7 +166,7 @@
       ],
       "boardErrors": [
         {
-          "board": "cars2_autoevent_7088_884472481_0_0",
+          "board": "cars2_autoevent_7094_884472481_0_0",
           "status": "find-wait-failed"
         }
       ],
@@ -448,7 +448,7 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_4526_3826312417_0_0",
-      "boardsScanned": 35,
+      "boardsScanned": 36,
       "scanMode": "ultra",
       "activeBoards": [
         {
@@ -644,8 +644,13 @@
           "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "ok",
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_9892_4186114222_0_0",
+          "status": "find-wait-failed"
+        }
+      ],
+      "scanStatus": "partial",
       "catalogBoards": 41,
       "friendsBoardsChecked": 41,
       "catalogBoardsPending": 0,
@@ -963,7 +968,7 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_10325_2134032188_0_0",
-      "boardsScanned": 48,
+      "boardsScanned": 49,
       "scanMode": "ultra",
       "activeBoards": [
         {
@@ -1680,13 +1685,8 @@
           "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_4692_2816254725_0_0",
-          "status": "find-wait-failed"
-        }
-      ],
-      "scanStatus": "partial",
+      "boardErrors": [],
+      "scanStatus": "ok",
       "catalogBoards": 83,
       "friendsBoardsChecked": 83,
       "catalogBoardsPending": 0,
@@ -2284,13 +2284,8 @@
           "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_10168_1063112912_0_0",
-          "status": "download-board-mismatch"
-        }
-      ],
-      "scanStatus": "partial",
+      "boardErrors": [],
+      "scanStatus": "ok",
       "catalogBoards": 78,
       "friendsBoardsChecked": 78,
       "catalogBoardsPending": 0,
@@ -23842,15 +23837,15 @@
   "collector": {
     "version": "4.44",
     "mode": "ultra",
-    "elapsedSeconds": 629.7,
-    "boardsScanned": 1173,
-    "boardsOk": 1162,
-    "boardsNotFound": 8,
-    "boardsEmptyFriends": 1104,
+    "elapsedSeconds": 607.6,
+    "boardsScanned": 1175,
+    "boardsOk": 1163,
+    "boardsNotFound": 10,
+    "boardsEmptyFriends": 1105,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
     "rawFriendEntries": 84,
-    "errors": 3,
+    "errors": 2,
     "catalogVehicles": 274,
     "unknownVehicles": 3
   }
