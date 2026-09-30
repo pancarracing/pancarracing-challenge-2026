@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-30T14:59:00+02:00",
+  "updated": "2026-09-30T15:00:43+02:00",
   "challenges": [
     {
       "id": 1,
@@ -3626,10 +3626,10 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 0,
-      "scanMode": "ultra",
+      "scanMode": "catalog",
       "activeBoards": [],
       "boardErrors": [],
-      "scanStatus": "ok",
+      "scanStatus": "needs-discovery",
       "catalogBoards": 0,
       "friendsBoardsChecked": 0,
       "catalogBoardsPending": 0,
@@ -3649,10 +3649,10 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 0,
-      "scanMode": "ultra",
+      "scanMode": "catalog",
       "activeBoards": [],
       "boardErrors": [],
-      "scanStatus": "ok",
+      "scanStatus": "needs-discovery",
       "catalogBoards": 0,
       "friendsBoardsChecked": 0,
       "catalogBoardsPending": 0,
@@ -26606,14 +26606,17 @@
   "collector": {
     "version": "5.5.1",
     "mode": "catalog",
-    "elapsedSeconds": 55.8,
-    "boardsScanned": 99,
-    "boardsOk": 99,
+    "elapsedSeconds": 0.1,
+    "boardsScanned": 0,
+    "boardsOk": 0,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 87,
-    "tracksNeedDiscovery": [],
+    "boardsEmptyFriends": 0,
+    "tracksNeedDiscovery": [
+      20,
+      21
+    ],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 13,
+    "rawFriendEntries": 0,
     "errors": 0,
     "catalogVehicles": 291,
     "unknownVehicles": 5
