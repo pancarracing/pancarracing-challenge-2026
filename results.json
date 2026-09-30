@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-30T21:06:47+02:00",
+  "updated": "2026-09-30T21:07:51+02:00",
   "challenges": [
     {
       "id": 1,
@@ -3489,13 +3489,9 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_10213_1063112912_0_0",
-      "boardsScanned": 6,
-      "scanMode": "ultra",
+      "boardsScanned": 103,
+      "scanMode": "catalog",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_12585_1063112912_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_10201_1063112912_0_0",
           "friends": 1
@@ -3505,16 +3501,20 @@
           "friends": 1
         },
         {
+          "board": "cars2_autoevent_12585_1063112912_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_16271_1063112912_0_0",
           "friends": 1
         }
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 103,
+      "catalogBoards": 101,
       "friendsBoardsChecked": 101,
-      "catalogBoardsPending": 2,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -3626,8 +3626,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "",
-      "boardsScanned": 2,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_367_2111076703_0_0",
@@ -26655,16 +26655,16 @@
   "collector": {
     "version": "5.5.1",
     "mode": "catalog",
-    "elapsedSeconds": 0.1,
-    "boardsScanned": 0,
-    "boardsOk": 0,
-    "boardsNotFound": 0,
-    "boardsEmptyFriends": 0,
+    "elapsedSeconds": 117.5,
+    "boardsScanned": 202,
+    "boardsOk": 200,
+    "boardsNotFound": 2,
+    "boardsEmptyFriends": 194,
     "tracksNeedDiscovery": [
       21
     ],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 0,
+    "rawFriendEntries": 6,
     "errors": 0,
     "catalogVehicles": 291,
     "unknownVehicles": 5
