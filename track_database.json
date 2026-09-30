@@ -78,8 +78,8 @@
   },
   {
     "challenge": 12,
-    "trackB": 731129913,
-    "name": "Imola",
+    "trackB": 3037871603,
+    "name": "Monza 2020",
     "dlc": false,
     "pack": "Base Game"
   },
@@ -92,44 +92,58 @@
   },
   {
     "challenge": 14,
-    "trackB": 1063112912,
-    "name": "Virginia International Raceway Full",
+    "trackB": 2249037056,
+    "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
+    "dlc": true,
+    "pack": "Barcelona Pack"
+  },
+  {
+    "challenge": 15,
+    "trackB": 2355862379,
+    "name": "Azure Circuit 2021",
     "dlc": false,
     "pack": "Base Game"
   },
   {
-    "challenge": 15,
+    "challenge": 16,
     "trackB": 2590843191,
     "name": "Interlagos Historic 1978 Outer",
     "dlc": false,
     "pack": "Base Game"
   },
   {
-    "challenge": 16,
+    "challenge": 17,
     "trackB": 2558461772,
     "name": "Spa-Francorchamps Historic 1970",
     "dlc": true,
     "pack": "Spa-Francorchamps Pack / Premium Track Pack"
   },
   {
-    "challenge": 17,
+    "challenge": 18,
     "trackB": 399001429,
     "name": "Nürburgring Nordschleife Historic 1971",
     "dlc": true,
     "pack": "Nürburgring Pack / Premium Track Pack"
   },
   {
-    "challenge": 18,
-    "trackB": 3212997714,
-    "name": "Jacarepaguá Historic 2005 Oval",
+    "challenge": 19,
+    "trackB": 1063112912,
+    "name": "Virginia International Raceway Full",
     "dlc": false,
     "pack": "Base Game"
   },
   {
-    "challenge": 19,
-    "trackB": 2249037056,
-    "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
-    "dlc": true,
-    "pack": "Barcelona Pack"
+    "challenge": 20,
+    "trackB": 0,
+    "name": "Autódromo Yahuarcocha",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 21,
+    "trackB": 0,
+    "name": "Baskerud Kart Long",
+    "dlc": false,
+    "pack": "Base Game"
   }
 ]

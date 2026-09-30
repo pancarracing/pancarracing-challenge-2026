@@ -925,7 +925,10 @@ const challengeColors = {
     7:"#e1b900",
     8:"#ef1118",
     9:"#8b8b8b",
-    10:"#57990f"
+    10:"#57990f",
+    11:"#ef1118", 12:"#ef1118", 13:"#ef1118", 14:"#ef1118", 15:"#ef1118",
+    16:"#d4af37", 17:"#d4af37", 18:"#d4af37",
+    19:"#4fae5a", 20:"#4fae5a", 21:"#4fae5a"
 };
 let playerDlcStatus={version:2,drivers:{}}; let dlcCatalogGlobal=[]; let trackDatabaseGlobal=[];
 function normPack(x){return String(x||"").toLowerCase().replace(/[´’]/g,"'").replace(/[^a-z0-9]+/g," ").trim()}
@@ -951,12 +954,14 @@ const challengeMeta = {
     11:{ },
     12:{ },
     13:{ },
-    14:{ },
-    15:{ },
+    14:{ displayTrack: "Circuit de Barcelona-Catalunya GP", trackDetail: "(no chicane)" },
+    15:{ displayTrack: "Azure Circuit 2021" },
     16:{ },
     17:{ },
     18:{ },
-    19:{ displayTrack: "Circuit de Barcelona-Catalunya GP", trackDetail: "(no chicane)" }
+    19:{ },
+    20:{ displayTrack: "Autódromo Yahuarcocha" },
+    21:{ displayTrack: "Baskerud Kart Long" }
 };
 
 function text(value) {
@@ -1380,7 +1385,7 @@ function p444ClassLabel(raw){
 function p444Available(){
     const out=new Map();
     for(const ch of (latestData?.challenges||[])){
-        if(Number(ch.id)<11 || Number(ch.id)>19) continue;
+        if(Number(ch.id)<11 || Number(ch.id)>21) continue;
         for(const r of p444Rows(ch)){
             const c=p444Canon(r.vehicleClass);
             if(c && !out.has(c)) out.set(c,p444ClassLabel(r.vehicleClass));
@@ -1391,7 +1396,7 @@ function p444Available(){
 function p444Configured(){
     const set=new Set();
     for(const ch of (latestData?.challenges||[])){
-        if(Number(ch.id)<11 || Number(ch.id)>19) continue;
+        if(Number(ch.id)<11 || Number(ch.id)>21) continue;
         for(const c of (ch.challengeClasses||[])) set.add(p444Canon(c));
     }
     return set;
@@ -1407,7 +1412,7 @@ function p444Load(){
 }
 function p444Save(){ localStorage.setItem(P444_KEY,JSON.stringify([...p444Load()])); }
 function p444FilterRows(ch,rows){
-    if(currentMode==="all" || Number(ch.id)<11 || Number(ch.id)>19) return rows;
+    if(currentMode==="all" || Number(ch.id)<11 || Number(ch.id)>21) return rows;
     const sel=p444Load();
     return rows.filter(r=>sel.has(p444Canon(r.vehicleClass)));
 }
@@ -1418,7 +1423,7 @@ function p444SelectedLabel(){
 }
 function p444Bar(){
     const d=document.createElement("div"); d.className="p444-filterbar";
-    d.innerHTML=`<button class="p444-filterbtn" onclick="p444Open()">CLASS FILTER 11–19</button><div class="p444-summary">${text(p444SelectedLabel())}</div>`;
+    d.innerHTML=`<button class="p444-filterbtn" onclick="p444Open()">CLASS FILTER 11–21</button><div class="p444-summary">${text(p444SelectedLabel())}</div>`;
     return d;
 }
 function p444Open(){
@@ -1445,7 +1450,7 @@ function createChallengeCard(challenge) {
     const allRows444 = (challenge.allClassesResults || challenge.allResults || challenge.resultsAll || []);
     const results = currentMode === "all"
         ? allRows444
-        : ((Number(challenge.id) >= 11 && Number(challenge.id) <= 19)
+        : ((Number(challenge.id) >= 11 && Number(challenge.id) <= 21)
             ? p444FilterRows(challenge, allRows444)
             : (challenge.results || []));
 
@@ -1488,7 +1493,7 @@ function createChallengeCard(challenge) {
         </div>
         <div class="challenge-info">
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
-            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem" : text((Number(challenge.id)>=11 && Number(challenge.id)<=19) ? p444SelectedLabel() : configuredClassLabel(challenge))}</div>
+            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem" : text((Number(challenge.id)>=11 && Number(challenge.id)<=21) ? p444SelectedLabel() : configuredClassLabel(challenge))}</div>
         </div>
     </div><div class="coverage-note" style="padding:8px 14px;font-size:12px;color:#b3ac93;line-height:1.45">${text(coverageNotice(challenge))}</div><div class="results">${resultsHtml}</div>`;
     return card;
@@ -1656,7 +1661,7 @@ addEventListener("DOMContentLoaded",async()=>{
       <button class="p444-filterbtn" onclick="p444ResetConfig()">CONFIG</button>
     </div>
     <div id="p444Grid" class="p444-grid"></div>
-    <div class="p444-hint">KING se tímto filtrem nikdy nemění. Filtr platí pouze pro Challenge #11–#19 a ukládá se v tomto prohlížeči.</div>
+    <div class="p444-hint">KING se tímto filtrem nikdy nemění. Filtr platí pouze pro Challenge #11–#21 a ukládá se v tomto prohlížeči.</div>
   </div>
 </div>
 
