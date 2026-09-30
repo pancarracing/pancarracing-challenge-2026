@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-30T08:12:05+02:00",
+  "updated": "2026-09-30T08:17:57+02:00",
   "challenges": [
     {
       "id": 1,
@@ -165,7 +165,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 99,
       "friendsBoardsChecked": 35,
       "catalogBoardsPending": 64,
@@ -280,7 +280,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 99,
       "friendsBoardsChecked": 36,
       "catalogBoardsPending": 63,
@@ -487,7 +487,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 101,
       "friendsBoardsChecked": 36,
       "catalogBoardsPending": 65,
@@ -686,7 +686,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 99,
       "friendsBoardsChecked": 41,
       "catalogBoardsPending": 58,
@@ -839,7 +839,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 100,
       "friendsBoardsChecked": 48,
       "catalogBoardsPending": 52,
@@ -1025,7 +1025,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 102,
       "friendsBoardsChecked": 48,
       "catalogBoardsPending": 54,
@@ -1207,7 +1207,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 101,
       "friendsBoardsChecked": 41,
       "catalogBoardsPending": 60,
@@ -1389,7 +1389,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 99,
       "friendsBoardsChecked": 33,
       "catalogBoardsPending": 66,
@@ -1642,7 +1642,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 100,
       "friendsBoardsChecked": 68,
       "catalogBoardsPending": 32,
@@ -2152,7 +2152,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 99,
       "friendsBoardsChecked": 4,
       "catalogBoardsPending": 95,
@@ -2254,7 +2254,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 103,
       "friendsBoardsChecked": 47,
       "catalogBoardsPending": 56,
@@ -2467,7 +2467,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 103,
       "friendsBoardsChecked": 79,
       "catalogBoardsPending": 24,
@@ -2596,7 +2596,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 101,
       "friendsBoardsChecked": 78,
       "catalogBoardsPending": 23,
@@ -2719,7 +2719,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 104,
       "friendsBoardsChecked": 84,
       "catalogBoardsPending": 20,
@@ -3091,7 +3091,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 101,
       "friendsBoardsChecked": 78,
       "catalogBoardsPending": 23,
@@ -3147,7 +3147,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 101,
       "friendsBoardsChecked": 79,
       "catalogBoardsPending": 22,
@@ -3237,7 +3237,7 @@
         }
       ],
       "boardErrors": [],
-      "scanStatus": "needs-catalog",
+      "scanStatus": "ok",
       "catalogBoards": 102,
       "friendsBoardsChecked": 83,
       "catalogBoardsPending": 19,
@@ -25496,36 +25496,18 @@
     }
   ],
   "collector": {
-    "version": "4.44",
+    "version": "2.6.1",
     "mode": "ultra",
-    "elapsedSeconds": 42.0,
+    "elapsedSeconds": 41.1,
     "boardsScanned": 83,
     "boardsOk": 81,
     "boardsNotFound": 2,
     "boardsEmptyFriends": 8,
     "tracksNeedDiscovery": [],
-    "tracksNeedCatalog": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19
-    ],
+    "tracksNeedCatalog": [],
     "rawFriendEntries": 101,
     "errors": 0,
     "catalogVehicles": 291,
-    "unknownVehicles": 4
+    "unknownVehicles": 2
   }
 }
