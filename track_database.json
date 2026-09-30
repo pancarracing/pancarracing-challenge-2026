@@ -74,10 +74,103 @@
     "trackB": 2816254725,
     "name": "Interlagos GP",
     "dlc": false,
-    "pack": "Base Game"
+    "pack": "Base Game",
+    "trackId": "Interlagos_GP",
+    "category": "GP",
+    "categoryColor": "red",
+    "updatedBy": "PANCARtiming 5.5.10"
   },
   {
     "challenge": 12,
+    "trackB": 775712153,
+    "name": "Spa-Francorchamps 2022",
+    "dlc": true,
+    "pack": "Spa-Francorchamps Pack / Premium Track Pack",
+    "trackId": "Spa_Francorchamps_2022",
+    "category": "GP",
+    "categoryColor": "red",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 13,
+    "trackB": 2249037056,
+    "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
+    "dlc": true,
+    "pack": "Barcelona Pack",
+    "trackId": "Circuit_de_Catalunya_GP_NC",
+    "category": "GP",
+    "categoryColor": "red",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 14,
+    "trackB": 2355862379,
+    "name": "Azure Circuit 2021",
+    "dlc": false,
+    "pack": "Base Game",
+    "trackId": "Azure_Circuit_2021",
+    "category": "GP",
+    "categoryColor": "red",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 15,
+    "trackB": 2590843191,
+    "name": "Interlagos Historic 1978 Outer",
+    "dlc": false,
+    "pack": "Base Game",
+    "trackId": "Interlagos_Historic_Outer",
+    "category": "Historic",
+    "categoryColor": "gold",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 16,
+    "trackB": 2558461772,
+    "name": "Spa-Francorchamps Historic 1970",
+    "dlc": true,
+    "pack": "Spa-Francorchamps Pack / Premium Track Pack",
+    "trackId": "Spa_Francorchamps_1970",
+    "category": "Historic",
+    "categoryColor": "gold",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 17,
+    "trackB": 399001429,
+    "name": "Nürburgring Nordschleife Historic 1971",
+    "dlc": true,
+    "pack": "Nürburgring Pack / Premium Track Pack",
+    "trackId": "Nurb_1971_Nords",
+    "category": "Historic",
+    "categoryColor": "gold",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 18,
+    "trackB": 1063112912,
+    "name": "Virginia International Raceway Full",
+    "dlc": false,
+    "pack": "Base Game",
+    "trackId": "Virginia_Full",
+    "category": "Nature",
+    "categoryColor": "green",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 19,
+    "trackB": 2111076703,
+    "name": "Autódromo Yahuarcocha",
+    "dlc": false,
+    "pack": "Base Game",
+    "trackId": "Ibarra2",
+    "sharedMemoryLocation": "Ibarra4",
+    "category": "Nature",
+    "categoryColor": "green",
+    "updatedBy": "PANCARtiming 5.5.10"
+  },
+  {
+    "challenge": 20,
     "trackB": 1910889511,
     "name": "Cadwell Park",
     "dlc": false,
@@ -85,70 +178,27 @@
     "trackId": "CadwellPark",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PANCARtiming 5.5.9"
-  },
-  {
-    "challenge": 13,
-    "trackB": 775712153,
-    "name": "Spa-Francorchamps 2022",
-    "dlc": true,
-    "pack": "Spa-Francorchamps Pack / Premium Track Pack"
-  },
-  {
-    "challenge": 14,
-    "trackB": 2249037056,
-    "name": "Circuit de Barcelona-Catalunya GP (no chicane)",
-    "dlc": true,
-    "pack": "Barcelona Pack"
-  },
-  {
-    "challenge": 15,
-    "trackB": 2355862379,
-    "name": "Azure Circuit 2021",
-    "dlc": false,
-    "pack": "Base Game"
-  },
-  {
-    "challenge": 16,
-    "trackB": 2590843191,
-    "name": "Interlagos Historic 1978 Outer",
-    "dlc": false,
-    "pack": "Base Game"
-  },
-  {
-    "challenge": 17,
-    "trackB": 2558461772,
-    "name": "Spa-Francorchamps Historic 1970",
-    "dlc": true,
-    "pack": "Spa-Francorchamps Pack / Premium Track Pack"
-  },
-  {
-    "challenge": 18,
-    "trackB": 399001429,
-    "name": "Nürburgring Nordschleife Historic 1971",
-    "dlc": true,
-    "pack": "Nürburgring Pack / Premium Track Pack"
-  },
-  {
-    "challenge": 19,
-    "trackB": 1063112912,
-    "name": "Virginia International Raceway Full",
-    "dlc": false,
-    "pack": "Base Game"
-  },
-  {
-    "challenge": 20,
-    "trackB": 2111076703,
-    "name": "Autódromo Yahuarcocha",
-    "dlc": false,
-    "pack": "Base Game",
-    "trackId": "Ibarra2",
-    "sharedMemoryLocation": "Ibarra4"
+    "updatedBy": "PANCARtiming 5.5.10"
   },
   {
     "challenge": 21,
-    "trackB": 0,
+    "name": "Curitiba Outer",
+    "trackB": 3745321037,
+    "trackId": "Curitiba_outer",
+    "category": "Nature",
+    "categoryColor": "green",
+    "updatedBy": "PANCARtiming 5.5.10",
+    "dlc": false,
+    "pack": "Base Game"
+  },
+  {
+    "challenge": 22,
     "name": "Buskerud Kart Long",
+    "trackB": 2508899182,
+    "trackId": "Buskerud_Long",
+    "category": "Nature",
+    "categoryColor": "green",
+    "updatedBy": "PANCARtiming 5.5.10",
     "dlc": false,
     "pack": "Base Game"
   }
