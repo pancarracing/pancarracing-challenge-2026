@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-30T19:31:55+02:00",
+  "updated": "2026-09-30T19:38:23+02:00",
   "challenges": [
     {
       "id": 1,
@@ -3625,18 +3625,66 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "",
-      "boardsScanned": 0,
-      "scanMode": "ultra",
-      "activeBoards": [],
+      "boardsScanned": 99,
+      "scanMode": "catalog",
+      "activeBoards": [
+        {
+          "board": "cars2_autoevent_367_2111076703_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_376_2111076703_0_0",
+          "friends": 1
+        }
+      ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 0,
-      "friendsBoardsChecked": 0,
+      "catalogBoards": 99,
+      "friendsBoardsChecked": 99,
       "catalogBoardsPending": 0,
-      "catalogCoverageComplete": false,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [],
-      "allClassesResults": []
+      "allClassesResults": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1656093112,
+          "vehicle": "Lamborghini Revuelto",
+          "vehicleClass": "Hypercars",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1656093112,
+          "rank": 33,
+          "score": 91020,
+          "time": "01:31.020",
+          "board": "cars2_autoevent_376_2111076703_0_0",
+          "boardA": 376,
+          "boardB": 2111076703,
+          "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1965836946,
+          "vehicle": "Chevrolet Corvette C3.R",
+          "vehicleClass": "TC70S",
+          "vehicleContent": "UNKNOWN",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1965836946,
+          "rank": 57,
+          "score": 98417,
+          "time": "01:38.417",
+          "board": "cars2_autoevent_367_2111076703_0_0",
+          "boardA": 367,
+          "boardB": 2111076703,
+          "mergedRank": 2
+        }
+      ]
     },
     {
       "id": 21,
@@ -3649,10 +3697,10 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 0,
-      "scanMode": "ultra",
+      "scanMode": "catalog",
       "activeBoards": [],
       "boardErrors": [],
-      "scanStatus": "ok",
+      "scanStatus": "needs-discovery",
       "catalogBoards": 0,
       "friendsBoardsChecked": 0,
       "catalogBoardsPending": 0,
@@ -26605,15 +26653,17 @@
   ],
   "collector": {
     "version": "5.5.1",
-    "mode": "ultra",
-    "elapsedSeconds": 47.2,
-    "boardsScanned": 93,
-    "boardsOk": 91,
-    "boardsNotFound": 2,
-    "boardsEmptyFriends": 7,
-    "tracksNeedDiscovery": [],
+    "mode": "catalog",
+    "elapsedSeconds": 55.5,
+    "boardsScanned": 99,
+    "boardsOk": 99,
+    "boardsNotFound": 0,
+    "boardsEmptyFriends": 97,
+    "tracksNeedDiscovery": [
+      21
+    ],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 113,
+    "rawFriendEntries": 2,
     "errors": 0,
     "catalogVehicles": 291,
     "unknownVehicles": 5
