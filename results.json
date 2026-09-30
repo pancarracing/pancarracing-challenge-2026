@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-30T18:15:21+02:00",
+  "updated": "2026-09-30T18:16:09+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1364,8 +1364,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_12208_1060182346_0_0",
-      "boardsScanned": 5,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12208_1060182346_0_0",
@@ -1391,9 +1391,9 @@
       "boardErrors": [],
       "scanStatus": "ok",
       "catalogBoards": 99,
-      "friendsBoardsChecked": 33,
-      "catalogBoardsPending": 66,
-      "catalogCoverageComplete": false,
+      "friendsBoardsChecked": 99,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -26606,17 +26606,17 @@
   "collector": {
     "version": "5.5.1",
     "mode": "catalog",
-    "elapsedSeconds": 0.3,
-    "boardsScanned": 0,
-    "boardsOk": 0,
+    "elapsedSeconds": 55.1,
+    "boardsScanned": 99,
+    "boardsOk": 99,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 0,
+    "boardsEmptyFriends": 94,
     "tracksNeedDiscovery": [
       20,
       21
     ],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 0,
+    "rawFriendEntries": 9,
     "errors": 0,
     "catalogVehicles": 291,
     "unknownVehicles": 5
