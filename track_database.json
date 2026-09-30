@@ -134,10 +134,12 @@
   },
   {
     "challenge": 20,
-    "trackB": 0,
+    "trackB": 2111076703,
     "name": "Autódromo Yahuarcocha",
     "dlc": false,
-    "pack": "Base Game"
+    "pack": "Base Game",
+    "trackId": "Ibarra2",
+    "sharedMemoryLocation": "Ibarra4"
   },
   {
     "challenge": 21,
