@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-30T09:50:50+02:00",
+  "updated": "2026-09-30T12:02:07+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1441,7 +1441,7 @@
           "driver": "pancar LBC",
           "vehicleHash": 532833672,
           "vehicle": "McLaren MP4/12",
-          "vehicleClass": "",
+          "vehicleClass": "?",
           "vehicleContent": "UNKNOWN",
           "vehicleDlc": false,
           "vehicleDlcName": "",
@@ -25496,9 +25496,9 @@
     }
   ],
   "collector": {
-    "version": "2.6.1",
+    "version": "5.0.0",
     "mode": "ultra",
-    "elapsedSeconds": 42.4,
+    "elapsedSeconds": 42.1,
     "boardsScanned": 83,
     "boardsOk": 81,
     "boardsNotFound": 2,

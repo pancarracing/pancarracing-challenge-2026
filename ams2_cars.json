@@ -3,7 +3,7 @@
   "cars": [
     {
       "vehicle": "McLaren MP4/12",
-      "class": "",
+      "class": "?",
       "vehicleHash": 532833672,
       "content": "UNKNOWN",
       "dlc": ""
