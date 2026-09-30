@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-09-30T18:16:09+02:00",
+  "updated": "2026-09-30T19:06:22+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1364,8 +1364,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_12208_1060182346_0_0",
-      "boardsScanned": 99,
-      "scanMode": "catalog",
+      "boardsScanned": 5,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12208_1060182346_0_0",
@@ -1895,7 +1895,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -1611902643,
-          "rank": 436,
+          "rank": 438,
           "score": 74942,
           "time": "01:14.942",
           "board": "cars2_autoevent_18810_2816254725_0_0",
@@ -1952,7 +1952,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1948072701,
-          "rank": 946,
+          "rank": 947,
           "score": 75780,
           "time": "01:15.780",
           "board": "cars2_autoevent_4673_2816254725_0_0",
@@ -2066,7 +2066,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1564669712,
-          "rank": 189,
+          "rank": 190,
           "score": 103699,
           "time": "01:43.699",
           "board": "cars2_autoevent_4723_2816254725_0_0",
@@ -3626,10 +3626,10 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 0,
-      "scanMode": "catalog",
+      "scanMode": "ultra",
       "activeBoards": [],
       "boardErrors": [],
-      "scanStatus": "needs-discovery",
+      "scanStatus": "ok",
       "catalogBoards": 0,
       "friendsBoardsChecked": 0,
       "catalogBoardsPending": 0,
@@ -3640,7 +3640,7 @@
     },
     {
       "id": 21,
-      "name": "Baskerud Kart Long",
+      "name": "Buskerud Kart Long",
       "trackB": 0,
       "challengeClasses": [
         "LMDh"
@@ -3649,10 +3649,10 @@
       "allPolicy": "",
       "board": "",
       "boardsScanned": 0,
-      "scanMode": "catalog",
+      "scanMode": "ultra",
       "activeBoards": [],
       "boardErrors": [],
-      "scanStatus": "needs-discovery",
+      "scanStatus": "ok",
       "catalogBoards": 0,
       "friendsBoardsChecked": 0,
       "catalogBoardsPending": 0,
@@ -26605,18 +26605,15 @@
   ],
   "collector": {
     "version": "5.5.1",
-    "mode": "catalog",
-    "elapsedSeconds": 55.1,
-    "boardsScanned": 99,
-    "boardsOk": 99,
-    "boardsNotFound": 0,
-    "boardsEmptyFriends": 94,
-    "tracksNeedDiscovery": [
-      20,
-      21
-    ],
+    "mode": "ultra",
+    "elapsedSeconds": 47.4,
+    "boardsScanned": 93,
+    "boardsOk": 91,
+    "boardsNotFound": 2,
+    "boardsEmptyFriends": 7,
+    "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 9,
+    "rawFriendEntries": 113,
     "errors": 0,
     "catalogVehicles": 291,
     "unknownVehicles": 5
