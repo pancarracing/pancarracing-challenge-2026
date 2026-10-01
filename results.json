@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-01T11:32:37+02:00",
+  "updated": "2026-10-01T13:52:44+02:00",
   "challenges": [
     {
       "id": 1,
@@ -23,12 +23,12 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12495_612695202_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_6735_612695202_0_0",
           "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_12495_612695202_0_0",
+          "friends": 1
         }
       ],
       "boardErrors": [],
@@ -267,16 +267,16 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_18045_1534602052_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_732_1534602052_0_0",
           "friends": 1
         },
         {
           "board": "cars2_autoevent_733_1534602052_0_0",
           "friends": 3
+        },
+        {
+          "board": "cars2_autoevent_18045_1534602052_0_0",
+          "friends": 1
         }
       ],
       "boardErrors": [],
@@ -470,10 +470,6 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_15020_3826312417_0_0",
-          "friends": 2
-        },
-        {
           "board": "cars2_autoevent_4526_3826312417_0_0",
           "friends": 1
         },
@@ -484,6 +480,10 @@
         {
           "board": "cars2_autoevent_4571_3826312417_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_15020_3826312417_0_0",
+          "friends": 2
         }
       ],
       "boardErrors": [],
@@ -1580,7 +1580,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1433352906,
-          "rank": 88,
+          "rank": 89,
           "score": 228279,
           "time": "03:48.279",
           "board": "cars2_autoevent_12208_1060182346_0_0",
@@ -1762,6 +1762,22 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
+          "board": "cars2_autoevent_4673_2816254725_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_4699_2816254725_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_4704_2816254725_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_12355_2816254725_0_0",
           "friends": 3
         },
@@ -1779,22 +1795,6 @@
         },
         {
           "board": "cars2_autoevent_18810_2816254725_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_4673_2816254725_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_4699_2816254725_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_4704_2816254725_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
           "friends": 1
         }
       ],
@@ -1895,7 +1895,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -1611902643,
-          "rank": 442,
+          "rank": 443,
           "score": 74942,
           "time": "01:14.942",
           "board": "cars2_autoevent_18810_2816254725_0_0",
@@ -2147,6 +2147,14 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
+          "board": "cars2_autoevent_9167_775712153_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_9168_775712153_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_12559_775712153_0_0",
           "friends": 1
         },
@@ -2157,14 +2165,6 @@
         {
           "board": "cars2_autoevent_19155_775712153_0_0",
           "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_9167_775712153_0_0",
-          "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_9168_775712153_0_0",
-          "friends": 1
         }
       ],
       "boardErrors": [],
@@ -2186,7 +2186,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -896587240,
-          "rank": 1598,
+          "rank": 1599,
           "score": 127679,
           "time": "02:07.679",
           "board": "cars2_autoevent_12559_775712153_0_0",
@@ -2283,7 +2283,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -896587240,
-          "rank": 1598,
+          "rank": 1599,
           "score": 127679,
           "time": "02:07.679",
           "board": "cars2_autoevent_12559_775712153_0_0",
@@ -2364,19 +2364,19 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12699_2249037056_0_0",
-          "friends": 3
-        },
-        {
-          "board": "cars2_autoevent_16011_2249037056_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_2102_2249037056_0_0",
           "friends": 1
         },
         {
           "board": "cars2_autoevent_2127_2249037056_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12699_2249037056_0_0",
+          "friends": 3
+        },
+        {
+          "board": "cars2_autoevent_16011_2249037056_0_0",
           "friends": 1
         }
       ],
@@ -2519,22 +2519,6 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12161_2355862379_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12657_2355862379_0_0",
-          "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_15967_2355862379_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_18033_2355862379_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_469_2355862379_0_0",
           "friends": 1
         },
@@ -2564,6 +2548,22 @@
         },
         {
           "board": "cars2_autoevent_509_2355862379_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12161_2355862379_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12657_2355862379_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_15967_2355862379_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_18033_2355862379_0_0",
           "friends": 1
         }
       ],
@@ -2930,26 +2930,6 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12561_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_16246_2558461772_0_0",
-          "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_17062_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_17063_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_19158_2558461772_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
         },
@@ -2988,10 +2968,31 @@
         {
           "board": "cars2_autoevent_9300_2558461772_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12561_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_17062_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_17063_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_19158_2558461772_0_0",
+          "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "ok",
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_16246_2558461772_0_0",
+          "status": "download-timeout"
+        }
+      ],
+      "scanStatus": "partial",
       "catalogBoards": 101,
       "friendsBoardsChecked": 101,
       "catalogBoardsPending": 0,
@@ -3362,8 +3363,13 @@
           "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "ok",
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_7230_399001429_0_0",
+          "status": "download-timeout"
+        }
+      ],
+      "scanStatus": "partial",
       "catalogBoards": 101,
       "friendsBoardsChecked": 101,
       "catalogBoardsPending": 0,
@@ -3637,15 +3643,15 @@
       "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_12188_1910889511_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_1575_1910889511_0_0",
           "friends": 1
         },
         {
           "board": "cars2_autoevent_1603_1910889511_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_12188_1910889511_0_0",
           "friends": 1
         }
       ],
@@ -9002,7 +9008,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "purple",
       "displayTimeColor": "blue"
     },
     {
@@ -9047,7 +9053,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "purple",
       "displayTimeColor": "blue"
     }
   ],
@@ -27641,17 +27647,17 @@
   "collector": {
     "version": "5.5.11",
     "mode": "catalog",
-    "elapsedSeconds": 1195.3,
+    "elapsedSeconds": 1243.1,
     "boardsScanned": 2113,
-    "boardsOk": 2103,
+    "boardsOk": 2101,
     "boardsNotFound": 10,
-    "boardsEmptyFriends": 2013,
+    "boardsEmptyFriends": 2012,
     "tracksNeedDiscovery": [
       22
     ],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 117,
-    "errors": 0,
+    "rawFriendEntries": 115,
+    "errors": 2,
     "catalogVehicles": 291,
     "unknownVehicles": 6
   }
