@@ -78,7 +78,9 @@
     "trackId": "Interlagos_GP",
     "category": "GP",
     "categoryColor": "red",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 2816254725,
+    "activeChallenge": true
   },
   {
     "challenge": 12,
@@ -89,7 +91,9 @@
     "trackId": "Spa_Francorchamps_2022",
     "category": "GP",
     "categoryColor": "red",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 775712153,
+    "activeChallenge": true
   },
   {
     "challenge": 13,
@@ -100,7 +104,9 @@
     "trackId": "Circuit_de_Catalunya_GP_NC",
     "category": "GP",
     "categoryColor": "red",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 2249037056,
+    "activeChallenge": true
   },
   {
     "challenge": 14,
@@ -111,7 +117,9 @@
     "trackId": "Azure_Circuit_2021",
     "category": "GP",
     "categoryColor": "red",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 2355862379,
+    "activeChallenge": true
   },
   {
     "challenge": 15,
@@ -122,7 +130,9 @@
     "trackId": "Interlagos_Historic_Outer",
     "category": "Historic",
     "categoryColor": "gold",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 2590843191,
+    "activeChallenge": true
   },
   {
     "challenge": 16,
@@ -133,7 +143,9 @@
     "trackId": "Spa_Francorchamps_1970",
     "category": "Historic",
     "categoryColor": "gold",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 2558461772,
+    "activeChallenge": true
   },
   {
     "challenge": 17,
@@ -144,7 +156,9 @@
     "trackId": "Nurb_1971_Nords",
     "category": "Historic",
     "categoryColor": "gold",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 399001429,
+    "activeChallenge": true
   },
   {
     "challenge": 18,
@@ -155,7 +169,9 @@
     "trackId": "Virginia_Full",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 1063112912,
+    "activeChallenge": true
   },
   {
     "challenge": 19,
@@ -167,7 +183,9 @@
     "sharedMemoryLocation": "Ibarra4",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 2111076703,
+    "activeChallenge": true
   },
   {
     "challenge": 20,
@@ -178,7 +196,9 @@
     "trackId": "CadwellPark",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PANCARtiming 5.5.10"
+    "updatedBy": "PANCARtiming 5.5.11",
+    "B": 1910889511,
+    "activeChallenge": true
   },
   {
     "challenge": 21,
@@ -187,9 +207,11 @@
     "trackId": "Curitiba_outer",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PANCARtiming 5.5.10",
+    "updatedBy": "PANCARtiming 5.5.11",
     "dlc": false,
-    "pack": "Base Game"
+    "pack": "Base Game",
+    "B": 3745321037,
+    "activeChallenge": true
   },
   {
     "challenge": 22,
@@ -198,8 +220,10 @@
     "trackId": "Buskerud_Long",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PANCARtiming 5.5.10",
+    "updatedBy": "PANCARtiming 5.5.11",
     "dlc": false,
-    "pack": "Base Game"
+    "pack": "Base Game",
+    "B": 2508899182,
+    "activeChallenge": true
   }
 ]
