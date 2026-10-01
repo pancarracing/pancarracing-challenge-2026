@@ -926,9 +926,9 @@ const challengeColors = {
     8:"#ef1118",
     9:"#8b8b8b",
     10:"#57990f",
-    11:"#ef1118", 12:"#ef1118", 13:"#ef1118", 14:"#ef1118", 15:"#ef1118",
-    16:"#d4af37", 17:"#d4af37", 18:"#d4af37",
-    19:"#4fae5a", 20:"#4fae5a", 21:"#4fae5a"
+    11:"#ef1118", 12:"#ef1118", 13:"#ef1118", 14:"#ef1118",
+    15:"#d4af37", 16:"#d4af37", 17:"#d4af37",
+    18:"#4fae5a", 19:"#4fae5a", 20:"#4fae5a", 21:"#4fae5a", 22:"#4fae5a"
 };
 let playerDlcStatus={version:2,drivers:{}}; let dlcCatalogGlobal=[]; let trackDatabaseGlobal=[];
 function normPack(x){return String(x||"").toLowerCase().replace(/[´’]/g,"'").replace(/[^a-z0-9]+/g," ").trim()}
@@ -954,14 +954,15 @@ const challengeMeta = {
     11:{ },
     12:{ },
     13:{ },
-    14:{ displayTrack: "Circuit de Barcelona-Catalunya GP", trackDetail: "(no chicane)" },
-    15:{ displayTrack: "Azure Circuit 2021" },
+    14:{ },
+    15:{ },
     16:{ },
     17:{ },
     18:{ },
     19:{ },
-    20:{ displayTrack: "Autódromo Yahuarcocha" },
-    21:{ displayTrack: "Baskerud Kart Long" }
+    20:{ },
+    21:{ },
+    22:{ }
 };
 
 function text(value) {
