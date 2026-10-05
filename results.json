@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-05T12:44:44+02:00",
+  "updated": "2026-10-05T14:29:33+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1971,7 +1971,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1947909519,
-          "rank": 5298,
+          "rank": 5299,
           "score": 75256,
           "time": "01:15.256",
           "board": "cars2_autoevent_12773_2816254725_0_0",
@@ -2066,7 +2066,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1353949246,
-          "rank": 4958,
+          "rank": 4959,
           "score": 96219,
           "time": "01:36.219",
           "board": "cars2_autoevent_4704_2816254725_0_0",
@@ -4234,6 +4234,29 @@
     },
     {
       "id": 27,
+      "name": "Laguna Seca 2020",
+      "trackB": 568559152,
+      "challengeClasses": [
+        "LMDh"
+      ],
+      "allClasses": [],
+      "allPolicy": "",
+      "board": "cars2_autoevent_12395_568559152_0_0",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
+      "activeBoards": [],
+      "boardErrors": [],
+      "scanStatus": "ok",
+      "catalogBoards": 99,
+      "friendsBoardsChecked": 1,
+      "catalogBoardsPending": 98,
+      "catalogCoverageComplete": false,
+      "completeSteamCatalogVerified": false,
+      "results": [],
+      "allClassesResults": []
+    },
+    {
+      "id": 28,
       "name": "Buskerud Kart Long",
       "trackB": 2508899182,
       "challengeClasses": [
@@ -32393,11 +32416,11 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 57.1,
-    "boardsScanned": 109,
-    "boardsOk": 109,
+    "elapsedSeconds": 58.3,
+    "boardsScanned": 110,
+    "boardsOk": 110,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 9,
+    "boardsEmptyFriends": 10,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
     "rawFriendEntries": 129,

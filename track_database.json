@@ -340,15 +340,30 @@
   },
   {
     "challenge": 27,
+    "trackB": 568559152,
+    "B": 568559152,
+    "name": "Laguna Seca 2020",
+    "trackId": "Laguna_Seca_2020",
+    "category": "Nature",
+    "categoryColor": "green",
+    "dlc": true,
+    "pack": "Racing USA Pack Pt.1",
+    "activeChallenge": true,
+    "updatedBy": "PT LAGUNA28 + DEDICATED FIX"
+  },
+  {
+    "challenge": 28,
     "name": "Buskerud Kart Long",
     "trackB": 2508899182,
     "trackId": "Buskerud_Long",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PANCARtiming 5.5.11 · HISTORIC X5",
+    "updatedBy": "PT LAGUNA28 + DEDICATED FIX",
     "dlc": false,
     "pack": "Base Game",
     "B": 2508899182,
-    "activeChallenge": true
+    "activeChallenge": true,
+    "dedicatedOnly": true,
+    "tinyShoeAvailable": false
   }
 ]
