@@ -744,6 +744,20 @@
       "dlc": ""
     },
     {
+      "vehicle": "Formula V8 Gen2 Model1",
+      "class": "F-V8_Gen2",
+      "vehicleHash": 1107719042,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Formula V8 Gen2 Model2",
+      "class": "F-V8_Gen2",
+      "vehicleHash": 3891808300,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
       "vehicle": "Formula Vee Gen1",
       "class": "F-Vee",
       "vehicleHash": 2154877129,
@@ -873,6 +887,13 @@
       "vehicle": "Nissan R390 GT1",
       "class": "GT1",
       "vehicleHash": 3951943788,
+      "content": "UNKNOWN",
+      "dlc": ""
+    },
+    {
+      "vehicle": "Panoz Esperante GTR-1",
+      "class": "GT1",
+      "vehicleHash": 3423713365,
       "content": "UNKNOWN",
       "dlc": ""
     },

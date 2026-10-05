@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- PANCARtiming 2.5.7 -->
+<!-- PT WEB UI COMPACT · Laguna Seca · TOP5 · collapsible GP/Historic/Nature · 2026-10-05 -->
 <title>Pancarracing Time Trial Challenge 2026</title>
 
 <style>
@@ -828,7 +828,122 @@ body {
 </style><style id="rc11-track-layout">
 .challenge-card h2,.challenge-card h3,.challenge-section h2,.challenge-section h3,.track-name,[data-track-name]{white-space:nowrap!important;max-width:none!important}
 .rc9-track-badge{white-space:nowrap!important}
-</style></head>
+</style>
+<style id="pt-web-compact-20261005">
+/* PT WEB COMPACT 2026-10-05 · visual-only override */
+.page{width:min(1380px,calc(100% - 20px));padding:12px 0 34px}
+.topbar{margin-bottom:10px;padding:13px 18px 11px;border-top-width:3px}
+.brand{font-size:clamp(24px,4vw,44px);text-shadow:0 3px 0 #580006}
+.subtitle{margin-top:7px;gap:12px}
+.title-main{font-size:clamp(15px,2vw,24px);letter-spacing:.6px}
+.updated{font-size:10px}
+.precision-strip{font-size:8px;margin-bottom:4px}
+
+.score-mode-panel{top:4px;padding:4px 0;margin-bottom:7px;gap:5px}
+.score-mode{min-height:36px;padding:5px 10px;font-size:10px}
+.score-mode .quiet{font-size:9px}
+.score-mode strong{font-size:15px}
+.score-mode small,.mode-note{font-size:9px}
+.mode-note{min-width:180px;padding:5px 9px}
+
+.history-panel{margin-bottom:8px}
+.history-title{padding:6px 10px 5px;font-size:9px}
+.history-head,.history-row{column-gap:8px;padding:0 10px}
+.history-head{min-height:22px;font-size:8px}
+.history-row{min-height:29px;font-size:11px}
+.history-driver,.history-jump,.history-delta,.history-time,.history-world{font-size:12px}
+.history-time{font-size:13px}
+
+.challenge-card{margin-bottom:6px;border-left-width:5px;box-shadow:0 5px 14px rgba(0,0,0,.28)}
+.challenge-head{grid-template-columns:88px minmax(260px,1fr);min-height:72px}
+.number-box{gap:3px}
+.big-number{font-size:31px;text-shadow:2px 2px 0 #000,4px 4px 10px rgba(0,0,0,.7)}
+.number-challenge{font-size:9px}
+.challenge-info{padding:10px 15px}
+.challenge-name{font-size:clamp(15px,1.65vw,20px);line-height:1.02}
+.track-detail{margin-left:5px;font-size:.60em}
+.challenge-extra{margin-top:5px;font-size:12px;letter-spacing:.15px}
+.coverage-note{padding:5px 10px!important;font-size:9px!important;line-height:1.25!important;color:#777!important}
+
+.results-head,.driver-row{
+    grid-template-columns:42px minmax(135px,1fr) 108px 68px minmax(165px,1.18fr) minmax(105px,.78fr);
+    padding-left:12px;padding-right:12px
+}
+.results-head{min-height:24px;font-size:8px}
+.driver-row{min-height:36px}
+.position{font-size:16px}
+.driver{font-size:14px}
+.time{font-size:15px}
+.rank{font-size:11px}
+.vehicle{font-size:12px}
+.vehicle.unknown{font-size:10px}
+.vehicle-class{font-size:9px}
+.no-time{padding:11px;font-size:12px}
+.challenge-card:not(.show-all-results) .driver-row.result-extra{display:none}
+.results-toggle{
+    width:100%;border:0;border-top:1px solid rgba(255,255,255,.06);
+    background:#0d0d0d;color:#777;padding:6px 10px;cursor:pointer;
+    font:800 9px Arial,sans-serif;letter-spacing:.55px;text-transform:uppercase
+}
+.results-toggle:hover{color:#ddd;background:#121212}
+
+.track-group-toolbar{
+    margin:7px 0 6px;padding:6px 8px;border:1px solid #242424;background:#080808;
+    display:flex;align-items:center;justify-content:flex-end;gap:6px
+}
+.track-group-toolbar>span{margin-right:auto;color:#666;font:900 9px Arial,sans-serif;letter-spacing:.7px}
+.track-group-toolbar button{
+    border:1px solid #393939;background:#111;color:#aaa;padding:5px 8px;cursor:pointer;
+    font:800 9px Arial,sans-serif
+}
+.track-group-toolbar button:hover{border-color:#777;color:#eee}
+
+.track-group{--group-accent:#ef1118;margin:0 0 7px;border:1px solid #262626;border-left:5px solid var(--group-accent);background:#070707}
+.track-group-head{
+    width:100%;min-height:42px;border:0;background:linear-gradient(90deg,color-mix(in srgb,var(--group-accent) 13%,#090909),#090909 45%,#070707);
+    color:#eee;display:flex;align-items:center;gap:10px;padding:7px 12px;cursor:pointer;text-align:left
+}
+.track-group-title{color:var(--group-accent);font:900 italic 17px Arial,sans-serif;letter-spacing:.5px}
+.track-group-count{color:#777;font:800 9px Arial,sans-serif;letter-spacing:.5px}
+.track-group-chevron{margin-left:auto;color:var(--group-accent);font-size:18px;line-height:1;transform:rotate(-90deg);transition:transform .12s ease}
+.track-group.open .track-group-chevron{transform:rotate(0)}
+.track-group-body{display:none;padding:6px 6px 1px}
+.track-group.open .track-group-body{display:block}
+.track-group .challenge-card:last-child{margin-bottom:5px}
+
+.rc6{max-width:1180px;margin:11px auto;padding:10px;border-radius:10px}
+.rc6 h2{font-size:17px;margin:4px 0 7px}
+.rc6 th,.rc6 td{padding:6px;font-size:11px}
+.car-catalog{margin:16px 0 30px}
+.car-catalog-top{padding:9px 11px 8px}
+.car-catalog-title{font-size:18px}
+.car-catalog-note{font-size:12px}
+.car-catalog-filters{padding:7px 11px}
+.car-catalog input,.car-catalog select{padding:5px 7px;font-size:12px}
+.car-catalog-count{padding:7px 11px 8px;font-size:11px}
+.car-catalog-head{font-size:10px}
+.car-catalog-row{font-size:12px}
+.car-catalog-head>div,.car-catalog-row>div{padding:7px 8px}
+
+.ui-placeholder{opacity:.90}
+.ui-placeholder .coverage-note{color:#9a8f6d!important}
+
+@media(max-width:900px){
+    .challenge-head{grid-template-columns:76px 1fr}
+    .challenge-status{padding:8px 12px 10px 88px}
+    .results-head,.driver-row{min-width:760px}
+}
+@media(max-width:650px){
+    .page{width:min(100% - 10px,1380px)}
+    .brand{font-size:28px}
+    .title-main{font-size:15px}
+    .track-group-toolbar{flex-wrap:wrap}
+    .track-group-toolbar>span{width:100%}
+    .challenge-name{white-space:normal!important}
+}
+</style>
+
+</head>
 
 <body>
 
@@ -927,8 +1042,10 @@ const challengeColors = {
     9:"#8b8b8b",
     10:"#57990f",
     11:"#ef1118", 12:"#ef1118", 13:"#ef1118", 14:"#ef1118",
-    15:"#d4af37", 16:"#d4af37", 17:"#d4af37",
-    18:"#4fae5a", 19:"#4fae5a", 20:"#4fae5a", 21:"#4fae5a", 22:"#4fae5a"
+    15:"#d4af37", 16:"#d4af37", 17:"#d4af37", 18:"#d4af37",
+    19:"#d4af37", 20:"#d4af37", 21:"#d4af37", 22:"#d4af37",
+    23:"#4fae5a", 24:"#4fae5a", 25:"#4fae5a", 26:"#4fae5a",
+    27:"#4fae5a", 28:"#4fae5a"
 };
 let playerDlcStatus={version:2,drivers:{}}; let dlcCatalogGlobal=[]; let trackDatabaseGlobal=[];
 function normPack(x){return String(x||"").toLowerCase().replace(/[´’]/g,"'").replace(/[^a-z0-9]+/g," ").trim()}
@@ -1043,13 +1160,20 @@ function vehicleDlcBadge(source) {
     return `<span class="vehicle-dlc-badge"${title}>DLC</span>`;
 }
 
+const trackDlcFallbackByB = {
+    "568559152": "Racing USA Pack Pt.1"
+};
 function trackDlcInfo(challenge) {
     const cid = Number(challenge?.id);
     const b = String(challenge?.trackB ?? "");
-    const entry = (trackDatabaseGlobal || []).find(x => Number(x.challenge) === cid)
-        || (trackDatabaseGlobal || []).find(x => String(x.trackB ?? "") === b);
-    if (!entry || entry.dlc !== true || !entry.pack || entry.pack === "Base Game") return {dlc:false,name:""};
-    return {dlc:true,name:String(entry.pack)};
+    // B is authoritative. Challenge number may be a UI-renumbered value.
+    const entry = (trackDatabaseGlobal || []).find(x => String(x.trackB ?? "") === b)
+        || (trackDatabaseGlobal || []).find(x => Number(x.challenge) === cid);
+    if (entry && entry.dlc === true && entry.pack && entry.pack !== "Base Game") {
+        return {dlc:true,name:String(entry.pack)};
+    }
+    if (trackDlcFallbackByB[b]) return {dlc:true,name:trackDlcFallbackByB[b]};
+    return {dlc:false,name:""};
 }
 function trackDlcBadge(challenge) {
     const info=trackDlcInfo(challenge);
@@ -1442,10 +1566,123 @@ function p444SelectAll(){p444Selected=new Set(p444Available().map(x=>x[0]));p444
 function p444Clear(){p444Selected=new Set();p444Save();p444Open();if(latestData)renderAll(latestData)}
 function p444ResetConfig(){p444Selected=p444Configured();p444Save();p444Open();if(latestData)renderAll(latestData)}
 
+function uiDisplayId(challenge) {
+    return Number(challenge?._uiDisplayId ?? challenge?.id ?? 0);
+}
+
+function isLaguna(challenge) {
+    return Number(challenge?.trackB) === 568559152
+        || /laguna[\s_-]*seca/i.test(String(challenge?.name || ""));
+}
+
+function isBuskerudLong(challenge) {
+    return Number(challenge?.trackB) === 2508899182
+        || /buskerud.*long/i.test(String(challenge?.name || ""));
+}
+
+function prepareChallengesForUi(rawChallenges) {
+    let rows = Array.isArray(rawChallenges)
+        ? rawChallenges.map(x => ({...x})).sort((a,b) => Number(a.id) - Number(b.id))
+        : [];
+
+    let laguna = rows.find(isLaguna);
+    let buskerud = rows.find(isBuskerudLong);
+
+    // Web-only insertion: if PT results do not yet contain Laguna, show the planned
+    // Nature challenge card without mutating results.json or PT program data.
+    if (!laguna) {
+        const desiredId = buskerud ? Number(buskerud.id) : 27;
+        laguna = {
+            id: desiredId,
+            _uiDisplayId: desiredId,
+            _uiOnly: true,
+            name: "Laguna Seca 2020",
+            trackB: 568559152,
+            challengeClasses: ["LMDh"],
+            results: [],
+            allClassesResults: [],
+            scanStatus: "needs-catalog"
+        };
+        const at = buskerud ? rows.indexOf(buskerud) : rows.length;
+        rows.splice(at, 0, laguna);
+    }
+
+    buskerud = rows.find(isBuskerudLong);
+    laguna = rows.find(isLaguna);
+
+    // If old PT data still calls Buskerud #27, web displays Laguna #27 and Buskerud #28.
+    if (buskerud && Number(buskerud.id) <= Number(laguna.id)) {
+        laguna._uiDisplayId = Number(buskerud.id);
+        buskerud._uiDisplayId = Number(buskerud.id) + 1;
+    }
+
+    // Stable visual order: numeric challenges, with Laguna immediately before Buskerud.
+    rows.sort((a,b) => {
+        if (isLaguna(a) && isBuskerudLong(b)) return -1;
+        if (isBuskerudLong(a) && isLaguna(b)) return 1;
+        return uiDisplayId(a) - uiDisplayId(b);
+    });
+    return rows;
+}
+
+function challengeGroupKey(challenge) {
+    const id = uiDisplayId(challenge);
+    if (id >= 11 && id <= 14) return "gp";
+    if (id >= 15 && id <= 22) return "historic";
+    if (id >= 23) return "nature";
+    return "core";
+}
+
+const trackGroupState = {gp:false, historic:false, nature:false};
+
+function toggleTrackGroup(key) {
+    trackGroupState[key] = !trackGroupState[key];
+    document.querySelector(`[data-track-group="${key}"]`)?.classList.toggle("open", trackGroupState[key]);
+}
+
+function setAllTrackGroups(open) {
+    for (const key of ["gp","historic","nature"]) trackGroupState[key] = !!open;
+    document.querySelectorAll(".track-group").forEach(el => el.classList.toggle("open", !!open));
+}
+
+function makeTrackGroup(key, title, accent, challenges) {
+    const group = document.createElement("section");
+    group.className = "track-group" + (trackGroupState[key] ? " open" : "");
+    group.dataset.trackGroup = key;
+    group.style.setProperty("--group-accent", accent);
+
+    const head = document.createElement("button");
+    head.type = "button";
+    head.className = "track-group-head";
+    head.onclick = () => toggleTrackGroup(key);
+    head.innerHTML = `<span class="track-group-title">${text(title)}</span>
+        <span class="track-group-count">${challenges.length} TRATÍ</span>
+        <span class="track-group-chevron">⌄</span>`;
+
+    const body = document.createElement("div");
+    body.className = "track-group-body";
+    challenges.forEach(ch => body.appendChild(createChallengeCard(ch)));
+
+    group.appendChild(head);
+    group.appendChild(body);
+    return group;
+}
+
+function toggleTopResults(button) {
+    const card = button.closest(".challenge-card");
+    if (!card) return;
+    const open = card.classList.toggle("show-all-results");
+    const extra = Number(button.dataset.extra || 0);
+    button.textContent = open ? "ZOBRAZIT JEN TOP 5" : `ROZBALIT DALŠÍCH ${extra}`;
+    button.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
 function createChallengeCard(challenge) {
     const card = document.createElement("section");
     card.className = "challenge-card";
-    card.style.setProperty("--accent", challengeColors[challenge.id] || "#ef1118");
+    if (challenge._uiOnly) card.classList.add("ui-placeholder");
+    const displayId = uiDisplayId(challenge);
+    card.style.setProperty("--accent", challengeColors[displayId] || "#ef1118");
 
     const meta = challengeMeta[challenge.id] || {};
     const allRows444 = (challenge.allClassesResults || challenge.allResults || challenge.resultsAll || []);
@@ -1462,7 +1699,10 @@ function createChallengeCard(challenge) {
     let resultsHtml = "";
     if (!results.length) {
         const incomplete = ["needs-discovery", "needs-catalog", "partial", "not-scanned"].includes(challenge.scanStatus);
-        resultsHtml = `<div class="no-time">${incomplete ? "ČASY ZATÍM NEOVĚŘENÉ" : "V NAČTENÝCH TABULKÁCH BEZ ČASU"}</div>`;
+        const label = challenge._uiOnly
+            ? "TRAŤ PŘIDÁNA · ČEKÁ NA DATA PT"
+            : (incomplete ? "ČASY ZATÍM NEOVĚŘENÉ" : "V NAČTENÝCH TABULKÁCH BEZ ČASU");
+        resultsHtml = `<div class="no-time">${label}</div>`;
     } else {
         const rows = results.map((result,index) => {
             const vehicleName = result.vehicle && String(result.vehicle).trim()
@@ -1472,7 +1712,8 @@ function createChallengeCard(challenge) {
                 : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
             const rank = result.rank != null ? `#${text(result.rank)}` : "—";
             const cls = result.vehicleClass || "—";
-            return `<div class="driver-row">
+            const extraClass = index >= 5 ? " result-extra" : "";
+            return `<div class="driver-row${extraClass}">
                 <div class="position">${index + 1}.</div>
                 <div class="driver">${text(result.driver)}${playerDlcBadge(result.driver,result)}</div>
                 <div class="time">${text(result.time)}</div>
@@ -1481,36 +1722,68 @@ function createChallengeCard(challenge) {
                 <div class="vehicle-class">${text(cls)}</div>
             </div>`;
         }).join("");
+        const more = results.length > 5
+            ? `<button class="results-toggle" type="button" data-extra="${results.length - 5}" aria-expanded="false" onclick="toggleTopResults(this)">ROZBALIT DALŠÍCH ${results.length - 5}</button>`
+            : "";
         resultsHtml = `<div class="results-head">
             <div>Pos.</div><div>Driver</div><div>Time</div><div>World</div><div>Vehicle</div><div>Class</div>
-        </div>${rows}`;
+        </div>${rows}${more}`;
     }
 
+    const classLabel = currentMode === "all"
+        ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem"
+        : text((Number(challenge.id)>=11 && Number(challenge.id)<=21)
+            ? p444SelectedLabel()
+            : configuredClassLabel(challenge));
+
+    const coverage = challenge._uiOnly
+        ? "Laguna Seca 2020 · webové pořadí #27 · leaderboard data doplní PT."
+        : coverageNotice(challenge);
 
     card.innerHTML = `<div class="challenge-head">
         <div class="number-box">
-            <div class="big-number">${text(ordinal(challenge.id))}</div>
+            <div class="big-number">${text(ordinal(displayId))}</div>
             <div class="number-challenge">${currentMode === "all" ? "KING" : "Challenge"}</div>
         </div>
         <div class="challenge-info">
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
-            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${currentMode === "all" ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem" : text((Number(challenge.id)>=11 && Number(challenge.id)<=21) ? p444SelectedLabel() : configuredClassLabel(challenge))}</div>
+            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${classLabel}</div>
         </div>
-    </div><div class="coverage-note" style="padding:8px 14px;font-size:12px;color:#b3ac93;line-height:1.45">${text(coverageNotice(challenge))}</div><div class="results">${resultsHtml}</div>`;
+    </div>
+    <div class="coverage-note">${text(coverage)}</div>
+    <div class="results">${resultsHtml}</div>`;
     return card;
 }
 
 function renderAll(data) {
     latestData = data;
     renderHistory(data);
+
     const challengeList = document.getElementById("challengeList");
     challengeList.innerHTML = "";
-    const challenges = Array.isArray(data.challenges)
-        ? [...data.challenges].sort((a,b) => Number(a.id) - Number(b.id)) : [];
-    for (const challenge of challenges) {
-        challengeList.appendChild(createChallengeCard(challenge));
-        if (currentMode === "challenge" && Number(challenge.id) === 10) challengeList.appendChild(p444Bar());
+
+    const challenges = prepareChallengesForUi(data.challenges);
+    const core = challenges.filter(ch => challengeGroupKey(ch) === "core");
+    const gp = challenges.filter(ch => challengeGroupKey(ch) === "gp");
+    const historic = challenges.filter(ch => challengeGroupKey(ch) === "historic");
+    const nature = challenges.filter(ch => challengeGroupKey(ch) === "nature");
+
+    core.forEach(challenge => challengeList.appendChild(createChallengeCard(challenge)));
+
+    if (currentMode === "challenge" && core.some(ch => Number(ch.id) === 10)) {
+        challengeList.appendChild(p444Bar());
     }
+
+    const toolbar = document.createElement("div");
+    toolbar.className = "track-group-toolbar";
+    toolbar.innerHTML = `<span>KATEGORIE TRATÍ</span>
+        <button type="button" onclick="setAllTrackGroups(true)">ROZBALIT VŠE</button>
+        <button type="button" onclick="setAllTrackGroups(false)">SBALIT VŠE</button>`;
+    challengeList.appendChild(toolbar);
+
+    if (gp.length) challengeList.appendChild(makeTrackGroup("gp", "GP", "#ef1118", gp));
+    if (historic.length) challengeList.appendChild(makeTrackGroup("historic", "HISTORIC · GOLD", "#d4af37", historic));
+    if (nature.length) challengeList.appendChild(makeTrackGroup("nature", "NATURE", "#4fae5a", nature));
 }
 
 async function loadResults() {

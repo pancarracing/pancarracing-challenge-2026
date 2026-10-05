@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-05T11:58:05+02:00",
+  "updated": "2026-10-05T12:44:44+02:00",
   "challenges": [
     {
       "id": 1,
@@ -32393,7 +32393,7 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 60.3,
+    "elapsedSeconds": 57.1,
     "boardsScanned": 109,
     "boardsOk": 109,
     "boardsNotFound": 0,
@@ -32402,7 +32402,7 @@
     "tracksNeedCatalog": [],
     "rawFriendEntries": 129,
     "errors": 0,
-    "catalogVehicles": 291,
+    "catalogVehicles": 294,
     "unknownVehicles": 6
   }
 }
