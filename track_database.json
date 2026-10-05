@@ -349,7 +349,7 @@
     "dlc": true,
     "pack": "Racing USA Pack Pt.1",
     "activeChallenge": true,
-    "updatedBy": "PT LAGUNA28 + DEDICATED FIX"
+    "updatedBy": "PANCARtiming 5.5.13"
   },
   {
     "challenge": 28,
@@ -358,7 +358,7 @@
     "trackId": "Buskerud_Long",
     "category": "Nature",
     "categoryColor": "green",
-    "updatedBy": "PT LAGUNA28 + DEDICATED FIX",
+    "updatedBy": "PANCARtiming 5.5.13",
     "dlc": false,
     "pack": "Base Game",
     "B": 2508899182,
