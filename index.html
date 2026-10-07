@@ -1376,14 +1376,28 @@ function historyTable(events) {
     `;
 }
 
+const CHALLENGE_HISTORY_CORE_B = new Set([
+    612695202, 884472481, 1534602052, 3826312417, 4186114222,
+    701322116, 2134032188, 4202898090, 1060182346, 799677855
+]);
+function challengeHistoryBoardB(event) {
+    const direct = Number(event?.boardB || event?.trackB || 0);
+    if (direct) return direct;
+    const m = String(event?.board || "").match(/^cars2_autoevent_\d+_(\d+)_/);
+    return m ? Number(m[1]) : 0;
+}
+function challengeHistoryCoreEvent(event) {
+    return CHALLENGE_HISTORY_CORE_B.has(challengeHistoryBoardB(event));
+}
+
 function modeHistory() {
     // 2.2.6K: immutable post-cutoff KING events first, then untouched approved MASTER.
     if (currentMode === "all" && Array.isArray(latestData?.kingDisplayHistory)) return latestData.kingDisplayHistory.slice();
     if (currentMode === "all" && Array.isArray(latestData?.kingMasterTop20)) return latestData.kingMasterTop20.slice();
     if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing.filter(canonicalImpactEvent);
-    if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge.filter(canonicalImpactEvent);
+    if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge.filter(e => canonicalImpactEvent(e) && challengeHistoryCoreEvent(e));
     // Compatibility fallback for older results.json only.
-    return completeHistory.filter(event => canonicalImpactEvent(event) && (currentMode === "all" || eventIsChallengeScope(event)));
+    return completeHistory.filter(event => canonicalImpactEvent(event) && (currentMode === "all" || (challengeHistoryCoreEvent(event) && eventIsChallengeScope(event))));
 }
 
 function renderHistory(data) {
