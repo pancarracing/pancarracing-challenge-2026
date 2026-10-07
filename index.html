@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- PT WEB UI COMPACT · Laguna Seca · TOP5 · collapsible GP/Historic/Nature · 2026-10-05 -->
+<!-- PT WEB UI · TOP 10 Challenge + TRACK vs. CAR viewer GP/Historic/Nature/Special · 2026-10-07 -->
 <title>Pancarracing Time Trial Challenge 2026</title>
 
 <style>
@@ -941,6 +941,44 @@ body {
     .track-group-toolbar>span{width:100%}
     .challenge-name{white-space:normal!important}
 }
+
+/* 2026-10-07 · Top 10 Challenge stays isolated; #11+ is TRACK vs. CAR viewer */
+.viewer-header{
+    position:relative;overflow:hidden;margin:11px 0 7px;padding:11px 13px;
+    border:1px solid #303038;border-left:5px solid #ef1118;
+    background:linear-gradient(105deg,#12090b 0,#0b0b0d 42%,#081018 100%);
+    box-shadow:0 8px 22px rgba(0,0,0,.32);
+    display:flex;align-items:center;gap:14px;flex-wrap:wrap
+}
+.viewer-header::after{content:"";position:absolute;right:-60px;top:-45px;width:280px;height:120px;transform:rotate(-12deg);background:#9fdcff;opacity:.055;pointer-events:none}
+.viewer-brand{position:relative;z-index:1;display:flex;align-items:baseline;gap:7px;white-space:nowrap}
+.viewer-brand .pancar{color:#ef1118;font:900 italic 12px Arial,sans-serif;letter-spacing:.4px}
+.viewer-brand .viewer-main{color:#f1f1f1;font:900 italic 21px Arial,sans-serif;letter-spacing:.55px}
+.viewer-brand .viewer-word{color:#9fdcff;font:900 italic 21px Arial,sans-serif;letter-spacing:.55px}
+.viewer-sub{position:relative;z-index:1;color:#747985;font:800 9px Consolas,monospace;letter-spacing:.45px;text-transform:uppercase}
+.viewer-actions{position:relative;z-index:1;margin-left:auto;display:flex;gap:6px}
+.viewer-actions button{border:1px solid #42454d;background:#101116;color:#aeb4bf;padding:5px 8px;cursor:pointer;font:800 9px Arial,sans-serif;letter-spacing:.3px}
+.viewer-actions button:hover{border-color:#9fdcff;color:#e8f7ff}
+
+/* Viewer cards are tracks, not numbered Challenges/KING slots. */
+.challenge-card.viewer-card .challenge-head{grid-template-columns:minmax(0,1fr);min-height:58px}
+.challenge-card.viewer-card .challenge-info{padding-left:16px}
+.challenge-card.viewer-card .challenge-name{font-size:clamp(16px,1.8vw,21px)}
+.challenge-card.viewer-card .challenge-extra{color:#bfc3c9}
+.challenge-card.viewer-card .coverage-note{padding-left:16px!important}
+.track-group-description{
+    margin:0 0 6px;padding:7px 10px;border:1px solid color-mix(in srgb,var(--group-accent) 32%,#202020);
+    background:color-mix(in srgb,var(--group-accent) 6%,#090909);color:var(--group-accent);
+    font:900 italic 10px Arial,sans-serif;letter-spacing:.85px;text-transform:uppercase
+}
+.track-group[data-track-group="special"] .track-group-title{color:#9fdcff}
+.track-group[data-track-group="special"] .track-group-count{color:#7aa8c0}
+
+@media(max-width:650px){
+    .viewer-brand{white-space:normal}
+    .viewer-brand .viewer-main,.viewer-brand .viewer-word{font-size:17px}
+    .viewer-actions{margin-left:0;width:100%}
+}
 </style>
 
 </head>
@@ -991,7 +1029,7 @@ body {
     <button id="modeAll" class="score-mode" type="button" onclick="setScoreMode('all')">
         <span class="quiet">pancar</span><strong>KING</strong><small>of all times</small>
     </button>
-    <div id="modeNote" class="mode-note">official Challenge Class · one best time per driver + car + CAR</div>
+    <div id="modeNote" class="mode-note">TOP 10 official Challenge · TRACK vs. CAR viewer below</div>
 </section>
 
 <section class="history-panel">
@@ -1369,8 +1407,8 @@ function setScoreMode(mode) {
     if (excelLink) excelLink.href = currentMode === "all" ? "GUMAkontrola/KING_HISTORY.xlsx" : "GUMAkontrola/CHALLENGE_HISTORY.xlsx";
     const note = document.getElementById("modeNote");
     if (note) note.textContent = currentMode === "all"
-        ? `KING · all cars / all classes on ${(latestData?.challenges || []).length} challenge tracks · best time per driver + car`
-        : "official Challenge Class · one best time per driver + car + CAR";
+        ? `KING · all cars / all classes on ${(latestData?.challenges || []).length} displayed tracks · best time per driver + car`
+        : "TOP 10 official Challenge · TRACK vs. CAR viewer below";
     if (latestData) renderAll(latestData);
 }
 
@@ -1491,17 +1529,19 @@ function coverageNotice(challenge) {
         ? `Známé tabulky s ověřenými časy přátel: ${checked}/${known}. ` : "";
     if (challenge.scanStatus === "partial") return counts + "Část dotazů selhala; zobrazeny i dříve uložené časy.";
     if (challenge.scanStatus === "needs-discovery") return counts + "Zatím chybí leaderboardy této trati.";
-    if (challenge.scanStatus === "needs-catalog") return counts + "Zbývá načíst známé tabulky: v timingu spusť CATALOG.";
+    if (challenge.scanStatus === "needs-catalog") return counts + "Zbývá načíst známé tabulky: v timingu spusť 2 FULL.";
     return counts + "Zobrazeny dosud načtené časy; úplnost všech leaderboardů není ověřena.";
 }
 
 
-// PANCAR-4.44-CLASS-FILTER
-const P444_KEY="pancar.challenge.classes.11-19.v2";
+// PANCAR TRACK vs. CAR VIEWER FILTER · #11+
+const P444_KEY="pancar.viewer.classes.11plus.v3";
+const P444_OLD_KEYS=["pancar.challenge.classes.11-19.v2"];
 let p444Selected=null;
 
 function p444Canon(v){ return canonicalClassForUi(v); }
 function p444Rows(ch){ return ch.allClassesResults || ch.allResults || ch.resultsAll || []; }
+function p444IsViewer(ch){ return uiDisplayId(ch) >= 11; }
 function p444ClassLabel(raw){
     const c=p444Canon(raw);
     const pretty={"lmdh":"LMDh","formula ultimate hybrid gen3":"Formula Ultimate Hybrid Gen3"};
@@ -1509,8 +1549,8 @@ function p444ClassLabel(raw){
 }
 function p444Available(){
     const out=new Map();
-    for(const ch of (latestData?.challenges||[])){
-        if(Number(ch.id)<11 || Number(ch.id)>21) continue;
+    for(const ch of prepareChallengesForUi(latestData?.challenges||[])){
+        if(!p444IsViewer(ch)) continue;
         for(const r of p444Rows(ch)){
             const c=p444Canon(r.vehicleClass);
             if(c && !out.has(c)) out.set(c,p444ClassLabel(r.vehicleClass));
@@ -1520,24 +1560,31 @@ function p444Available(){
 }
 function p444Configured(){
     const set=new Set();
-    for(const ch of (latestData?.challenges||[])){
-        if(Number(ch.id)<11 || Number(ch.id)>21) continue;
+    for(const ch of prepareChallengesForUi(latestData?.challenges||[])){
+        if(!p444IsViewer(ch)) continue;
         for(const c of (ch.challengeClasses||[])) set.add(p444Canon(c));
     }
     return set;
 }
 function p444Load(){
     if(p444Selected instanceof Set) return p444Selected;
-    try{
-        const a=JSON.parse(localStorage.getItem(P444_KEY)||"null");
-        if(Array.isArray(a)){ p444Selected=new Set(a.map(p444Canon)); return p444Selected; }
-    }catch(_){}
+    const keys=[P444_KEY,...P444_OLD_KEYS];
+    for(const key of keys){
+        try{
+            const a=JSON.parse(localStorage.getItem(key)||"null");
+            if(Array.isArray(a)){
+                p444Selected=new Set(a.map(p444Canon));
+                if(key!==P444_KEY) p444Save();
+                return p444Selected;
+            }
+        }catch(_){}
+    }
     p444Selected=p444Configured();
     return p444Selected;
 }
 function p444Save(){ localStorage.setItem(P444_KEY,JSON.stringify([...p444Load()])); }
 function p444FilterRows(ch,rows){
-    if(currentMode==="all" || Number(ch.id)<11 || Number(ch.id)>21) return rows;
+    if(currentMode==="all" || !p444IsViewer(ch)) return rows;
     const sel=p444Load();
     return rows.filter(r=>sel.has(p444Canon(r.vehicleClass)));
 }
@@ -1548,7 +1595,7 @@ function p444SelectedLabel(){
 }
 function p444Bar(){
     const d=document.createElement("div"); d.className="p444-filterbar";
-    d.innerHTML=`<button class="p444-filterbtn" onclick="p444Open()">CLASS FILTER 11–21</button><div class="p444-summary">${text(p444SelectedLabel())}</div>`;
+    d.innerHTML=`<button class="p444-filterbtn" onclick="p444Open()">CAR / CLASS FILTER · VIEWER</button><div class="p444-summary">${text(p444SelectedLabel())}</div>`;
     return d;
 }
 function p444Open(){
@@ -1627,13 +1674,17 @@ function prepareChallengesForUi(rawChallenges) {
 
 function challengeGroupKey(challenge) {
     const id = uiDisplayId(challenge);
+    // Only 1–10 are real 2026 Challenges. Everything from #11 is viewer content.
+    if (id >= 1 && id <= 10) return "core";
     if (id >= 11 && id <= 14) return "gp";
     if (id >= 15 && id <= 22) return "historic";
-    if (id >= 23) return "nature";
-    return "core";
+    if (id >= 23 && id <= 27) return "nature";
+    // Buskerud Kart Long is the first SPECIAL item. All future appended tracks stay SPECIAL by default.
+    if (id >= 28) return "special";
+    return "special";
 }
 
-const trackGroupState = {gp:false, historic:false, nature:false};
+const trackGroupState = {gp:false, historic:false, nature:false, special:false};
 
 function toggleTrackGroup(key) {
     trackGroupState[key] = !trackGroupState[key];
@@ -1641,11 +1692,28 @@ function toggleTrackGroup(key) {
 }
 
 function setAllTrackGroups(open) {
-    for (const key of ["gp","historic","nature"]) trackGroupState[key] = !!open;
+    for (const key of ["gp","historic","nature","special"]) trackGroupState[key] = !!open;
     document.querySelectorAll(".track-group").forEach(el => el.classList.toggle("open", !!open));
 }
 
-function makeTrackGroup(key, title, accent, challenges) {
+function viewerHeader() {
+    const head=document.createElement("section");
+    head.className="viewer-header";
+    head.innerHTML=`
+        <div class="viewer-brand">
+            <span class="pancar">pancar</span>
+            <span class="viewer-main">TRACK vs. CAR</span>
+            <span class="viewer-word">viewer</span>
+        </div>
+        <div class="viewer-sub">GP · HISTORIC · NATURE · SPECIAL</div>
+        <div class="viewer-actions">
+            <button type="button" onclick="setAllTrackGroups(true)">ROZBALIT VŠE</button>
+            <button type="button" onclick="setAllTrackGroups(false)">SBALIT VŠE</button>
+        </div>`;
+    return head;
+}
+
+function makeTrackGroup(key, title, accent, challenges, note="") {
     const group = document.createElement("section");
     group.className = "track-group" + (trackGroupState[key] ? " open" : "");
     group.dataset.trackGroup = key;
@@ -1661,6 +1729,12 @@ function makeTrackGroup(key, title, accent, challenges) {
 
     const body = document.createElement("div");
     body.className = "track-group-body";
+    if(note){
+        const desc=document.createElement("div");
+        desc.className="track-group-description";
+        desc.textContent=note;
+        body.appendChild(desc);
+    }
     challenges.forEach(ch => body.appendChild(createChallengeCard(ch)));
 
     group.appendChild(head);
@@ -1682,13 +1756,17 @@ function createChallengeCard(challenge) {
     card.className = "challenge-card";
     if (challenge._uiOnly) card.classList.add("ui-placeholder");
     const displayId = uiDisplayId(challenge);
-    card.style.setProperty("--accent", challengeColors[displayId] || "#ef1118");
+    const viewerCard = displayId >= 11;
+    if (viewerCard) card.classList.add("viewer-card");
+    const groupKey = challengeGroupKey(challenge);
+    const groupAccent = {gp:"#ef1118", historic:"#d4af37", nature:"#4fae5a", special:"#9fdcff"}[groupKey];
+    card.style.setProperty("--accent", viewerCard ? (groupAccent || "#9fdcff") : (challengeColors[displayId] || "#ef1118"));
 
     const meta = challengeMeta[challenge.id] || {};
     const allRows444 = (challenge.allClassesResults || challenge.allResults || challenge.resultsAll || []);
     const results = currentMode === "all"
         ? allRows444
-        : ((Number(challenge.id) >= 11 && Number(challenge.id) <= 21)
+        : (viewerCard
             ? p444FilterRows(challenge, allRows444)
             : (challenge.results || []));
 
@@ -1732,22 +1810,25 @@ function createChallengeCard(challenge) {
 
     const classLabel = currentMode === "all"
         ? "VŠECHNY TŘÍDY A AUTA · nejlepší čas jezdce s každým autem"
-        : text((Number(challenge.id)>=11 && Number(challenge.id)<=21)
+        : text(viewerCard
             ? p444SelectedLabel()
             : configuredClassLabel(challenge));
 
     const coverage = challenge._uiOnly
-        ? "Laguna Seca 2020 · webové pořadí #27 · leaderboard data doplní PT."
+        ? "Laguna Seca 2020 · leaderboard data doplní PT."
         : coverageNotice(challenge);
 
-    card.innerHTML = `<div class="challenge-head">
-        <div class="number-box">
+    const numberBox = viewerCard ? "" : `<div class="number-box">
             <div class="big-number">${text(ordinal(displayId))}</div>
             <div class="number-challenge">${currentMode === "all" ? "KING" : "Challenge"}</div>
-        </div>
+        </div>`;
+    const selectionLabel = currentMode === "all" ? "KING:" : (viewerCard ? "VÝBĚR:" : "TŘÍDA:");
+
+    card.innerHTML = `<div class="challenge-head">
+        ${numberBox}
         <div class="challenge-info">
             <div class="challenge-name">${text(displayTrack)}${trackDetailHtml}${trackDlcBadge(challenge)}</div>
-            <div class="challenge-extra"><strong>${currentMode === "all" ? "KING:" : "TŘÍDA:"}</strong> ${classLabel}</div>
+            <div class="challenge-extra"><strong>${selectionLabel}</strong> ${classLabel}</div>
         </div>
     </div>
     <div class="coverage-note">${text(coverage)}</div>
@@ -1763,27 +1844,26 @@ function renderAll(data) {
     challengeList.innerHTML = "";
 
     const challenges = prepareChallengesForUi(data.challenges);
-    const core = challenges.filter(ch => challengeGroupKey(ch) === "core");
+    // Hard wall: the official Challenge block is ALWAYS and ONLY positions 1–10.
+    const core = challenges.filter(ch => {
+        const id=uiDisplayId(ch); return id >= 1 && id <= 10;
+    });
     const gp = challenges.filter(ch => challengeGroupKey(ch) === "gp");
     const historic = challenges.filter(ch => challengeGroupKey(ch) === "historic");
     const nature = challenges.filter(ch => challengeGroupKey(ch) === "nature");
+    const special = challenges.filter(ch => challengeGroupKey(ch) === "special");
 
     core.forEach(challenge => challengeList.appendChild(createChallengeCard(challenge)));
 
-    if (currentMode === "challenge" && core.some(ch => Number(ch.id) === 10)) {
-        challengeList.appendChild(p444Bar());
+    // #11+ is deliberately NOT called Challenge. It is one TRACK vs. CAR viewer.
+    if (gp.length || historic.length || nature.length || special.length) {
+        challengeList.appendChild(viewerHeader());
+        if (currentMode === "challenge") challengeList.appendChild(p444Bar());
+        if (gp.length) challengeList.appendChild(makeTrackGroup("gp", "GP", "#ef1118", gp));
+        if (historic.length) challengeList.appendChild(makeTrackGroup("historic", "HISTORIC", "#d4af37", historic));
+        if (nature.length) challengeList.appendChild(makeTrackGroup("nature", "NATURE", "#4fae5a", nature));
+        if (special.length) challengeList.appendChild(makeTrackGroup("special", "SPECIAL", "#9fdcff", special, "KART · DIRT · JUMP"));
     }
-
-    const toolbar = document.createElement("div");
-    toolbar.className = "track-group-toolbar";
-    toolbar.innerHTML = `<span>KATEGORIE TRATÍ</span>
-        <button type="button" onclick="setAllTrackGroups(true)">ROZBALIT VŠE</button>
-        <button type="button" onclick="setAllTrackGroups(false)">SBALIT VŠE</button>`;
-    challengeList.appendChild(toolbar);
-
-    if (gp.length) challengeList.appendChild(makeTrackGroup("gp", "GP", "#ef1118", gp));
-    if (historic.length) challengeList.appendChild(makeTrackGroup("historic", "HISTORIC · GOLD", "#d4af37", historic));
-    if (nature.length) challengeList.appendChild(makeTrackGroup("nature", "NATURE", "#4fae5a", nature));
 }
 
 async function loadResults() {
@@ -1928,14 +2008,14 @@ addEventListener("DOMContentLoaded",async()=>{
 </style>
 <div id="p444Modal" class="p444-modal" onclick="p444Backdrop(event)">
   <div class="p444-box">
-    <div class="p444-top"><div class="p444-title">CLASS FILTER · CHALLENGE 11–19</div><button class="p444-close" onclick="p444Close()">X</button></div>
+    <div class="p444-top"><div class="p444-title">TRACK vs. CAR VIEWER · FILTER #11+</div><button class="p444-close" onclick="p444Close()">X</button></div>
     <div class="p444-actions">
       <button class="p444-filterbtn" onclick="p444SelectAll()">VŠECHNY</button>
       <button class="p444-filterbtn" onclick="p444Clear()">NIC</button>
       <button class="p444-filterbtn" onclick="p444ResetConfig()">CONFIG</button>
     </div>
     <div id="p444Grid" class="p444-grid"></div>
-    <div class="p444-hint">KING se tímto filtrem nikdy nemění. Filtr platí pouze pro Challenge #11–#21 a ukládá se v tomto prohlížeči.</div>
+    <div class="p444-hint">KING se tímto filtrem nikdy nemění. Filtr platí pro TRACK vs. CAR viewer od #11 dál a ukládá se v tomto prohlížeči.</div>
   </div>
 </div>
 
