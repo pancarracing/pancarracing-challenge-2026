@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-14T18:34:41+02:00",
+  "updated": "2026-10-14T18:38:05+02:00",
   "challenges": [
     {
       "id": 1,
@@ -194,9 +194,21 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7066_884472481_0_0",
-      "boardsScanned": 99,
-      "scanMode": "catalog",
+      "boardsScanned": 6,
+      "scanMode": "ultra",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_7066_884472481_0_0",
+          "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_7065_884472481_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_7070_884472481_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_19017_884472481_0_0",
           "friends": 1
@@ -206,19 +218,7 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_7065_884472481_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_7066_884472481_0_0",
-          "friends": 2
-        },
-        {
           "board": "cars2_autoevent_7067_884472481_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_7070_884472481_0_0",
           "friends": 1
         }
       ],
@@ -12328,7 +12328,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "purple",
       "displayTimeColor": "blue"
     },
     {
@@ -12373,7 +12373,7 @@
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "",
+      "displayFriendColor": "purple",
       "displayTimeColor": "blue"
     }
   ],
@@ -36175,12 +36175,12 @@
   ],
   "collector": {
     "version": "5.5.11",
-    "mode": "catalog",
-    "elapsedSeconds": 54.8,
-    "boardsScanned": 99,
-    "boardsOk": 99,
+    "mode": "ultra",
+    "elapsedSeconds": 3.2,
+    "boardsScanned": 6,
+    "boardsOk": 6,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 93,
+    "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
     "rawFriendEntries": 7,
