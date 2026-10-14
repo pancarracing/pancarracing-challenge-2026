@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- PT WEB UI · TOP 10 Challenge + TRACK vs. CAR viewer GP/Historic/Nature/Special · 2026-10-07 -->
+<!-- PT WEB UI · TOP 10 Challenge + TRACK vs. CAR viewer only · lower catalogs removed · 2026-10-07 -->
 <title>Pancarracing Time Trial Challenge 2026</title>
 
 <style>
@@ -617,116 +617,44 @@ body {
     white-space: nowrap;
 }
 
-/* AMS2 CAR / DLC CATALOG */
-.car-catalog {
-    margin: 26px 0 48px;
-    border: 1px solid #242424;
-    border-top: 3px solid #ef1118;
-    background: #080808;
+
+
+/* OFFICIAL AMS2 CAR / DLC DATABASE · Dedicated API */
+.car-catalog{
+    margin:18px 0 32px;border:1px solid #272727;border-top:3px solid #9fdcff;
+    background:#080808;box-shadow:0 8px 24px rgba(0,0,0,.28)
 }
-.car-catalog-top {
-    padding: 14px 16px 12px;
-    border-bottom: 1px solid #242424;
-}
-.car-catalog-title {
-    color: #ef1118;
-    font-size: 30px;
-    font-weight: 900;
-    font-style: italic;
-    letter-spacing: .5px;
-}
-.car-catalog-note {
-    margin-top: 4px;
-    color: #777;
-    font-size: 20px;
-}
-.car-catalog-filters {
-    display: grid;
-    grid-template-columns: minmax(180px,1.5fr) minmax(150px,.8fr) 130px;
-    gap: 8px;
-    padding: 10px 16px;
-    border-bottom: 1px solid #1d1d1d;
-}
-.car-catalog input,
-.car-catalog select {
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #343434;
-    background: #101010;
-    color: #ddd;
-    padding: 7px 9px;
-    font: 700 20px Arial, sans-serif;
-}
-.car-catalog input:focus,
-.car-catalog select:focus {
-    outline: 1px solid #666;
-}
-.car-catalog-count {
-    padding: 10px 16px 12px;
-    color: #777;
-    font: 700 19px Arial, sans-serif;
-}
-.car-catalog-scroll {
-    overflow-x: auto;
-    max-height: 620px;
-    overflow-y: auto;
-}
-.car-catalog-head,
-.car-catalog-row {
-    display: grid;
-    grid-template-columns: minmax(240px,.9fr) minmax(360px,1.4fr) 145px minmax(300px,1fr);
-    min-width: 1045px;
-}
-.car-catalog-head {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    background: #111;
-    color: #999;
-    border-top: 1px solid #202020;
-    border-bottom: 1px solid #333;
-    font: 800 18px Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .35px;
-}
-.car-catalog-row {
-    border-bottom: 1px solid #181818;
-    color: #cfcfcf;
-    font: 700 21px Arial, sans-serif;
-}
-.car-catalog-row:nth-child(even) {
-    background: #0b0b0b;
-}
-.car-catalog-head > div,
-.car-catalog-row > div {
-    padding: 12px 12px;
-    min-width: 0;
-}
-.catalog-content-dlc {
-    color: #d4af37;
-    font-weight: 900;
-}
-.catalog-content-base {
-    color: #777;
-}
-.catalog-empty {
-    padding: 22px;
-    color: #666;
-    text-align: center;
-    font-style: italic;
-}
-@media (max-width: 700px) {
-    .car-catalog-filters {
-        grid-template-columns: 1fr;
-    }
-}
+.car-catalog-top{padding:11px 13px 9px;border-bottom:1px solid #242424}
+.car-catalog-title{color:#9fdcff;font:900 italic 20px Arial,sans-serif;letter-spacing:.4px}
+.car-catalog-note{margin-top:4px;color:#777;font:11px Consolas,monospace}
+.car-catalog-stats{margin-top:7px;display:flex;gap:7px;flex-wrap:wrap}
+.car-stat{border:1px solid #303030;background:#101010;padding:3px 7px;color:#aaa;font:800 10px Arial,sans-serif}
+.car-stat strong{color:#eee}
+.car-stat-dlc{border-color:#6f5b18;color:#d4af37}
+.car-stat-base{border-color:#345238;color:#78c584}
+.car-catalog-filters{display:grid;grid-template-columns:minmax(220px,1.5fr) minmax(170px,.8fr) 145px;gap:7px;padding:8px 13px;border-bottom:1px solid #1d1d1d}
+.car-catalog input,.car-catalog select{width:100%;border:1px solid #343434;background:#101010;color:#ddd;padding:6px 8px;font:700 12px Arial,sans-serif}
+.car-catalog-count{padding:7px 13px;color:#777;font:700 10px Consolas,monospace}
+.car-catalog-scroll{overflow:auto;max-height:650px}
+.car-catalog-head,.car-catalog-row{display:grid;grid-template-columns:minmax(185px,.85fr) minmax(290px,1.3fr) 115px minmax(260px,1fr);min-width:850px}
+.car-catalog-head{position:sticky;top:0;z-index:2;background:#111;color:#888;border-top:1px solid #202020;border-bottom:1px solid #333;font:800 10px Arial,sans-serif;text-transform:uppercase;letter-spacing:.35px}
+.car-catalog-row{border-bottom:1px solid #181818;color:#d0d0d0;font:700 12px Arial,sans-serif}
+.car-catalog-row:nth-child(even){background:#0b0b0b}
+.car-catalog-head>div,.car-catalog-row>div{padding:7px 9px;min-width:0}
+.car-content-dlc{color:#d4af37;font-weight:900}
+.car-content-base{color:#78c584;font-weight:900}
+.car-dlc-pack{color:#c6b46e}
+.car-base-pack{color:#666}
+.catalog-empty{padding:18px;color:#666;text-align:center;font-style:italic}
+@media(max-width:700px){.car-catalog-filters{grid-template-columns:1fr}}
+
 @page {
     size: A4 portrait;
     margin: 8mm;
 }
 
 @media print {
-    .top-actions, .history-modal, .car-catalog, .score-mode-panel { display: none !important; }
+    .top-actions, .history-modal, .score-mode-panel, .car-catalog { display: none !important; }
 
     html, body {
         width: 194mm !important;
@@ -822,7 +750,7 @@ body {
 .history-row .gold::after{content:" 🏆"}
 .rc-filter{width:100%;box-sizing:border-box;background:#101010;color:#ddd;border:1px solid #343434;padding:8px;margin:0 0 10px;font-weight:700}
 </style>
-<style id="rc6css">.rc6{max-width:1180px;margin:18px auto;padding:16px;background:#0d0d12;border:1px solid #292934;border-radius:14px}.rc6 table{width:100%;border-collapse:collapse}.rc6 th,.rc6 td{padding:8px;border-bottom:1px solid #292934;text-align:left}.rc6 button{background:#181820;color:#eee;border:1px solid #555;border-radius:12px;padding:5px 8px;cursor:pointer}.rc6scroll{overflow:auto}</style><style id="rc9-track-fixes">
+<style id="rc9-track-fixes">
 .challenge-card .track-name,.challenge .track-name,[data-track-name]{white-space:nowrap!important;overflow:visible!important;text-overflow:clip!important}
 .rc9-track-badge{display:inline-block;margin-left:8px;padding:2px 7px;border:1px solid currentColor;border-radius:10px;font-size:.68em;font-weight:800;white-space:nowrap;vertical-align:middle}
 </style><style id="rc11-track-layout">
@@ -911,19 +839,6 @@ body {
 .track-group.open .track-group-body{display:block}
 .track-group .challenge-card:last-child{margin-bottom:5px}
 
-.rc6{max-width:1180px;margin:11px auto;padding:10px;border-radius:10px}
-.rc6 h2{font-size:17px;margin:4px 0 7px}
-.rc6 th,.rc6 td{padding:6px;font-size:11px}
-.car-catalog{margin:16px 0 30px}
-.car-catalog-top{padding:9px 11px 8px}
-.car-catalog-title{font-size:18px}
-.car-catalog-note{font-size:12px}
-.car-catalog-filters{padding:7px 11px}
-.car-catalog input,.car-catalog select{padding:5px 7px;font-size:12px}
-.car-catalog-count{padding:7px 11px 8px;font-size:11px}
-.car-catalog-head{font-size:10px}
-.car-catalog-row{font-size:12px}
-.car-catalog-head>div,.car-catalog-row>div{padding:7px 8px}
 
 .ui-placeholder{opacity:.90}
 .ui-placeholder .coverage-note{color:#9a8f6d!important}
@@ -1039,11 +954,11 @@ body {
 
 <main id="challengeList"></main>
 
-
 <section class="car-catalog" id="carCatalog">
     <div class="car-catalog-top">
-        <div class="car-catalog-title">AMS2 CAR / DLC CATALOG</div>
-        <div class="car-catalog-note">Working 2026 catalog • filter by class, car or DLC</div>
+        <div class="car-catalog-title">AMS2 CAR / DLC DATABASE</div>
+        <div class="car-catalog-note">OFFICIAL AMS2 DEDICATED DATABASE · current official vehicle inventory</div>
+        <div id="carCatalogStats" class="car-catalog-stats"></div>
     </div>
     <div class="car-catalog-filters">
         <input id="carCatalogSearch" type="search" placeholder="Search class, vehicle or DLC...">
@@ -1054,7 +969,7 @@ body {
             <option value="BASE/FREE">BASE/FREE only</option>
         </select>
     </div>
-    <div id="carCatalogCount" class="car-catalog-count">loading catalog...</div>
+    <div id="carCatalogCount" class="car-catalog-count">loading official car database...</div>
     <div class="car-catalog-scroll">
         <div class="car-catalog-head">
             <div>Class</div><div>Vehicle</div><div>Content</div><div>DLC Pack</div>
@@ -1062,6 +977,9 @@ body {
         <div id="carCatalogRows"></div>
     </div>
 </section>
+
+
+
 
 
 </div>
@@ -1376,28 +1294,14 @@ function historyTable(events) {
     `;
 }
 
-const CHALLENGE_HISTORY_CORE_B = new Set([
-    612695202, 884472481, 1534602052, 3826312417, 4186114222,
-    701322116, 2134032188, 4202898090, 1060182346, 799677855
-]);
-function challengeHistoryBoardB(event) {
-    const direct = Number(event?.boardB || event?.trackB || 0);
-    if (direct) return direct;
-    const m = String(event?.board || "").match(/^cars2_autoevent_\d+_(\d+)_/);
-    return m ? Number(m[1]) : 0;
-}
-function challengeHistoryCoreEvent(event) {
-    return CHALLENGE_HISTORY_CORE_B.has(challengeHistoryBoardB(event));
-}
-
 function modeHistory() {
     // 2.2.6K: immutable post-cutoff KING events first, then untouched approved MASTER.
     if (currentMode === "all" && Array.isArray(latestData?.kingDisplayHistory)) return latestData.kingDisplayHistory.slice();
     if (currentMode === "all" && Array.isArray(latestData?.kingMasterTop20)) return latestData.kingMasterTop20.slice();
     if (currentMode === "all" && Array.isArray(latestData?.historyKing)) return latestData.historyKing.filter(canonicalImpactEvent);
-    if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge.filter(e => canonicalImpactEvent(e) && challengeHistoryCoreEvent(e));
+    if (currentMode === "challenge" && Array.isArray(latestData?.historyChallenge)) return latestData.historyChallenge.filter(canonicalImpactEvent);
     // Compatibility fallback for older results.json only.
-    return completeHistory.filter(event => canonicalImpactEvent(event) && (currentMode === "all" || (challengeHistoryCoreEvent(event) && eventIsChallengeScope(event))));
+    return completeHistory.filter(event => canonicalImpactEvent(event) && (currentMode === "all" || eventIsChallengeScope(event)));
 }
 
 function renderHistory(data) {
@@ -1441,40 +1345,48 @@ document.addEventListener("keydown", event => {
 
 function populateCarCatalogClassFilter() {
     const select = document.getElementById("carCatalogClass");
-    const classes = [...new Set(carCatalogData.map(item => item.class).filter(Boolean))]
+    if (!select) return;
+    const previous = select.value;
+    const classes = [...new Set(carCatalogData.map(x => String(x.class || "")).filter(Boolean))]
         .sort((a,b) => a.localeCompare(b, "en"));
-
-    select.innerHTML =
-        `<option value="">All classes</option>` +
-        classes.map(value =>
-            `<option value="${text(value)}">${text(value)}</option>`
-        ).join("");
+    select.innerHTML = `<option value="">All classes</option>` +
+        classes.map(v => `<option value="${text(v)}">${text(v)}</option>`).join("");
+    if (classes.includes(previous)) select.value = previous;
 }
 
 function renderCarCatalog() {
     const rowsBox = document.getElementById("carCatalogRows");
     const countBox = document.getElementById("carCatalogCount");
+    const statsBox = document.getElementById("carCatalogStats");
     if (!rowsBox || !countBox) return;
 
-    const search = (document.getElementById("carCatalogSearch")?.value || "")
-        .trim().toLowerCase();
+    const search = String(document.getElementById("carCatalogSearch")?.value || "").trim().toLowerCase();
     const selectedClass = document.getElementById("carCatalogClass")?.value || "";
     const selectedContent = document.getElementById("carCatalogContent")?.value || "";
 
     const filtered = carCatalogData.filter(item => {
-        if (selectedClass && item.class !== selectedClass) return false;
-        if (selectedContent && item.content !== selectedContent) return false;
-
+        if (selectedClass && String(item.class || "") !== selectedClass) return false;
+        if (selectedContent && String(item.content || "") !== selectedContent) return false;
         if (search) {
-            const haystack = [
-                item.class, item.vehicle, item.content, item.dlc
-            ].join(" ").toLowerCase();
-            if (!haystack.includes(search)) return false;
+            const hay = [item.class, item.vehicle, item.content, item.dlc, item.manufacturer]
+                .join(" ").toLowerCase();
+            if (!hay.includes(search)) return false;
         }
         return true;
     });
 
-    countBox.textContent = `${filtered.length} / ${carCatalogData.length} vehicles`;
+    const total = carCatalogData.length;
+    const dlc = carCatalogData.filter(x => x.content === "DLC").length;
+    const base = carCatalogData.filter(x => x.content === "BASE/FREE").length;
+    const unknown = carCatalogData.filter(x => x.content !== "DLC" && x.content !== "BASE/FREE").length;
+
+    if (statsBox) statsBox.innerHTML =
+        `<span class="car-stat"><strong>${total}</strong> OFFICIAL CARS</span>` +
+        `<span class="car-stat car-stat-dlc"><strong>${dlc}</strong> DLC</span>` +
+        `<span class="car-stat car-stat-base"><strong>${base}</strong> BASE/FREE</span>` +
+        (unknown ? `<span class="car-stat"><strong>${unknown}</strong> UNKNOWN</span>` : "");
+
+    countBox.textContent = `${filtered.length} / ${total} vehicles · source: AMS2 Dedicated API`;
 
     if (!filtered.length) {
         rowsBox.innerHTML = `<div class="catalog-empty">No matching vehicles.</div>`;
@@ -1482,45 +1394,49 @@ function renderCarCatalog() {
     }
 
     rowsBox.innerHTML = filtered.map(item => {
-        const contentClass =
-            item.content === "DLC" ? "catalog-content-dlc" : "catalog-content-base";
-
-        return `
-            <div class="car-catalog-row">
-                <div>${text(item.class || "")}</div>
-                <div>${text(item.vehicle || "")}</div>
-                <div class="${contentClass}">${text(item.content || "")}</div>
-                <div>${text(item.dlc || "—")}</div>
-            </div>
-        `;
+        const isDlc = item.content === "DLC";
+        return `<div class="car-catalog-row">
+            <div>${text(item.class || item.classId || "—")}</div>
+            <div>${text(item.vehicle || "—")}</div>
+            <div class="${isDlc ? "car-content-dlc" : "car-content-base"}">${text(item.content || "UNKNOWN")}</div>
+            <div class="${isDlc ? "car-dlc-pack" : "car-base-pack"}">${text(isDlc ? (item.dlc || "DLC") : "Base Game")}</div>
+        </div>`;
     }).join("");
 }
 
 async function loadCarCatalog() {
     try {
-        const response = await fetch(
-            "ams2_cars.json?ts=" + Date.now(),
-            { cache:"no-store" }
-        );
+        const response = await fetch("ams2_cars.json?ts=" + Date.now(), {cache:"no-store"});
         if (!response.ok) throw new Error("HTTP " + response.status);
-
         const data = await response.json();
         carCatalogData = Array.isArray(data.cars) ? data.cars : [];
         populateCarCatalogClassFilter();
         renderCarCatalog();
-
-        ["carCatalogSearch", "carCatalogClass", "carCatalogContent"]
-            .forEach(id => {
-                document.getElementById(id)?.addEventListener(
-                    id === "carCatalogSearch" ? "input" : "change",
-                    renderCarCatalog
-                );
-            });
+        ["carCatalogSearch","carCatalogClass","carCatalogContent"].forEach(id => {
+            const el = document.getElementById(id);
+            if (!el || el.dataset.catalogBound === "1") return;
+            el.dataset.catalogBound = "1";
+            el.addEventListener(id === "carCatalogSearch" ? "input" : "change", renderCarCatalog);
+        });
     } catch (error) {
-        document.getElementById("carCatalogCount").textContent = "catalog unavailable";
-        document.getElementById("carCatalogRows").innerHTML =
-            `<div class="catalog-empty">${text(error.message)}</div>`;
+        carCatalogData = [];
+        const countBox = document.getElementById("carCatalogCount");
+        const rowsBox = document.getElementById("carCatalogRows");
+        if (countBox) countBox.textContent = "official car database unavailable";
+        if (rowsBox) rowsBox.innerHTML = `<div class="catalog-empty">${text(error.message)}</div>`;
     }
+}
+
+async function loadPlayerDlcMetadata() {
+    // Keep badge data available without rendering the old DLC overview table.
+    try {
+        const [catResponse, statusResponse] = await Promise.all([
+            fetch("dlc_catalog.json?ts=" + Date.now(), {cache:"no-store"}),
+            fetch("dlc_status.json?ts=" + Date.now(), {cache:"no-store"})
+        ]);
+        if (catResponse.ok) dlcCatalogGlobal = await catResponse.json();
+        if (statusResponse.ok) playerDlcStatus = await statusResponse.json();
+    } catch (_) {}
 }
 
 function configuredClassLabel(challenge) {
@@ -1965,7 +1881,7 @@ function scheduleNextRefresh() {
 window.addEventListener("focus", () => { loadResults(); });
 
 async function bootstrap() {
-    await loadCarCatalog();
+    await Promise.all([loadCarCatalog(), loadPlayerDlcMetadata()]);
     try {
         const td = await fetch("track_database.json", {cache:"no-store"});
         if (td.ok) { const x=await td.json(); trackDatabaseGlobal=Array.isArray(x)?x:[]; }
@@ -1978,30 +1894,6 @@ bootstrap();
 
 </script>
 
-<section class="rc6" id="dlc-overview"><h2>AMS2 DLC PŘEHLED</h2><div style="opacity:.7;margin-bottom:10px">Ruční přehled DLC všech jezdců — ANO / NE / ?</div><div class="rc6scroll"><table id="rc7dlc"></table></div></section>
-<section class="rc6" id="rc9-car-database"><h2>DATABÁZE AUT</h2><div class="rc6scroll"><table id="rc9cars"></table></div></section>
-<section class="rc6" id="track-database"><h2>ALL TRACKS / DLC</h2><input class="rc-filter" id="trackDbSearch" type="search" placeholder="Filtrovat trať nebo DLC…"><div class="rc6scroll"><table id="rc6tracks"></table></div></section><script id="rc7dlcjs">async function RC7J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}addEventListener("DOMContentLoaded",async()=>{try{let[cat,st]=await Promise.all([RC7J("dlc_catalog.json"),RC7J("dlc_status.json")]); dlcCatalogGlobal=cat; playerDlcStatus=st;let ds=Object.entries(st.drivers||{}).map(([id,x])=>({id,name:x.name||id,dlc:x.dlc||{}})).sort((a,b)=>a.name.localeCompare(b.name));let q=document.querySelector("#rc7dlc");if(!q)return;q.innerHTML="<thead><tr><th>DLC</th>"+ds.map(d=>`<th>${d.name}</th>`).join("")+"</tr></thead><tbody>"+cat.map(x=>`<tr><td>${x.name}</td>`+ds.map(d=>{let v=d.dlc[x.id]||"?";return`<td>${v==="ANO"?"✓":v==="NE"?"✕":"?"}</td>`}).join("")+"</tr>").join("")+"</tbody>"}catch(e){console.error("DLC overview",e)}})</script>
-<script id="rc9dbjs">
-async function R9J(u){let r=await fetch(u,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}
-function R9badge(pack){return pack&&pack!=="Base Game"?`<span class="rc9-track-badge">DLC · ${pack}</span>`:""}
-addEventListener("DOMContentLoaded",async()=>{
- try{
-  let cars=await R9J("ams2_cars.json"); let arr=Array.isArray(cars)?cars:(cars.cars||Object.values(cars));
-  let q=document.querySelector("#rc9cars");if(q)q.innerHTML="<tr><th>AUTO</th><th>HASH</th><th>CLASS</th><th>CONTENT</th></tr>"+arr.map(x=>`<tr><td>${text(x.vehicle||x.name||x.vehicleName||"")}</td><td>${text(x.hash??x.vehicleHash??"")}</td><td>${text(x.class||x.vehicleClass||"")}</td><td>${text(x.dlc||x.content||x.pack||"BASE")}</td></tr>`).join("");
- }catch(e){console.error("car db",e)}
- try{
-  let base=await R9J("track_database.json");let meta=new Map(base.map(x=>[String(x.trackB),x]));
-  let byB=new Map(base.map(x=>[String(x.trackB),{...x}]));
-  function addTrack(b,n){if(!/^\d+$/.test(String(b)))return;let key=String(b);let prev=byB.get(key)||{};byB.set(key,{...prev,trackB:Number(b),name:prev.name||n||`Trať ${b}`})}
-  try{let bc=await R9J("board_catalog.json");let a=Array.isArray(bc)?bc:Object.values(bc.tracks||{});for(let x of a){addTrack(x.trackB??x.B??x.boardB,x.trackName||x.name||x.track)}}catch(_){}
-  try{let tn=await R9J("track_names.json");for(let [b,n] of Object.entries(tn.tracks||tn||{})){addTrack(b,typeof n==="string"?n:n.name)}}catch(_){}
-  let full=[...byB.values()];
-  full.sort((a,b)=>(a.name||"").localeCompare(b.name||""));
-  let q=document.querySelector("#rc6tracks"); trackDatabaseGlobal=full; function drawTracks(){let z=(document.querySelector("#trackDbSearch")?.value||"").toLowerCase();let rows=full.filter(x=>!z||`${x.name||""} ${x.pack||""} ${x.trackB||""}`.toLowerCase().includes(z));if(q)q.innerHTML="<tr><th>TRAŤ</th><th>TRACK B</th><th>CONTENT</th></tr>"+rows.map(x=>`<tr><td>${x.name||""}</td><td>${x.trackB}</td><td>${x.pack&&x.pack!=="Base Game"?"DLC · "+x.pack:"BASE"}</td></tr>`).join("");} drawTracks(); document.querySelector("#trackDbSearch")?.addEventListener("input",drawTracks);
-  // Challenge/KING track badges are rendered deterministically by challenge id / trackB.
- }catch(e){console.error("track db",e)}
-});
-</script><script id="rc11-track-merge">addEventListener("DOMContentLoaded",()=>document.querySelectorAll(".challenge-card,.challenge-section").forEach(card=>card.querySelectorAll("th,td,div").forEach(el=>{if(!el.textContent.trim()&&String(el.className).toLowerCase().includes("track"))el.style.display="none"})));</script>
 <!-- PANCAR-4.44-CLASS-FILTER -->
 <style id="pancar444css">
 .p444-filterbar{margin:8px 0 12px;border:1px solid #333;border-left:7px solid #ef1118;background:#0b0b0b;padding:10px 12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
