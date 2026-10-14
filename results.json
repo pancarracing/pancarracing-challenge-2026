@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-14T20:13:40+02:00",
+  "updated": "2026-10-14T20:18:23+02:00",
   "challenges": [
     {
       "id": 1,
@@ -19,8 +19,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_6735_612695202_0_0",
-      "boardsScanned": 2,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6735_612695202_0_0",
@@ -194,15 +194,23 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7066_884472481_0_0",
-      "boardsScanned": 6,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_7034_884472481_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_7065_884472481_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_7066_884472481_0_0",
           "friends": 2
         },
         {
-          "board": "cars2_autoevent_7065_884472481_0_0",
+          "board": "cars2_autoevent_7067_884472481_0_0",
           "friends": 1
         },
         {
@@ -211,14 +219,6 @@
         },
         {
           "board": "cars2_autoevent_19017_884472481_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_7034_884472481_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_7067_884472481_0_0",
           "friends": 1
         }
       ],
@@ -416,16 +416,16 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_733_1534602052_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_733_1534602052_0_0",
-          "friends": 3
-        },
         {
           "board": "cars2_autoevent_732_1534602052_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_733_1534602052_0_0",
+          "friends": 3
         },
         {
           "board": "cars2_autoevent_18045_1534602052_0_0",
@@ -619,8 +619,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_4526_3826312417_0_0",
-      "boardsScanned": 4,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4526_3826312417_0_0",
@@ -631,20 +631,20 @@
           "friends": 2
         },
         {
-          "board": "cars2_autoevent_15020_3826312417_0_0",
-          "friends": 2
-        },
-        {
           "board": "cars2_autoevent_4571_3826312417_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_15020_3826312417_0_0",
+          "friends": 2
         }
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 101,
+      "catalogBoards": 100,
       "friendsBoardsChecked": 100,
-      "catalogBoardsPending": 1,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -826,8 +826,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_9873_4186114222_0_0",
-      "boardsScanned": 2,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9873_4186114222_0_0",
@@ -971,16 +971,16 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
-      "boardsScanned": 4,
-      "scanMode": "ultra",
+      "boardsScanned": 100,
+      "scanMode": "catalog",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_15482_701322116_0_0",
-          "friends": 2
-        },
         {
           "board": "cars2_autoevent_15475_701322116_0_0",
           "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_15482_701322116_0_0",
+          "friends": 2
         },
         {
           "board": "cars2_autoevent_15489_701322116_0_0",
@@ -991,8 +991,13 @@
           "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "ok",
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_15514_701322116_0_0",
+          "status": "download-board-mismatch"
+        }
+      ],
+      "scanStatus": "partial",
       "catalogBoards": 100,
       "friendsBoardsChecked": 100,
       "catalogBoardsPending": 0,
@@ -1157,11 +1162,15 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_10325_2134032188_0_0",
-      "boardsScanned": 4,
-      "scanMode": "ultra",
+      "boardsScanned": 102,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_10325_2134032188_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_10351_2134032188_0_0",
           "friends": 1
         },
         {
@@ -1171,18 +1180,19 @@
         {
           "board": "cars2_autoevent_10366_2134032188_0_0",
           "friends": 2
-        },
-        {
-          "board": "cars2_autoevent_10351_2134032188_0_0",
-          "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "ok",
-      "catalogBoards": 102,
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_10359_2134032188_0_0",
+          "status": "find-wait-failed"
+        }
+      ],
+      "scanStatus": "partial",
+      "catalogBoards": 101,
       "friendsBoardsChecked": 101,
-      "catalogBoardsPending": 1,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -1339,8 +1349,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_7647_4202898090_0_0",
-      "boardsScanned": 4,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7647_4202898090_0_0",
@@ -1517,8 +1527,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_12208_1060182346_0_0",
-      "boardsScanned": 5,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12208_1060182346_0_0",
@@ -1782,8 +1792,8 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_1052_799677855_0_0",
-      "boardsScanned": 2,
-      "scanMode": "ultra",
+      "boardsScanned": 100,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1052_799677855_0_0",
@@ -1911,11 +1921,15 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12355_2816254725_0_0",
-      "boardsScanned": 9,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "board": "cars2_autoevent_4673_2816254725_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_4699_2816254725_0_0",
           "friends": 1
         },
         {
@@ -1923,7 +1937,15 @@
           "friends": 1
         },
         {
+          "board": "cars2_autoevent_4723_2816254725_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_12355_2816254725_0_0",
+          "friends": 3
+        },
+        {
+          "board": "cars2_autoevent_12773_2816254725_0_0",
           "friends": 3
         },
         {
@@ -1931,23 +1953,11 @@
           "friends": 2
         },
         {
-          "board": "cars2_autoevent_12773_2816254725_0_0",
-          "friends": 3
-        },
-        {
-          "board": "cars2_autoevent_4673_2816254725_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_16676_2816254725_0_0",
           "friends": 1
         },
         {
           "board": "cars2_autoevent_18810_2816254725_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_4699_2816254725_0_0",
           "friends": 1
         }
       ],
@@ -2296,8 +2306,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12559_775712153_0_0",
-      "boardsScanned": 5,
-      "scanMode": "ultra",
+      "boardsScanned": 103,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9167_775712153_0_0",
@@ -2322,10 +2332,10 @@
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 103,
+      "catalogBoards": 101,
       "friendsBoardsChecked": 101,
-      "catalogBoardsPending": 2,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -2513,19 +2523,11 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12203_2249037056_0_0",
-      "boardsScanned": 5,
-      "scanMode": "ultra",
+      "boardsScanned": 103,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_2102_2249037056_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_12699_2249037056_0_0",
-          "friends": 3
-        },
-        {
-          "board": "cars2_autoevent_16011_2249037056_0_0",
           "friends": 1
         },
         {
@@ -2535,14 +2537,22 @@
         {
           "board": "cars2_autoevent_12203_2249037056_0_0",
           "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_12699_2249037056_0_0",
+          "friends": 3
+        },
+        {
+          "board": "cars2_autoevent_16011_2249037056_0_0",
+          "friends": 1
         }
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 103,
+      "catalogBoards": 102,
       "friendsBoardsChecked": 102,
-      "catalogBoardsPending": 1,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -2749,8 +2759,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12161_2355862379_0_0",
-      "boardsScanned": 12,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_469_2355862379_0_0",
@@ -3089,11 +3099,15 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12359_2590843191_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4810_2590843191_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_4861_2590843191_0_0",
           "friends": 1
         },
         {
@@ -3132,6 +3146,25 @@
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
+          "vehicleHash": -1721496056,
+          "vehicle": "Sauber Mercedes C9",
+          "vehicleClass": "Group C",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": -1721496056,
+          "rank": 23,
+          "score": 42883,
+          "time": "00:42.883",
+          "board": "cars2_autoevent_4861_2590843191_0_0",
+          "boardA": 4861,
+          "boardB": 2590843191,
+          "mergedRank": 2
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
           "vehicleHash": -1236687924,
           "vehicle": "MetalMoro AJR Honda",
           "vehicleClass": "P1",
@@ -3146,7 +3179,7 @@
           "board": "cars2_autoevent_4810_2590843191_0_0",
           "boardA": 4810,
           "boardB": 2590843191,
-          "mergedRank": 2
+          "mergedRank": 3
         }
       ]
     },
@@ -3160,15 +3193,11 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12561_2558461772_0_0",
-      "boardsScanned": 15,
-      "scanMode": "ultra",
+      "boardsScanned": 104,
+      "scanMode": "catalog",
       "activeBoards": [
         {
-          "board": "cars2_autoevent_9261_2558461772_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "board": "cars2_autoevent_9251_2558461772_0_0",
           "friends": 1
         },
         {
@@ -3176,7 +3205,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_9251_2558461772_0_0",
+          "board": "cars2_autoevent_9259_2558461772_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_9261_2558461772_0_0",
           "friends": 1
         },
         {
@@ -3226,10 +3259,10 @@
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 104,
+      "catalogBoards": 101,
       "friendsBoardsChecked": 101,
-      "catalogBoardsPending": 3,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -3588,8 +3621,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12507_399001429_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_7212_399001429_0_0",
@@ -3659,8 +3692,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12569_4081662137_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9556_4081662137_0_0",
@@ -3730,8 +3763,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12535_3768760351_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12535_3768760351_0_0",
@@ -3798,8 +3831,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12345_1003427592_0_0",
-      "boardsScanned": 5,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4293_1003427592_0_0",
@@ -3811,6 +3844,10 @@
         },
         {
           "board": "cars2_autoevent_4324_1003427592_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_4329_1003427592_0_0",
           "friends": 1
         },
         {
@@ -3868,6 +3905,25 @@
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
+          "vehicleHash": 65306143,
+          "vehicle": "Sauber Mercedes C9",
+          "vehicleClass": "Group C",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 65306143,
+          "rank": 51,
+          "score": 81340,
+          "time": "01:21.340",
+          "board": "cars2_autoevent_4329_1003427592_0_0",
+          "boardA": 4329,
+          "boardB": 1003427592,
+          "mergedRank": 3
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
           "vehicleHash": -1416203489,
           "vehicle": "Nissan GT-R Nismo GT3",
           "vehicleClass": "GT3",
@@ -3882,7 +3938,7 @@
           "board": "cars2_autoevent_4324_1003427592_0_0",
           "boardA": 4324,
           "boardB": 1003427592,
-          "mergedRank": 3
+          "mergedRank": 4
         },
         {
           "steamId": "76561198012880510",
@@ -3901,7 +3957,7 @@
           "board": "cars2_autoevent_12344_1003427592_0_0",
           "boardA": 12344,
           "boardB": 1003427592,
-          "mergedRank": 4
+          "mergedRank": 5
         }
       ]
     },
@@ -3915,11 +3971,15 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12393_2910669413_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12393_2910669413_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_16124_2910669413_0_0",
           "friends": 1
         }
       ],
@@ -3970,6 +4030,25 @@
           "boardA": 12393,
           "boardB": 2910669413,
           "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1646202889,
+          "vehicle": "Maserati MC12 GT1",
+          "vehicleClass": "GT1_05",
+          "vehicleContent": "DLC",
+          "vehicleDlc": true,
+          "vehicleDlcName": "Historical Endurance Pack Pt.1",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1646202889,
+          "rank": 86,
+          "score": 77476,
+          "time": "01:17.476",
+          "board": "cars2_autoevent_16124_2910669413_0_0",
+          "boardA": 16124,
+          "boardB": 2910669413,
+          "mergedRank": 2
         }
       ]
     },
@@ -3983,8 +4062,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12329_473366003_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_12329_473366003_0_0",
@@ -4051,13 +4130,9 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12585_1063112912_0_0",
-      "boardsScanned": 4,
-      "scanMode": "ultra",
+      "boardsScanned": 103,
+      "scanMode": "catalog",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_12585_1063112912_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_10201_1063112912_0_0",
           "friends": 1
@@ -4067,16 +4142,20 @@
           "friends": 1
         },
         {
+          "board": "cars2_autoevent_12585_1063112912_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_16271_1063112912_0_0",
           "friends": 1
         }
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 103,
+      "catalogBoards": 101,
       "friendsBoardsChecked": 101,
-      "catalogBoardsPending": 2,
-      "catalogCoverageComplete": false,
+      "catalogBoardsPending": 0,
+      "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -4188,9 +4267,21 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12157_2111076703_0_0",
-      "boardsScanned": 8,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_350_2111076703_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_352_2111076703_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_366_2111076703_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_367_2111076703_0_0",
           "friends": 1
@@ -4204,19 +4295,7 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_352_2111076703_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_12156_2111076703_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_350_2111076703_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_366_2111076703_0_0",
           "friends": 1
         }
       ],
@@ -4374,19 +4453,19 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12189_1910889511_0_0",
-      "boardsScanned": 4,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1575_1910889511_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_12188_1910889511_0_0",
+          "board": "cars2_autoevent_1603_1910889511_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_1603_1910889511_0_0",
+          "board": "cars2_autoevent_12188_1910889511_0_0",
           "friends": 1
         },
         {
@@ -4511,8 +4590,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12293_3745321037_0_0",
-      "boardsScanned": 2,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_13196_3745321037_0_0",
@@ -4559,8 +4638,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_12395_568559152_0_0",
-      "boardsScanned": 4,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6069_568559152_0_0",
@@ -4654,7 +4733,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_1527_2508899182_0_0",
       "boardsScanned": 1,
-      "scanMode": "ultra",
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_1527_2508899182_0_0",
@@ -4721,8 +4800,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_9986_2074495683_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_9961_2074495683_0_0",
@@ -4835,8 +4914,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_17517_2286887510_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 98,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_17517_2286887510_0_0",
@@ -4949,8 +5028,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_3425_693994049_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_3425_693994049_0_0",
@@ -5017,8 +5096,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_277_2395345560_0_0",
-      "boardsScanned": 2,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_277_2395345560_0_0",
@@ -5109,7 +5188,7 @@
       "allPolicy": "",
       "board": "cars2_autoevent_4887_1869056157_0_0",
       "boardsScanned": 1,
-      "scanMode": "ultra",
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_4887_1869056157_0_0",
@@ -12375,6 +12454,141 @@
       "displayDelta": "NEW",
       "displayFriendColor": "purple",
       "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 15,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -1721496056,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4861_2590843191_0_0",
+      "boardA": 4861,
+      "boardB": 2590843191,
+      "track": "15",
+      "score": 42883,
+      "time": "00:42.883",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 23,
+      "worldJump": "23",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 20,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 65306143,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4329_1003427592_0_0",
+      "boardA": 4329,
+      "boardB": 1003427592,
+      "track": "20",
+      "score": 81340,
+      "time": "01:21.340",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 51,
+      "worldJump": "51",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 21,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1646202889,
+      "vehicle": "Maserati MC12 GT1",
+      "vehicleClass": "GT1_05",
+      "vehicleDlc": true,
+      "vehicleDlcName": "Historical Endurance Pack Pt.1",
+      "board": "cars2_autoevent_16124_2910669413_0_0",
+      "boardA": 16124,
+      "boardB": 2910669413,
+      "track": "21",
+      "score": 77476,
+      "time": "01:17.476",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 86,
+      "worldJump": "86",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "",
+      "displayTimeColor": "blue"
     }
   ],
   "historyKing": [
@@ -19326,6 +19540,141 @@
       "displayDelta": "NEW",
       "displayFriendColor": "purple",
       "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 15,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -1721496056,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4861_2590843191_0_0",
+      "boardA": 4861,
+      "boardB": 2590843191,
+      "track": "15",
+      "score": 42883,
+      "time": "00:42.883",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 23,
+      "worldJump": "23",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 20,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 65306143,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4329_1003427592_0_0",
+      "boardA": 4329,
+      "boardB": 1003427592,
+      "track": "20",
+      "score": 81340,
+      "time": "01:21.340",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 51,
+      "worldJump": "51",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 21,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1646202889,
+      "vehicle": "Maserati MC12 GT1",
+      "vehicleClass": "GT1_05",
+      "vehicleDlc": true,
+      "vehicleDlcName": "Historical Endurance Pack Pt.1",
+      "board": "cars2_autoevent_16124_2910669413_0_0",
+      "boardA": 16124,
+      "boardB": 2910669413,
+      "track": "21",
+      "score": 77476,
+      "time": "01:17.476",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 86,
+      "worldJump": "86",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
     }
   ],
   "kingMasterTop20": [
@@ -25923,9 +26272,285 @@
       "displayTimeColor": "blue",
       "kingFrozen": true,
       "kingFrozenAt": "2026-10-14T18:34:41+02:00"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 15,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -1721496056,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4861_2590843191_0_0",
+      "boardA": 4861,
+      "boardB": 2590843191,
+      "track": "15",
+      "score": 42883,
+      "time": "00:42.883",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 23,
+      "worldJump": "23",
+      "worldColor": "",
+      "timeColor": "purple",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-10-14T20:18:23+02:00"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 20,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 65306143,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4329_1003427592_0_0",
+      "boardA": 4329,
+      "boardB": 1003427592,
+      "track": "20",
+      "score": 81340,
+      "time": "01:21.340",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 51,
+      "worldJump": "51",
+      "worldColor": "",
+      "timeColor": "purple",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-10-14T20:18:23+02:00"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 21,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1646202889,
+      "vehicle": "Maserati MC12 GT1",
+      "vehicleClass": "GT1_05",
+      "vehicleDlc": true,
+      "vehicleDlcName": "Historical Endurance Pack Pt.1",
+      "board": "cars2_autoevent_16124_2910669413_0_0",
+      "boardA": 16124,
+      "boardB": 2910669413,
+      "track": "21",
+      "score": 77476,
+      "time": "01:17.476",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 86,
+      "worldJump": "86",
+      "worldColor": "",
+      "timeColor": "purple",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue",
+      "kingFrozen": true,
+      "kingFrozenAt": "2026-10-14T20:18:23+02:00"
     }
   ],
   "kingDisplayHistory": [
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 15,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -1721496056,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4861_2590843191_0_0",
+      "boardA": 4861,
+      "boardB": 2590843191,
+      "track": "15",
+      "score": 42883,
+      "time": "00:42.883",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 23,
+      "worldJump": "23",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 20,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 65306143,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4329_1003427592_0_0",
+      "boardA": 4329,
+      "boardB": 1003427592,
+      "track": "20",
+      "score": 81340,
+      "time": "01:21.340",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 51,
+      "worldJump": "51",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 21,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1646202889,
+      "vehicle": "Maserati MC12 GT1",
+      "vehicleClass": "GT1_05",
+      "vehicleDlc": true,
+      "vehicleDlcName": "Historical Endurance Pack Pt.1",
+      "board": "cars2_autoevent_16124_2910669413_0_0",
+      "boardA": 16124,
+      "boardB": 2910669413,
+      "track": "21",
+      "score": 77476,
+      "time": "01:17.476",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 86,
+      "worldJump": "86",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
     {
       "timestamp": "2026-10-14T18:34:41+02:00",
       "challengeId": 2,
@@ -34819,6 +35444,141 @@
   ],
   "last10": [
     {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 15,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -1721496056,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4861_2590843191_0_0",
+      "boardA": 4861,
+      "boardB": 2590843191,
+      "track": "15",
+      "score": 42883,
+      "time": "00:42.883",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 23,
+      "worldJump": "23",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 20,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 65306143,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_4329_1003427592_0_0",
+      "boardA": 4329,
+      "boardB": 1003427592,
+      "track": "20",
+      "score": 81340,
+      "time": "01:21.340",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 51,
+      "worldJump": "51",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "3",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "3",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 3,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 21,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 1646202889,
+      "vehicle": "Maserati MC12 GT1",
+      "vehicleClass": "GT1_05",
+      "vehicleDlc": true,
+      "vehicleDlcName": "Historical Endurance Pack Pt.1",
+      "board": "cars2_autoevent_16124_2910669413_0_0",
+      "boardA": 16124,
+      "boardB": 2910669413,
+      "track": "21",
+      "score": 77476,
+      "time": "01:17.476",
+      "isNew": true,
+      "deltaMs": null,
+      "delta": "NEW",
+      "challengeEligible": false,
+      "scopes": [
+        "king"
+      ],
+      "oldWorldRank": null,
+      "newWorldRank": 86,
+      "worldJump": "86",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
+      "challengeFriendJump": "—",
+      "challengeFriendColor": "",
+      "friendJump": "2",
+      "friendColor": "",
+      "oldFriendRank": null,
+      "newFriendRank": 2,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "NEW",
+      "displaySemanticColor": "purple",
+      "displayDelta": "NEW",
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
+    {
       "timestamp": "2026-10-14T18:34:41+02:00",
       "challengeId": 2,
       "driver": "pancar LBC",
@@ -35132,23 +35892,25 @@
       "displayDelta": "NEW",
       "displayFriendColor": "purple",
       "displayTimeColor": "blue"
-    },
+    }
+  ],
+  "last20": [
     {
-      "timestamp": "2026-10-14T15:05:42+02:00",
-      "challengeId": 30,
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 15,
       "driver": "pancar LBC",
       "steamId": "76561198012880510",
-      "vehicleHash": -1416203489,
-      "vehicle": "Nissan GT-R Nismo GT3",
-      "vehicleClass": "GT3",
+      "vehicleHash": -1721496056,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_17541_2286887510_0_0",
-      "boardA": 17541,
-      "boardB": 2286887510,
-      "track": "30",
-      "score": 58120,
-      "time": "00:58.120",
+      "board": "cars2_autoevent_4861_2590843191_0_0",
+      "boardA": 4861,
+      "boardB": 2590843191,
+      "track": "15",
+      "score": 42883,
+      "time": "00:42.883",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
@@ -35157,43 +35919,43 @@
         "king"
       ],
       "oldWorldRank": null,
-      "newWorldRank": 1,
-      "worldJump": "1",
-      "worldColor": "gold",
-      "timeColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
+      "newWorldRank": 23,
+      "worldJump": "23",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
       "challengeFriendJump": "—",
       "challengeFriendColor": "",
-      "friendJump": "1",
-      "friendColor": "gold",
+      "friendJump": "2",
+      "friendColor": "",
       "oldFriendRank": null,
-      "newFriendRank": 1,
+      "newFriendRank": 2,
       "frozen": true,
       "historySource": "snapshot-delta",
       "impactEvent": true,
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
     },
     {
-      "timestamp": "2026-10-14T15:05:42+02:00",
-      "challengeId": 30,
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 20,
       "driver": "pancar LBC",
       "steamId": "76561198012880510",
-      "vehicleHash": -1660644383,
-      "vehicle": "Caterham Superlight",
-      "vehicleClass": "Cat_Superlight",
+      "vehicleHash": 65306143,
+      "vehicle": "Sauber Mercedes C9",
+      "vehicleClass": "Group C",
       "vehicleDlc": false,
       "vehicleDlcName": "",
-      "board": "cars2_autoevent_17521_2286887510_0_0",
-      "boardA": 17521,
-      "boardB": 2286887510,
-      "track": "30",
-      "score": 69854,
-      "time": "01:09.854",
+      "board": "cars2_autoevent_4329_1003427592_0_0",
+      "boardA": 4329,
+      "boardB": 1003427592,
+      "track": "20",
+      "score": 81340,
+      "time": "01:21.340",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
@@ -35202,8 +35964,8 @@
         "king"
       ],
       "oldWorldRank": null,
-      "newWorldRank": 14,
-      "worldJump": "14",
+      "newWorldRank": 51,
+      "worldJump": "51",
       "worldColor": "",
       "timeColor": "blue",
       "kingFriendJump": "3",
@@ -35224,21 +35986,21 @@
       "displayTimeColor": "blue"
     },
     {
-      "timestamp": "2026-10-14T15:04:08+02:00",
-      "challengeId": 32,
+      "timestamp": "2026-10-14T20:18:23+02:00",
+      "challengeId": 21,
       "driver": "pancar LBC",
       "steamId": "76561198012880510",
-      "vehicleHash": -1334233081,
-      "vehicle": "BMW M3 E46 GTR",
-      "vehicleClass": "GTR_04",
+      "vehicleHash": 1646202889,
+      "vehicle": "Maserati MC12 GT1",
+      "vehicleClass": "GT1_05",
       "vehicleDlc": true,
       "vehicleDlcName": "Historical Endurance Pack Pt.1",
-      "board": "cars2_autoevent_16333_2395345560_0_0",
-      "boardA": 16333,
-      "boardB": 2395345560,
-      "track": "32",
-      "score": 95520,
-      "time": "01:35.520",
+      "board": "cars2_autoevent_16124_2910669413_0_0",
+      "boardA": 16124,
+      "boardB": 2910669413,
+      "track": "21",
+      "score": 77476,
+      "time": "01:17.476",
       "isNew": true,
       "deltaMs": null,
       "delta": "NEW",
@@ -35247,29 +36009,27 @@
         "king"
       ],
       "oldWorldRank": null,
-      "newWorldRank": 4,
-      "worldJump": "4",
+      "newWorldRank": 86,
+      "worldJump": "86",
       "worldColor": "",
-      "timeColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
+      "timeColor": "blue",
+      "kingFriendJump": "2",
+      "kingFriendColor": "",
       "challengeFriendJump": "—",
       "challengeFriendColor": "",
-      "friendJump": "1",
-      "friendColor": "gold",
+      "friendJump": "2",
+      "friendColor": "",
       "oldFriendRank": null,
-      "newFriendRank": 1,
+      "newFriendRank": 2,
       "frozen": true,
       "historySource": "snapshot-delta",
       "impactEvent": true,
       "eventType": "NEW",
       "displaySemanticColor": "purple",
       "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
-    }
-  ],
-  "last20": [
+      "displayFriendColor": "purple",
+      "displayTimeColor": "blue"
+    },
     {
       "timestamp": "2026-10-14T18:34:41+02:00",
       "challengeId": 2,
@@ -36034,157 +36794,20 @@
       "displayDelta": "NEW",
       "displayFriendColor": "purple",
       "displayTimeColor": "blue"
-    },
-    {
-      "timestamp": "2026-10-07T21:29:19+02:00",
-      "challengeId": 17,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 1353949246,
-      "vehicle": "Mercedes-AMG GT3",
-      "vehicleClass": "GT3",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_7217_399001429_0_0",
-      "boardA": 7217,
-      "boardB": 399001429,
-      "track": "17",
-      "score": 470856,
-      "time": "07:50.856",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": false,
-      "scopes": [
-        "king"
-      ],
-      "oldWorldRank": null,
-      "newWorldRank": 23,
-      "worldJump": "23",
-      "worldColor": "",
-      "timeColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
-      "challengeFriendJump": "—",
-      "challengeFriendColor": "",
-      "friendJump": "1",
-      "friendColor": "gold",
-      "oldFriendRank": null,
-      "newFriendRank": 1,
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "purple",
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
-    },
-    {
-      "timestamp": "2026-10-05T19:13:00+02:00",
-      "challengeId": 19,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 1122735892,
-      "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMDh",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_12535_3768760351_0_0",
-      "boardA": 12535,
-      "boardB": 3768760351,
-      "track": "19",
-      "score": 74704,
-      "time": "01:14.704",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": true,
-      "scopes": [
-        "challenge",
-        "king"
-      ],
-      "oldWorldRank": null,
-      "newWorldRank": 9,
-      "worldJump": "9",
-      "worldColor": "",
-      "timeColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
-      "challengeFriendJump": "1",
-      "challengeFriendColor": "gold",
-      "friendJump": "1",
-      "friendColor": "gold",
-      "oldFriendRank": null,
-      "newFriendRank": 1,
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "purple",
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
-    },
-    {
-      "timestamp": "2026-10-05T18:38:37+02:00",
-      "challengeId": 21,
-      "driver": "pancar LBC",
-      "steamId": "76561198012880510",
-      "vehicleHash": 1122735892,
-      "vehicle": "Lamborghini SC63",
-      "vehicleClass": "LMDh",
-      "vehicleDlc": false,
-      "vehicleDlcName": "",
-      "board": "cars2_autoevent_12393_2910669413_0_0",
-      "boardA": 12393,
-      "boardB": 2910669413,
-      "track": "21",
-      "score": 69160,
-      "time": "01:09.160",
-      "isNew": true,
-      "deltaMs": null,
-      "delta": "NEW",
-      "challengeEligible": true,
-      "scopes": [
-        "challenge",
-        "king"
-      ],
-      "oldWorldRank": null,
-      "newWorldRank": 33,
-      "worldJump": "33",
-      "worldColor": "",
-      "timeColor": "gold",
-      "kingFriendJump": "1",
-      "kingFriendColor": "gold",
-      "challengeFriendJump": "1",
-      "challengeFriendColor": "gold",
-      "friendJump": "1",
-      "friendColor": "gold",
-      "oldFriendRank": null,
-      "newFriendRank": 1,
-      "frozen": true,
-      "historySource": "snapshot-delta",
-      "impactEvent": true,
-      "eventType": "NEW",
-      "displaySemanticColor": "purple",
-      "displayDelta": "NEW",
-      "displayFriendColor": "gold",
-      "displayTimeColor": "gold"
     }
   ],
   "collector": {
     "version": "5.5.11",
-    "mode": "ultra",
-    "elapsedSeconds": 71.3,
-    "boardsScanned": 132,
-    "boardsOk": 132,
-    "boardsNotFound": 0,
-    "boardsEmptyFriends": 7,
+    "mode": "catalog",
+    "elapsedSeconds": 1836.5,
+    "boardsScanned": 3104,
+    "boardsOk": 3092,
+    "boardsNotFound": 10,
+    "boardsEmptyFriends": 2964,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 154,
-    "errors": 0,
+    "rawFriendEntries": 157,
+    "errors": 2,
     "catalogVehicles": 280,
     "unknownVehicles": 4
   }
