@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-14T21:32:43+02:00",
+  "updated": "2026-10-14T22:36:14+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1619,7 +1619,7 @@
           "vehicleDlcName": "Lamborghini Dream Pack Pt.1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -1556432632,
-          "rank": 800,
+          "rank": 801,
           "score": 211460,
           "time": "03:31.460",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -2067,7 +2067,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": -1611902643,
-          "rank": 510,
+          "rank": 511,
           "score": 74942,
           "time": "01:14.942",
           "board": "cars2_autoevent_18810_2816254725_0_0",
@@ -3325,7 +3325,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -1721496056,
-          "rank": 36,
+          "rank": 37,
           "score": 188564,
           "time": "03:08.564",
           "board": "cars2_autoevent_9281_2558461772_0_0",
@@ -36789,7 +36789,7 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 79.7,
+    "elapsedSeconds": 69.6,
     "boardsScanned": 135,
     "boardsOk": 135,
     "boardsNotFound": 0,

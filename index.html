@@ -908,6 +908,7 @@ body {
 <div class="top-actions">
     <button class="top-action" type="button" onclick="openHistory()" title="Zobrazit celou historii">ΔHISTORY</button>
     <button class="top-action" type="button" onclick="window.print()" title="Uložit aktuální stav jako PDF">Drift to PDF</button>
+    <button id="perfAuditButton" class="top-action" type="button" onclick="openPerfAudit()" title="Lokální audit výkonu; nic se nikam neposílá">PERF</button>
     <a class="top-action" href="pancar_challenges_2026.png" target="_blank" rel="noopener" title="Challenge 2026 overview">Challenge<span class="overview-year">2026</span>overwiev</a>
 </div>
 
@@ -921,6 +922,16 @@ body {
     </div>
 </div>
 
+
+<div id="perfAuditModal" class="history-modal" onclick="if(event.target.id==='perfAuditModal') closePerfAudit()">
+    <div class="history-modal-box" style="max-width:900px">
+        <div class="history-modal-top">
+            <div class="history-modal-title">Client performance audit</div>
+            <button class="history-close" type="button" onclick="closePerfAudit()">ZAVŘÍT</button>
+        </div>
+        <pre id="perfAuditContent" style="white-space:pre-wrap;word-break:break-word;padding:16px;margin:0;color:#ddd;font:12px/1.5 Consolas,monospace"></pre>
+    </div>
+</div>
 
 <div class="page">
 
@@ -998,20 +1009,58 @@ let trackDbDoc={schemaVersion:0,tracks:[]};
 let carCatalogLegacy=[];
 let dataAudit={errors:[],warnings:[]};
 
+// Hot-path indexes. KING/CHALLENGE switching must not rescan full JSON catalogs.
+let trackByB=new Map(), trackByChallenge=new Map();
+let carByHash=new Map(), legacyCarByHash=new Map(), carByName=new Map();
+let classCanonByNorm=new Map(), classDisplayByCanon=new Map();
+let driverDlcByName=new Map();
+function rebuildTrackIndexes(){
+    trackByB=new Map(); trackByChallenge=new Map();
+    for(const x of trackDatabaseGlobal||[]){
+        const b=u32(x.trackB ?? x.B); if(b!=null) trackByB.set(b,x);
+        const id=Number(x.challenge); if(Number.isFinite(id)) trackByChallenge.set(id,x);
+    }
+}
+function rebuildCarIndexes(){
+    carByHash=new Map(); legacyCarByHash=new Map(); carByName=new Map();
+    classCanonByNorm=new Map(); classDisplayByCanon=new Map();
+    for(const item of carCatalogData||[]){
+        const h=u32(item.vehicleHash ?? item.hashUnsigned); if(h!=null) carByHash.set(h,item);
+        for(const n of [item.vehicle,item.realWorldName]){ const k=normalizeVehicleName(n); if(k&&!carByName.has(k)) carByName.set(k,item); }
+        const display=String(item.class || item.classId || '').trim();
+        const canon=normalizeVehicleName(item.classId || item.class);
+        for(const raw of [item.classId,item.class]){ const k=normalizeVehicleName(raw); if(k&&canon) classCanonByNorm.set(k,canon); }
+        if(canon && display && !classDisplayByCanon.has(canon)) classDisplayByCanon.set(canon,display);
+    }
+    for(const item of carCatalogLegacy||[]){ const h=u32(item.vehicleHash ?? item.hashUnsigned); if(h!=null) legacyCarByHash.set(h,item); }
+}
+function rebuildDlcIndexes(){
+    driverDlcByName=new Map();
+    const catalogById=new Map((dlcCatalogGlobal||[]).map(c=>[c.id,c]));
+    for(const d of Object.values(playerDlcStatus.drivers||{})){
+        const owned=[];
+        for(const [id,state] of Object.entries(d.dlc||{})){
+            if(state!=='ANO') continue; const c=catalogById.get(id); if(c?.name) owned.push(normPack(c.name));
+        }
+        driverDlcByName.set(String(d.name||'').toLowerCase(),owned);
+    }
+}
+
 function normPack(x){return String(x||"").toLowerCase().replace(/[´’]/g,"'").replace(/[^a-z0-9]+/g," ").trim()}
 function playerHasDlc(driver, pack){
- if(!pack||/base game/i.test(pack)) return false; const ds=Object.values(playerDlcStatus.drivers||{});
- const d=ds.find(x=>String(x.name||'').toLowerCase()===String(driver||'').toLowerCase()); if(!d)return false;
- for(const c of dlcCatalogGlobal){if((d.dlc||{})[c.id]==='ANO'){let a=normPack(c.name),b=normPack(pack);if(a&&b&&(a.includes(b)||b.includes(a)||a.split(' ').filter(x=>x.length>4).some(x=>b.includes(x))))return true;}} return false;
+ if(!pack||/base game/i.test(pack)) return false;
+ const owned=driverDlcByName.get(String(driver||'').toLowerCase()); if(!owned?.length)return false;
+ const b=normPack(pack);
+ return owned.some(a=>a&&b&&(a.includes(b)||b.includes(a)||a.split(' ').filter(x=>x.length>4).some(x=>b.includes(x))));
 }
 function playerDlcBadge(driver,event){let pack=event?.vehicleDlcName||event?.trackDlcName||event?.dlcName||'';return playerHasDlc(driver,pack)?'<span class="player-dlc-badge" title="Hráč má '+text(pack)+'">DLC ✓</span>':''}
 
 function u32(value){ const n=Number(value); return Number.isFinite(n) ? (n >>> 0) : null; }
 function trackDbEntry(source){
     const b=u32(source?.trackB ?? source?.B ?? source?.boardB);
-    if(b!=null){ const byB=(trackDatabaseGlobal||[]).find(x=>u32(x.trackB ?? x.B)===b); if(byB)return byB; }
+    if(b!=null && trackByB.has(b)) return trackByB.get(b);
     const id=Number(source?.id ?? source?.challengeId);
-    return (trackDatabaseGlobal||[]).find(x=>Number(x.challenge)===id) || null;
+    return Number.isFinite(id) ? (trackByChallenge.get(id)||null) : null;
 }
 function trackPrimary(source){ const e=trackDbEntry(source); return e?.locationName || e?.displayName || e?.layoutName || source?.name || ''; }
 function trackDetail(source){ const e=trackDbEntry(source); return e?.layoutDetail || ''; }
@@ -1068,16 +1117,15 @@ function normalizeVehicleName(value) {
 function catalogVehicleEntry(source) {
     const hash=u32(typeof source === "object" ? source?.vehicleHash : null);
     if(hash!=null){
-        const exact=carCatalogData.find(item=>u32(item.vehicleHash ?? item.hashUnsigned)===hash);
-        if(exact) return {...exact,_identitySource:"official-hash"};
-        const legacy=carCatalogLegacy.find(item=>u32(item.vehicleHash ?? item.hashUnsigned)===hash);
-        if(legacy) return {...legacy,_identitySource:"legacy-hash",_legacy:true};
-        return null; // hash present but unknown: never guess identity by name
+        const exact=carByHash.get(hash);
+        if(exact) return exact;
+        const legacy=legacyCarByHash.get(hash);
+        if(legacy) return legacy;
+        return null;
     }
     const vehicleName=typeof source === "string" ? source : source?.vehicle;
-    const needle = normalizeVehicleName(vehicleName);
-    if (!needle) return null;
-    return carCatalogData.find(item => normalizeVehicleName(item.vehicle) === needle || normalizeVehicleName(item.realWorldName)===needle) || null;
+    const needle=normalizeVehicleName(vehicleName);
+    return needle ? (carByName.get(needle)||null) : null;
 }
 
 function resolvedVehicle(source){
@@ -1087,7 +1135,7 @@ function resolvedVehicle(source){
             name: entry.realWorldName || entry.vehicle || source?.vehicle || '',
             ams2Name: entry.vehicle || source?.vehicle || '',
             className: entry.classId || entry.class || source?.vehicleClass || '',
-            entry
+            entry: legacyCarByHash.get(u32(source?.vehicleHash))===entry ? {...entry,_legacy:true} : entry
         };
     }
     return {name:source?.vehicle || (source?.vehicleHash!=null ? `Vehicle ${source.vehicleHash}` : ''), ams2Name:source?.vehicle||'', className:source?.vehicleClass||'', entry:null};
@@ -1119,16 +1167,13 @@ function trackDlcBadge(challenge) {
 }
 
 function canonicalClassForUi(value) {
-    const raw=String(value||"");
-    const n=normalizeVehicleName(raw);
+    const n=normalizeVehicleName(value);
     if(!n) return "";
-    const hit=carCatalogData.find(c=>normalizeVehicleName(c.classId)===n || normalizeVehicleName(c.class)===n);
-    return hit ? normalizeVehicleName(hit.classId || hit.class) : n;
+    return classCanonByNorm.get(n) || n;
 }
 function classDisplayLabel(value){
     const c=canonicalClassForUi(value);
-    const hit=carCatalogData.find(x=>canonicalClassForUi(x.classId||x.class)===c);
-    return hit?.class || String(value||c||"—");
+    return classDisplayByCanon.get(c) || String(value||c||"—");
 }
 
 function eventIsChallengeScope(event) {
@@ -1272,6 +1317,29 @@ function openHistory() {
     document.body.style.overflow = "hidden";
 }
 
+const perfAudit={lastRenderMs:0,lastSwitchMs:0,lastPaintMs:0,lastRenderedRows:0,longTasks:[],switches:[]};
+try {
+    if("PerformanceObserver" in window){
+        const po=new PerformanceObserver(list=>{ for(const e of list.getEntries()) perfAudit.longTasks.push({at:Date.now(),duration:Math.round(e.duration)}); if(perfAudit.longTasks.length>30) perfAudit.longTasks.splice(0,perfAudit.longTasks.length-30); });
+        po.observe({entryTypes:["longtask"]});
+    }
+} catch(_){}
+function resultPopulationStats(){
+    const ch=latestData?.challenges||[];
+    return {challengeRows:ch.reduce((n,x)=>n+(x.results||[]).length,0),kingRows:ch.reduce((n,x)=>n+(x.allClassesResults||x.allResults||x.resultsAll||[]).length,0)};
+}
+function clientAuditSnapshot(){
+    const rows=resultPopulationStats(); const mem=performance?.memory;
+    return {mode:currentMode,lastRenderMs:Math.round(perfAudit.lastRenderMs),lastSwitchMs:Math.round(perfAudit.lastSwitchMs),lastPaintMs:Math.round(perfAudit.lastPaintMs),renderedRows:perfAudit.lastRenderedRows,availableChallengeRows:rows.challengeRows,availableKingRows:rows.kingRows,domNodes:document.getElementsByTagName("*").length,logicalCores:navigator.hardwareConcurrency||"n/a",deviceMemoryGB:navigator.deviceMemory||"n/a",jsHeapMB:mem?Math.round(mem.usedJSHeapSize/1048576):"n/a",recentLongTasks:perfAudit.longTasks.slice(-10),userAgent:navigator.userAgent};
+}
+window.PANCAR_PERF_AUDIT=clientAuditSnapshot;
+function openPerfAudit(){
+    const s=clientAuditSnapshot(); const box=document.getElementById("perfAuditContent");
+    if(box) box.textContent=["PANCAR CLIENT PERFORMANCE AUDIT (LOCAL ONLY)","KING/CHALLENGE switch performs NO network fetch.",`Mode: ${s.mode}`,`Last JS render: ${s.lastRenderMs} ms`,`Last switch total: ${s.lastSwitchMs} ms`,`Next-paint delay: ${s.lastPaintMs} ms`,`Rows rendered now: ${s.renderedRows}`,`Rows available: CHALLENGE ${s.availableChallengeRows} / KING ${s.availableKingRows}`,`DOM nodes: ${s.domNodes}`,`CPU logical cores: ${s.logicalCores}`,`Browser RAM hint: ${s.deviceMemoryGB} GB`,`JS heap: ${s.jsHeapMB} MB`,`Recent long tasks: ${s.recentLongTasks.map(x=>x.duration+"ms").join(", ")||"none"}`,"",s.userAgent].join("\n");
+    document.getElementById("perfAuditModal")?.classList.add("open");
+}
+function closePerfAudit(){document.getElementById("perfAuditModal")?.classList.remove("open");}
+
 function setScoreMode(mode) {
     currentMode = mode === "all" ? "all" : "challenge";
     document.getElementById("modeChallenge")?.classList.toggle("active", currentMode === "challenge");
@@ -1282,7 +1350,16 @@ function setScoreMode(mode) {
     if (note) note.textContent = currentMode === "all"
         ? `KING · all cars / all classes on ${(latestData?.challenges || []).length} displayed tracks · best time per driver + car`
         : `${(trackDatabaseGlobal||[]).filter(x=>x.section==="challenge" && x.activeChallenge!==false).length} official Challenge · TRACK vs. CAR viewer below`;
+    const switchStart=performance.now();
     if (latestData) renderAll(latestData);
+    perfAudit.lastSwitchMs=performance.now()-switchStart;
+    const started=switchStart;
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+        perfAudit.lastPaintMs=performance.now()-started;
+        perfAudit.switches.push({mode:currentMode,renderMs:Math.round(perfAudit.lastRenderMs),switchMs:Math.round(perfAudit.lastSwitchMs),paintMs:Math.round(perfAudit.lastPaintMs),at:new Date().toISOString()});
+        if(perfAudit.switches.length>20) perfAudit.switches.shift();
+        const b=document.getElementById("perfAuditButton"); if(b) b.textContent=`PERF ${Math.round(perfAudit.lastPaintMs)}ms`;
+    }));
 }
 
 function closeHistory() {
@@ -1368,6 +1445,7 @@ async function loadCarCatalog() {
         const data = await response.json();
         carCatalogData = Array.isArray(data.cars) ? data.cars : [];
         carCatalogLegacy = Array.isArray(data.legacyCars) ? data.legacyCars : [];
+        rebuildCarIndexes();
         populateCarCatalogClassFilter();
         const paintCatalog = () => renderCarCatalog();
         if ("requestIdleCallback" in window) requestIdleCallback(paintCatalog,{timeout:1200});
@@ -1396,6 +1474,7 @@ async function loadPlayerDlcMetadata() {
         ]);
         if (catResponse.ok) dlcCatalogGlobal = await catResponse.json();
         if (statusResponse.ok) playerDlcStatus = await statusResponse.json();
+        rebuildDlcIndexes();
     } catch (_) {}
 }
 
@@ -1555,7 +1634,7 @@ function setAllTrackGroups(open) {
     document.querySelectorAll(".track-group").forEach(el => el.classList.toggle("open", !!open));
 }
 
-function viewerHeader() {
+function viewerHeader(groups=null) {
     const head=document.createElement("section");
     head.className="viewer-header";
     head.innerHTML=`
@@ -1564,7 +1643,7 @@ function viewerHeader() {
             <span class="viewer-main">TRACK vs. CAR</span>
             <span class="viewer-word">viewer</span>
         </div>
-        <div class="viewer-sub">${text(viewerGroups(prepareChallengesForUi(latestData?.challenges||[])).map(g=>g.title.toUpperCase()).join(" · "))}</div>
+        <div class="viewer-sub">${text((groups||viewerGroups(prepareChallengesForUi(latestData?.challenges||[]))).map(g=>g.title.toUpperCase()).join(" · "))}</div>
         <div class="viewer-actions">
             <button type="button" onclick="setAllTrackGroups(true)">ROZBALIT VŠE</button>
             <button type="button" onclick="setAllTrackGroups(false)">SBALIT VŠE</button>
@@ -1601,13 +1680,40 @@ function makeTrackGroup(key, title, accent, challenges, note="") {
     return group;
 }
 
+function resultRowHtml(result,index) {
+    const resolved=resolvedVehicle(result);
+    const vehicleName=resolved.name && String(resolved.name).trim() ? String(resolved.name).trim() : null;
+    const legacyMark=resolved.entry?._legacy ? `<span class="vehicle-dlc-badge" title="Legacy/local observed hash from JSON; not auto-merged with current Dedicated ID">LEGACY</span>` : "";
+    const vehicleHtml = vehicleName
+        ? `<div class="vehicle">${text(vehicleName)}${vehicleDlcBadge(result)}${legacyMark}</div>`
+        : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
+    const rank = result.rank != null ? `#${text(result.rank)}` : "—";
+    const cls = resolved.className || result.vehicleClass || "—";
+    const extraClass = index >= 5 ? " result-extra" : "";
+    return `<div class="driver-row${extraClass}">
+        <div class="position">${index + 1}.</div>
+        <div class="driver">${text(result.driver)}${playerDlcBadge(result.driver,result)}</div>
+        <div class="time">${text(result.time)}</div>
+        <div class="rank" title="Native Steam world rank on this board">${rank}</div>
+        ${vehicleHtml}
+        <div class="vehicle-class">${text(cls)}</div>
+    </div>`;
+}
+
 function toggleTopResults(button) {
     const card = button.closest(".challenge-card");
     if (!card) return;
-    const open = card.classList.toggle("show-all-results");
+    const willOpen = !card.classList.contains("show-all-results");
+    if (willOpen && button.dataset.extraRendered !== "1") {
+        const all = card._pancarResults || [];
+        const extraHtml = all.slice(5).map((result,i)=>resultRowHtml(result,i+5)).join("");
+        if(extraHtml) button.insertAdjacentHTML("beforebegin", extraHtml);
+        button.dataset.extraRendered = "1";
+    }
+    card.classList.toggle("show-all-results", willOpen);
     const extra = Number(button.dataset.extra || 0);
-    button.textContent = open ? "ZOBRAZIT JEN TOP 5" : `ROZBALIT DALŠÍCH ${extra}`;
-    button.setAttribute("aria-expanded", open ? "true" : "false");
+    button.textContent = willOpen ? "ZOBRAZIT JEN TOP 5" : `ROZBALIT DALŠÍCH ${extra}`;
+    button.setAttribute("aria-expanded", willOpen ? "true" : "false");
 }
 
 function createChallengeCard(challenge) {
@@ -1639,25 +1745,10 @@ function createChallengeCard(challenge) {
             : (incomplete ? "ČASY ZATÍM NEOVĚŘENÉ" : "V NAČTENÝCH TABULKÁCH BEZ ČASU");
         resultsHtml = `<div class="no-time">${label}</div>`;
     } else {
-        const rows = results.map((result,index) => {
-            const resolved=resolvedVehicle(result);
-            const vehicleName=resolved.name && String(resolved.name).trim() ? String(resolved.name).trim() : null;
-            const legacyMark=resolved.entry?._legacy ? `<span class="vehicle-dlc-badge" title="Legacy/local observed hash from JSON; not auto-merged with current Dedicated ID">LEGACY</span>` : "";
-            const vehicleHtml = vehicleName
-                ? `<div class="vehicle">${text(vehicleName)}${vehicleDlcBadge(result)}${legacyMark}</div>`
-                : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
-            const rank = result.rank != null ? `#${text(result.rank)}` : "—";
-            const cls = resolved.className || result.vehicleClass || "—";
-            const extraClass = index >= 5 ? " result-extra" : "";
-            return `<div class="driver-row${extraClass}">
-                <div class="position">${index + 1}.</div>
-                <div class="driver">${text(result.driver)}${playerDlcBadge(result.driver,result)}</div>
-                <div class="time">${text(result.time)}</div>
-                <div class="rank" title="Native Steam world rank on this board">${rank}</div>
-                ${vehicleHtml}
-                <div class="vehicle-class">${text(cls)}</div>
-            </div>`;
-        }).join("");
+        // Only TOP 5 enters the DOM during KING/CHALLENGE switching.
+        // Extra rows are built lazily when this card is expanded.
+        card._pancarResults = results;
+        const rows = results.slice(0,5).map((result,index) => resultRowHtml(result,index)).join("");
         const more = results.length > 5
             ? `<button class="results-toggle" type="button" data-extra="${results.length - 5}" aria-expanded="false" onclick="toggleTopResults(this)">ROZBALIT DALŠÍCH ${results.length - 5}</button>`
             : "";
@@ -1695,25 +1786,28 @@ function createChallengeCard(challenge) {
 }
 
 function renderAll(data) {
+    const t0=performance.now();
     latestData = data;
     renderHistory(data);
 
     const challengeList = document.getElementById("challengeList");
-    challengeList.innerHTML = "";
-
+    const fragment=document.createDocumentFragment();
     const challenges = prepareChallengesForUi(data.challenges);
     const core = sortTrackGroupRows("core", challenges.filter(ch => trackDbEntry(ch)?.section === "challenge"));
     const groups=viewerGroups(challenges);
 
-    core.forEach(challenge => challengeList.appendChild(createChallengeCard(challenge)));
-
+    core.forEach(challenge => fragment.appendChild(createChallengeCard(challenge)));
     if (groups.some(g=>g.rows.length)) {
-        challengeList.appendChild(viewerHeader());
-        if (currentMode === "challenge") challengeList.appendChild(p444Bar());
+        fragment.appendChild(viewerHeader(groups));
+        if (currentMode === "challenge") fragment.appendChild(p444Bar());
         for(const g of groups){
-            if(g.rows.length) challengeList.appendChild(makeTrackGroup(g.key, g.title.toUpperCase(), g.accent, sortTrackGroupRows(g.key,g.rows), g.description));
+            if(g.rows.length) fragment.appendChild(makeTrackGroup(g.key, g.title.toUpperCase(), g.accent, sortTrackGroupRows(g.key,g.rows), g.description));
         }
     }
+    challengeList.replaceChildren(fragment);
+    perfAudit.lastRenderMs=performance.now()-t0;
+    perfAudit.lastRenderedRows=challengeList.querySelectorAll(".driver-row").length;
+    return perfAudit.lastRenderMs;
 }
 
 function auditStaticJson(){
@@ -1865,6 +1959,7 @@ async function loadTrackDatabase(){
     const x=await td.json();
     trackDbDoc=Array.isArray(x)?{schemaVersion:1,tracks:x}:x;
     trackDatabaseGlobal=Array.isArray(trackDbDoc.tracks)?trackDbDoc.tracks:(Array.isArray(x)?x:[]);
+    rebuildTrackIndexes();
 }
 
 async function bootstrap() {
