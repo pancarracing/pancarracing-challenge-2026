@@ -896,6 +896,11 @@ body {
 }
 </style>
 
+
+<style id="pancar-fast-json-20261014b">
+.challenge-name .track-detail{font-size:.78em!important;font-weight:650!important;opacity:.96!important;margin-left:7px!important;letter-spacing:.1px!important}
+@media(max-width:650px){.challenge-name .track-detail{font-size:.78em!important;margin-left:6px!important}}
+</style>
 </head>
 
 <body>
@@ -1358,13 +1363,15 @@ function renderCarCatalog() {
 
 async function loadCarCatalog() {
     try {
-        const response = await fetch("ams2_cars.json?ts=" + Date.now(), {cache:"no-store"});
+        const response = await fetch("ams2_cars.json", {cache:"no-cache"});
         if (!response.ok) throw new Error("HTTP " + response.status);
         const data = await response.json();
         carCatalogData = Array.isArray(data.cars) ? data.cars : [];
         carCatalogLegacy = Array.isArray(data.legacyCars) ? data.legacyCars : [];
         populateCarCatalogClassFilter();
-        renderCarCatalog();
+        const paintCatalog = () => renderCarCatalog();
+        if ("requestIdleCallback" in window) requestIdleCallback(paintCatalog,{timeout:1200});
+        else setTimeout(paintCatalog,0);
         ["carCatalogSearch","carCatalogClass","carCatalogContent"].forEach(id => {
             const el = document.getElementById(id);
             if (!el || el.dataset.catalogBound === "1") return;
@@ -1384,8 +1391,8 @@ async function loadPlayerDlcMetadata() {
     // Keep badge data available without rendering the old DLC overview table.
     try {
         const [catResponse, statusResponse] = await Promise.all([
-            fetch("dlc_catalog.json?ts=" + Date.now(), {cache:"no-store"}),
-            fetch("dlc_status.json?ts=" + Date.now(), {cache:"no-store"})
+            fetch("dlc_catalog.json", {cache:"no-cache"}),
+            fetch("dlc_status.json", {cache:"no-cache"})
         ]);
         if (catResponse.ok) dlcCatalogGlobal = await catResponse.json();
         if (statusResponse.ok) playerDlcStatus = await statusResponse.json();
@@ -1518,15 +1525,20 @@ function challengeGroupKey(challenge) {
     return String(e?.category || challenge?.category || "Other").toLowerCase();
 }
 function sortTrackGroupRows(key, rows) {
-    return rows.slice().sort((a,b)=>uiDisplayId(a)-uiDisplayId(b));
+    return rows.slice().sort((a,b)=>{
+        const ea=trackDbEntry(a), eb=trackDbEntry(b);
+        return Number(ea?.groupOrder ?? uiDisplayId(a)) - Number(eb?.groupOrder ?? uiDisplayId(b));
+    });
 }
 function viewerGroups(challenges){
     const map=new Map();
     for(const ch of challenges){
         const e=trackDbEntry(ch); if(e?.section!=="viewer") continue;
         const key=challengeGroupKey(ch);
-        if(!map.has(key)) map.set(key,{key,title:e?.category||"Other",order:Number(e?.categoryOrder??99),accent:e?.categoryColor||e?.uiAccent||"#9fdcff",rows:[]});
-        map.get(key).rows.push(ch);
+        if(!map.has(key)) map.set(key,{key,title:e?.category||"Other",order:Number(e?.categoryOrder??99),accent:e?.categoryColor||e?.uiAccent||"#9fdcff",description:e?.categoryDescription||"",rows:[]});
+        const g=map.get(key);
+        if(!g.description && e?.categoryDescription) g.description=e.categoryDescription;
+        g.rows.push(ch);
     }
     return [...map.values()].sort((a,b)=>a.order-b.order || a.title.localeCompare(b.title));
 }
@@ -1699,7 +1711,7 @@ function renderAll(data) {
         challengeList.appendChild(viewerHeader());
         if (currentMode === "challenge") challengeList.appendChild(p444Bar());
         for(const g of groups){
-            if(g.rows.length) challengeList.appendChild(makeTrackGroup(g.key, g.title.toUpperCase(), g.accent, sortTrackGroupRows(g.key,g.rows)));
+            if(g.rows.length) challengeList.appendChild(makeTrackGroup(g.key, g.title.toUpperCase(), g.accent, sortTrackGroupRows(g.key,g.rows), g.description));
         }
     }
 }
@@ -1734,8 +1746,10 @@ function auditResultsJson(data){
     const errors=[...(dataAudit.errors||[])];
     for(const ch of data?.challenges||[]){
         if(!trackDbEntry(ch)) errors.push(`results trackB ${u32(ch.trackB??ch.B)} missing in track_database.json`);
-        for(const r of [...(ch.results||[]),...(ch.allClassesResults||[])]){
-            if(r.vehicleHash!=null && !catalogVehicleEntry(r)) warnings.push(`unresolved vehicle hash ${u32(r.vehicleHash)} (${r.vehicle||"?"})`);
+        if(carCatalogData.length){
+            for(const r of [...(ch.results||[]),...(ch.allClassesResults||[])]){
+                if(r.vehicleHash!=null && !catalogVehicleEntry(r)) warnings.push(`unresolved vehicle hash ${u32(r.vehicleHash)} (${r.vehicle||"?"})`);
+            }
         }
     }
     dataAudit={errors:[...new Set(errors)],warnings:[...new Set(warnings)]};
@@ -1747,7 +1761,12 @@ function auditSuffix(){
     return " • JSON OK";
 }
 
+let lastResultsFetchAt=0;
+let resultsFetchInFlight=null;
+
 async function loadResults() {
+    if(resultsFetchInFlight) return resultsFetchInFlight;
+    resultsFetchInFlight=(async()=>{
 
     const challengeList =
         document.getElementById("challengeList");
@@ -1755,8 +1774,8 @@ async function loadResults() {
     try {
 
         const response = await fetch(
-            "results.json?ts=" + Date.now(),
-            { cache:"no-store" }
+            "results.json",
+            { cache:"no-cache" }
         );
 
         if (!response.ok) {
@@ -1787,17 +1806,24 @@ async function loadResults() {
 
     } catch(error) {
 
-        challengeList.innerHTML = `
-            <div class="error">
-                Nepodařilo se načíst results.json
-                <br><br>
-                ${text(error.message)}
-            </div>
-        `;
+        if(!trackDatabaseGlobal.length){
+            challengeList.innerHTML = `
+                <div class="error">
+                    Nepodařilo se načíst results.json
+                    <br><br>
+                    ${text(error.message)}
+                </div>
+            `;
+        }
 
         document.getElementById("updated").textContent =
-            "DATA ERROR";
+            trackDatabaseGlobal.length ? "STATIC JSON OK • LIVE TIME DATA ERROR" : "DATA ERROR";
+        document.getElementById("updated").title = String(error.message||error);
     }
+    lastResultsFetchAt=Date.now();
+    })();
+    try { return await resultsFetchInFlight; }
+    finally { resultsFetchInFlight=null; }
 }
 
 function scheduleNextRefresh() {
@@ -1831,21 +1857,44 @@ function scheduleNextRefresh() {
     }, delay);
 }
 
-window.addEventListener("focus", () => { loadResults(); });
+window.addEventListener("focus", () => { if(Date.now()-lastResultsFetchAt > 15000) loadResults(); });
+
+async function loadTrackDatabase(){
+    const td = await fetch("track_database.json", {cache:"no-cache"});
+    if(!td.ok) throw new Error("track_database.json HTTP "+td.status);
+    const x=await td.json();
+    trackDbDoc=Array.isArray(x)?{schemaVersion:1,tracks:x}:x;
+    trackDatabaseGlobal=Array.isArray(trackDbDoc.tracks)?trackDbDoc.tracks:(Array.isArray(x)?x:[]);
+}
 
 async function bootstrap() {
+    const t0=performance.now();
     try {
-        const td = await fetch("track_database.json?ts=" + Date.now(), {cache:"no-store"});
-        if(!td.ok) throw new Error("track_database.json HTTP "+td.status);
-        const x=await td.json();
-        trackDbDoc=Array.isArray(x)?{schemaVersion:1,tracks:x}:x;
-        trackDatabaseGlobal=Array.isArray(trackDbDoc.tracks)?trackDbDoc.tracks:(Array.isArray(x)?x:[]);
+        // Critical path = one small JSON only. Track names/groups can paint immediately.
+        await loadTrackDatabase();
+        auditStaticJson();
+        renderAll({challenges:[],history:[],_staticShell:true});
+        const ms=Math.max(0,Math.round(performance.now()-t0));
+        const updated=document.getElementById("updated");
+        if(updated) updated.textContent=`STATIC JSON READY • ${ms} ms${auditSuffix()}`;
     } catch (e) {
         trackDbDoc={schemaVersion:0,tracks:[]}; trackDatabaseGlobal=[]; dataAudit.errors.push(String(e.message||e));
+        document.getElementById("updated").textContent="STATIC JSON ERROR";
     }
-    await Promise.all([loadCarCatalog(), loadPlayerDlcMetadata()]);
+
+    // Times and auxiliary JSON now start together; none blocks the static track UI.
+    const resultsPromise=loadResults();
+    const auxPromise=Promise.allSettled([loadCarCatalog(), loadPlayerDlcMetadata()]);
+    await resultsPromise;
+    await auxPromise;
+
+    // Re-audit/rerender once vehicle/DLC JSON is available, so first paint stays fast
+    // but final names/classes/badges remain hash/JSON authoritative.
     auditStaticJson();
-    await loadResults();
+    if(latestData){
+        auditResultsJson(latestData);
+        renderAll(latestData);
+    }
     scheduleNextRefresh();
 }
 
