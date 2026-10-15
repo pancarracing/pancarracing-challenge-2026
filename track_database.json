@@ -37,7 +37,8 @@
       "countryCode": "IT",
       "dlc": "Monza Pack"
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 1
   },
   {
     "challenge": 2,
@@ -77,7 +78,8 @@
       "countryCode": "DE",
       "dlc": "Nurburgring Pack"
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 2
   },
   {
     "challenge": 3,
@@ -118,7 +120,8 @@
       "countryCode": "GB",
       "dlc": ""
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 3
   },
   {
     "challenge": 4,
@@ -158,7 +161,8 @@
       "countryCode": "US",
       "dlc": "Racing USA Pack Pt.3"
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 4
   },
   {
     "challenge": 5,
@@ -198,7 +202,8 @@
       "countryCode": "BR",
       "dlc": ""
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 5
   },
   {
     "challenge": 6,
@@ -238,7 +243,8 @@
       "countryCode": "US",
       "dlc": "Racing USA FUll Expansion Pack"
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 6
   },
   {
     "challenge": 7,
@@ -278,7 +284,8 @@
       "countryCode": "US",
       "dlc": ""
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 7
   },
   {
     "challenge": 8,
@@ -318,7 +325,8 @@
       "countryCode": "GB",
       "dlc": ""
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 8
   },
   {
     "challenge": 9,
@@ -358,7 +366,8 @@
       "countryCode": "FR",
       "dlc": "Circuit des 24 Heures du Mans Pack"
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 9
   },
   {
     "challenge": 10,
@@ -398,7 +407,8 @@
       "countryCode": "AR",
       "dlc": ""
     },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API"
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 10
   },
   {
     "challenge": 11,
@@ -565,50 +575,8 @@
     "groupOrder": 4
   },
   {
-    "challenge": 15,
-    "displayOrder": 15,
-    "section": "viewer",
-    "trackB": 2590843191,
-    "B": 2590843191,
-    "trackId": "Interlagos_Historic_Outer",
-    "locationName": "Interlagos",
-    "layoutName": "Interlagos Historic 1978 Outer",
-    "layoutDetail": "Historic 1978 Outer",
-    "displayName": "Interlagos · Historic 1978 Outer",
-    "name": "Interlagos Historic 1978 Outer",
-    "category": "Special",
-    "categoryOrder": 4,
-    "categoryColor": "#9fdcff",
-    "uiAccent": "#9fdcff",
-    "dlc": false,
-    "pack": "Base Game",
-    "challengeClasses": [
-      "LMDh"
-    ],
-    "challengeVehicle": "LMDh",
-    "challengeVehicleHash": 0,
-    "challengeRule": "vehicleClass",
-    "activeChallenge": true,
-    "official": {
-      "source": "AMS2 Dedicated API",
-      "trackIdSigned": -1704124105,
-      "internalName": "Interlagos_Historic_Outer",
-      "translatedName": "Interlagos Historic 1978 Outer",
-      "locationName": "Interlagos",
-      "untranslatedName": "interlagos_historic_outer",
-      "defaultYear": 1976,
-      "lengthM": 3236,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "dlc": ""
-    },
-    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 1,
-    "categoryDescription": "KART · DIRT · JUMP"
-  },
-  {
     "challenge": 16,
-    "displayOrder": 16,
+    "displayOrder": 15,
     "section": "viewer",
     "trackB": 2558461772,
     "B": 2558461772,
@@ -649,7 +617,7 @@
   },
   {
     "challenge": 17,
-    "displayOrder": 17,
+    "displayOrder": 16,
     "section": "viewer",
     "trackB": 399001429,
     "B": 399001429,
@@ -690,7 +658,7 @@
   },
   {
     "challenge": 18,
-    "displayOrder": 18,
+    "displayOrder": 17,
     "section": "viewer",
     "trackB": 4081662137,
     "B": 4081662137,
@@ -731,7 +699,7 @@
   },
   {
     "challenge": 19,
-    "displayOrder": 19,
+    "displayOrder": 18,
     "section": "viewer",
     "trackB": 3768760351,
     "B": 3768760351,
@@ -772,7 +740,7 @@
   },
   {
     "challenge": 20,
-    "displayOrder": 20,
+    "displayOrder": 19,
     "section": "viewer",
     "trackB": 1003427592,
     "B": 1003427592,
@@ -813,7 +781,7 @@
   },
   {
     "challenge": 21,
-    "displayOrder": 21,
+    "displayOrder": 20,
     "section": "viewer",
     "trackB": 2910669413,
     "B": 2910669413,
@@ -854,7 +822,7 @@
   },
   {
     "challenge": 22,
-    "displayOrder": 22,
+    "displayOrder": 21,
     "section": "viewer",
     "trackB": 473366003,
     "B": 473366003,
@@ -895,7 +863,7 @@
   },
   {
     "challenge": 23,
-    "displayOrder": 23,
+    "displayOrder": 24,
     "section": "viewer",
     "trackB": 1063112912,
     "B": 1063112912,
@@ -932,11 +900,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 1
+    "groupOrder": 3
   },
   {
     "challenge": 24,
-    "displayOrder": 24,
+    "displayOrder": 25,
     "section": "viewer",
     "trackB": 2111076703,
     "B": 2111076703,
@@ -973,11 +941,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 2
+    "groupOrder": 4
   },
   {
     "challenge": 25,
-    "displayOrder": 25,
+    "displayOrder": 26,
     "section": "viewer",
     "trackB": 1910889511,
     "B": 1910889511,
@@ -1014,11 +982,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 3
+    "groupOrder": 5
   },
   {
     "challenge": 26,
-    "displayOrder": 26,
+    "displayOrder": 27,
     "section": "viewer",
     "trackB": 3745321037,
     "B": 3745321037,
@@ -1055,11 +1023,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 4
+    "groupOrder": 6
   },
   {
     "challenge": 27,
-    "displayOrder": 27,
+    "displayOrder": 22,
     "section": "viewer",
     "trackB": 568559152,
     "B": 568559152,
@@ -1096,11 +1064,212 @@
       "dlc": "Racing USA Pack Pt.1"
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 5
+    "groupOrder": 1
+  },
+  {
+    "challenge": 33,
+    "displayOrder": 28,
+    "section": "viewer",
+    "trackB": 2074495683,
+    "B": 2074495683,
+    "trackId": "Taruma_Internacional",
+    "locationName": "Tarumã",
+    "layoutName": "Tarumã Internacional",
+    "layoutDetail": "Internacional",
+    "displayName": "Tarumã · Internacional",
+    "name": "Tarumã Internacional",
+    "category": "Nature",
+    "categoryOrder": 3,
+    "categoryColor": "#4fae5a",
+    "uiAccent": "#4fae5a",
+    "groupOrder": 7,
+    "dlc": false,
+    "pack": "Base Game",
+    "challengeClasses": [],
+    "challengeVehicle": "",
+    "challengeVehicleHash": 0,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": 2074495683,
+      "internalName": "Taruma_Internacional",
+      "translatedName": "Tarumã Internacional",
+      "locationName": "Tarumã",
+      "untranslatedName": "taruma",
+      "defaultYear": 2020,
+      "lengthM": 3016,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "dlc": ""
+    },
+    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping"
+  },
+  {
+    "challenge": 15,
+    "displayOrder": 29,
+    "section": "viewer",
+    "trackB": 2590843191,
+    "B": 2590843191,
+    "trackId": "Interlagos_Historic_Outer",
+    "locationName": "Interlagos",
+    "layoutName": "Interlagos Historic 1978 Outer",
+    "layoutDetail": "Historic 1978 Outer",
+    "displayName": "Interlagos · Historic 1978 Outer",
+    "name": "Interlagos Historic 1978 Outer",
+    "category": "Special",
+    "categoryOrder": 4,
+    "categoryColor": "#9fdcff",
+    "uiAccent": "#9fdcff",
+    "dlc": false,
+    "pack": "Base Game",
+    "challengeClasses": [
+      "LMDh"
+    ],
+    "challengeVehicle": "LMDh",
+    "challengeVehicleHash": 0,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": -1704124105,
+      "internalName": "Interlagos_Historic_Outer",
+      "translatedName": "Interlagos Historic 1978 Outer",
+      "locationName": "Interlagos",
+      "untranslatedName": "interlagos_historic_outer",
+      "defaultYear": 1976,
+      "lengthM": 3236,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "dlc": ""
+    },
+    "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
+    "groupOrder": 1,
+    "categoryDescription": "KART · DIRT · JUMP"
+  },
+  {
+    "challenge": 29,
+    "displayOrder": 30,
+    "section": "viewer",
+    "trackB": 2286887510,
+    "B": 2286887510,
+    "trackId": "Road_Atlanta_2005_short",
+    "locationName": "Road Atlanta",
+    "layoutName": "Road Atlanta Historic 2005 Short",
+    "layoutDetail": "Historic 2005 Short",
+    "displayName": "Road Atlanta · Historic 2005 Short",
+    "name": "Road Atlanta Historic 2005 Short",
+    "category": "Special",
+    "categoryOrder": 4,
+    "categoryColor": "#9fdcff",
+    "uiAccent": "#9fdcff",
+    "groupOrder": 2,
+    "dlc": true,
+    "pack": "Historical Track Pack Pt.3",
+    "challengeClasses": [],
+    "challengeVehicle": "",
+    "challengeVehicleHash": 0,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": -2008079786,
+      "internalName": "Road_Atlanta_2005_short",
+      "translatedName": "Road Atlanta Historic 2005 Short",
+      "locationName": "Road Atlanta",
+      "untranslatedName": "road_atlanta_2005_short",
+      "defaultYear": 2005,
+      "lengthM": 2588,
+      "country": "United States",
+      "countryCode": "US",
+      "dlc": "Historical Track Pack Pt.3"
+    },
+    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
+    "categoryDescription": "KART · DIRT · JUMP"
+  },
+  {
+    "challenge": 30,
+    "displayOrder": 31,
+    "section": "viewer",
+    "trackB": 693994049,
+    "B": 693994049,
+    "trackId": "GoianiaOuter",
+    "locationName": "Goiânia",
+    "layoutName": "Goiânia External",
+    "layoutDetail": "External",
+    "displayName": "Goiânia · External",
+    "name": "Goiânia External",
+    "category": "Special",
+    "categoryOrder": 4,
+    "categoryColor": "#9fdcff",
+    "uiAccent": "#9fdcff",
+    "groupOrder": 3,
+    "dlc": false,
+    "pack": "Base Game",
+    "challengeClasses": [],
+    "challengeVehicle": "",
+    "challengeVehicleHash": 0,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": 693994049,
+      "internalName": "GoianiaOuter",
+      "translatedName": "Goiânia External",
+      "locationName": "Goiânia",
+      "untranslatedName": "goianiaouter",
+      "defaultYear": 2020,
+      "lengthM": 2590,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "dlc": ""
+    },
+    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
+    "categoryDescription": "KART · DIRT · JUMP"
+  },
+  {
+    "challenge": 31,
+    "displayOrder": 32,
+    "section": "viewer",
+    "trackB": 2395345560,
+    "B": 2395345560,
+    "trackId": "Fontana_SCC",
+    "locationName": "Fontana",
+    "layoutName": "Auto Club Speedway Sports Car Course",
+    "layoutDetail": "Auto Club Speedway Sports Car Course",
+    "displayName": "Fontana · Auto Club Speedway Sports Car Course",
+    "name": "Auto Club Speedway Sports Car Course",
+    "category": "Special",
+    "categoryOrder": 4,
+    "categoryColor": "#9fdcff",
+    "uiAccent": "#9fdcff",
+    "groupOrder": 4,
+    "dlc": true,
+    "pack": "Racing USA Pack Pt.3",
+    "challengeClasses": [],
+    "challengeVehicle": "",
+    "challengeVehicleHash": 0,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": -1899621736,
+      "internalName": "Fontana_SCC",
+      "translatedName": "Auto Club Speedway Sports Car Course",
+      "locationName": "Fontana",
+      "untranslatedName": "fontana_scc",
+      "defaultYear": 2022,
+      "lengthM": 4509,
+      "country": "United States",
+      "countryCode": "US",
+      "dlc": "Racing USA Pack Pt.3"
+    },
+    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
+    "categoryDescription": "KART · DIRT · JUMP"
   },
   {
     "challenge": 28,
-    "displayOrder": 28,
+    "displayOrder": 33,
     "section": "viewer",
     "trackB": 2508899182,
     "B": 2508899182,
@@ -1141,128 +1310,8 @@
     "categoryDescription": "KART · DIRT · JUMP"
   },
   {
-    "challenge": 29,
-    "displayOrder": 29,
-    "section": "viewer",
-    "trackB": 2286887510,
-    "B": 2286887510,
-    "trackId": "Road_Atlanta_2005_short",
-    "locationName": "Road Atlanta",
-    "layoutName": "Road Atlanta Historic 2005 Short",
-    "layoutDetail": "Historic 2005 Short",
-    "displayName": "Road Atlanta · Historic 2005 Short",
-    "name": "Road Atlanta Historic 2005 Short",
-    "category": "Special",
-    "categoryOrder": 4,
-    "categoryColor": "#9fdcff",
-    "uiAccent": "#9fdcff",
-    "groupOrder": 2,
-    "dlc": true,
-    "pack": "Historical Track Pack Pt.3",
-    "challengeClasses": [],
-    "challengeVehicle": "",
-    "challengeVehicleHash": 0,
-    "challengeRule": "vehicleClass",
-    "activeChallenge": true,
-    "official": {
-      "source": "AMS2 Dedicated API",
-      "trackIdSigned": -2008079786,
-      "internalName": "Road_Atlanta_2005_short",
-      "translatedName": "Road Atlanta Historic 2005 Short",
-      "locationName": "Road Atlanta",
-      "untranslatedName": "road_atlanta_2005_short",
-      "defaultYear": 2005,
-      "lengthM": 2588,
-      "country": "United States",
-      "countryCode": "US",
-      "dlc": "Historical Track Pack Pt.3"
-    },
-    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
-    "categoryDescription": "KART · DIRT · JUMP"
-  },
-  {
-    "challenge": 30,
-    "displayOrder": 30,
-    "section": "viewer",
-    "trackB": 693994049,
-    "B": 693994049,
-    "trackId": "GoianiaOuter",
-    "locationName": "Goiânia",
-    "layoutName": "Goiânia External",
-    "layoutDetail": "External",
-    "displayName": "Goiânia · External",
-    "name": "Goiânia External",
-    "category": "Special",
-    "categoryOrder": 4,
-    "categoryColor": "#9fdcff",
-    "uiAccent": "#9fdcff",
-    "groupOrder": 3,
-    "dlc": false,
-    "pack": "Base Game",
-    "challengeClasses": [],
-    "challengeVehicle": "",
-    "challengeVehicleHash": 0,
-    "challengeRule": "vehicleClass",
-    "activeChallenge": true,
-    "official": {
-      "source": "AMS2 Dedicated API",
-      "trackIdSigned": 693994049,
-      "internalName": "GoianiaOuter",
-      "translatedName": "Goiânia External",
-      "locationName": "Goiânia",
-      "untranslatedName": "goianiaouter",
-      "defaultYear": 2020,
-      "lengthM": 2590,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "dlc": ""
-    },
-    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
-    "categoryDescription": "KART · DIRT · JUMP"
-  },
-  {
-    "challenge": 31,
-    "displayOrder": 31,
-    "section": "viewer",
-    "trackB": 2395345560,
-    "B": 2395345560,
-    "trackId": "Fontana_SCC",
-    "locationName": "Fontana",
-    "layoutName": "Auto Club Speedway Sports Car Course",
-    "layoutDetail": "Auto Club Speedway Sports Car Course",
-    "displayName": "Fontana · Auto Club Speedway Sports Car Course",
-    "name": "Auto Club Speedway Sports Car Course",
-    "category": "Special",
-    "categoryOrder": 4,
-    "categoryColor": "#9fdcff",
-    "uiAccent": "#9fdcff",
-    "groupOrder": 4,
-    "dlc": true,
-    "pack": "Racing USA Pack Pt.3",
-    "challengeClasses": [],
-    "challengeVehicle": "",
-    "challengeVehicleHash": 0,
-    "challengeRule": "vehicleClass",
-    "activeChallenge": true,
-    "official": {
-      "source": "AMS2 Dedicated API",
-      "trackIdSigned": -1899621736,
-      "internalName": "Fontana_SCC",
-      "translatedName": "Auto Club Speedway Sports Car Course",
-      "locationName": "Fontana",
-      "untranslatedName": "fontana_scc",
-      "defaultYear": 2022,
-      "lengthM": 4509,
-      "country": "United States",
-      "countryCode": "US",
-      "dlc": "Racing USA Pack Pt.3"
-    },
-    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
-    "categoryDescription": "KART · DIRT · JUMP"
-  },
-  {
     "challenge": 32,
-    "displayOrder": 32,
+    "displayOrder": 34,
     "section": "viewer",
     "trackB": 1869056157,
     "B": 1869056157,
@@ -1301,22 +1350,22 @@
     "categoryDescription": "KART · DIRT · JUMP"
   },
   {
-    "challenge": 33,
-    "displayOrder": 33,
+    "challenge": 34,
+    "displayOrder": 23,
     "section": "viewer",
-    "trackB": 2074495683,
-    "B": 2074495683,
-    "trackId": "Taruma_Internacional",
-    "locationName": "Tarumã",
-    "layoutName": "Tarumã Internacional",
-    "layoutDetail": "Internacional",
-    "displayName": "Tarumã · Internacional",
-    "name": "Tarumã Internacional",
+    "trackB": 1080325116,
+    "B": 1080325116,
+    "trackId": "Bathurst_2020",
+    "locationName": "Bathurst",
+    "layoutName": "Bathurst 2020",
+    "layoutDetail": "2020",
+    "displayName": "Bathurst · 2020",
+    "name": "Bathurst 2020",
     "category": "Nature",
     "categoryOrder": 3,
     "categoryColor": "#4fae5a",
     "uiAccent": "#4fae5a",
-    "groupOrder": 6,
+    "groupOrder": 2,
     "dlc": false,
     "pack": "Base Game",
     "challengeClasses": [],
@@ -1326,17 +1375,17 @@
     "activeChallenge": true,
     "official": {
       "source": "AMS2 Dedicated API",
-      "trackIdSigned": 2074495683,
-      "internalName": "Taruma_Internacional",
-      "translatedName": "Tarumã Internacional",
-      "locationName": "Tarumã",
-      "untranslatedName": "taruma",
+      "trackIdSigned": 1080325116,
+      "internalName": "Bathurst_2020",
+      "translatedName": "Bathurst 2020",
+      "locationName": "Bathurst",
+      "untranslatedName": "bathurst_2020",
       "defaultYear": 2020,
-      "lengthM": 3016,
-      "country": "Brazil",
-      "countryCode": "BR",
+      "lengthM": 6213,
+      "country": "Australia",
+      "countryCode": "AU",
       "dlc": ""
     },
-    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping"
+    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR TRACK ORDER"
   }
 ]
