@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-20T15:17:09+02:00",
+  "updated": "2026-10-20T16:46:09+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1695,7 +1695,7 @@
           "vehicleDlcName": "Endurance Pack Pt.1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1937293617,
-          "rank": 2411,
+          "rank": 2412,
           "score": 225938,
           "time": "03:45.938",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -1714,7 +1714,7 @@
           "vehicleDlcName": "Endurance Pack Pt.1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -966026248,
-          "rank": 2488,
+          "rank": 2489,
           "score": 227438,
           "time": "03:47.438",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -2997,7 +2997,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": -1416203489,
-          "rank": 561,
+          "rank": 562,
           "score": 102340,
           "time": "01:42.340",
           "board": "cars2_autoevent_509_2355862379_0_0",
@@ -4074,7 +4074,7 @@
           "vehicleDlcName": "Historical Endurance Pack Pt.1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1646202889,
-          "rank": 91,
+          "rank": 92,
           "score": 77476,
           "time": "01:17.476",
           "board": "cars2_autoevent_16124_2910669413_0_0",
@@ -38243,7 +38243,7 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 72.6,
+    "elapsedSeconds": 70.5,
     "boardsScanned": 141,
     "boardsOk": 141,
     "boardsNotFound": 0,
