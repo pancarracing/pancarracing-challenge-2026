@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-21T17:52:27+02:00",
+  "updated": "2026-10-21T19:12:34+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2067,7 +2067,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": -1611902643,
-          "rank": 533,
+          "rank": 534,
           "score": 74942,
           "time": "01:14.942",
           "board": "cars2_autoevent_18810_2816254725_0_0",
@@ -3926,7 +3926,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1948072701,
-          "rank": 59,
+          "rank": 60,
           "score": 81282,
           "time": "01:21.282",
           "board": "cars2_autoevent_4293_1003427592_0_0",
@@ -4074,7 +4074,7 @@
           "vehicleDlcName": "Historical Endurance Pack Pt.1",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1646202889,
-          "rank": 93,
+          "rank": 94,
           "score": 77476,
           "time": "01:17.476",
           "board": "cars2_autoevent_16124_2910669413_0_0",
@@ -13210,7 +13210,7 @@
       "eventType": "RANK_UP",
       "displaySemanticColor": "green",
       "displayDelta": "-0.162",
-      "displayFriendColor": "",
+      "displayFriendColor": "green",
       "displayTimeColor": "blue"
     }
   ],
@@ -38945,7 +38945,7 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 71.9,
+    "elapsedSeconds": 74.1,
     "boardsScanned": 141,
     "boardsOk": 141,
     "boardsNotFound": 0,
