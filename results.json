@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-22T06:57:27+02:00",
+  "updated": "2026-10-22T10:54:46+02:00",
   "challenges": [
     {
       "id": 1,
@@ -2067,7 +2067,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": -1611902643,
-          "rank": 534,
+          "rank": 535,
           "score": 74942,
           "time": "01:14.942",
           "board": "cars2_autoevent_18810_2816254725_0_0",
@@ -2360,7 +2360,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1947909519,
-          "rank": 1095,
+          "rank": 1096,
           "score": 105238,
           "time": "01:45.238",
           "board": "cars2_autoevent_12980_775712153_0_0",
@@ -2379,7 +2379,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1947909519,
-          "rank": 1473,
+          "rank": 1474,
           "score": 106302,
           "time": "01:46.302",
           "board": "cars2_autoevent_12980_775712153_0_0",
@@ -38945,7 +38945,7 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 75.2,
+    "elapsedSeconds": 83.3,
     "boardsScanned": 141,
     "boardsOk": 141,
     "boardsNotFound": 0,
