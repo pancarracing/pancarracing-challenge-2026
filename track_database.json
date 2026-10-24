@@ -576,7 +576,7 @@
   },
   {
     "challenge": 16,
-    "displayOrder": 15,
+    "displayOrder": 17,
     "section": "viewer",
     "trackB": 2558461772,
     "B": 2558461772,
@@ -617,7 +617,7 @@
   },
   {
     "challenge": 17,
-    "displayOrder": 16,
+    "displayOrder": 18,
     "section": "viewer",
     "trackB": 399001429,
     "B": 399001429,
@@ -658,7 +658,7 @@
   },
   {
     "challenge": 18,
-    "displayOrder": 17,
+    "displayOrder": 19,
     "section": "viewer",
     "trackB": 4081662137,
     "B": 4081662137,
@@ -699,7 +699,7 @@
   },
   {
     "challenge": 19,
-    "displayOrder": 18,
+    "displayOrder": 20,
     "section": "viewer",
     "trackB": 3768760351,
     "B": 3768760351,
@@ -740,7 +740,7 @@
   },
   {
     "challenge": 20,
-    "displayOrder": 19,
+    "displayOrder": 21,
     "section": "viewer",
     "trackB": 1003427592,
     "B": 1003427592,
@@ -781,7 +781,7 @@
   },
   {
     "challenge": 21,
-    "displayOrder": 20,
+    "displayOrder": 22,
     "section": "viewer",
     "trackB": 2910669413,
     "B": 2910669413,
@@ -822,7 +822,7 @@
   },
   {
     "challenge": 22,
-    "displayOrder": 21,
+    "displayOrder": 23,
     "section": "viewer",
     "trackB": 473366003,
     "B": 473366003,
@@ -863,7 +863,7 @@
   },
   {
     "challenge": 23,
-    "displayOrder": 24,
+    "displayOrder": 27,
     "section": "viewer",
     "trackB": 1063112912,
     "B": 1063112912,
@@ -900,11 +900,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 3
+    "groupOrder": 2
   },
   {
     "challenge": 24,
-    "displayOrder": 25,
+    "displayOrder": 28,
     "section": "viewer",
     "trackB": 2111076703,
     "B": 2111076703,
@@ -941,11 +941,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 4
+    "groupOrder": 3
   },
   {
     "challenge": 25,
-    "displayOrder": 26,
+    "displayOrder": 29,
     "section": "viewer",
     "trackB": 1910889511,
     "B": 1910889511,
@@ -982,11 +982,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 5
+    "groupOrder": 4
   },
   {
     "challenge": 26,
-    "displayOrder": 27,
+    "displayOrder": 30,
     "section": "viewer",
     "trackB": 3745321037,
     "B": 3745321037,
@@ -1023,11 +1023,11 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 6
+    "groupOrder": 5
   },
   {
     "challenge": 27,
-    "displayOrder": 22,
+    "displayOrder": 26,
     "section": "viewer",
     "trackB": 568559152,
     "B": 568559152,
@@ -1067,8 +1067,8 @@
     "groupOrder": 1
   },
   {
-    "challenge": 33,
-    "displayOrder": 28,
+    "challenge": 29,
+    "displayOrder": 31,
     "section": "viewer",
     "trackB": 2074495683,
     "B": 2074495683,
@@ -1082,7 +1082,7 @@
     "categoryOrder": 3,
     "categoryColor": "#4fae5a",
     "uiAccent": "#4fae5a",
-    "groupOrder": 7,
+    "groupOrder": 6,
     "dlc": false,
     "pack": "Base Game",
     "challengeClasses": [],
@@ -1107,7 +1107,7 @@
   },
   {
     "challenge": 15,
-    "displayOrder": 29,
+    "displayOrder": 32,
     "section": "viewer",
     "trackB": 2590843191,
     "B": 2590843191,
@@ -1148,8 +1148,8 @@
     "categoryDescription": "KART · DIRT · JUMP"
   },
   {
-    "challenge": 29,
-    "displayOrder": 30,
+    "challenge": 30,
+    "displayOrder": 33,
     "section": "viewer",
     "trackB": 2286887510,
     "B": 2286887510,
@@ -1185,11 +1185,22 @@
       "dlc": "Historical Track Pack Pt.3"
     },
     "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
-    "categoryDescription": "KART · DIRT · JUMP"
+    "categoryDescription": "KART · DIRT · JUMP",
+    "observedVehicles": [
+      {
+        "vehicle": "McLaren Honda MP4/6",
+        "vehicleHash": 271036494,
+        "vehicleClass": "F-Classic_Gen4",
+        "boardA": 17562,
+        "status": "NEW",
+        "source": "screenshot 2026-10-23",
+        "qualification": "EXTRA_OBSERVATION_NOT_CHALLENGE_REPLACEMENT"
+      }
+    ]
   },
   {
-    "challenge": 30,
-    "displayOrder": 31,
+    "challenge": 31,
+    "displayOrder": 34,
     "section": "viewer",
     "trackB": 693994049,
     "B": 693994049,
@@ -1228,8 +1239,8 @@
     "categoryDescription": "KART · DIRT · JUMP"
   },
   {
-    "challenge": 31,
-    "displayOrder": 32,
+    "challenge": 32,
+    "displayOrder": 35,
     "section": "viewer",
     "trackB": 2395345560,
     "B": 2395345560,
@@ -1269,7 +1280,7 @@
   },
   {
     "challenge": 28,
-    "displayOrder": 33,
+    "displayOrder": 36,
     "section": "viewer",
     "trackB": 2508899182,
     "B": 2508899182,
@@ -1310,8 +1321,8 @@
     "categoryDescription": "KART · DIRT · JUMP"
   },
   {
-    "challenge": 32,
-    "displayOrder": 34,
+    "challenge": 33,
+    "displayOrder": 37,
     "section": "viewer",
     "trackB": 1869056157,
     "B": 1869056157,
@@ -1351,7 +1362,7 @@
   },
   {
     "challenge": 34,
-    "displayOrder": 23,
+    "displayOrder": 16,
     "section": "viewer",
     "trackB": 1080325116,
     "B": 1080325116,
@@ -1361,11 +1372,11 @@
     "layoutDetail": "2020",
     "displayName": "Bathurst · 2020",
     "name": "Bathurst 2020",
-    "category": "Nature",
-    "categoryOrder": 3,
-    "categoryColor": "#4fae5a",
-    "uiAccent": "#4fae5a",
-    "groupOrder": 2,
+    "category": "GP",
+    "categoryOrder": 1,
+    "categoryColor": "#ef1118",
+    "uiAccent": "#ef1118",
+    "groupOrder": 6,
     "dlc": false,
     "pack": "Base Game",
     "challengeClasses": [],
@@ -1387,5 +1398,134 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR TRACK ORDER"
+  },
+  {
+    "challenge": 35,
+    "displayOrder": 15,
+    "section": "viewer",
+    "trackB": 2995420810,
+    "B": 2995420810,
+    "trackId": "Hungaroring_GP_2025",
+    "locationName": "Hungaroring",
+    "layoutName": "Hungaroring GP 2025",
+    "layoutDetail": "GP 2025",
+    "displayName": "Hungaroring · GP 2025",
+    "name": "Hungaroring GP 2025",
+    "category": "GP",
+    "categoryOrder": 1,
+    "categoryColor": "#ef1118",
+    "uiAccent": "#ef1118",
+    "groupOrder": 5,
+    "dlc": true,
+    "pack": "Hungaroring Pack",
+    "challengeClasses": [
+      "GT3_Gen2"
+    ],
+    "challengeVehicle": "Aston Martin Vantage GT3 Evo",
+    "challengeVehicleHash": 1327147786,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": -1299546486,
+      "internalName": "Hungaroring_GP_2025",
+      "translatedName": "Hungaroring GP 2025",
+      "locationName": "Hungaroring",
+      "untranslatedName": "hungaroring_gp_2025",
+      "defaultYear": 2025,
+      "lengthM": 4381,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "dlc": "Hungaroring Pack"
+    },
+    "sourceAuthority": "AMS2 Dedicated API + Screenshot 2026-10-23 / PANCAR 3.0tnt",
+    "additionStatus": "NEW",
+    "additionStage": "3.0tnt_STAGE2"
+  },
+  {
+    "challenge": 36,
+    "displayOrder": 24,
+    "section": "viewer",
+    "trackB": 3598113364,
+    "B": 3598113364,
+    "trackId": "Montreal_Historic",
+    "locationName": "Montreal",
+    "layoutName": "Montreal Historic 1988",
+    "layoutDetail": "Historic 1988",
+    "displayName": "Montreal · Historic 1988",
+    "name": "Montreal Historic 1988",
+    "category": "Historic",
+    "categoryOrder": 2,
+    "categoryColor": "#d4af37",
+    "uiAccent": "#d4af37",
+    "groupOrder": 8,
+    "dlc": false,
+    "pack": "Base Game",
+    "challengeClasses": [
+      "F-Classic_Gen4"
+    ],
+    "challengeVehicle": "McLaren Honda MP4/6",
+    "challengeVehicleHash": 271036494,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": -696853932,
+      "internalName": "Montreal_Historic",
+      "translatedName": "Montreal Historic 1988",
+      "locationName": "Montreal",
+      "untranslatedName": "montrealhistoric",
+      "defaultYear": 1988,
+      "lengthM": 4430,
+      "country": "Canada",
+      "countryCode": "CA",
+      "dlc": ""
+    },
+    "sourceAuthority": "AMS2 Dedicated API + Screenshot 2026-10-23 / PANCAR 3.0tnt",
+    "additionStatus": "NEW",
+    "additionStage": "3.0tnt_STAGE2"
+  },
+  {
+    "challenge": 37,
+    "displayOrder": 25,
+    "section": "viewer",
+    "trackB": 3674087052,
+    "B": 3674087052,
+    "trackId": "Bathurst_1983",
+    "locationName": "Bathurst",
+    "layoutName": "Bathurst Historic 1983",
+    "layoutDetail": "Historic 1983",
+    "displayName": "Bathurst · Historic 1983",
+    "name": "Bathurst Historic 1983",
+    "category": "Historic",
+    "categoryOrder": 2,
+    "categoryColor": "#d4af37",
+    "uiAccent": "#d4af37",
+    "groupOrder": 9,
+    "dlc": true,
+    "pack": "Historical Track Pack Pt.1",
+    "challengeClasses": [
+      "F-V10_Gen3"
+    ],
+    "challengeVehicle": "Renault R25",
+    "challengeVehicleHash": 2683064653,
+    "challengeRule": "vehicleClass",
+    "activeChallenge": true,
+    "official": {
+      "source": "AMS2 Dedicated API",
+      "trackIdSigned": -620880244,
+      "internalName": "Bathurst_1983",
+      "translatedName": "Bathurst Historic 1983",
+      "locationName": "Bathurst",
+      "untranslatedName": "bathurst_1983",
+      "defaultYear": 1983,
+      "lengthM": 6171,
+      "country": "Australia",
+      "countryCode": "AU",
+      "dlc": "Historical Track Pack Pt.1"
+    },
+    "sourceAuthority": "AMS2 Dedicated API + Screenshot 2026-10-23 / PANCAR 3.0tnt",
+    "additionStatus": "NEW",
+    "additionStage": "3.0tnt_STAGE2"
   }
 ]
