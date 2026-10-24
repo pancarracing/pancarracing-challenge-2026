@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-24T19:00:36+02:00",
+  "updated": "2026-10-24T19:30:39+02:00",
   "challenges": [
     {
       "id": 1,
@@ -1965,7 +1965,7 @@
           "vehicleDlcName": "Endurance Pack Pt.3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1837911487,
-          "rank": 1663,
+          "rank": 1664,
           "score": 216901,
           "time": "03:36.901",
           "board": "cars2_autoevent_12287_1060182346_0_0",
@@ -2067,6 +2067,25 @@
           "boardA": 12252,
           "boardB": 1060182346,
           "mergedRank": 9
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 1837911487,
+          "vehicle": "Aston Martin Valkyrie Hypercar",
+          "vehicleClass": "LMDh",
+          "vehicleContent": "DLC",
+          "vehicleDlc": true,
+          "vehicleDlcName": "Endurance Pack Pt.3",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1837911487,
+          "rank": 1663,
+          "score": 216901,
+          "time": "03:36.901",
+          "board": "cars2_autoevent_12287_1060182346_0_0",
+          "boardA": 12287,
+          "boardB": 1060182346,
+          "mergedRank": 4
         },
         {
           "steamId": "76561198276152161",
@@ -2508,7 +2527,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1947909519,
-          "rank": 3858,
+          "rank": 3859,
           "score": 72620,
           "time": "01:12.620",
           "board": "cars2_autoevent_12773_2816254725_0_0",
@@ -2743,6 +2762,25 @@
           "boardA": 16676,
           "boardB": 2816254725,
           "mergedRank": 14
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1947909519,
+          "vehicle": "Formula Ultimate Hybrid Gen3",
+          "vehicleClass": "Formula Ultimate Hybrid Gen3",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1947909519,
+          "rank": 3858,
+          "score": 72620,
+          "time": "01:12.620",
+          "board": "cars2_autoevent_12773_2816254725_0_0",
+          "boardA": 12773,
+          "boardB": 2816254725,
+          "mergedRank": 2
         },
         {
           "steamId": "76561198089049981",
@@ -3057,17 +3095,16 @@
           "friends": 1
         },
         {
+          "board": "cars2_autoevent_12980_775712153_0_0",
+          "friends": 2
+        },
+        {
           "board": "cars2_autoevent_19155_775712153_0_0",
           "friends": 2
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_12980_775712153_0_0",
-          "status": "find-wait-failed"
-        }
-      ],
-      "scanStatus": "partial",
+      "boardErrors": [],
+      "scanStatus": "ok",
       "catalogBoards": 103,
       "friendsBoardsChecked": 101,
       "catalogBoardsPending": 2,
@@ -3106,7 +3143,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1947909519,
-          "rank": 1097,
+          "rank": 1100,
           "score": 105238,
           "time": "01:45.238",
           "board": "cars2_autoevent_12980_775712153_0_0",
@@ -3125,7 +3162,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1947909519,
-          "rank": 1475,
+          "rank": 1477,
           "score": 106302,
           "time": "01:46.302",
           "board": "cars2_autoevent_12980_775712153_0_0",
@@ -3246,6 +3283,44 @@
           "boardA": 9167,
           "boardB": 775712153,
           "mergedRank": 8
+        },
+        {
+          "steamId": "76561198089049981",
+          "driver": "dr.slimm",
+          "vehicleHash": 1947909519,
+          "vehicle": "Formula Ultimate Hybrid Gen3",
+          "vehicleClass": "Formula Ultimate Hybrid Gen3",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1947909519,
+          "rank": 1097,
+          "score": 105238,
+          "time": "01:45.238",
+          "board": "cars2_autoevent_12980_775712153_0_0",
+          "boardA": 12980,
+          "boardB": 775712153,
+          "mergedRank": 1
+        },
+        {
+          "steamId": "76561198276152161",
+          "driver": "Acce",
+          "vehicleHash": 1947909519,
+          "vehicle": "Formula Ultimate Hybrid Gen3",
+          "vehicleClass": "Formula Ultimate Hybrid Gen3",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1947909519,
+          "rank": 1475,
+          "score": 106302,
+          "time": "01:46.302",
+          "board": "cars2_autoevent_12980_775712153_0_0",
+          "boardA": 12980,
+          "boardB": 775712153,
+          "mergedRank": 2
         },
         {
           "steamId": "76561198089049981",
@@ -6642,6 +6717,25 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 262982797,
+          "rank": 356,
+          "score": 106991,
+          "time": "01:46.991",
+          "board": "cars2_autoevent_6070_568559152_0_0",
+          "boardA": 6070,
+          "boardB": 568559152,
+          "mergedRank": 3
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 262982797,
+          "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+          "vehicleClass": "Group A",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 262982797,
           "rank": 355,
           "score": 106991,
           "time": "01:46.991",
@@ -7139,14 +7233,14 @@
       "board": "cars2_autoevent_3425_693994049_0_0",
       "boardsScanned": 1,
       "scanMode": "ultra",
-      "activeBoards": [],
-      "boardErrors": [
+      "activeBoards": [
         {
           "board": "cars2_autoevent_3425_693994049_0_0",
-          "status": "find-wait-failed"
+          "friends": 1
         }
       ],
-      "scanStatus": "partial",
+      "boardErrors": [],
+      "scanStatus": "ok",
       "catalogBoards": 101,
       "friendsBoardsChecked": 101,
       "catalogBoardsPending": 0,
@@ -7672,7 +7766,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": -1542441995,
-          "rank": 84,
+          "rank": 85,
           "score": 82236,
           "time": "01:22.236",
           "board": "cars2_autoevent_18474_2995420810_0_0",
@@ -7717,6 +7811,25 @@
           "boardA": 18442,
           "boardB": 2995420810,
           "mergedRank": 5
+        },
+        {
+          "steamId": "76561198276152161",
+          "driver": "Acce",
+          "vehicleHash": -1542441995,
+          "vehicle": "F-Ultimate Gen2",
+          "vehicleClass": "Formula Ultimate Hybrid Gen3",
+          "vehicleContent": "",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": false,
+          "vehicleHashResolvedAs": -1542441995,
+          "rank": 84,
+          "score": 82236,
+          "time": "01:22.236",
+          "board": "cars2_autoevent_18474_2995420810_0_0",
+          "boardA": 18474,
+          "boardB": 2995420810,
+          "mergedRank": 3
         },
         {
           "steamId": "76561198012880510",
@@ -44336,15 +44449,15 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 101.6,
+    "elapsedSeconds": 88.0,
     "boardsScanned": 152,
-    "boardsOk": 150,
+    "boardsOk": 152,
     "boardsNotFound": 0,
     "boardsEmptyFriends": 7,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 174,
-    "errors": 2,
+    "rawFriendEntries": 177,
+    "errors": 0,
     "catalogVehicles": 280,
     "unknownVehicles": 1
   }
