@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-24T16:59:12+02:00",
+  "updated": "2026-10-24T17:13:00+02:00",
   "challenges": [
     {
       "id": 1,
@@ -7349,8 +7349,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_18472_2995420810_0_0",
-      "boardsScanned": 98,
-      "scanMode": "catalog",
+      "boardsScanned": 3,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_18442_2995420810_0_0",
@@ -44163,12 +44163,12 @@
   ],
   "collector": {
     "version": "5.5.11",
-    "mode": "catalog",
-    "elapsedSeconds": 55.9,
-    "boardsScanned": 98,
-    "boardsOk": 98,
+    "mode": "ultra",
+    "elapsedSeconds": 1.7,
+    "boardsScanned": 3,
+    "boardsOk": 3,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 95,
+    "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
     "rawFriendEntries": 5,
