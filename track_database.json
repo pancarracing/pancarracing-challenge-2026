@@ -1107,7 +1107,7 @@
   },
   {
     "challenge": 15,
-    "displayOrder": 32,
+    "displayOrder": 34,
     "section": "viewer",
     "trackB": 2590843191,
     "B": 2590843191,
@@ -1149,7 +1149,7 @@
   },
   {
     "challenge": 30,
-    "displayOrder": 33,
+    "displayOrder": 32,
     "section": "viewer",
     "trackB": 2286887510,
     "B": 2286887510,
@@ -1159,11 +1159,11 @@
     "layoutDetail": "Historic 2005 Short",
     "displayName": "Road Atlanta · Historic 2005 Short",
     "name": "Road Atlanta Historic 2005 Short",
-    "category": "Special",
-    "categoryOrder": 4,
-    "categoryColor": "#9fdcff",
-    "uiAccent": "#9fdcff",
-    "groupOrder": 2,
+    "category": "Nature",
+    "categoryOrder": 3,
+    "categoryColor": "#4fae5a",
+    "uiAccent": "#4fae5a",
+    "groupOrder": 7,
     "dlc": true,
     "pack": "Historical Track Pack Pt.3",
     "challengeClasses": [],
@@ -1185,7 +1185,6 @@
       "dlc": "Historical Track Pack Pt.3"
     },
     "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
-    "categoryDescription": "KART · DIRT · JUMP",
     "observedVehicles": [
       {
         "vehicle": "McLaren Honda MP4/6",
@@ -1200,7 +1199,7 @@
   },
   {
     "challenge": 31,
-    "displayOrder": 34,
+    "displayOrder": 35,
     "section": "viewer",
     "trackB": 693994049,
     "B": 693994049,
@@ -1214,7 +1213,7 @@
     "categoryOrder": 4,
     "categoryColor": "#9fdcff",
     "uiAccent": "#9fdcff",
-    "groupOrder": 3,
+    "groupOrder": 2,
     "dlc": false,
     "pack": "Base Game",
     "challengeClasses": [],
@@ -1240,7 +1239,7 @@
   },
   {
     "challenge": 32,
-    "displayOrder": 35,
+    "displayOrder": 33,
     "section": "viewer",
     "trackB": 2395345560,
     "B": 2395345560,
@@ -1250,11 +1249,11 @@
     "layoutDetail": "Auto Club Speedway Sports Car Course",
     "displayName": "Fontana · Auto Club Speedway Sports Car Course",
     "name": "Auto Club Speedway Sports Car Course",
-    "category": "Special",
-    "categoryOrder": 4,
-    "categoryColor": "#9fdcff",
-    "uiAccent": "#9fdcff",
-    "groupOrder": 4,
+    "category": "Nature",
+    "categoryOrder": 3,
+    "categoryColor": "#4fae5a",
+    "uiAccent": "#4fae5a",
+    "groupOrder": 8,
     "dlc": true,
     "pack": "Racing USA Pack Pt.3",
     "challengeClasses": [],
@@ -1275,8 +1274,7 @@
       "countryCode": "US",
       "dlc": "Racing USA Pack Pt.3"
     },
-    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping",
-    "categoryDescription": "KART · DIRT · JUMP"
+    "sourceAuthority": "track_database.json ← AMS2 Dedicated API + PANCAR viewer mapping"
   },
   {
     "challenge": 28,
@@ -1317,7 +1315,7 @@
       "dlc": ""
     },
     "sourceAuthority": "track_database.json ← challenge_config + AMS2 Dedicated API",
-    "groupOrder": 5,
+    "groupOrder": 3,
     "categoryDescription": "KART · DIRT · JUMP"
   },
   {
@@ -1336,7 +1334,7 @@
     "categoryOrder": 4,
     "categoryColor": "#9fdcff",
     "uiAccent": "#9fdcff",
-    "groupOrder": 6,
+    "groupOrder": 4,
     "dlc": false,
     "pack": "Base Game",
     "challengeClasses": [],
