@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-25T09:13:40+01:00",
+  "updated": "2026-10-25T09:15:09+01:00",
   "challenges": [
     {
       "id": 1,
@@ -8539,8 +8539,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_18472_2995420810_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "catalog",
       "activeBoards": [
         {
           "board": "cars2_autoevent_18442_2995420810_0_0",
@@ -46243,14 +46243,14 @@
   "collector": {
     "version": "5.5.11",
     "mode": "catalog",
-    "elapsedSeconds": 59.9,
-    "boardsScanned": 101,
-    "boardsOk": 101,
+    "elapsedSeconds": 54.5,
+    "boardsScanned": 99,
+    "boardsOk": 99,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 90,
+    "boardsEmptyFriends": 96,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 11,
+    "rawFriendEntries": 5,
     "errors": 0,
     "catalogVehicles": 280,
     "unknownVehicles": 1
