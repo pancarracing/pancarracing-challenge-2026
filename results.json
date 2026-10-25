@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-24T21:34:06+02:00",
+  "updated": "2026-10-24T22:30:11+02:00",
   "challenges": [
     {
       "id": 1,
@@ -7608,17 +7608,9 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "",
-      "boardsScanned": 5,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "complete",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_545_1080325116_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_580_1080325116_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_12163_1080325116_0_0",
           "friends": 1
@@ -7629,6 +7621,14 @@
         },
         {
           "board": "cars2_autoevent_18036_1080325116_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_545_1080325116_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_580_1080325116_0_0",
           "friends": 1
         }
       ],
@@ -7652,7 +7652,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": -1611902643,
-          "rank": 102,
+          "rank": 103,
           "score": 105185,
           "time": "01:45.185",
           "board": "cars2_autoevent_18036_1080325116_0_0",
@@ -7739,6 +7739,25 @@
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
+          "vehicleHash": -1611902643,
+          "vehicle": "Renault R25",
+          "vehicleClass": "F-V10_Gen3",
+          "vehicleContent": "",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": false,
+          "vehicleHashResolvedAs": -1611902643,
+          "rank": 102,
+          "score": 105185,
+          "time": "01:45.185",
+          "board": "cars2_autoevent_18036_1080325116_0_0",
+          "boardA": 18036,
+          "boardB": 1080325116,
+          "mergedRank": 1
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
           "vehicleHash": 262982797,
           "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
           "vehicleClass": "Group A",
@@ -7767,8 +7786,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_18472_2995420810_0_0",
-      "boardsScanned": 3,
-      "scanMode": "ultra",
+      "boardsScanned": 99,
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_18442_2995420810_0_0",
@@ -7785,12 +7804,31 @@
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 98,
-      "friendsBoardsChecked": 98,
+      "catalogBoards": 99,
+      "friendsBoardsChecked": 99,
       "catalogBoardsPending": 0,
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1327147786,
+          "vehicle": "Aston Martin Vantage GT3 Evo",
+          "vehicleClass": "GT3_Gen2",
+          "vehicleContent": "DLC",
+          "vehicleDlc": true,
+          "vehicleDlcName": "Endurance Pack Pt.3",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1327147786,
+          "rank": 139,
+          "score": 109588,
+          "time": "01:49.588",
+          "board": "cars2_autoevent_18472_2995420810_0_0",
+          "boardA": 18472,
+          "boardB": 2995420810,
+          "mergedRank": 1
+        },
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
@@ -7937,7 +7975,7 @@
           "vehicleDlcName": "Endurance Pack Pt.3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1327147786,
-          "rank": 138,
+          "rank": 139,
           "score": 109588,
           "time": "01:49.588",
           "board": "cars2_autoevent_18472_2995420810_0_0",
@@ -7963,6 +8001,25 @@
           "boardA": 18442,
           "boardB": 2995420810,
           "mergedRank": 5
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1327147786,
+          "vehicle": "Aston Martin Vantage GT3 Evo",
+          "vehicleClass": "GT3_Gen2",
+          "vehicleContent": "DLC",
+          "vehicleDlc": true,
+          "vehicleDlcName": "Endurance Pack Pt.3",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1327147786,
+          "rank": 138,
+          "score": 109588,
+          "time": "01:49.588",
+          "board": "cars2_autoevent_18472_2995420810_0_0",
+          "boardA": 18472,
+          "boardB": 2995420810,
+          "mergedRank": 4
         },
         {
           "steamId": "76561198276152161",
@@ -8147,8 +8204,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_6479_3598113364_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6479_3598113364_0_0",
@@ -8157,8 +8214,8 @@
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 99,
-      "friendsBoardsChecked": 99,
+      "catalogBoards": 101,
+      "friendsBoardsChecked": 101,
       "catalogBoardsPending": 0,
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
@@ -8215,8 +8272,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_18039_3674087052_0_0",
-      "boardsScanned": 1,
-      "scanMode": "ultra",
+      "boardsScanned": 101,
+      "scanMode": "complete",
       "activeBoards": [
         {
           "board": "cars2_autoevent_18039_3674087052_0_0",
@@ -8225,8 +8282,8 @@
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 99,
-      "friendsBoardsChecked": 99,
+      "catalogBoards": 101,
+      "friendsBoardsChecked": 101,
       "catalogBoardsPending": 0,
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
@@ -44827,15 +44884,15 @@
   ],
   "collector": {
     "version": "5.5.11",
-    "mode": "ultra",
-    "elapsedSeconds": 87.0,
-    "boardsScanned": 152,
-    "boardsOk": 152,
+    "mode": "complete",
+    "elapsedSeconds": 18530.8,
+    "boardsScanned": 402,
+    "boardsOk": 402,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 7,
+    "boardsEmptyFriends": 392,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 177,
+    "rawFriendEntries": 12,
     "errors": 0,
     "catalogVehicles": 280,
     "unknownVehicles": 1
