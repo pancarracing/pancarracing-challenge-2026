@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-25T07:34:19+01:00",
+  "updated": "2026-10-25T09:10:00+01:00",
   "challenges": [
     {
       "id": 1,
@@ -681,7 +681,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 262982797,
-          "rank": 615,
+          "rank": 616,
           "score": 99719,
           "time": "01:39.719",
           "board": "cars2_autoevent_732_1534602052_0_0",
@@ -707,6 +707,25 @@
           "boardA": 733,
           "boardB": 1534602052,
           "mergedRank": 5
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 262982797,
+          "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+          "vehicleClass": "Group A",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 262982797,
+          "rank": 615,
+          "score": 99719,
+          "time": "01:39.719",
+          "board": "cars2_autoevent_732_1534602052_0_0",
+          "boardA": 732,
+          "boardB": 1534602052,
+          "mergedRank": 4
         },
         {
           "steamId": "76561198012880510",
@@ -8210,6 +8229,25 @@
           "boardA": 545,
           "boardB": 1080325116,
           "mergedRank": 4
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 262982797,
+          "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+          "vehicleClass": "Group A",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 262982797,
+          "rank": 677,
+          "score": 152787,
+          "time": "02:32.787",
+          "board": "cars2_autoevent_580_1080325116_0_0",
+          "boardA": 580,
+          "boardB": 1080325116,
+          "mergedRank": 5
         },
         {
           "steamId": "76561198012880510",
@@ -45417,7 +45455,7 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 80.7,
+    "elapsedSeconds": 76.6,
     "boardsScanned": 152,
     "boardsOk": 152,
     "boardsNotFound": 0,
