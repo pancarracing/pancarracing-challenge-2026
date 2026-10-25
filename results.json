@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-24T22:30:11+02:00",
+  "updated": "2026-10-25T05:52:54+01:00",
   "challenges": [
     {
       "id": 1,
@@ -7608,9 +7608,17 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "",
-      "boardsScanned": 101,
-      "scanMode": "complete",
+      "boardsScanned": 5,
+      "scanMode": "ultra",
       "activeBoards": [
+        {
+          "board": "cars2_autoevent_545_1080325116_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_580_1080325116_0_0",
+          "friends": 1
+        },
         {
           "board": "cars2_autoevent_12163_1080325116_0_0",
           "friends": 1
@@ -7621,14 +7629,6 @@
         },
         {
           "board": "cars2_autoevent_18036_1080325116_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_545_1080325116_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_580_1080325116_0_0",
           "friends": 1
         }
       ],
@@ -7786,8 +7786,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_18472_2995420810_0_0",
-      "boardsScanned": 99,
-      "scanMode": "complete",
+      "boardsScanned": 3,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_18442_2995420810_0_0",
@@ -7810,6 +7810,25 @@
       "catalogCoverageComplete": true,
       "completeSteamCatalogVerified": false,
       "results": [
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1327147786,
+          "vehicle": "Aston Martin Vantage GT3 Evo",
+          "vehicleClass": "GT3_Gen2",
+          "vehicleContent": "DLC",
+          "vehicleDlc": true,
+          "vehicleDlcName": "Endurance Pack Pt.3",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1327147786,
+          "rank": 140,
+          "score": 109588,
+          "time": "01:49.588",
+          "board": "cars2_autoevent_18472_2995420810_0_0",
+          "boardA": 18472,
+          "boardB": 2995420810,
+          "mergedRank": 1
+        },
         {
           "steamId": "76561198012880510",
           "driver": "pancar LBC",
@@ -7975,7 +7994,7 @@
           "vehicleDlcName": "Endurance Pack Pt.3",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1327147786,
-          "rank": 139,
+          "rank": 140,
           "score": 109588,
           "time": "01:49.588",
           "board": "cars2_autoevent_18472_2995420810_0_0",
@@ -8001,6 +8020,25 @@
           "boardA": 18442,
           "boardB": 2995420810,
           "mergedRank": 5
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1327147786,
+          "vehicle": "Aston Martin Vantage GT3 Evo",
+          "vehicleClass": "GT3_Gen2",
+          "vehicleContent": "DLC",
+          "vehicleDlc": true,
+          "vehicleDlcName": "Endurance Pack Pt.3",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1327147786,
+          "rank": 139,
+          "score": 109588,
+          "time": "01:49.588",
+          "board": "cars2_autoevent_18472_2995420810_0_0",
+          "boardA": 18472,
+          "boardB": 2995420810,
+          "mergedRank": 4
         },
         {
           "steamId": "76561198012880510",
@@ -8204,8 +8242,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_6479_3598113364_0_0",
-      "boardsScanned": 101,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_6479_3598113364_0_0",
@@ -8272,8 +8310,8 @@
       "allClasses": [],
       "allPolicy": "",
       "board": "cars2_autoevent_18039_3674087052_0_0",
-      "boardsScanned": 101,
-      "scanMode": "complete",
+      "boardsScanned": 1,
+      "scanMode": "ultra",
       "activeBoards": [
         {
           "board": "cars2_autoevent_18039_3674087052_0_0",
@@ -44884,12 +44922,12 @@
   ],
   "collector": {
     "version": "5.5.11",
-    "mode": "complete",
-    "elapsedSeconds": 18530.8,
-    "boardsScanned": 402,
-    "boardsOk": 402,
+    "mode": "ultra",
+    "elapsedSeconds": 5.3,
+    "boardsScanned": 10,
+    "boardsOk": 10,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 392,
+    "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
     "rawFriendEntries": 12,
