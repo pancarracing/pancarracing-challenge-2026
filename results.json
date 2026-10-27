@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-27T06:50:51+01:00",
+  "updated": "2026-10-27T12:12:21+01:00",
   "challenges": [
     {
       "id": 1,
@@ -357,7 +357,7 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 1353949246,
-          "rank": 1280,
+          "rank": 1281,
           "score": 430735,
           "time": "07:10.735",
           "board": "cars2_autoevent_7065_884472481_0_0",
@@ -402,6 +402,25 @@
           "boardA": 7066,
           "boardB": 884472481,
           "mergedRank": 7
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": 1353949246,
+          "vehicle": "Mercedes-AMG GT3",
+          "vehicleClass": "GT3",
+          "vehicleContent": "BASE/FREE",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": true,
+          "vehicleHashResolvedAs": 1353949246,
+          "rank": 1280,
+          "score": 430735,
+          "time": "07:10.735",
+          "board": "cars2_autoevent_7065_884472481_0_0",
+          "boardA": 7065,
+          "boardB": 884472481,
+          "mergedRank": 5
         },
         {
           "steamId": "76561198012880510",
@@ -5100,7 +5119,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": -1485318279,
-          "rank": 286,
+          "rank": 287,
           "score": 110500,
           "time": "01:50.500",
           "board": "cars2_autoevent_19155_775712153_0_0",
@@ -5183,6 +5202,25 @@
           "boardA": 9167,
           "boardB": 775712153,
           "mergedRank": 8
+        },
+        {
+          "steamId": "76561198276152161",
+          "driver": "Acce",
+          "vehicleHash": -1485318279,
+          "vehicle": "Formula V10 Gen3 (M)",
+          "vehicleClass": "F-V10_Gen3",
+          "vehicleContent": "",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": false,
+          "vehicleHashResolvedAs": -1485318279,
+          "rank": 286,
+          "score": 110500,
+          "time": "01:50.500",
+          "board": "cars2_autoevent_19155_775712153_0_0",
+          "boardA": 19155,
+          "boardB": 775712153,
+          "mergedRank": 4
         },
         {
           "steamId": "76561198089049981",
@@ -49957,7 +49995,7 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 97.7,
+    "elapsedSeconds": 82.9,
     "boardsScanned": 158,
     "boardsOk": 158,
     "boardsNotFound": 0,
