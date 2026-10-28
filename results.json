@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-10-27T18:53:47+01:00",
+  "updated": "2026-10-28T07:40:52+01:00",
   "challenges": [
     {
       "id": 1,
@@ -23,17 +23,16 @@
       "scanMode": "ultra",
       "activeBoards": [
         {
+          "board": "cars2_autoevent_6735_612695202_0_0",
+          "friends": 3
+        },
+        {
           "board": "cars2_autoevent_12495_612695202_0_0",
           "friends": 1
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_6735_612695202_0_0",
-          "status": "find-wait-failed"
-        }
-      ],
-      "scanStatus": "partial",
+      "boardErrors": [],
+      "scanStatus": "ok",
       "catalogBoards": 101,
       "friendsBoardsChecked": 101,
       "catalogBoardsPending": 0,
@@ -5866,6 +5865,10 @@
       "scanMode": "ultra",
       "activeBoards": [
         {
+          "board": "cars2_autoevent_2102_2249037056_0_0",
+          "friends": 1
+        },
+        {
           "board": "cars2_autoevent_12699_2249037056_0_0",
           "friends": 4
         },
@@ -5882,13 +5885,8 @@
           "friends": 2
         }
       ],
-      "boardErrors": [
-        {
-          "board": "cars2_autoevent_2102_2249037056_0_0",
-          "status": "find-wait-failed"
-        }
-      ],
-      "scanStatus": "partial",
+      "boardErrors": [],
+      "scanStatus": "ok",
       "catalogBoards": 102,
       "friendsBoardsChecked": 101,
       "catalogBoardsPending": 1,
@@ -49997,15 +49995,15 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 103.3,
+    "elapsedSeconds": 110.1,
     "boardsScanned": 158,
-    "boardsOk": 156,
+    "boardsOk": 158,
     "boardsNotFound": 0,
     "boardsEmptyFriends": 7,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 179,
-    "errors": 2,
+    "rawFriendEntries": 183,
+    "errors": 0,
     "catalogVehicles": 280,
     "unknownVehicles": 1
   }
