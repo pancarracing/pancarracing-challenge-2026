@@ -504,6 +504,21 @@
       "official": true
     },
     {
+      "vehicle": "Formula Ultimate Hybrid Gen3",
+      "class": "F-Ultimate_Gen3",
+      "classId": "F-Ultimate_Gen3",
+      "vehicleHash": 1947909519,
+      "dedicatedIdSigned": 1947909519,
+      "content": "BASE/FREE",
+      "dlc": "",
+      "manufacturer": "Reiza",
+      "country": "Brazil",
+      "power": 965,
+      "weight": 798,
+      "source": "AMS2 Dedicated API",
+      "official": true
+    },
+    {
       "vehicle": "Dallara F301",
       "class": "F3 Brasil",
       "classId": "F-3",
@@ -1115,21 +1130,6 @@
       "country": "Brazil",
       "power": 960,
       "weight": 734,
-      "source": "AMS2 Dedicated API",
-      "official": true
-    },
-    {
-      "vehicle": "Formula Ultimate Hybrid Gen3",
-      "class": "F-Ultimate_Gen3",
-      "classId": "F-Ultimate_Gen3",
-      "vehicleHash": 1947909519,
-      "dedicatedIdSigned": 1947909519,
-      "content": "BASE/FREE",
-      "dlc": "",
-      "manufacturer": "Reiza",
-      "country": "Brazil",
-      "power": 965,
-      "weight": 798,
       "source": "AMS2 Dedicated API",
       "official": true
     },
