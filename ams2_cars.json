@@ -1120,8 +1120,8 @@
     },
     {
       "vehicle": "Formula Ultimate Hybrid Gen3",
-      "class": "Formula Ultimate Hybrid Gen3",
-      "classId": "F-Ultimate_Gen2",
+      "class": "F-Ultimate_Gen3",
+      "classId": "F-Ultimate_Gen3",
       "vehicleHash": 1947909519,
       "dedicatedIdSigned": 1947909519,
       "content": "BASE/FREE",

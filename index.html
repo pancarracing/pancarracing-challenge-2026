@@ -1128,7 +1128,25 @@ function catalogVehicleEntry(source) {
     return needle ? (carByName.get(needle)||null) : null;
 }
 
+// PANCAR_RC9B_GEN3_NO_HISTORY: affects live leaderboard rows only.
+function pancarRc9bGen3(row){
+    if (!row || typeof row !== 'object') return false;
+    const h = u32(row.vehicleHash);
+    return h === 1947909519 || h === 2752525301;
+}
+function pancarRc9bClass(row){
+    return pancarRc9bGen3(row) ? 'F-Ultimate_Gen3' : row?.vehicleClass;
+}
+
 function resolvedVehicle(source){
+    if (pancarRc9bGen3(source)) {
+        return {
+            name: 'Formula Ultimate Hybrid Gen3',
+            ams2Name: 'F-Hybrid Gen3',
+            className: 'F-Ultimate_Gen3',
+            entry: catalogVehicleEntry(source)
+        };
+    }
     const entry=catalogVehicleEntry(source);
     if(entry){
         return {
@@ -1509,8 +1527,8 @@ function p444Available(){
     for(const ch of prepareChallengesForUi(latestData?.challenges||[])){
         if(!p444IsViewer(ch)) continue;
         for(const r of p444Rows(ch)){
-            const c=p444Canon(r.vehicleClass);
-            if(c && !out.has(c)) out.set(c,p444ClassLabel(r.vehicleClass));
+            const c=p444Canon(pancarRc9bClass(r));
+            if(c && !out.has(c)) out.set(c,p444ClassLabel(pancarRc9bClass(r)));
         }
     }
     return [...out.entries()].sort((a,b)=>a[1].localeCompare(b[1],"en"));
@@ -1543,7 +1561,7 @@ function p444Save(){ localStorage.setItem(P444_KEY,JSON.stringify([...p444Load()
 function p444FilterRows(ch,rows){
     if(currentMode==="all" || !p444IsViewer(ch)) return rows;
     const sel=p444Load();
-    return rows.filter(r=>sel.has(p444Canon(r.vehicleClass)));
+    return rows.filter(r=>sel.has(p444Canon(pancarRc9bClass(r))));
 }
 function p444SelectedLabel(){
     const sel=p444Load(), avail=new Map(p444Available());
