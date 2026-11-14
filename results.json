@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-11-14T19:25:17+01:00",
+  "updated": "2026-11-14T19:40:08+01:00",
   "challenges": [
     {
       "id": 1,
@@ -6183,7 +6183,7 @@
           "vehicleDlcName": "",
           "catalogMatched": false,
           "vehicleHashResolvedAs": -1611902643,
-          "rank": 661,
+          "rank": 662,
           "score": 74942,
           "time": "01:14.942",
           "board": "cars2_autoevent_18810_2816254725_0_0",
@@ -6399,6 +6399,25 @@
           "boardA": 16676,
           "boardB": 2816254725,
           "mergedRank": 15
+        },
+        {
+          "steamId": "76561198012880510",
+          "driver": "pancar LBC",
+          "vehicleHash": -1611902643,
+          "vehicle": "Renault R25",
+          "vehicleClass": "F-V10_Gen3",
+          "vehicleContent": "",
+          "vehicleDlc": false,
+          "vehicleDlcName": "",
+          "catalogMatched": false,
+          "vehicleHashResolvedAs": -1611902643,
+          "rank": 661,
+          "score": 74942,
+          "time": "01:14.942",
+          "board": "cars2_autoevent_18810_2816254725_0_0",
+          "boardA": 18810,
+          "boardB": 2816254725,
+          "mergedRank": 4
         },
         {
           "steamId": "76561198089049981",
