@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-11-14T10:55:34+01:00",
+  "updated": "2026-11-14T12:08:00+01:00",
   "challenges": [
     {
       "id": 1,
@@ -2548,27 +2548,23 @@
       ],
       "allPolicy": "",
       "board": "cars2_autoevent_15482_701322116_0_0",
-      "boardsScanned": 100,
-      "scanMode": "catalog",
+      "boardsScanned": 7,
+      "scanMode": "ultra",
       "activeBoards": [
-        {
-          "board": "cars2_autoevent_15475_701322116_0_0",
-          "friends": 1
-        },
-        {
-          "board": "cars2_autoevent_15476_701322116_0_0",
-          "friends": 1
-        },
         {
           "board": "cars2_autoevent_15482_701322116_0_0",
           "friends": 2
+        },
+        {
+          "board": "cars2_autoevent_15475_701322116_0_0",
+          "friends": 1
         },
         {
           "board": "cars2_autoevent_15489_701322116_0_0",
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_15491_701322116_0_0",
+          "board": "cars2_autoevent_19071_701322116_0_0",
           "friends": 1
         },
         {
@@ -2576,7 +2572,11 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_19071_701322116_0_0",
+          "board": "cars2_autoevent_15476_701322116_0_0",
+          "friends": 1
+        },
+        {
+          "board": "cars2_autoevent_15491_701322116_0_0",
           "friends": 1
         }
       ],
@@ -35602,6 +35602,51 @@
       "displayDelta": "NEW",
       "displayFriendColor": "",
       "displayTimeColor": "blue"
+    },
+    {
+      "timestamp": "2026-11-14T12:08:00+01:00",
+      "challengeId": 6,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": 262982797,
+      "vehicle": "Mercedes-Benz 190E 2.5-16 Evo II DTM",
+      "vehicleClass": "Group A",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_15482_701322116_0_0",
+      "boardA": 15482,
+      "boardB": 701322116,
+      "track": "Pocono",
+      "score": 92843,
+      "time": "01:32.843",
+      "isNew": false,
+      "deltaMs": -471,
+      "delta": "-0.471",
+      "challengeEligible": true,
+      "scopes": [
+        "challenge"
+      ],
+      "oldWorldRank": 19,
+      "newWorldRank": 18,
+      "worldJump": "19→18",
+      "worldColor": "green",
+      "timeColor": "gold",
+      "kingFriendJump": "—",
+      "kingFriendColor": "",
+      "challengeFriendJump": "2→1",
+      "challengeFriendColor": "gold",
+      "friendJump": "2→1",
+      "friendColor": "gold",
+      "oldFriendRank": 2,
+      "newFriendRank": 1,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "RANK_UP",
+      "displaySemanticColor": "green",
+      "displayDelta": "-0.471",
+      "displayFriendColor": "gold",
+      "displayTimeColor": "gold"
     }
   ],
   "historyKing": [
@@ -67931,12 +67976,12 @@
   ],
   "collector": {
     "version": "5.5.11",
-    "mode": "catalog",
-    "elapsedSeconds": 55.1,
-    "boardsScanned": 100,
-    "boardsOk": 100,
+    "mode": "ultra",
+    "elapsedSeconds": 3.7,
+    "boardsScanned": 7,
+    "boardsOk": 7,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 93,
+    "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
     "rawFriendEntries": 8,
