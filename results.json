@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-11-14T23:28:06+01:00",
+  "updated": "2026-11-14T23:30:48+01:00",
   "challenges": [
     {
       "id": 1,
@@ -73300,14 +73300,14 @@
   "collector": {
     "version": "5.5.11",
     "mode": "catalog",
-    "elapsedSeconds": 61.0,
-    "boardsScanned": 102,
-    "boardsOk": 102,
+    "elapsedSeconds": 0.7,
+    "boardsScanned": 1,
+    "boardsOk": 1,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 94,
+    "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 8,
+    "rawFriendEntries": 1,
     "errors": 0,
     "catalogVehicles": 280,
     "unknownVehicles": 2
