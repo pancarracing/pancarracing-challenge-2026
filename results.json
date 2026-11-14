@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-11-14T19:40:08+01:00",
+  "updated": "2026-11-14T19:40:32+01:00",
   "challenges": [
     {
       "id": 1,
@@ -37823,6 +37823,51 @@
       "displayDelta": "-0.797",
       "displayFriendColor": "gold",
       "displayTimeColor": "gold"
+    },
+    {
+      "timestamp": "2026-11-14T19:40:32+01:00",
+      "challengeId": 10,
+      "driver": "pancar LBC",
+      "steamId": "76561198012880510",
+      "vehicleHash": -830134672,
+      "vehicle": "Lotus 23",
+      "vehicleClass": "TC60S2",
+      "vehicleDlc": false,
+      "vehicleDlcName": "",
+      "board": "cars2_autoevent_1052_799677855_0_0",
+      "boardA": 1052,
+      "boardB": 799677855,
+      "track": "Buenos Aires",
+      "score": 135820,
+      "time": "02:15.820",
+      "isNew": false,
+      "deltaMs": -760,
+      "delta": "-0.760",
+      "challengeEligible": true,
+      "scopes": [
+        "challenge"
+      ],
+      "oldWorldRank": 4,
+      "newWorldRank": 4,
+      "worldJump": "4",
+      "worldColor": "",
+      "timeColor": "blue",
+      "kingFriendJump": "—",
+      "kingFriendColor": "",
+      "challengeFriendJump": "1",
+      "challengeFriendColor": "",
+      "friendJump": "1",
+      "friendColor": "",
+      "oldFriendRank": 1,
+      "newFriendRank": 1,
+      "frozen": true,
+      "historySource": "snapshot-delta",
+      "impactEvent": true,
+      "eventType": "RANK_UP",
+      "displaySemanticColor": "green",
+      "displayDelta": "-0.760",
+      "displayFriendColor": "",
+      "displayTimeColor": "blue"
     }
   ],
   "historyKing": [
@@ -71245,14 +71290,14 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 4.7,
-    "boardsScanned": 9,
-    "boardsOk": 9,
+    "elapsedSeconds": 5.9,
+    "boardsScanned": 11,
+    "boardsOk": 11,
     "boardsNotFound": 0,
     "boardsEmptyFriends": 0,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 15,
+    "rawFriendEntries": 18,
     "errors": 0,
     "catalogVehicles": 280,
     "unknownVehicles": 1
