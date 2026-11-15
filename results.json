@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-11-15T08:56:13+01:00",
+  "updated": "2026-11-15T10:18:44+01:00",
   "challenges": [
     {
       "id": 1,
@@ -16013,10 +16013,10 @@
       ],
       "boardErrors": [],
       "scanStatus": "ok",
-      "catalogBoards": 99,
+      "catalogBoards": 101,
       "friendsBoardsChecked": 99,
-      "catalogBoardsPending": 0,
-      "catalogCoverageComplete": true,
+      "catalogBoardsPending": 2,
+      "catalogCoverageComplete": false,
       "completeSteamCatalogVerified": false,
       "results": [
         {
@@ -74339,15 +74339,15 @@
   ],
   "collector": {
     "version": "5.5.11",
-    "mode": "catalog",
-    "elapsedSeconds": 59.9,
-    "boardsScanned": 101,
-    "boardsOk": 101,
+    "mode": "ultra",
+    "elapsedSeconds": 8.8,
+    "boardsScanned": 17,
+    "boardsOk": 17,
     "boardsNotFound": 0,
-    "boardsEmptyFriends": 94,
+    "boardsEmptyFriends": 1,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 9,
+    "rawFriendEntries": 17,
     "errors": 0,
     "catalogVehicles": 280,
     "unknownVehicles": 2
