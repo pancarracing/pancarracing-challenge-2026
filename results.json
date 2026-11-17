@@ -1,6 +1,6 @@
 ﻿{
   "schemaVersion": 3,
-  "updated": "2026-11-17T14:00:21+01:00",
+  "updated": "2026-11-17T14:11:12+01:00",
   "challenges": [
     {
       "id": 1,
@@ -5480,10 +5480,6 @@
           "friends": 1
         },
         {
-          "board": "cars2_autoevent_492_2355862379_0_0",
-          "friends": 1
-        },
-        {
           "board": "cars2_autoevent_504_2355862379_0_0",
           "friends": 1
         },
@@ -5520,8 +5516,13 @@
           "friends": 1
         }
       ],
-      "boardErrors": [],
-      "scanStatus": "ok",
+      "boardErrors": [
+        {
+          "board": "cars2_autoevent_492_2355862379_0_0",
+          "status": "download-timeout"
+        }
+      ],
+      "scanStatus": "partial",
       "catalogBoards": 101,
       "friendsBoardsChecked": 101,
       "catalogBoardsPending": 0,
@@ -5692,9 +5693,6 @@
           "vehicleDlcName": "",
           "catalogMatched": true,
           "vehicleHashResolvedAs": 306785397,
-          "vehicleId": 306785397,
-          "vehicleClassName": "GT Open",
-          "vehicleYear": null,
           "rank": 50,
           "score": 99479,
           "time": "01:39.479",
@@ -57043,15 +57041,15 @@
   "collector": {
     "version": "5.5.11",
     "mode": "ultra",
-    "elapsedSeconds": 93.7,
+    "elapsedSeconds": 7630.4,
     "boardsScanned": 175,
-    "boardsOk": 175,
+    "boardsOk": 174,
     "boardsNotFound": 0,
     "boardsEmptyFriends": 7,
     "tracksNeedDiscovery": [],
     "tracksNeedCatalog": [],
-    "rawFriendEntries": 205,
-    "errors": 0,
+    "rawFriendEntries": 204,
+    "errors": 1,
     "catalogVehicles": 282,
     "unknownVehicles": 2
   }

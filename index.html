@@ -265,6 +265,7 @@ body {
         138px
         84px
         minmax(205px, 1.28fr)
+        58px
         minmax(135px, .82fr);
     align-items: center;
 }
@@ -327,10 +328,18 @@ body {
 }
 
 .vehicle-year {
-    color: #8d8d8d;
-    font-size: .72em;
+    color: #9a9a9a;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.vehicle-real {
+    display: block;
+    color: #8a8a8a;
+    font-size: .74em;
     font-weight: 600;
-    margin-left: 4px;
+    line-height: 1.15;
 }
 
 .vehicle-class {
@@ -705,7 +714,7 @@ body {
     .results-head,
     .driver-row {
         min-width: 0 !important;
-        grid-template-columns: 30px minmax(72px,.9fr) 66px 42px minmax(92px,1.1fr) 66px !important;
+        grid-template-columns: 30px minmax(72px,.9fr) 66px 42px minmax(92px,1.1fr) 34px 66px !important;
         padding-left: 9px !important;
         padding-right: 9px !important;
     }
@@ -718,6 +727,7 @@ body {
     .rank { font-size: 10px !important; }
     .vehicle { font-size: 10px !important; }
     .vehicle-class { font-size: 7px !important; }
+    .vehicle-year { font-size: 8px !important; }
     .challenge-tech { display:none !important; }
     .vehicle.unknown { font-size: 9px !important; }
     .no-time { padding: 12px !important; font-size: 13px !important; }
@@ -801,7 +811,7 @@ body {
 .coverage-note{padding:5px 10px!important;font-size:9px!important;line-height:1.25!important;color:#777!important}
 
 .results-head,.driver-row{
-    grid-template-columns:42px minmax(135px,1fr) 108px 68px minmax(165px,1.18fr) minmax(105px,.78fr);
+    grid-template-columns:42px minmax(135px,1fr) 108px 68px minmax(165px,1.18fr) 52px minmax(105px,.78fr);
     padding-left:12px;padding-right:12px
 }
 .results-head{min-height:24px;font-size:8px}
@@ -813,6 +823,7 @@ body {
 .vehicle{font-size:12px}
 .vehicle.unknown{font-size:10px}
 .vehicle-class{font-size:9px}
+.vehicle-year{font-size:10px}
 .no-time{padding:11px;font-size:12px}
 .challenge-card:not(.show-all-results) .driver-row.result-extra{display:none}
 .results-toggle{
@@ -1159,7 +1170,8 @@ function resolvedVehicle(source){
     const entry=catalogVehicleEntry(source);
     if(entry){
         return {
-            name: entry.realWorldName || entry.vehicle || source?.vehicle || '',
+            name: entry.vehicle || source?.vehicle || '',
+            real: (entry.realWorldName && entry.realWorldName !== entry.vehicle) ? entry.realWorldName : '',
             ams2Name: entry.vehicle || source?.vehicle || '',
             year: entry.modelYear ?? null,
             yearGuess: entry.modelYearConfidence === 'odhad',
@@ -1302,7 +1314,7 @@ function historyTable(events) {
                 <div class="history-delta ${fixedDeltaClass}">${text(deltaTime)}</div>
                 <div class="history-time ${fixedTimeClass}">${text(event.time)}</div>
                 <div class="history-world ${fixedWorldClass}">${text(worldJump)}</div>
-                <div class="history-vehicle">${text(resolvedVehicle(event).name || event.vehicle || event.vehicleHash || "")}${vehicleDlcBadge(event)}</div>
+                <div class="history-vehicle">${text(resolvedVehicle(event).name || event.vehicle || event.vehicleHash || "")}${vehicleDlcBadge(event)}${vehicleRealHtml(resolvedVehicle(event))}</div>
                 <div class="history-track">${text(canonicalHistoryTrack(event))}</div>
             </div>
         `;
@@ -1709,9 +1721,13 @@ function makeTrackGroup(key, title, accent, challenges, note="") {
     return group;
 }
 
-function vehicleYearHtml(resolved){
-    if(!resolved || resolved.year==null || resolved.year==='') return '';
-    return ` <span class="vehicle-year" title="${resolved.yearGuess?'ročník odhadem':'ročník'}">${resolved.yearGuess?'~':''}${text(resolved.year)}</span>`;
+// 2026-11-17: year column (max ~10 chars) and official name + known commercial/real name.
+function vehicleYearText(resolved){
+    if(!resolved || resolved.year==null || resolved.year==='') return '—';
+    return `${resolved.yearGuess?'~':''}${resolved.year}`.slice(0,10);
+}
+function vehicleRealHtml(resolved){
+    return resolved?.real ? `<span class="vehicle-real" title="skutečný předobraz">${text(resolved.real)}</span>` : '';
 }
 
 function resultRowHtml(result,index) {
@@ -1719,7 +1735,7 @@ function resultRowHtml(result,index) {
     const vehicleName=resolved.name && String(resolved.name).trim() ? String(resolved.name).trim() : null;
     const legacyMark=resolved.entry?._legacy ? `<span class="vehicle-dlc-badge" title="Legacy/local observed hash from JSON; not auto-merged with current Dedicated ID">LEGACY</span>` : "";
     const vehicleHtml = vehicleName
-        ? `<div class="vehicle" title="${text(resolved.ams2Name && resolved.ams2Name!==vehicleName ? 'AMS2: '+resolved.ams2Name : '')}">${text(vehicleName)}${vehicleYearHtml(resolved)}${vehicleDlcBadge(result)}${legacyMark}</div>`
+        ? `<div class="vehicle">${text(vehicleName)}${vehicleDlcBadge(result)}${legacyMark}${vehicleRealHtml(resolved)}</div>`
         : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
     const rank = result.rank != null ? `#${text(result.rank)}` : "—";
     const cls = resolved.className || result.vehicleClass || "—";
@@ -1730,6 +1746,7 @@ function resultRowHtml(result,index) {
         <div class="time">${text(result.time)}</div>
         <div class="rank" title="Native Steam world rank on this board">${rank}</div>
         ${vehicleHtml}
+        <div class="vehicle-year" title="${resolved.yearGuess?'ročník odhadem (~)':'ročník modelu'}">${text(vehicleYearText(resolved))}</div>
         <div class="vehicle-class">${text(cls)}</div>
     </div>`;
 }
@@ -1807,7 +1824,7 @@ function createChallengeCard(challenge) {
             ? `<button class="results-toggle" type="button" data-extra="${results.length - 5}" aria-expanded="false" onclick="toggleTopResults(this)">ROZBALIT DALŠÍCH ${results.length - 5}</button>`
             : "";
         resultsHtml = `<div class="results-head">
-            <div>Pos.</div><div>Driver</div><div>Time</div><div>World</div><div>Vehicle</div><div>Class</div>
+            <div>Pos.</div><div>Driver</div><div>Time</div><div>World</div><div>Vehicle</div><div>Year</div><div>Class</div>
         </div>${rows}${more}`;
     }
 
