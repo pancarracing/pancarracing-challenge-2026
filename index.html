@@ -326,6 +326,13 @@ body {
     font-weight: normal;
 }
 
+.vehicle-year {
+    color: #8d8d8d;
+    font-size: .72em;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
 .vehicle-class {
     color: #858585;
     font-size: 12px;
@@ -1026,6 +1033,8 @@ function rebuildCarIndexes(){
     classCanonByNorm=new Map(); classDisplayByCanon=new Map();
     for(const item of carCatalogData||[]){
         const h=u32(item.vehicleHash ?? item.hashUnsigned); if(h!=null) carByHash.set(h,item);
+        // 2026-11-17: Steam leaderboard vehicle numbers that differ from the game ID (PANCAR_CARS.json aliases).
+        for(const a of item.aliasHashes||[]){ const ah=u32(a); if(ah!=null && !carByHash.has(ah)) carByHash.set(ah,item); }
         for(const n of [item.vehicle,item.realWorldName]){ const k=normalizeVehicleName(n); if(k&&!carByName.has(k)) carByName.set(k,item); }
         const display=String(item.class || item.classId || '').trim();
         const canon=normalizeVehicleName(item.classId || item.class);
@@ -1139,7 +1148,7 @@ function pancarRc9bClass(row){
 }
 
 function resolvedVehicle(source){
-    if (pancarRc9bGen3(source)) {
+    if (pancarRc9bGen3(source) && !catalogVehicleEntry(source)) {
         return {
             name: 'Formula Ultimate Hybrid Gen3',
             ams2Name: 'F-Hybrid Gen3',
@@ -1152,7 +1161,9 @@ function resolvedVehicle(source){
         return {
             name: entry.realWorldName || entry.vehicle || source?.vehicle || '',
             ams2Name: entry.vehicle || source?.vehicle || '',
-            className: entry.classId || entry.class || source?.vehicleClass || '',
+            year: entry.modelYear ?? null,
+            yearGuess: entry.modelYearConfidence === 'odhad',
+            className: entry.class || entry.classId || source?.vehicleClass || '',
             entry: legacyCarByHash.get(u32(source?.vehicleHash))===entry ? {...entry,_legacy:true} : entry
         };
     }
@@ -1291,7 +1302,7 @@ function historyTable(events) {
                 <div class="history-delta ${fixedDeltaClass}">${text(deltaTime)}</div>
                 <div class="history-time ${fixedTimeClass}">${text(event.time)}</div>
                 <div class="history-world ${fixedWorldClass}">${text(worldJump)}</div>
-                <div class="history-vehicle">${text(event.vehicle || event.vehicleHash || "")}${vehicleDlcBadge(event)}</div>
+                <div class="history-vehicle">${text(resolvedVehicle(event).name || event.vehicle || event.vehicleHash || "")}${vehicleDlcBadge(event)}</div>
                 <div class="history-track">${text(canonicalHistoryTrack(event))}</div>
             </div>
         `;
@@ -1436,7 +1447,7 @@ function renderCarCatalog() {
         `<span class="car-stat car-stat-base"><strong>${base}</strong> BASE/FREE</span>` +
         (unknown ? `<span class="car-stat"><strong>${unknown}</strong> UNKNOWN</span>` : "");
 
-    countBox.textContent = `${filtered.length} / ${total} vehicles · source: AMS2 Dedicated API`;
+    countBox.textContent = `${filtered.length} / ${total} vehicles · source: PANCAR_CARS (AMS2 Dedicated + TinyShoe)`;
 
     if (!filtered.length) {
         rowsBox.innerHTML = `<div class="catalog-empty">No matching vehicles.</div>`;
@@ -1448,7 +1459,7 @@ function renderCarCatalog() {
         return `<div class="car-catalog-row">
             <div>${text(item.class || item.classId || "—")}</div>
             <div>${text(item.vehicle || "—")}</div>
-            <div>${text(item.modelYear ?? "—")}</div>
+            <div>${text(item.modelYear!=null ? ((item.modelYearConfidence==='odhad'?'~':'')+item.modelYear) : "—")}</div>
             <div>${text(item.realWorldName || "—")}</div>
             <div class="${isDlc ? "car-content-dlc" : "car-content-base"}">${text(item.content || "UNKNOWN")}</div>
             <div class="${isDlc ? "car-dlc-pack" : "car-base-pack"}">${text(isDlc ? (item.dlc || "DLC") : "Base Game")}</div>
@@ -1698,12 +1709,17 @@ function makeTrackGroup(key, title, accent, challenges, note="") {
     return group;
 }
 
+function vehicleYearHtml(resolved){
+    if(!resolved || resolved.year==null || resolved.year==='') return '';
+    return ` <span class="vehicle-year" title="${resolved.yearGuess?'ročník odhadem':'ročník'}">${resolved.yearGuess?'~':''}${text(resolved.year)}</span>`;
+}
+
 function resultRowHtml(result,index) {
     const resolved=resolvedVehicle(result);
     const vehicleName=resolved.name && String(resolved.name).trim() ? String(resolved.name).trim() : null;
     const legacyMark=resolved.entry?._legacy ? `<span class="vehicle-dlc-badge" title="Legacy/local observed hash from JSON; not auto-merged with current Dedicated ID">LEGACY</span>` : "";
     const vehicleHtml = vehicleName
-        ? `<div class="vehicle">${text(vehicleName)}${vehicleDlcBadge(result)}${legacyMark}</div>`
+        ? `<div class="vehicle" title="${text(resolved.ams2Name && resolved.ams2Name!==vehicleName ? 'AMS2: '+resolved.ams2Name : '')}">${text(vehicleName)}${vehicleYearHtml(resolved)}${vehicleDlcBadge(result)}${legacyMark}</div>`
         : `<div class="vehicle unknown">ID ${text(result.vehicleHash)}</div>`;
     const rank = result.rank != null ? `#${text(result.rank)}` : "—";
     const cls = resolved.className || result.vehicleClass || "—";
